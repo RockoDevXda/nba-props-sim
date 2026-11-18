@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Player Props Monte Carlo Simulator</title>
+  <style>
+    :root {
+      --bg: #0b0f17;
+      --panel: #131a26;
+      --border: #243044;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #f97316;
+      --accent-dim: rgba(249, 115, 22, 0.16);
+      --green: #10b981;
+      --blue: #3b82f6;
+      --danger: #ef4444;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding-bottom: 105px;
+    }
+    header {
+      background: linear-gradient(180deg, #161d2b 0%, var(--bg) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 18px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(10px);
+    }
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand h1 { font-size: 1.25rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+    .badge-live {
+      background: var(--accent-dim);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      font-size: 0.72rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 600;
+    }
+    .sub { color: var(--muted); font-size: 0.84rem; margin-top: 2px; }
+    .controls-bar {
+      max-width: 1400px;
+      margin: 18px auto 12px;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 12px;
+    }
+    .control-box {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .control-box label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .control-box input[type="text"], .control-box select {
+      width: 100%;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 7px 10px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+    }
+    .grid {
+      max-width: 1400px;
+      margin: 16px auto;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+    .card.in-slip { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.77rem;
+      color: var(--muted);
+    }
+    .pill {
+      background: #1e293b;
+      color: var(--accent);
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .bump-pill {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-size: 0.73rem;
+      font-weight: 600;
+    }
+    .player-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .player-name { font-size: 1.08rem; font-weight: 700; }
+    .player-meta { font-size: 0.78rem; color: var(--muted); }
+    .stat-strip {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      background: rgba(11, 15, 23, 0.65);
+      padding: 8px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .stat-box span { display: block; font-size: 0.7rem; color: var(--muted); }
+    .stat-box strong { font-size: 0.95rem; color: var(--text); }
+    .prop-rows { display: flex; flex-direction: column; gap: 6px; }
+    .prop-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0e1420;
+      border: 1px solid #1e293b;
+      padding: 6px 10px;
+      border-radius: 7px;
+      font-size: 0.82rem;
+    }
+    .prop-row.best { border-color: rgba(16, 185, 129, 0.5); }
+    .prop-line-input {
+      width: 58px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    canvas.hist {
+      width: 100%;
+      height: 70px;
+      background: #0b0f17;
+      border-radius: 8px;
+      border: 1px solid #1e293b;
+    }
+    button {
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: #1e293b;
+      color: var(--text);
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    button:hover { background: #29374d; }
+    button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .tweak-drawer {
+      display: none;
+      border-top: 1px solid var(--border);
+      padding-top: 8px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      flex-direction: column;
+      gap: 6px;
+    }
+    .tweak-drawer.open { display: flex; }
+    .parlay-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #0f172a;
+      border-top: 1px solid var(--accent);
+      padding: 12px 24px;
+      z-index: 50;
+      box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.55);
+    }
+    .parlay-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .slip-legs { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .leg-chip {
+      background: var(--accent-dim);
+      border: 1px solid var(--accent);
+      color: var(--text);
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .leg-chip span { cursor: pointer; color: var(--danger); font-weight: bold; }
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 48px;
+      color: var(--muted);
+      background: var(--panel);
+      border-radius: 12px;
+      border: 1px dashed var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <h1>🏀 NBA Player Props Monte Carlo Simulator <span class="badge-live" id="statusBadge">LIVE AUTO-SYNC</span></h1>
+      <div class="sub" id="slateSubtitle">Loading nba_props_slate.json...</div>
+    </div>
+    <button onclick="rerunAll()">↻ Re-Simulate Props</button>
+  </div>
+</header>
+
+<section class="controls-bar">
+  <div class="control-box">
+    <label><span>Search Player or Team</span></label>
+    <input type="text" id="searchInput" placeholder="e.g. Jokic, Curry, LAL, BOS..." oninput="renderCards()" />
+  </div>
+  <div class="control-box">
+    <label><span>Filter Slate</span></label>
+    <select id="filterSelect" onchange="renderCards()">
+      <option value="all">All Rotation Players (Ranked by Edge)</option>
+      <option value="slip">My Prop Slip Only</option>
+      <option value="bump">Injury Usage Bumps Only (⚡)</option>
+      <option value="high">High Confidence Over Edges (≥ 58%)</option>
+    </select>
+  </div>
+  <div class="control-box">
+    <label><span>Histogram Market View</span></label>
+    <select id="histMarketSelect" onchange="renderCards()">
+      <option value="PTS">Points (PTS) Distribution</option>
+      <option value="REB">Rebounds (REB) Distribution</option>
+      <option value="AST">Assists (AST) Distribution</option>
+      <option value="PRA">Points + Reb + Ast (PRA)</option>
+    </select>
+  </div>
+</section>
+
+<main class="grid" id="cardsGrid"></main>
+
+<div class="parlay-bar">
+  <div class="parlay-inner">
+    <div class="slip-legs" id="slipLegs">
+      <strong style="font-size:0.85rem; color:var(--accent);">🎯 Prop Slip:</strong>
+      <span style="font-size:0.82rem; color:var(--muted);">Click "+ Slip" next to any PTS, REB, AST, or PRA line</span>
+    </div>
+    <div style="display:flex; align-items:center; gap:16px;">
+      <div style="text-align:right;">
+        <div style="font-size:0.75rem; color:var(--muted);">Combined Simulated Hit Rate</div>
+        <div style="font-size:1.05rem; font-weight:700; color:var(--accent);" id="parlayStats">0.0% (N/A)</div>
+      </div>
+      <button onclick="clearSlip()">Clear</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  let players = [];
+  let simCache = {};
+  let slip = []; // { key, id, player, market, prob }
+
+  function gaussianRandom(mean = 0, stdev = 1) {
+    const u = 1 - Math.random();
+    const v = Math.random();
+    return Math.sqrt(-2.0 * Math.log(u)) * Math.cos(2.0 * Math.PI * v) * stdev + mean;
+  }
+
+  function probToAmerican(pct) {
+    const p = pct / 100;
+    if (p <= 0 || p >= 1) return "N/A";
+    return p >= 0.5 ? `${Math.round(-100 * p / (1 - p))}` : `+${Math.round(100 * (1 - p) / p)}`;
+  }
+
+  function simulatePlayer(p, runs = 4000) {
+    const avgMin = (p.avg_min || 30) + (p.min_adj || 0);
+    const stdMin = p.std_min || 3.5;
+    const bump = 1 + ((p.usage_bump_pct || 0) / 100) + ((p.usg_adj || 0) / 100);
+    const paceMult = (p.game_total || 226.5) / 226.5;
+    const homeMult = p.is_home ? 1.015 : 0.985;
+
+    const baseMin = p.avg_min || 30;
+    const ptsPm = ((p.raw_pts ?? p.proj_pts) / baseMin) * paceMult * homeMult * bump;
+    const rebPm = ((p.raw_reb ?? p.proj_reb) / baseMin) * paceMult * (1 + (bump - 1) * 0.4);
+    const astPm = ((p.raw_ast ?? p.proj_ast) / baseMin) * paceMult * bump;
+    const fg3Pm = ((p.raw_3pm ?? p.proj_3pm) / baseMin) * paceMult * bump;
+
+    if (!p.lines) {
+      const findLine = (stat, fallback) => p.all_props?.find(x => x.stat === stat)?.line ?? fallback;
+      p.lines = {
+        PTS: findLine("PTS", Math.floor(p.proj_pts) + 0.5),
+        REB: findLine("REB", Math.floor(p.proj_reb) + 0.5),
+        AST: findLine("AST", Math.floor(p.proj_ast) + 0.5),
+        PRA: findLine("PRA", Math.floor(p.proj_pra) + 0.5),
+      };
+    }
+
+    const dist = { PTS: [], REB: [], AST: [], PRA: [] };
+    let oPts = 0, oReb = 0, oAst = 0, oPra = 0, sPts = 0, sReb = 0, sAst = 0, s3pm = 0;
+
+    for (let i = 0; i < runs; i++) {
+      const m = Math.max(15, Math.min(44, gaussianRandom(avgMin, stdMin)));
+      const three = Math.max(0, Math.round(gaussianRandom(fg3Pm * m, 1.15)));
+      const twoFt = Math.max(0, gaussianRandom(Math.max(0, (ptsPm * m) - three * 3), 4.6));
+      const pts = Math.round(three * 3 + twoFt);
+      const reb = Math.max(0, Math.round(gaussianRandom(rebPm * m, 2.3)));
+      const ast = Math.max(0, Math.round(gaussianRandom(astPm * m, 1.9)));
+      const pra = pts + reb + ast;
+
+      sPts += pts; sReb += reb; sAst += ast; s3pm += three;
+      dist.PTS.push(pts); dist.REB.push(reb); dist.AST.push(ast); dist.PRA.push(pra);
+
+      if (pts > p.lines.PTS) oPts++;
+      if (reb > p.lines.REB) oReb++;
+      if (ast > p.lines.AST) oAst++;
+      if (pra > p.lines.PRA) oPra++;
+    }
+
+    const markets = [
+      { stat: "PTS", line: p.lines.PTS, proj: +(sPts / runs).toFixed(1), prob: +(oPts / runs * 100).toFixed(1) },
+      { stat: "REB", line: p.lines.REB, proj: +(sReb / runs).toFixed(1), prob: +(oReb / runs * 100).toFixed(1) },
+      { stat: "AST", line: p.lines.AST, proj: +(sAst / runs).toFixed(1), prob: +(oAst / runs * 100).toFixed(1) },
+      { stat: "PRA", line: p.lines.PRA, proj: +( (sPts + sReb + sAst) / runs ).toFixed(1), prob: +(oPra / runs * 100).toFixed(1) },
+    ];
+    const best = markets.reduce((a, b) => (b.prob > a.prob ? b : a), markets[0]);
+
+    simCache[p.id] = {
+      avgMin: +avgMin.toFixed(1),
+      projPts: markets[0].proj,
+      projReb: markets[1].proj,
+      projAst: markets[2].proj,
+      proj3pm: +(s3pm / runs).toFixed(1),
+      projPra: markets[3].proj,
+      markets,
+      best,
+      dist
+    };
+  }
+
+  function drawPropHist(canvasId, values, line) {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas || !values?.length) return;
+    const ctx = canvas.getContext("2d");
+    const w = canvas.width = canvas.offsetWidth * 2;
+    const h = canvas.height = 140;
+    ctx.clearRect(0, 0, w, h);
+
+    const minV = Math.max(0, Math.floor(Math.min(...values)));
+    const maxV = Math.max(minV + 10, Math.ceil(Math.max(...values)));
+    const span = maxV - minV + 1;
+    const bins = new Array(span).fill(0);
+    values.forEach(v => { bins[Math.min(span - 1, Math.max(0, v - minV))]++; });
+    const maxC = Math.max(...bins, 1);
+
+    bins.forEach((c, i) => {
+      const val = minV + i;
+      const x = (i / span) * w;
+      const bw = Math.max(2, (w / span) - 2);
+      const bh = (c / maxC) * (h - 24);
+      ctx.fillStyle = val > line ? "#10b981" : "#3b82f6";
+      ctx.fillRect(x, h - bh - 14, bw, bh);
+    });
+
+    ctx.fillStyle = "#94a3b8";
+    ctx.font = "18px sans-serif";
+    ctx.fillText(`Green = Over ${line} | Blue = Under`, 10, 20);
+  }
+
+  function updateLine(playerId, stat, val) {
+    const p = players.find(x => x.id === playerId);
+    const parsed = parseFloat(val);
+    if (!p || isNaN(parsed)) return;
+    p.lines[stat] = parsed;
+    simulatePlayer(p);
+    updateSlipBar();
+    renderCards();
+  }
+
+  function updatePlayerAdj(playerId, field, val) {
+    const p = players.find(x => x.id === playerId);
+    if (!p) return;
+    p[field] = parseFloat(val);
+    simulatePlayer(p);
+    updateSlipBar();
+    renderCards();
+  }
+
+  function togglePropSlip(playerId, stat) {
+    const p = players.find(x => x.id === playerId);
+    const sim = simCache[playerId];
+    const m = sim?.markets.find(x => x.stat === stat);
+    if (!p || !m) return;
+
+    const key = `${playerId}-${stat}`;
+    const idx = slip.findIndex(s => s.key === key);
+    if (idx !== -1) {
+      slip.splice(idx, 1);
+    } else {
+      slip.push({ key, id: playerId, stat, player: p.player, market: `O ${m.line} ${stat}`, prob: m.prob });
+    }
+    updateSlipBar();
+    renderCards();
+  }
+
+  function clearSlip() {
+    slip = [];
+    updateSlipBar();
+    renderCards();
+  }
+
+  function updateSlipBar() {
+    const container = document.getElementById("slipLegs");
+    const statsEl = document.getElementById("parlayStats");
+    if (slip.length === 0) {
+      container.innerHTML = `<strong style="font-size:0.85rem; color:var(--accent);">🎯 Prop Slip:</strong>
+        <span style="font-size:0.82rem; color:var(--muted);">Click "+ Slip" next to any PTS, REB, AST, or PRA line</span>`;
+      statsEl.textContent = "0.0% (N/A)";
+      return;
+    }
+
+    let combined = 1.0;
+    slip.forEach(s => {
+      const m = simCache[s.id]?.markets.find(x => x.stat === s.stat);
+      if (m) {
+        s.prob = m.prob;
+        s.market = `O ${m.line} ${s.stat}`;
+      }
+      combined *= (s.prob / 100);
+    });
+
+    const pct = +(combined * 100).toFixed(1);
+    statsEl.textContent = `${pct}% (${probToAmerican(pct)})`;
+    container.innerHTML = `<strong style="font-size:0.85rem; color:var(--accent);">🎯 Slip (${slip.length}):</strong>` +
+      slip.map(s => `<div class="leg-chip">${s.player} ${s.market} (${s.prob}%) <span onclick="togglePropSlip('${s.id}','${s.stat}')">×</span></div>`).join("");
+  }
+
+  function renderCards() {
+    const grid = document.getElementById("cardsGrid");
+    const q = document.getElementById("searchInput").value.toLowerCase().trim();
+    const filter = document.getElementById("filterSelect").value;
+    const histMarket = document.getElementById("histMarketSelect").value;
+
+    const sorted = [...players].sort((a, b) => simCache[b.id].best.prob - simCache[a.id].best.prob);
+    const filtered = sorted.filter(p => {
+      const sim = simCache[p.id];
+      const matches = !q || p.player.toLowerCase().includes(q) || p.team.toLowerCase().includes(q) || p.opponent.toLowerCase().includes(q);
+      if (!matches) return false;
+      if (filter === "slip") return slip.some(s => s.id === p.id);
+      if (filter === "bump") return (p.usage_bump_pct || 0) > 0;
+      if (filter === "high") return sim.best.prob >= 58.0;
+      return true;
+    });
+
+    if (filtered.length === 0) {
+      grid.innerHTML = `<div class="empty-state">No NBA players match your current filter.</div>`;
+      return;
+    }
+
+    grid.innerHTML = filtered.map(p => {
+      const sim = simCache[p.id];
+      const inSlip = slip.some(s => s.id === p.id);
+      const bumpBadge = p.usage_bump_pct > 0
+        ? `<span class="bump-pill">⚡ +${p.usage_bump_pct}% Usg (${(p.out_teammates || []).join(", ")} Out)</span>`
+        : `<span class="pill">${p.matchup} • O/U ${p.game_total}</span>`;
+
+      return `
+        <article class="card ${inSlip ? 'in-slip' : ''}">
+          <div class="card-top">
+            <span>${p.team} (${p.pos}) vs ${p.opponent} • ${p.tipoff || ''}</span>
+            ${bumpBadge}
+          </div>
+          <div class="player-head">
+            <div>
+              <div class="player-name">${p.player}</div>
+              <div class="player-meta">Proj Minutes: ${sim.avgMin}m • Line: ${p.spread || 'PK'}</div>
+            </div>
+            <button onclick="document.getElementById('tw-${p.id}').classList.toggle('open')">⚙ Adjust</button>
+          </div>
+          <div class="stat-strip">
+            <div class="stat-box"><span>PTS</span><strong>${sim.projPts}</strong></div>
+            <div class="stat-box"><span>REB</span><strong>${sim.projReb}</strong></div>
+            <div class="stat-box"><span>AST</span><strong>${sim.projAst}</strong></div>
+            <div class="stat-box"><span>3PM</span><strong>${sim.proj3pm}</strong></div>
+            <div class="stat-box"><span>PRA</span><strong>${sim.projPra}</strong></div>
+          </div>
+          <div class="prop-rows">
+            ${sim.markets.map(m => {
+              const active = slip.some(s => s.key === `${p.id}-${m.stat}`);
+              const isBest = m.stat === sim.best.stat;
+              return `
+                <div class="prop-row ${isBest ? 'best' : ''}">
+                  <div>
+                    <strong>Over</strong>
+                    <input class="prop-line-input" type="number" step="0.5" value="${m.line}" onchange="updateLine('${p.id}','${m.stat}',this.value)" />
+                    <strong>${m.stat}</strong>
+                    <span style="color:var(--muted); margin-left:6px;">Sim: ${m.proj}</span>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:8px;">
+                    <span style="font-weight:700; color:${m.prob >= 55 ? 'var(--green)' : 'var(--text)'};">${m.prob}% (${probToAmerican(m.prob)})</span>
+                    <button class="${active ? 'primary' : ''}" onclick="togglePropSlip('${p.id}','${m.stat}')">${active ? '✓' : '+ Slip'}</button>
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+          <canvas class="hist" id="hist-${p.id}"></canvas>
+          <div class="tweak-drawer" id="tw-${p.id}">
+            <label>Minutes Adjustment (${p.min_adj || 0} min):
+              <input type="range" min="-8" max="8" step="1" value="${p.min_adj || 0}" onchange="updatePlayerAdj('${p.id}','min_adj',this.value)" />
+            </label>
+            <label>Extra Usage Boost (${p.usg_adj || 0}%):
+              <input type="range" min="-10" max="15" step="1" value="${p.usg_adj || 0}" onchange="updatePlayerAdj('${p.id}','usg_adj',this.value)" />
+            </label>
+          </div>
+        </article>
+      `;
+    }).join("");
+
+    requestAnimationFrame(() => {
+      filtered.forEach(p => {
+        const sim = simCache[p.id];
+        drawPropHist(`hist-${p.id}`, sim.dist[histMarket], p.lines[histMarket]);
+      });
+    });
+  }
+
+  function rerunAll() {
+    players.forEach(p => simulatePlayer(p));
+    updateSlipBar();
+    renderCards();
+  }
+
+  async function init() {
+    try {
+      const resp = await fetch(`./nba_props_slate.json?t=${Date.now()}`);
+      if (!resp.ok) throw new Error("No nba_props_slate.json yet");
+      players = await resp.json();
+      const updated = players[0]?.generated_at || "Today";
+      document.getElementById("slateSubtitle").textContent =
+        `${players.length} NBA Rotation Players Loaded • Auto-Updated: ${updated}`;
+      rerunAll();
+    } catch (err) {
+      document.getElementById("statusBadge").textContent = "WAITING FOR FIRST RUN";
+      document.getElementById("slateSubtitle").textContent =
+        "Run your NBA GitHub Action once to generate nba_props_slate.json, then refresh.";
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>
