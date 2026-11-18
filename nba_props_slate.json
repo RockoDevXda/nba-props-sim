@@ -1,6 +1,7 @@
 [
   {
     "id": "5041935",
+    "game_id": "401910007",
     "player": "Cameron Boozer",
     "pos": "F",
     "team": "MEM",
@@ -25,7 +26,7 @@
     "raw_3pm": 2.0,
     "proj_pts": 19.5,
     "proj_reb": 10.2,
-    "proj_ast": 6.2,
+    "proj_ast": 6.1,
     "proj_3pm": 2.4,
     "proj_pra": 35.8,
     "best_prop": {
@@ -33,7 +34,7 @@
       "stat": "PRA",
       "proj": 35.8,
       "line": 31.5,
-      "prob": 73.6
+      "prob": 73.1
     },
     "all_props": [
       {
@@ -41,34 +42,35 @@
         "stat": "PTS",
         "proj": 19.5,
         "line": 16.5,
-        "prob": 71.8
+        "prob": 71.5
       },
       {
         "market": "O 9.5 REB",
         "stat": "REB",
         "proj": 10.2,
         "line": 9.5,
-        "prob": 60.9
+        "prob": 60.4
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 6.2,
+        "proj": 6.1,
         "line": 5.5,
-        "prob": 62.7
+        "prob": 62.5
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
         "proj": 35.8,
         "line": 31.5,
-        "prob": 73.6
+        "prob": 73.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4903027",
+    "game_id": "401910007",
     "player": "Cedric Coward",
     "pos": "F",
     "team": "MEM",
@@ -93,7 +95,7 @@
     "raw_3pm": 2.1,
     "proj_pts": 16.1,
     "proj_reb": 9.0,
-    "proj_ast": 3.9,
+    "proj_ast": 4.0,
     "proj_3pm": 2.5,
     "proj_pra": 29.0,
     "best_prop": {
@@ -101,7 +103,7 @@
       "stat": "PRA",
       "proj": 29.0,
       "line": 25.5,
-      "prob": 70.2
+      "prob": 70.3
     },
     "all_props": [
       {
@@ -109,34 +111,35 @@
         "stat": "PTS",
         "proj": 16.1,
         "line": 13.5,
-        "prob": 69.3
+        "prob": 69.4
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
         "proj": 9.0,
         "line": 8.5,
-        "prob": 56.1
+        "prob": 57.1
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
-        "proj": 3.9,
+        "proj": 4.0,
         "line": 3.5,
-        "prob": 58.1
+        "prob": 58.6
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
         "proj": 29.0,
         "line": 25.5,
-        "prob": 70.2
+        "prob": 70.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4781746",
+    "game_id": "401910007",
     "player": "Javon Small",
     "pos": "G",
     "team": "MEM",
@@ -163,13 +166,13 @@
     "proj_reb": 3.2,
     "proj_ast": 6.9,
     "proj_3pm": 1.7,
-    "proj_pra": 23.6,
+    "proj_pra": 23.5,
     "best_prop": {
       "market": "O 5.5 AST",
       "stat": "AST",
       "proj": 6.9,
       "line": 5.5,
-      "prob": 72.3
+      "prob": 72.4
     },
     "all_props": [
       {
@@ -177,34 +180,35 @@
         "stat": "PTS",
         "proj": 13.5,
         "line": 11.5,
-        "prob": 65.5
+        "prob": 64.6
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.2,
         "line": 2.5,
-        "prob": 59.6
+        "prob": 59.5
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.9,
         "line": 5.5,
-        "prob": 72.3
+        "prob": 72.4
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 23.6,
+        "proj": 23.5,
         "line": 20.5,
-        "prob": 67.1
+        "prob": 66.4
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5112087",
+    "game_id": "401910007",
     "player": "Jaylen Wells",
     "pos": "F",
     "team": "MEM",
@@ -227,52 +231,53 @@
     "raw_reb": 2.8,
     "raw_ast": 1.4,
     "raw_3pm": 2.0,
-    "proj_pts": 13.1,
-    "proj_reb": 3.2,
+    "proj_pts": 13.0,
+    "proj_reb": 3.1,
     "proj_ast": 1.8,
-    "proj_3pm": 2.4,
-    "proj_pra": 18.1,
+    "proj_3pm": 2.3,
+    "proj_pra": 18.0,
     "best_prop": {
       "market": "O 14.5 PRA",
       "stat": "PRA",
-      "proj": 18.1,
+      "proj": 18.0,
       "line": 14.5,
-      "prob": 73.8
+      "prob": 73.6
     },
     "all_props": [
       {
         "market": "O 10.5 PTS",
         "stat": "PTS",
-        "proj": 13.1,
+        "proj": 13.0,
         "line": 10.5,
-        "prob": 70.8
+        "prob": 69.8
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
-        "proj": 3.2,
+        "proj": 3.1,
         "line": 2.5,
-        "prob": 59.5
+        "prob": 59.4
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.8,
         "line": 1.5,
-        "prob": 52.1
+        "prob": 52.6
       },
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
-        "proj": 18.1,
+        "proj": 18.0,
         "line": 14.5,
-        "prob": 73.8
+        "prob": 73.6
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4066328",
+    "game_id": "401910007",
     "player": "Jarrett Allen",
     "pos": "C",
     "team": "CLE",
@@ -305,7 +310,7 @@
       "stat": "PTS",
       "proj": 15.0,
       "line": 12.5,
-      "prob": 69.1
+      "prob": 69.2
     },
     "all_props": [
       {
@@ -313,34 +318,35 @@
         "stat": "PTS",
         "proj": 15.0,
         "line": 12.5,
-        "prob": 69.1
+        "prob": 69.2
       },
       {
         "market": "O 9.5 REB",
         "stat": "REB",
         "proj": 9.7,
         "line": 9.5,
-        "prob": 53.9
+        "prob": 53.1
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.9,
         "line": 1.5,
-        "prob": 53.9
+        "prob": 53.4
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
         "proj": 26.6,
         "line": 23.5,
-        "prob": 68.5
+        "prob": 67.9
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3992",
+    "game_id": "401910007",
     "player": "James Harden",
     "pos": "G",
     "team": "CLE",
@@ -363,52 +369,53 @@
     "raw_reb": 4.3,
     "raw_ast": 5.8,
     "raw_3pm": 2.5,
-    "proj_pts": 18.9,
+    "proj_pts": 18.8,
     "proj_reb": 4.7,
     "proj_ast": 6.6,
     "proj_3pm": 2.8,
-    "proj_pra": 30.2,
+    "proj_pra": 30.1,
     "best_prop": {
-      "market": "O 26.5 PRA",
-      "stat": "PRA",
-      "proj": 30.2,
-      "line": 26.5,
-      "prob": 71.3
+      "market": "O 5.5 AST",
+      "stat": "AST",
+      "proj": 6.6,
+      "line": 5.5,
+      "prob": 71.2
     },
     "all_props": [
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 18.9,
+        "proj": 18.8,
         "line": 16.5,
-        "prob": 67.5
+        "prob": 67.0
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.7,
         "line": 4.5,
-        "prob": 53.1
+        "prob": 52.4
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.6,
         "line": 5.5,
-        "prob": 70.7
+        "prob": 71.2
       },
       {
         "market": "O 26.5 PRA",
         "stat": "PRA",
-        "proj": 30.2,
+        "proj": 30.1,
         "line": 26.5,
-        "prob": 71.3
+        "prob": 71.0
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3908809",
+    "game_id": "401910007",
     "player": "Donovan Mitchell",
     "pos": "G",
     "team": "CLE",
@@ -434,14 +441,14 @@
     "proj_pts": 27.3,
     "proj_reb": 5.1,
     "proj_ast": 6.5,
-    "proj_3pm": 3.1,
+    "proj_3pm": 3.0,
     "proj_pra": 38.8,
     "best_prop": {
       "market": "O 33.5 PRA",
       "stat": "PRA",
       "proj": 38.8,
       "line": 33.5,
-      "prob": 74.6
+      "prob": 75.0
     },
     "all_props": [
       {
@@ -449,34 +456,35 @@
         "stat": "PTS",
         "proj": 27.3,
         "line": 23.5,
-        "prob": 73.1
+        "prob": 73.4
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 5.1,
         "line": 4.5,
-        "prob": 58.4
+        "prob": 59.1
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.5,
         "line": 5.5,
-        "prob": 67.6
+        "prob": 67.3
       },
       {
         "market": "O 33.5 PRA",
         "stat": "PRA",
         "proj": 38.8,
         "line": 33.5,
-        "prob": 74.6
+        "prob": 75.0
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4576087",
+    "game_id": "401910007",
     "player": "Peyton Watson",
     "pos": "G",
     "team": "CLE",
@@ -499,32 +507,32 @@
     "raw_reb": 4.4,
     "raw_ast": 2.4,
     "raw_3pm": 0.9,
-    "proj_pts": 12.1,
+    "proj_pts": 12.2,
     "proj_reb": 4.8,
     "proj_ast": 2.8,
-    "proj_3pm": 1.2,
-    "proj_pra": 19.7,
+    "proj_3pm": 1.1,
+    "proj_pra": 19.8,
     "best_prop": {
       "market": "O 17.5 PRA",
       "stat": "PRA",
-      "proj": 19.7,
+      "proj": 19.8,
       "line": 17.5,
-      "prob": 63.1
+      "prob": 63.4
     },
     "all_props": [
       {
         "market": "O 10.5 PTS",
         "stat": "PTS",
-        "proj": 12.1,
+        "proj": 12.2,
         "line": 10.5,
-        "prob": 61.5
+        "prob": 62.3
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.8,
         "line": 4.5,
-        "prob": 55.3
+        "prob": 55.2
       },
       {
         "market": "O 2.5 AST",
@@ -536,15 +544,16 @@
       {
         "market": "O 17.5 PRA",
         "stat": "PRA",
-        "proj": 19.7,
+        "proj": 19.8,
         "line": 17.5,
-        "prob": 63.1
+        "prob": 63.4
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3202",
+    "game_id": "401910008",
     "player": "Kevin Durant",
     "pos": "F",
     "team": "HOU",
@@ -565,11 +574,11 @@
     "raw_reb": 5.5,
     "raw_ast": 3.8,
     "raw_3pm": 1.5,
-    "proj_pts": 21.5,
+    "proj_pts": 21.6,
     "proj_reb": 5.5,
     "proj_ast": 3.9,
-    "proj_3pm": 1.5,
-    "proj_pra": 30.9,
+    "proj_3pm": 1.6,
+    "proj_pra": 31.1,
     "best_prop": {
       "market": "O 3.5 AST",
       "stat": "AST",
@@ -581,16 +590,16 @@
       {
         "market": "O 21.5 PTS",
         "stat": "PTS",
-        "proj": 21.5,
+        "proj": 21.6,
         "line": 21.5,
-        "prob": 50.5
+        "prob": 50.9
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.5,
         "line": 5.5,
-        "prob": 49.6
+        "prob": 50.0
       },
       {
         "market": "O 3.5 AST",
@@ -602,15 +611,16 @@
       {
         "market": "O 30.5 PRA",
         "stat": "PRA",
-        "proj": 30.9,
+        "proj": 31.1,
         "line": 30.5,
-        "prob": 52.7
+        "prob": 53.5
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4433192",
+    "game_id": "401910008",
     "player": "Tari Eason",
     "pos": "F",
     "team": "HOU",
@@ -631,9 +641,9 @@
     "raw_reb": 6.6,
     "raw_ast": 1.4,
     "raw_3pm": 1.0,
-    "proj_pts": 11.3,
+    "proj_pts": 11.4,
     "proj_reb": 6.6,
-    "proj_ast": 1.7,
+    "proj_ast": 1.6,
     "proj_3pm": 1.1,
     "proj_pra": 19.6,
     "best_prop": {
@@ -641,29 +651,29 @@
       "stat": "REB",
       "proj": 6.6,
       "line": 6.5,
-      "prob": 51.3
+      "prob": 51.9
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 11.3,
+        "proj": 11.4,
         "line": 11.5,
-        "prob": 47.4
+        "prob": 47.5
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.6,
         "line": 6.5,
-        "prob": 51.3
+        "prob": 51.9
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 1.7,
+        "proj": 1.6,
         "line": 1.5,
-        "prob": 48.7
+        "prob": 48.0
       },
       {
         "market": "O 19.5 PRA",
@@ -673,10 +683,11 @@
         "prob": 49.8
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4871144",
+    "game_id": "401910008",
     "player": "Alperen Sengun",
     "pos": "C",
     "team": "HOU",
@@ -697,52 +708,53 @@
     "raw_reb": 9.2,
     "raw_ast": 7.3,
     "raw_3pm": 0.9,
-    "proj_pts": 21.9,
+    "proj_pts": 22.0,
     "proj_reb": 9.2,
     "proj_ast": 7.5,
     "proj_3pm": 1.0,
-    "proj_pra": 38.6,
+    "proj_pra": 38.7,
     "best_prop": {
       "market": "O 21.5 PTS",
       "stat": "PTS",
-      "proj": 21.9,
+      "proj": 22.0,
       "line": 21.5,
-      "prob": 52.5
+      "prob": 53.5
     },
     "all_props": [
       {
         "market": "O 21.5 PTS",
         "stat": "PTS",
-        "proj": 21.9,
+        "proj": 22.0,
         "line": 21.5,
-        "prob": 52.5
+        "prob": 53.5
       },
       {
         "market": "O 9.5 REB",
         "stat": "REB",
         "proj": 9.2,
         "line": 9.5,
-        "prob": 46.5
+        "prob": 45.8
       },
       {
         "market": "O 7.5 AST",
         "stat": "AST",
         "proj": 7.5,
         "line": 7.5,
-        "prob": 49.4
+        "prob": 49.7
       },
       {
         "market": "O 38.5 PRA",
         "stat": "PRA",
-        "proj": 38.6,
+        "proj": 38.7,
         "line": 38.5,
-        "prob": 50.8
+        "prob": 51.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4432639",
+    "game_id": "401910008",
     "player": "Jabari Smith Jr.",
     "pos": "F",
     "team": "HOU",
@@ -763,7 +775,7 @@
     "raw_reb": 6.5,
     "raw_ast": 2.1,
     "raw_3pm": 2.3,
-    "proj_pts": 15.6,
+    "proj_pts": 15.5,
     "proj_reb": 6.6,
     "proj_ast": 2.3,
     "proj_3pm": 2.4,
@@ -773,42 +785,43 @@
       "stat": "PRA",
       "proj": 24.5,
       "line": 23.5,
-      "prob": 56.0
+      "prob": 55.6
     },
     "all_props": [
       {
         "market": "O 15.5 PTS",
         "stat": "PTS",
-        "proj": 15.6,
+        "proj": 15.5,
         "line": 15.5,
-        "prob": 49.4
+        "prob": 48.6
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.6,
         "line": 6.5,
-        "prob": 51.6
+        "prob": 51.8
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 42.2
+        "prob": 44.0
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
         "proj": 24.5,
         "line": 23.5,
-        "prob": 56.0
+        "prob": 55.6
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4684740",
+    "game_id": "401910008",
     "player": "Amen Thompson",
     "pos": "G",
     "team": "HOU",
@@ -832,14 +845,14 @@
     "proj_pts": 15.7,
     "proj_reb": 6.9,
     "proj_ast": 3.5,
-    "proj_3pm": 0.7,
+    "proj_3pm": 0.6,
     "proj_pra": 26.1,
     "best_prop": {
       "market": "O 6.5 REB",
       "stat": "REB",
       "proj": 6.9,
       "line": 6.5,
-      "prob": 56.2
+      "prob": 56.6
     },
     "all_props": [
       {
@@ -847,34 +860,35 @@
         "stat": "PTS",
         "proj": 15.7,
         "line": 15.5,
-        "prob": 50.5
+        "prob": 51.4
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.9,
         "line": 6.5,
-        "prob": 56.2
+        "prob": 56.6
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.5,
         "line": 3.5,
-        "prob": 49.6
+        "prob": 49.8
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
         "proj": 26.1,
         "line": 25.5,
-        "prob": 52.3
+        "prob": 53.2
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "2991230",
+    "game_id": "401910008",
     "player": "Fred VanVleet",
     "pos": "G",
     "team": "HOU",
@@ -898,14 +912,14 @@
     "proj_pts": 14.2,
     "proj_reb": 3.3,
     "proj_ast": 5.8,
-    "proj_3pm": 3.0,
+    "proj_3pm": 2.9,
     "proj_pra": 23.4,
     "best_prop": {
       "market": "O 5.5 AST",
       "stat": "AST",
       "proj": 5.8,
       "line": 5.5,
-      "prob": 57.0
+      "prob": 56.4
     },
     "all_props": [
       {
@@ -913,34 +927,35 @@
         "stat": "PTS",
         "proj": 14.2,
         "line": 13.5,
-        "prob": 54.0
+        "prob": 53.8
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.3,
         "line": 3.5,
-        "prob": 45.6
+        "prob": 46.1
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 5.8,
         "line": 5.5,
-        "prob": 57.0
+        "prob": 56.4
       },
       {
         "market": "O 22.5 PRA",
         "stat": "PRA",
         "proj": 23.4,
         "line": 22.5,
-        "prob": 55.1
+        "prob": 55.2
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4431752",
+    "game_id": "401910008",
     "player": "Kobe Brown",
     "pos": "G",
     "team": "IND",
@@ -967,13 +982,13 @@
     "proj_reb": 5.7,
     "proj_ast": 2.6,
     "proj_3pm": 1.0,
-    "proj_pra": 22.1,
+    "proj_pra": 21.9,
     "best_prop": {
       "market": "O 12.5 PTS",
       "stat": "PTS",
       "proj": 13.7,
       "line": 12.5,
-      "prob": 59.2
+      "prob": 58.3
     },
     "all_props": [
       {
@@ -981,34 +996,35 @@
         "stat": "PTS",
         "proj": 13.7,
         "line": 12.5,
-        "prob": 59.2
+        "prob": 58.3
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.7,
         "line": 5.5,
-        "prob": 53.9
+        "prob": 52.9
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.6,
         "line": 2.5,
-        "prob": 49.6
+        "prob": 49.2
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 22.1,
+        "proj": 21.9,
         "line": 20.5,
-        "prob": 59.0
+        "prob": 57.8
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4065731",
+    "game_id": "401910008",
     "player": "Jay Huff",
     "pos": "C",
     "team": "IND",
@@ -1031,52 +1047,53 @@
     "raw_reb": 3.4,
     "raw_ast": 1.6,
     "raw_3pm": 1.6,
-    "proj_pts": 15.0,
+    "proj_pts": 14.9,
     "proj_reb": 3.6,
     "proj_ast": 1.9,
     "proj_3pm": 1.8,
-    "proj_pra": 20.5,
+    "proj_pra": 20.4,
     "best_prop": {
       "market": "O 18.5 PRA",
       "stat": "PRA",
-      "proj": 20.5,
+      "proj": 20.4,
       "line": 18.5,
-      "prob": 60.6
+      "prob": 59.5
     },
     "all_props": [
       {
         "market": "O 13.5 PTS",
         "stat": "PTS",
-        "proj": 15.0,
+        "proj": 14.9,
         "line": 13.5,
-        "prob": 59.2
+        "prob": 58.3
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.6,
         "line": 3.5,
-        "prob": 49.6
+        "prob": 50.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.9,
         "line": 1.5,
-        "prob": 55.4
+        "prob": 54.9
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.5,
+        "proj": 20.4,
         "line": 18.5,
-        "prob": 60.6
+        "prob": 59.5
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4592829",
+    "game_id": "401910008",
     "player": "Quenton Jackson",
     "pos": "G",
     "team": "IND",
@@ -1101,13 +1118,13 @@
     "raw_3pm": 1.4,
     "proj_pts": 12.5,
     "proj_reb": 4.4,
-    "proj_ast": 3.5,
+    "proj_ast": 3.6,
     "proj_3pm": 1.6,
-    "proj_pra": 20.5,
+    "proj_pra": 20.6,
     "best_prop": {
       "market": "O 18.5 PRA",
       "stat": "PRA",
-      "proj": 20.5,
+      "proj": 20.6,
       "line": 18.5,
       "prob": 61.0
     },
@@ -1117,34 +1134,35 @@
         "stat": "PTS",
         "proj": 12.5,
         "line": 11.5,
-        "prob": 57.1
+        "prob": 57.4
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.4,
         "line": 4.5,
-        "prob": 47.5
+        "prob": 48.4
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
-        "proj": 3.5,
+        "proj": 3.6,
         "line": 3.5,
-        "prob": 49.8
+        "prob": 51.4
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.5,
+        "proj": 20.6,
         "line": 18.5,
         "prob": 61.0
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4395712",
+    "game_id": "401910008",
     "player": "Andrew Nembhard",
     "pos": "G",
     "team": "IND",
@@ -1167,52 +1185,53 @@
     "raw_reb": 2.0,
     "raw_ast": 7.2,
     "raw_3pm": 2.2,
-    "proj_pts": 17.5,
+    "proj_pts": 17.6,
     "proj_reb": 2.3,
     "proj_ast": 7.9,
-    "proj_3pm": 2.3,
-    "proj_pra": 27.7,
+    "proj_3pm": 2.4,
+    "proj_pra": 27.8,
     "best_prop": {
       "market": "O 24.5 PRA",
       "stat": "PRA",
-      "proj": 27.7,
+      "proj": 27.8,
       "line": 24.5,
-      "prob": 67.8
+      "prob": 68.1
     },
     "all_props": [
       {
         "market": "O 15.5 PTS",
         "stat": "PTS",
-        "proj": 17.5,
+        "proj": 17.6,
         "line": 15.5,
-        "prob": 63.9
+        "prob": 64.2
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 43.1
+        "prob": 42.7
       },
       {
         "market": "O 7.5 AST",
         "stat": "AST",
         "proj": 7.9,
         "line": 7.5,
-        "prob": 56.7
+        "prob": 57.3
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
-        "proj": 27.7,
+        "proj": 27.8,
         "line": 24.5,
-        "prob": 67.8
+        "prob": 68.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4396909",
+    "game_id": "401910008",
     "player": "Aaron Nesmith",
     "pos": "G",
     "team": "IND",
@@ -1245,7 +1264,7 @@
       "stat": "PTS",
       "proj": 13.5,
       "line": 11.5,
-      "prob": 64.3
+      "prob": 64.2
     },
     "all_props": [
       {
@@ -1253,7 +1272,7 @@
         "stat": "PTS",
         "proj": 13.5,
         "line": 11.5,
-        "prob": 64.3
+        "prob": 64.2
       },
       {
         "market": "O 2.5 REB",
@@ -1267,20 +1286,21 @@
         "stat": "AST",
         "proj": 2.4,
         "line": 2.5,
-        "prob": 45.9
+        "prob": 44.9
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
         "proj": 18.7,
         "line": 16.5,
-        "prob": 62.7
+        "prob": 62.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3133603",
+    "game_id": "401910008",
     "player": "Kelly Oubre Jr.",
     "pos": "G",
     "team": "IND",
@@ -1304,10 +1324,10 @@
     "raw_ast": 1.4,
     "raw_3pm": 1.2,
     "proj_pts": 13.1,
-    "proj_reb": 3.4,
-    "proj_ast": 1.8,
+    "proj_reb": 3.3,
+    "proj_ast": 1.7,
     "proj_3pm": 1.4,
-    "proj_pra": 18.2,
+    "proj_pra": 18.1,
     "best_prop": {
       "market": "O 11.5 PTS",
       "stat": "PTS",
@@ -1326,29 +1346,30 @@
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.4,
+        "proj": 3.3,
         "line": 3.5,
-        "prob": 45.9
+        "prob": 45.6
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 1.8,
+        "proj": 1.7,
         "line": 1.5,
-        "prob": 50.7
+        "prob": 49.2
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 18.2,
+        "proj": 18.1,
         "line": 16.5,
-        "prob": 59.9
+        "prob": 59.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3149673",
+    "game_id": "401910008",
     "player": "Pascal Siakam",
     "pos": "F",
     "team": "IND",
@@ -1375,13 +1396,13 @@
     "proj_reb": 5.9,
     "proj_ast": 4.3,
     "proj_3pm": 1.9,
-    "proj_pra": 34.7,
+    "proj_pra": 34.8,
     "best_prop": {
-      "market": "O 3.5 AST",
-      "stat": "AST",
-      "proj": 4.3,
-      "line": 3.5,
-      "prob": 66.0
+      "market": "O 31.5 PRA",
+      "stat": "PRA",
+      "proj": 34.8,
+      "line": 31.5,
+      "prob": 66.1
     },
     "all_props": [
       {
@@ -1389,34 +1410,35 @@
         "stat": "PTS",
         "proj": 24.5,
         "line": 22.5,
-        "prob": 62.4
+        "prob": 63.3
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.9,
         "line": 5.5,
-        "prob": 56.7
+        "prob": 57.3
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.3,
         "line": 3.5,
-        "prob": 66.0
+        "prob": 65.5
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
-        "proj": 34.7,
+        "proj": 34.8,
         "line": 31.5,
-        "prob": 65.9
+        "prob": 66.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4398207",
+    "game_id": "401910008",
     "player": "Jalen Slawson",
     "pos": "F",
     "team": "IND",
@@ -1439,52 +1461,53 @@
     "raw_reb": 4.8,
     "raw_ast": 1.5,
     "raw_3pm": 0.3,
-    "proj_pts": 5.9,
+    "proj_pts": 5.8,
     "proj_reb": 5.1,
     "proj_ast": 1.8,
-    "proj_3pm": 0.7,
-    "proj_pra": 12.8,
+    "proj_3pm": 0.6,
+    "proj_pra": 12.7,
     "best_prop": {
       "market": "O 10.5 PRA",
       "stat": "PRA",
-      "proj": 12.8,
+      "proj": 12.7,
       "line": 10.5,
-      "prob": 65.0
+      "prob": 64.4
     },
     "all_props": [
       {
         "market": "O 4.5 PTS",
         "stat": "PTS",
-        "proj": 5.9,
+        "proj": 5.8,
         "line": 4.5,
-        "prob": 59.5
+        "prob": 58.3
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 5.1,
         "line": 4.5,
-        "prob": 59.1
+        "prob": 57.7
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.8,
         "line": 1.5,
-        "prob": 53.2
+        "prob": 52.4
       },
       {
         "market": "O 10.5 PRA",
         "stat": "PRA",
-        "proj": 12.8,
+        "proj": 12.7,
         "line": 10.5,
-        "prob": 65.0
+        "prob": 64.4
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5105854",
+    "game_id": "401910008",
     "player": "Braden Smith",
     "pos": "G",
     "team": "IND",
@@ -1507,52 +1530,53 @@
     "raw_reb": 1.7,
     "raw_ast": 7.3,
     "raw_3pm": 0.7,
-    "proj_pts": 11.6,
+    "proj_pts": 11.7,
     "proj_reb": 2.0,
-    "proj_ast": 8.0,
+    "proj_ast": 8.1,
     "proj_3pm": 0.9,
-    "proj_pra": 21.6,
+    "proj_pra": 21.8,
     "best_prop": {
       "market": "O 19.5 PRA",
       "stat": "PRA",
-      "proj": 21.6,
+      "proj": 21.8,
       "line": 19.5,
-      "prob": 61.9
+      "prob": 62.8
     },
     "all_props": [
       {
         "market": "O 10.5 PTS",
         "stat": "PTS",
-        "proj": 11.6,
+        "proj": 11.7,
         "line": 10.5,
-        "prob": 58.0
+        "prob": 58.4
       },
       {
         "market": "O 1.5 REB",
         "stat": "REB",
         "proj": 2.0,
         "line": 1.5,
-        "prob": 53.1
+        "prob": 54.4
       },
       {
         "market": "O 7.5 AST",
         "stat": "AST",
-        "proj": 8.0,
+        "proj": 8.1,
         "line": 7.5,
-        "prob": 58.6
+        "prob": 58.4
       },
       {
         "market": "O 19.5 PRA",
         "stat": "PRA",
-        "proj": 21.6,
+        "proj": 21.8,
         "line": 19.5,
-        "prob": 61.9
+        "prob": 62.8
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5106060",
+    "game_id": "401910008",
     "player": "Jarace Walker",
     "pos": "F",
     "team": "IND",
@@ -1575,52 +1599,53 @@
     "raw_reb": 6.5,
     "raw_ast": 3.1,
     "raw_3pm": 1.4,
-    "proj_pts": 10.5,
+    "proj_pts": 10.4,
     "proj_reb": 6.8,
-    "proj_ast": 3.5,
+    "proj_ast": 3.4,
     "proj_3pm": 1.6,
-    "proj_pra": 20.7,
+    "proj_pra": 20.6,
     "best_prop": {
       "market": "O 8.5 PTS",
       "stat": "PTS",
-      "proj": 10.5,
+      "proj": 10.4,
       "line": 8.5,
-      "prob": 66.3
+      "prob": 66.6
     },
     "all_props": [
       {
         "market": "O 8.5 PTS",
         "stat": "PTS",
-        "proj": 10.5,
+        "proj": 10.4,
         "line": 8.5,
-        "prob": 66.3
+        "prob": 66.6
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.8,
         "line": 6.5,
-        "prob": 53.8
+        "prob": 54.8
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
-        "proj": 3.5,
+        "proj": 3.4,
         "line": 3.5,
-        "prob": 48.3
+        "prob": 47.9
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.7,
+        "proj": 20.6,
         "line": 18.5,
-        "prob": 62.5
+        "prob": 61.9
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5082206",
+    "game_id": "401910009",
     "player": "Brayden Burries",
     "pos": "G",
     "team": "MIL",
@@ -1651,7 +1676,7 @@
       "stat": "AST",
       "proj": 3.2,
       "line": 2.5,
-      "prob": 62.4
+      "prob": 62.6
     },
     "all_props": [
       {
@@ -1666,27 +1691,28 @@
         "stat": "REB",
         "proj": 6.4,
         "line": 6.5,
-        "prob": 48.0
+        "prob": 49.1
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 3.2,
         "line": 2.5,
-        "prob": 62.4
+        "prob": 62.6
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
         "proj": 22.3,
         "line": 20.5,
-        "prob": 59.4
+        "prob": 59.2
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4395725",
+    "game_id": "401910009",
     "player": "Tyler Herro",
     "pos": "G",
     "team": "MIL",
@@ -1708,8 +1734,8 @@
     "raw_ast": 4.0,
     "raw_3pm": 2.9,
     "proj_pts": 21.8,
-    "proj_reb": 4.6,
-    "proj_ast": 4.3,
+    "proj_reb": 4.5,
+    "proj_ast": 4.4,
     "proj_3pm": 3.1,
     "proj_pra": 30.7,
     "best_prop": {
@@ -1717,7 +1743,7 @@
       "stat": "PRA",
       "proj": 30.7,
       "line": 28.5,
-      "prob": 61.3
+      "prob": 62.1
     },
     "all_props": [
       {
@@ -1725,34 +1751,35 @@
         "stat": "PTS",
         "proj": 21.8,
         "line": 20.5,
-        "prob": 58.6
+        "prob": 58.9
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 4.6,
+        "proj": 4.5,
         "line": 4.5,
-        "prob": 50.8
+        "prob": 50.1
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
-        "proj": 4.3,
+        "proj": 4.4,
         "line": 4.5,
-        "prob": 46.5
+        "prob": 47.2
       },
       {
         "market": "O 28.5 PRA",
         "stat": "PRA",
         "proj": 30.7,
         "line": 28.5,
-        "prob": 61.3
+        "prob": 62.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4432848",
+    "game_id": "401910009",
     "player": "Jaime Jaquez Jr.",
     "pos": "F",
     "team": "MIL",
@@ -1777,13 +1804,13 @@
     "proj_reb": 5.8,
     "proj_ast": 3.1,
     "proj_3pm": 2.0,
-    "proj_pra": 25.3,
+    "proj_pra": 25.4,
     "best_prop": {
       "market": "O 2.5 AST",
       "stat": "AST",
       "proj": 3.1,
       "line": 2.5,
-      "prob": 61.6
+      "prob": 62.2
     },
     "all_props": [
       {
@@ -1791,34 +1818,35 @@
         "stat": "PTS",
         "proj": 16.4,
         "line": 15.5,
-        "prob": 56.2
+        "prob": 56.4
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.8,
         "line": 5.5,
-        "prob": 55.0
+        "prob": 54.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 3.1,
         "line": 2.5,
-        "prob": 61.6
+        "prob": 62.2
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
-        "proj": 25.3,
+        "proj": 25.4,
         "line": 23.5,
-        "prob": 60.7
+        "prob": 61.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4697268",
+    "game_id": "401910009",
     "player": "Kam Jones",
     "pos": "G",
     "team": "MIL",
@@ -1841,15 +1869,15 @@
     "raw_3pm": 1.1,
     "proj_pts": 8.7,
     "proj_reb": 2.9,
-    "proj_ast": 6.5,
+    "proj_ast": 6.4,
     "proj_3pm": 1.3,
-    "proj_pra": 18.1,
+    "proj_pra": 18.0,
     "best_prop": {
       "market": "O 15.5 PRA",
       "stat": "PRA",
-      "proj": 18.1,
+      "proj": 18.0,
       "line": 15.5,
-      "prob": 66.1
+      "prob": 65.5
     },
     "all_props": [
       {
@@ -1857,34 +1885,35 @@
         "stat": "PTS",
         "proj": 8.7,
         "line": 7.5,
-        "prob": 58.5
+        "prob": 58.1
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.9,
         "line": 2.5,
-        "prob": 54.0
+        "prob": 54.3
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 6.5,
+        "proj": 6.4,
         "line": 5.5,
-        "prob": 65.9
+        "prob": 65.3
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 18.1,
+        "proj": 18.0,
         "line": 15.5,
-        "prob": 66.1
+        "prob": 65.5
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3134907",
+    "game_id": "401910009",
     "player": "Kyle Kuzma",
     "pos": "F",
     "team": "MIL",
@@ -1915,7 +1944,7 @@
       "stat": "PRA",
       "proj": 20.8,
       "line": 18.5,
-      "prob": 63.1
+      "prob": 62.6
     },
     "all_props": [
       {
@@ -1923,34 +1952,35 @@
         "stat": "PTS",
         "proj": 12.5,
         "line": 11.5,
-        "prob": 57.7
+        "prob": 57.6
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.6,
         "line": 5.5,
-        "prob": 51.2
+        "prob": 50.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 52.4
+        "prob": 51.6
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
         "proj": 20.8,
         "line": 18.5,
-        "prob": 63.1
+        "prob": 62.6
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4591725",
+    "game_id": "401910009",
     "player": "Ryan Rollins",
     "pos": "G",
     "team": "MIL",
@@ -1975,13 +2005,13 @@
     "proj_reb": 5.6,
     "proj_ast": 4.7,
     "proj_3pm": 2.1,
-    "proj_pra": 23.1,
+    "proj_pra": 23.0,
     "best_prop": {
       "market": "O 11.5 PTS",
       "stat": "PTS",
       "proj": 12.7,
       "line": 11.5,
-      "prob": 60.3
+      "prob": 60.0
     },
     "all_props": [
       {
@@ -1989,34 +2019,35 @@
         "stat": "PTS",
         "proj": 12.7,
         "line": 11.5,
-        "prob": 60.3
+        "prob": 60.0
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.6,
         "line": 5.5,
-        "prob": 51.5
+        "prob": 51.4
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.7,
         "line": 4.5,
-        "prob": 54.2
+        "prob": 53.1
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 23.1,
+        "proj": 23.0,
         "line": 21.5,
-        "prob": 58.9
+        "prob": 58.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4397114",
+    "game_id": "401910009",
     "player": "Cormac Ryan",
     "pos": "G",
     "team": "MIL",
@@ -2038,7 +2069,7 @@
     "raw_ast": 2.2,
     "raw_3pm": 3.2,
     "proj_pts": 20.1,
-    "proj_reb": 3.6,
+    "proj_reb": 3.7,
     "proj_ast": 2.5,
     "proj_3pm": 3.5,
     "proj_pra": 26.3,
@@ -2060,29 +2091,30 @@
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.6,
+        "proj": 3.7,
         "line": 3.5,
-        "prob": 51.3
+        "prob": 51.4
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.5,
         "line": 2.5,
-        "prob": 48.6
+        "prob": 48.4
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
         "proj": 26.3,
         "line": 24.5,
-        "prob": 59.4
+        "prob": 59.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3133628",
+    "game_id": "401910009",
     "player": "Myles Turner",
     "pos": "C",
     "team": "MIL",
@@ -2103,9 +2135,9 @@
     "raw_reb": 6.3,
     "raw_ast": 2.4,
     "raw_3pm": 1.3,
-    "proj_pts": 8.9,
-    "proj_reb": 6.6,
-    "proj_ast": 2.6,
+    "proj_pts": 8.8,
+    "proj_reb": 6.7,
+    "proj_ast": 2.7,
     "proj_3pm": 1.5,
     "proj_pra": 18.1,
     "best_prop": {
@@ -2113,42 +2145,43 @@
       "stat": "PRA",
       "proj": 18.1,
       "line": 15.5,
-      "prob": 67.2
+      "prob": 66.9
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 8.9,
+        "proj": 8.8,
         "line": 7.5,
-        "prob": 59.7
+        "prob": 59.9
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 6.6,
+        "proj": 6.7,
         "line": 6.5,
-        "prob": 52.1
+        "prob": 51.8
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.6,
+        "proj": 2.7,
         "line": 2.5,
-        "prob": 50.9
+        "prob": 52.5
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
         "proj": 18.1,
         "line": 15.5,
-        "prob": 67.2
+        "prob": 66.9
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5105623",
+    "game_id": "401910009",
     "player": "Kel'el Ware",
     "pos": "C",
     "team": "MIL",
@@ -2169,15 +2202,15 @@
     "raw_reb": 8.7,
     "raw_ast": 1.1,
     "raw_3pm": 1.1,
-    "proj_pts": 13.9,
+    "proj_pts": 14.0,
     "proj_reb": 9.2,
     "proj_ast": 1.5,
     "proj_3pm": 1.3,
-    "proj_pra": 24.6,
+    "proj_pra": 24.7,
     "best_prop": {
       "market": "O 22.5 PRA",
       "stat": "PRA",
-      "proj": 24.6,
+      "proj": 24.7,
       "line": 22.5,
       "prob": 63.9
     },
@@ -2185,16 +2218,16 @@
       {
         "market": "O 13.5 PTS",
         "stat": "PTS",
-        "proj": 13.9,
+        "proj": 14.0,
         "line": 13.5,
-        "prob": 52.9
+        "prob": 54.1
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
         "proj": 9.2,
         "line": 8.5,
-        "prob": 61.4
+        "prob": 60.7
       },
       {
         "market": "O 1.5 AST",
@@ -2206,15 +2239,16 @@
       {
         "market": "O 22.5 PRA",
         "stat": "PRA",
-        "proj": 24.6,
+        "proj": 24.7,
         "line": 22.5,
         "prob": 63.9
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4066261",
+    "game_id": "401910009",
     "player": "Bam Adebayo",
     "pos": "C",
     "team": "MIA",
@@ -2233,52 +2267,53 @@
     "raw_reb": 8.5,
     "raw_ast": 3.3,
     "raw_3pm": 0.7,
-    "proj_pts": 20.6,
+    "proj_pts": 20.7,
     "proj_reb": 8.9,
     "proj_ast": 3.5,
     "proj_3pm": 0.9,
-    "proj_pra": 32.9,
+    "proj_pra": 33.1,
     "best_prop": {
       "market": "O 31.5 PRA",
       "stat": "PRA",
-      "proj": 32.9,
+      "proj": 33.1,
       "line": 31.5,
-      "prob": 58.0
+      "prob": 59.3
     },
     "all_props": [
       {
         "market": "O 19.5 PTS",
         "stat": "PTS",
-        "proj": 20.6,
+        "proj": 20.7,
         "line": 19.5,
-        "prob": 57.9
+        "prob": 58.6
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
         "proj": 8.9,
         "line": 8.5,
-        "prob": 55.9
+        "prob": 57.0
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.5,
         "line": 3.5,
-        "prob": 49.0
+        "prob": 49.2
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
-        "proj": 32.9,
+        "proj": 33.1,
         "line": 31.5,
-        "prob": 58.0
+        "prob": 59.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "3032977",
+    "game_id": "401910009",
     "player": "Giannis Antetokounmpo",
     "pos": "F",
     "team": "MIA",
@@ -2298,7 +2333,7 @@
     "raw_ast": 5.5,
     "raw_3pm": 0.5,
     "proj_pts": 29.4,
-    "proj_reb": 13.3,
+    "proj_reb": 13.2,
     "proj_ast": 5.7,
     "proj_3pm": 0.8,
     "proj_pra": 48.3,
@@ -2307,7 +2342,7 @@
       "stat": "PRA",
       "proj": 48.3,
       "line": 45.5,
-      "prob": 63.1
+      "prob": 62.8
     },
     "all_props": [
       {
@@ -2315,34 +2350,35 @@
         "stat": "PTS",
         "proj": 29.4,
         "line": 27.5,
-        "prob": 62.2
+        "prob": 61.9
       },
       {
         "market": "O 12.5 REB",
         "stat": "REB",
-        "proj": 13.3,
+        "proj": 13.2,
         "line": 12.5,
-        "prob": 60.0
+        "prob": 59.2
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 5.7,
         "line": 5.5,
-        "prob": 53.6
+        "prob": 54.3
       },
       {
         "market": "O 45.5 PRA",
         "stat": "PRA",
         "proj": 48.3,
         "line": 45.5,
-        "prob": 63.1
+        "prob": 62.8
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "5107157",
+    "game_id": "401910009",
     "player": "Ryan Conwell",
     "pos": "G",
     "team": "MIA",
@@ -2365,13 +2401,13 @@
     "proj_reb": 2.9,
     "proj_ast": 3.4,
     "proj_3pm": 2.2,
-    "proj_pra": 20.4,
+    "proj_pra": 20.3,
     "best_prop": {
-      "market": "O 18.5 PRA",
-      "stat": "PRA",
-      "proj": 20.4,
-      "line": 18.5,
-      "prob": 60.4
+      "market": "O 12.5 PTS",
+      "stat": "PTS",
+      "proj": 14.1,
+      "line": 12.5,
+      "prob": 60.1
     },
     "all_props": [
       {
@@ -2379,34 +2415,35 @@
         "stat": "PTS",
         "proj": 14.1,
         "line": 12.5,
-        "prob": 59.8
+        "prob": 60.1
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.9,
         "line": 2.5,
-        "prob": 54.3
+        "prob": 53.9
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.4,
         "line": 3.5,
-        "prob": 47.1
+        "prob": 47.4
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.4,
+        "proj": 20.3,
         "line": 18.5,
-        "prob": 60.4
+        "prob": 60.0
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4431772",
+    "game_id": "401910009",
     "player": "Myron Gardner",
     "pos": "F",
     "team": "MIA",
@@ -2426,16 +2463,16 @@
     "raw_ast": 2.8,
     "raw_3pm": 1.8,
     "proj_pts": 9.3,
-    "proj_reb": 5.7,
+    "proj_reb": 5.6,
     "proj_ast": 3.0,
     "proj_3pm": 1.9,
-    "proj_pra": 17.9,
+    "proj_pra": 17.8,
     "best_prop": {
       "market": "O 15.5 PRA",
       "stat": "PRA",
-      "proj": 17.9,
+      "proj": 17.8,
       "line": 15.5,
-      "prob": 67.2
+      "prob": 66.4
     },
     "all_props": [
       {
@@ -2443,34 +2480,35 @@
         "stat": "PTS",
         "proj": 9.3,
         "line": 7.5,
-        "prob": 65.3
+        "prob": 64.4
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
-        "proj": 5.7,
+        "proj": 5.6,
         "line": 5.5,
-        "prob": 52.9
+        "prob": 51.1
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 3.0,
         "line": 2.5,
-        "prob": 58.3
+        "prob": 58.5
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 17.9,
+        "proj": 17.8,
         "line": 15.5,
-        "prob": 67.2
+        "prob": 66.4
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:09 AM"
   },
   {
     "id": "4601025",
+    "game_id": "401910009",
     "player": "Pelle Larsson",
     "pos": "G",
     "team": "MIA",
@@ -2491,15 +2529,15 @@
     "raw_3pm": 1.2,
     "proj_pts": 12.5,
     "proj_reb": 3.6,
-    "proj_ast": 3.9,
+    "proj_ast": 3.8,
     "proj_3pm": 1.4,
-    "proj_pra": 20.1,
+    "proj_pra": 19.9,
     "best_prop": {
       "market": "O 18.5 PRA",
       "stat": "PRA",
-      "proj": 20.1,
+      "proj": 19.9,
       "line": 18.5,
-      "prob": 59.6
+      "prob": 58.3
     },
     "all_props": [
       {
@@ -2507,34 +2545,35 @@
         "stat": "PTS",
         "proj": 12.5,
         "line": 11.5,
-        "prob": 58.2
+        "prob": 57.2
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.6,
         "line": 3.5,
-        "prob": 51.1
+        "prob": 50.6
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
-        "proj": 3.9,
+        "proj": 3.8,
         "line": 3.5,
-        "prob": 56.9
+        "prob": 56.1
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.1,
+        "proj": 19.9,
         "line": 18.5,
-        "prob": 59.6
+        "prob": 58.3
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278053",
+    "game_id": "401910009",
     "player": "Davion Mitchell",
     "pos": "G",
     "team": "MIA",
@@ -2553,52 +2592,53 @@
     "raw_reb": 2.4,
     "raw_ast": 8.9,
     "raw_3pm": 2.2,
-    "proj_pts": 17.5,
-    "proj_reb": 2.6,
-    "proj_ast": 9.3,
+    "proj_pts": 17.6,
+    "proj_reb": 2.7,
+    "proj_ast": 9.2,
     "proj_3pm": 2.3,
-    "proj_pra": 29.4,
+    "proj_pra": 29.5,
     "best_prop": {
       "market": "O 8.5 AST",
       "stat": "AST",
-      "proj": 9.3,
+      "proj": 9.2,
       "line": 8.5,
-      "prob": 63.1
+      "prob": 62.5
     },
     "all_props": [
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 17.5,
+        "proj": 17.6,
         "line": 16.5,
-        "prob": 57.4
+        "prob": 58.0
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
-        "proj": 2.6,
+        "proj": 2.7,
         "line": 2.5,
-        "prob": 50.0
+        "prob": 50.2
       },
       {
         "market": "O 8.5 AST",
         "stat": "AST",
-        "proj": 9.3,
+        "proj": 9.2,
         "line": 8.5,
-        "prob": 63.1
+        "prob": 62.5
       },
       {
         "market": "O 27.5 PRA",
         "stat": "PRA",
-        "proj": 29.4,
+        "proj": 29.5,
         "line": 27.5,
-        "prob": 61.0
+        "prob": 61.6
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "6475",
+    "game_id": "401910009",
     "player": "Klay Thompson",
     "pos": "G",
     "team": "MIA",
@@ -2620,14 +2660,14 @@
     "proj_pts": 19.5,
     "proj_reb": 1.9,
     "proj_ast": 2.4,
-    "proj_3pm": 4.7,
+    "proj_3pm": 4.6,
     "proj_pra": 23.8,
     "best_prop": {
       "market": "O 17.5 PTS",
       "stat": "PTS",
       "proj": 19.5,
       "line": 17.5,
-      "prob": 65.9
+      "prob": 65.8
     },
     "all_props": [
       {
@@ -2635,34 +2675,35 @@
         "stat": "PTS",
         "proj": 19.5,
         "line": 17.5,
-        "prob": 65.9
+        "prob": 65.8
       },
       {
         "market": "O 1.5 REB",
         "stat": "REB",
         "proj": 1.9,
         "line": 1.5,
-        "prob": 50.8
+        "prob": 50.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.4,
         "line": 2.5,
-        "prob": 44.4
+        "prob": 46.4
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
         "proj": 23.8,
         "line": 21.5,
-        "prob": 63.2
+        "prob": 63.4
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3059319",
+    "game_id": "401910009",
     "player": "Andrew Wiggins",
     "pos": "F",
     "team": "MIA",
@@ -2682,16 +2723,16 @@
     "raw_ast": 1.5,
     "raw_3pm": 1.3,
     "proj_pts": 11.0,
-    "proj_reb": 3.4,
+    "proj_reb": 3.3,
     "proj_ast": 1.8,
     "proj_3pm": 1.5,
-    "proj_pra": 16.1,
+    "proj_pra": 16.2,
     "best_prop": {
       "market": "O 14.5 PRA",
       "stat": "PRA",
-      "proj": 16.1,
+      "proj": 16.2,
       "line": 14.5,
-      "prob": 59.6
+      "prob": 59.7
     },
     "all_props": [
       {
@@ -2699,12 +2740,12 @@
         "stat": "PTS",
         "proj": 11.0,
         "line": 10.5,
-        "prob": 52.0
+        "prob": 51.9
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.4,
+        "proj": 3.3,
         "line": 3.5,
         "prob": 45.7
       },
@@ -2718,15 +2759,16 @@
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
-        "proj": 16.1,
+        "proj": 16.2,
         "line": 14.5,
-        "prob": 59.6
+        "prob": 59.7
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "2581018",
+    "game_id": "401910010",
     "player": "Kentavious Caldwell-Pope",
     "pos": "G",
     "team": "PHI",
@@ -2749,15 +2791,15 @@
     "raw_reb": 3.0,
     "raw_ast": 1.8,
     "raw_3pm": 1.5,
-    "proj_pts": 8.6,
+    "proj_pts": 8.7,
     "proj_reb": 3.2,
     "proj_ast": 2.1,
     "proj_3pm": 1.7,
-    "proj_pra": 14.0,
+    "proj_pra": 14.1,
     "best_prop": {
       "market": "O 11.5 PRA",
       "stat": "PRA",
-      "proj": 14.0,
+      "proj": 14.1,
       "line": 11.5,
       "prob": 67.1
     },
@@ -2765,16 +2807,16 @@
       {
         "market": "O 6.5 PTS",
         "stat": "PTS",
-        "proj": 8.6,
+        "proj": 8.7,
         "line": 6.5,
-        "prob": 64.1
+        "prob": 64.9
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.2,
         "line": 3.5,
-        "prob": 43.2
+        "prob": 43.9
       },
       {
         "market": "O 1.5 AST",
@@ -2786,15 +2828,16 @@
       {
         "market": "O 11.5 PRA",
         "stat": "PRA",
-        "proj": 14.0,
+        "proj": 14.1,
         "line": 11.5,
         "prob": 67.1
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5124612",
+    "game_id": "401910010",
     "player": "VJ Edgecombe",
     "pos": "G",
     "team": "PHI",
@@ -2817,8 +2860,8 @@
     "raw_reb": 6.2,
     "raw_ast": 3.7,
     "raw_3pm": 1.5,
-    "proj_pts": 14.7,
-    "proj_reb": 6.5,
+    "proj_pts": 14.8,
+    "proj_reb": 6.4,
     "proj_ast": 4.2,
     "proj_3pm": 1.7,
     "proj_pra": 25.4,
@@ -2827,42 +2870,43 @@
       "stat": "AST",
       "proj": 4.2,
       "line": 3.5,
-      "prob": 63.4
+      "prob": 63.6
     },
     "all_props": [
       {
         "market": "O 13.5 PTS",
         "stat": "PTS",
-        "proj": 14.7,
+        "proj": 14.8,
         "line": 13.5,
-        "prob": 58.9
+        "prob": 60.6
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 6.5,
+        "proj": 6.4,
         "line": 6.5,
-        "prob": 50.0
+        "prob": 48.8
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.2,
         "line": 3.5,
-        "prob": 63.4
+        "prob": 63.6
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
         "proj": 25.4,
         "line": 23.5,
-        "prob": 62.1
+        "prob": 62.8
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4711297",
+    "game_id": "401910010",
     "player": "Justin Edwards",
     "pos": "F",
     "team": "PHI",
@@ -2889,13 +2933,13 @@
     "proj_reb": 4.2,
     "proj_ast": 1.7,
     "proj_3pm": 1.9,
-    "proj_pra": 15.0,
+    "proj_pra": 15.1,
     "best_prop": {
       "market": "O 6.5 PTS",
       "stat": "PTS",
       "proj": 9.2,
       "line": 6.5,
-      "prob": 69.4
+      "prob": 68.9
     },
     "all_props": [
       {
@@ -2903,34 +2947,35 @@
         "stat": "PTS",
         "proj": 9.2,
         "line": 6.5,
-        "prob": 69.4
+        "prob": 68.9
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.2,
         "line": 4.5,
-        "prob": 43.5
+        "prob": 44.1
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.7,
         "line": 1.5,
-        "prob": 49.4
+        "prob": 50.0
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
-        "proj": 15.0,
+        "proj": 15.1,
         "line": 12.5,
-        "prob": 68.0
+        "prob": 68.2
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3059318",
+    "game_id": "401910010",
     "player": "Joel Embiid",
     "pos": "C",
     "team": "PHI",
@@ -2954,16 +2999,16 @@
     "raw_ast": 3.6,
     "raw_3pm": 0.6,
     "proj_pts": 21.0,
-    "proj_reb": 8.3,
+    "proj_reb": 8.4,
     "proj_ast": 4.0,
     "proj_3pm": 0.8,
-    "proj_pra": 33.3,
+    "proj_pra": 33.4,
     "best_prop": {
       "market": "O 30.5 PRA",
       "stat": "PRA",
-      "proj": 33.3,
+      "proj": 33.4,
       "line": 30.5,
-      "prob": 65.4
+      "prob": 65.5
     },
     "all_props": [
       {
@@ -2971,34 +3016,35 @@
         "stat": "PTS",
         "proj": 21.0,
         "line": 19.5,
-        "prob": 60.3
+        "prob": 61.2
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
-        "proj": 8.3,
+        "proj": 8.4,
         "line": 8.5,
-        "prob": 47.3
+        "prob": 48.7
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.0,
         "line": 3.5,
-        "prob": 60.0
+        "prob": 59.2
       },
       {
         "market": "O 30.5 PRA",
         "stat": "PRA",
-        "proj": 33.3,
+        "proj": 33.4,
         "line": 30.5,
-        "prob": 65.4
+        "prob": 65.5
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "1966",
+    "game_id": "401910010",
     "player": "LeBron James",
     "pos": "F",
     "team": "PHI",
@@ -3021,52 +3067,53 @@
     "raw_reb": 7.0,
     "raw_ast": 6.8,
     "raw_3pm": 0.7,
-    "proj_pts": 15.6,
+    "proj_pts": 15.7,
     "proj_reb": 7.3,
     "proj_ast": 7.6,
     "proj_3pm": 0.9,
-    "proj_pra": 30.4,
+    "proj_pra": 30.5,
     "best_prop": {
       "market": "O 6.5 AST",
       "stat": "AST",
       "proj": 7.6,
       "line": 6.5,
-      "prob": 68.7
+      "prob": 68.9
     },
     "all_props": [
       {
         "market": "O 14.5 PTS",
         "stat": "PTS",
-        "proj": 15.6,
+        "proj": 15.7,
         "line": 14.5,
-        "prob": 58.1
+        "prob": 58.5
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.3,
         "line": 7.5,
-        "prob": 46.4
+        "prob": 46.3
       },
       {
         "market": "O 6.5 AST",
         "stat": "AST",
         "proj": 7.6,
         "line": 6.5,
-        "prob": 68.7
+        "prob": 68.9
       },
       {
         "market": "O 27.5 PRA",
         "stat": "PRA",
-        "proj": 30.4,
+        "proj": 30.5,
         "line": 27.5,
-        "prob": 65.8
+        "prob": 66.0
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4431678",
+    "game_id": "401910010",
     "player": "Tyrese Maxey",
     "pos": "G",
     "team": "PHI",
@@ -3089,8 +3136,8 @@
     "raw_reb": 3.3,
     "raw_ast": 5.8,
     "raw_3pm": 2.7,
-    "proj_pts": 29.2,
-    "proj_reb": 3.5,
+    "proj_pts": 29.3,
+    "proj_reb": 3.4,
     "proj_ast": 6.5,
     "proj_3pm": 3.1,
     "proj_pra": 39.2,
@@ -3099,42 +3146,43 @@
       "stat": "PRA",
       "proj": 39.2,
       "line": 35.5,
-      "prob": 72.6
+      "prob": 72.7
     },
     "all_props": [
       {
         "market": "O 26.5 PTS",
         "stat": "PTS",
-        "proj": 29.2,
+        "proj": 29.3,
         "line": 26.5,
-        "prob": 70.6
+        "prob": 70.9
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.5,
+        "proj": 3.4,
         "line": 3.5,
-        "prob": 48.9
+        "prob": 47.5
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.5,
         "line": 5.5,
-        "prob": 69.7
+        "prob": 70.0
       },
       {
         "market": "O 35.5 PRA",
         "stat": "PRA",
         "proj": 39.2,
         "line": 35.5,
-        "prob": 72.6
+        "prob": 72.7
       }
     ],
-    "generated_at": "2026-11-18 03:50 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4873090",
+    "game_id": "401910010",
     "player": "Labaron Philon Jr.",
     "pos": "G",
     "team": "PHI",
@@ -3157,52 +3205,53 @@
     "raw_reb": 2.0,
     "raw_ast": 4.5,
     "raw_3pm": 1.5,
-    "proj_pts": 10.9,
+    "proj_pts": 10.8,
     "proj_reb": 2.3,
-    "proj_ast": 5.0,
+    "proj_ast": 5.1,
     "proj_3pm": 1.7,
-    "proj_pra": 18.1,
+    "proj_pra": 18.2,
     "best_prop": {
       "market": "O 15.5 PRA",
       "stat": "PRA",
-      "proj": 18.1,
+      "proj": 18.2,
       "line": 15.5,
-      "prob": 68.4
+      "prob": 69.2
     },
     "all_props": [
       {
         "market": "O 9.5 PTS",
         "stat": "PTS",
-        "proj": 10.9,
+        "proj": 10.8,
         "line": 9.5,
-        "prob": 58.7
+        "prob": 58.5
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 42.6
+        "prob": 42.3
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
-        "proj": 5.0,
+        "proj": 5.1,
         "line": 4.5,
-        "prob": 59.9
+        "prob": 61.0
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 18.1,
+        "proj": 18.2,
         "line": 15.5,
-        "prob": 68.4
+        "prob": 69.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4351851",
+    "game_id": "401910010",
     "player": "Anfernee Simons",
     "pos": "G",
     "team": "PHI",
@@ -3235,7 +3284,7 @@
       "stat": "PRA",
       "proj": 18.9,
       "line": 15.5,
-      "prob": 72.8
+      "prob": 72.0
     },
     "all_props": [
       {
@@ -3243,34 +3292,35 @@
         "stat": "PTS",
         "proj": 14.7,
         "line": 12.5,
-        "prob": 64.8
+        "prob": 65.0
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 43.3
+        "prob": 43.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.8,
         "line": 1.5,
-        "prob": 52.2
+        "prob": 52.3
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
         "proj": 18.9,
         "line": 15.5,
-        "prob": 72.8
+        "prob": 72.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3912848",
+    "game_id": "401910010",
     "player": "Dean Wade",
     "pos": "F",
     "team": "PHI",
@@ -3303,7 +3353,7 @@
       "stat": "PTS",
       "proj": 7.4,
       "line": 5.5,
-      "prob": 71.1
+      "prob": 70.5
     },
     "all_props": [
       {
@@ -3311,14 +3361,14 @@
         "stat": "PTS",
         "proj": 7.4,
         "line": 5.5,
-        "prob": 71.1
+        "prob": 70.5
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 5.0,
         "line": 4.5,
-        "prob": 56.4
+        "prob": 56.7
       },
       {
         "market": "O 1.5 AST",
@@ -3332,13 +3382,14 @@
         "stat": "PRA",
         "proj": 14.5,
         "line": 11.5,
-        "prob": 70.2
+        "prob": 69.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4066320",
+    "game_id": "401910010",
     "player": "Desmond Bane",
     "pos": "G",
     "team": "ORL",
@@ -3364,14 +3415,14 @@
     "proj_pts": 21.1,
     "proj_reb": 4.3,
     "proj_ast": 2.9,
-    "proj_3pm": 4.6,
+    "proj_3pm": 4.5,
     "proj_pra": 28.3,
     "best_prop": {
       "market": "O 24.5 PRA",
       "stat": "PRA",
       "proj": 28.3,
       "line": 24.5,
-      "prob": 71.5
+      "prob": 72.2
     },
     "all_props": [
       {
@@ -3379,7 +3430,7 @@
         "stat": "PTS",
         "proj": 21.1,
         "line": 18.5,
-        "prob": 67.4
+        "prob": 67.5
       },
       {
         "market": "O 4.5 REB",
@@ -3393,20 +3444,21 @@
         "stat": "AST",
         "proj": 2.9,
         "line": 2.5,
-        "prob": 58.0
+        "prob": 57.1
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
         "proj": 28.3,
         "line": 24.5,
-        "prob": 71.5
+        "prob": 72.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4712849",
+    "game_id": "401910010",
     "player": "Anthony Black",
     "pos": "G",
     "team": "ORL",
@@ -3431,7 +3483,7 @@
     "raw_3pm": 2.1,
     "proj_pts": 18.9,
     "proj_reb": 5.4,
-    "proj_ast": 6.2,
+    "proj_ast": 6.3,
     "proj_3pm": 2.4,
     "proj_pra": 30.6,
     "best_prop": {
@@ -3439,7 +3491,7 @@
       "stat": "PTS",
       "proj": 18.9,
       "line": 16.5,
-      "prob": 66.7
+      "prob": 65.9
     },
     "all_props": [
       {
@@ -3447,34 +3499,35 @@
         "stat": "PTS",
         "proj": 18.9,
         "line": 16.5,
-        "prob": 66.7
+        "prob": 65.9
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.4,
         "line": 5.5,
-        "prob": 48.1
+        "prob": 48.3
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 6.2,
+        "proj": 6.3,
         "line": 5.5,
-        "prob": 63.6
+        "prob": 64.2
       },
       {
         "market": "O 27.5 PRA",
         "stat": "PRA",
         "proj": 30.6,
         "line": 27.5,
-        "prob": 66.3
+        "prob": 65.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4277847",
+    "game_id": "401910010",
     "player": "Wendell Carter Jr.",
     "pos": "C",
     "team": "ORL",
@@ -3507,7 +3560,7 @@
       "stat": "PRA",
       "proj": 24.3,
       "line": 21.5,
-      "prob": 65.4
+      "prob": 65.8
     },
     "all_props": [
       {
@@ -3515,34 +3568,35 @@
         "stat": "PTS",
         "proj": 13.9,
         "line": 12.5,
-        "prob": 59.9
+        "prob": 60.0
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
         "proj": 8.8,
         "line": 8.5,
-        "prob": 53.4
+        "prob": 54.2
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.6,
         "line": 1.5,
-        "prob": 46.9
+        "prob": 46.7
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
         "proj": 24.3,
         "line": 21.5,
-        "prob": 65.4
+        "prob": 65.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4702382",
+    "game_id": "401910010",
     "player": "Tristan da Silva",
     "pos": "F",
     "team": "ORL",
@@ -3569,13 +3623,13 @@
     "proj_reb": 4.2,
     "proj_ast": 2.4,
     "proj_3pm": 3.8,
-    "proj_pra": 24.4,
+    "proj_pra": 24.3,
     "best_prop": {
       "market": "O 21.5 PRA",
       "stat": "PRA",
-      "proj": 24.4,
+      "proj": 24.3,
       "line": 21.5,
-      "prob": 65.8
+      "prob": 65.2
     },
     "all_props": [
       {
@@ -3583,34 +3637,35 @@
         "stat": "PTS",
         "proj": 17.7,
         "line": 15.5,
-        "prob": 64.0
+        "prob": 63.3
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.2,
         "line": 4.5,
-        "prob": 44.0
+        "prob": 44.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.4,
         "line": 2.5,
-        "prob": 46.1
+        "prob": 46.0
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 24.4,
+        "proj": 24.3,
         "line": 21.5,
-        "prob": 65.8
+        "prob": 65.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5239561",
+    "game_id": "401910010",
     "player": "Jase Richardson",
     "pos": "G",
     "team": "ORL",
@@ -3643,7 +3698,7 @@
       "stat": "PRA",
       "proj": 14.8,
       "line": 12.5,
-      "prob": 65.2
+      "prob": 65.5
     },
     "all_props": [
       {
@@ -3651,34 +3706,35 @@
         "stat": "PTS",
         "proj": 8.1,
         "line": 6.5,
-        "prob": 60.2
+        "prob": 61.4
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.0,
         "line": 2.5,
-        "prob": 56.9
+        "prob": 56.1
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 54.9
+        "prob": 55.0
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
         "proj": 14.8,
         "line": 12.5,
-        "prob": 65.2
+        "prob": 65.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4432165",
+    "game_id": "401910010",
     "player": "Jalen Suggs",
     "pos": "G",
     "team": "ORL",
@@ -3701,25 +3757,25 @@
     "raw_reb": 4.3,
     "raw_ast": 4.7,
     "raw_3pm": 1.0,
-    "proj_pts": 9.6,
+    "proj_pts": 9.5,
     "proj_reb": 4.5,
-    "proj_ast": 5.3,
+    "proj_ast": 5.2,
     "proj_3pm": 1.2,
-    "proj_pra": 19.4,
+    "proj_pra": 19.3,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
-      "proj": 19.4,
+      "proj": 19.3,
       "line": 16.5,
-      "prob": 67.2
+      "prob": 66.6
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 9.6,
+        "proj": 9.5,
         "line": 7.5,
-        "prob": 65.8
+        "prob": 65.0
       },
       {
         "market": "O 4.5 REB",
@@ -3731,22 +3787,23 @@
       {
         "market": "O 4.5 AST",
         "stat": "AST",
-        "proj": 5.3,
+        "proj": 5.2,
         "line": 4.5,
-        "prob": 63.8
+        "prob": 63.5
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 19.4,
+        "proj": 19.3,
         "line": 16.5,
-        "prob": 67.2
+        "prob": 66.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4566434",
+    "game_id": "401910010",
     "player": "Franz Wagner",
     "pos": "F",
     "team": "ORL",
@@ -3771,15 +3828,15 @@
     "raw_3pm": 1.2,
     "proj_pts": 26.1,
     "proj_reb": 6.8,
-    "proj_ast": 9.0,
+    "proj_ast": 9.1,
     "proj_3pm": 1.4,
-    "proj_pra": 41.9,
+    "proj_pra": 42.0,
     "best_prop": {
       "market": "O 37.5 PRA",
       "stat": "PRA",
-      "proj": 41.9,
+      "proj": 42.0,
       "line": 37.5,
-      "prob": 69.7
+      "prob": 70.1
     },
     "all_props": [
       {
@@ -3787,34 +3844,35 @@
         "stat": "PTS",
         "proj": 26.1,
         "line": 23.5,
-        "prob": 65.9
+        "prob": 66.7
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.8,
         "line": 6.5,
-        "prob": 54.6
+        "prob": 55.4
       },
       {
         "market": "O 8.5 AST",
         "stat": "AST",
-        "proj": 9.0,
+        "proj": 9.1,
         "line": 8.5,
-        "prob": 59.5
+        "prob": 61.3
       },
       {
         "market": "O 37.5 PRA",
         "stat": "PRA",
-        "proj": 41.9,
+        "proj": 42.0,
         "line": 37.5,
-        "prob": 69.7
+        "prob": 70.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4711294",
+    "game_id": "401910011",
     "player": "Matas Buzelis",
     "pos": "F",
     "team": "CHI",
@@ -3836,30 +3894,30 @@
     "raw_reb": 4.7,
     "raw_ast": 1.9,
     "raw_3pm": 2.1,
-    "proj_pts": 16.9,
-    "proj_reb": 5.0,
+    "proj_pts": 16.8,
+    "proj_reb": 5.1,
     "proj_ast": 2.2,
-    "proj_3pm": 2.4,
-    "proj_pra": 24.2,
+    "proj_3pm": 2.3,
+    "proj_pra": 24.1,
     "best_prop": {
       "market": "O 21.5 PRA",
       "stat": "PRA",
-      "proj": 24.2,
+      "proj": 24.1,
       "line": 21.5,
-      "prob": 64.4
+      "prob": 63.9
     },
     "all_props": [
       {
         "market": "O 15.5 PTS",
         "stat": "PTS",
-        "proj": 16.9,
+        "proj": 16.8,
         "line": 15.5,
-        "prob": 59.0
+        "prob": 58.3
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 5.0,
+        "proj": 5.1,
         "line": 4.5,
         "prob": 58.5
       },
@@ -3868,20 +3926,21 @@
         "stat": "AST",
         "proj": 2.2,
         "line": 1.5,
-        "prob": 62.7
+        "prob": 62.2
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 24.2,
+        "proj": 24.1,
         "line": 21.5,
-        "prob": 64.4
+        "prob": 63.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4871145",
+    "game_id": "401910011",
     "player": "Josh Giddey",
     "pos": "G",
     "team": "CHI",
@@ -3907,13 +3966,13 @@
     "proj_reb": 5.6,
     "proj_ast": 9.2,
     "proj_3pm": 1.4,
-    "proj_pra": 26.1,
+    "proj_pra": 26.0,
     "best_prop": {
       "market": "O 23.5 PRA",
       "stat": "PRA",
-      "proj": 26.1,
+      "proj": 26.0,
       "line": 23.5,
-      "prob": 63.7
+      "prob": 63.5
     },
     "all_props": [
       {
@@ -3921,14 +3980,14 @@
         "stat": "PTS",
         "proj": 11.3,
         "line": 9.5,
-        "prob": 62.3
+        "prob": 62.2
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.6,
         "line": 5.5,
-        "prob": 51.1
+        "prob": 50.9
       },
       {
         "market": "O 8.5 AST",
@@ -3940,15 +3999,16 @@
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
-        "proj": 26.1,
+        "proj": 26.0,
         "line": 23.5,
-        "prob": 63.7
+        "prob": 63.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4432822",
+    "game_id": "401910011",
     "player": "Isaac Okoro",
     "pos": "F",
     "team": "CHI",
@@ -3970,7 +4030,7 @@
     "raw_reb": 2.7,
     "raw_ast": 1.9,
     "raw_3pm": 0.7,
-    "proj_pts": 9.3,
+    "proj_pts": 9.2,
     "proj_reb": 3.1,
     "proj_ast": 2.3,
     "proj_3pm": 1.0,
@@ -3980,42 +4040,43 @@
       "stat": "PRA",
       "proj": 14.6,
       "line": 12.5,
-      "prob": 63.2
+      "prob": 62.9
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 9.3,
+        "proj": 9.2,
         "line": 7.5,
-        "prob": 63.1
+        "prob": 62.6
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.1,
         "line": 2.5,
-        "prob": 57.2
+        "prob": 56.9
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.3,
         "line": 1.5,
-        "prob": 62.3
+        "prob": 62.2
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
         "proj": 14.6,
         "line": 12.5,
-        "prob": 63.2
+        "prob": 62.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "2595516",
+    "game_id": "401910011",
     "player": "Norman Powell",
     "pos": "G",
     "team": "CHI",
@@ -4037,25 +4098,25 @@
     "raw_reb": 2.8,
     "raw_ast": 2.1,
     "raw_3pm": 2.1,
-    "proj_pts": 23.0,
+    "proj_pts": 23.1,
     "proj_reb": 3.1,
     "proj_ast": 2.4,
-    "proj_3pm": 2.4,
-    "proj_pra": 28.5,
+    "proj_3pm": 2.3,
+    "proj_pra": 28.6,
     "best_prop": {
       "market": "O 20.5 PTS",
       "stat": "PTS",
-      "proj": 23.0,
+      "proj": 23.1,
       "line": 20.5,
-      "prob": 64.9
+      "prob": 65.9
     },
     "all_props": [
       {
         "market": "O 20.5 PTS",
         "stat": "PTS",
-        "proj": 23.0,
+        "proj": 23.1,
         "line": 20.5,
-        "prob": 64.9
+        "prob": 65.9
       },
       {
         "market": "O 2.5 REB",
@@ -4069,20 +4130,21 @@
         "stat": "AST",
         "proj": 2.4,
         "line": 2.5,
-        "prob": 46.9
+        "prob": 45.9
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
-        "proj": 28.5,
+        "proj": 28.6,
         "line": 25.5,
-        "prob": 64.9
+        "prob": 65.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4397189",
+    "game_id": "401910011",
     "player": "Jalen Smith",
     "pos": "F",
     "team": "CHI",
@@ -4104,52 +4166,53 @@
     "raw_reb": 8.5,
     "raw_ast": 2.2,
     "raw_3pm": 2.0,
-    "proj_pts": 15.9,
-    "proj_reb": 9.2,
+    "proj_pts": 16.0,
+    "proj_reb": 9.1,
     "proj_ast": 2.5,
-    "proj_3pm": 2.3,
-    "proj_pra": 27.5,
+    "proj_3pm": 2.2,
+    "proj_pra": 27.6,
     "best_prop": {
       "market": "O 24.5 PRA",
       "stat": "PRA",
-      "proj": 27.5,
+      "proj": 27.6,
       "line": 24.5,
-      "prob": 65.6
+      "prob": 66.4
     },
     "all_props": [
       {
         "market": "O 14.5 PTS",
         "stat": "PTS",
-        "proj": 15.9,
+        "proj": 16.0,
         "line": 14.5,
-        "prob": 59.4
+        "prob": 60.7
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
-        "proj": 9.2,
+        "proj": 9.1,
         "line": 8.5,
-        "prob": 59.1
+        "prob": 58.5
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.5,
         "line": 2.5,
-        "prob": 47.9
+        "prob": 47.5
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
-        "proj": 27.5,
+        "proj": 27.6,
         "line": 24.5,
-        "prob": 65.6
+        "prob": 66.4
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4431687",
+    "game_id": "401910011",
     "player": "Patrick Williams",
     "pos": "F",
     "team": "CHI",
@@ -4172,16 +4235,16 @@
     "raw_ast": 2.4,
     "raw_3pm": 1.4,
     "proj_pts": 11.0,
-    "proj_reb": 4.1,
+    "proj_reb": 4.2,
     "proj_ast": 2.8,
     "proj_3pm": 1.6,
-    "proj_pra": 17.9,
+    "proj_pra": 18.0,
     "best_prop": {
       "market": "O 15.5 PRA",
       "stat": "PRA",
-      "proj": 17.9,
+      "proj": 18.0,
       "line": 15.5,
-      "prob": 66.0
+      "prob": 66.2
     },
     "all_props": [
       {
@@ -4189,34 +4252,35 @@
         "stat": "PTS",
         "proj": 11.0,
         "line": 9.5,
-        "prob": 59.9
+        "prob": 59.2
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 4.1,
+        "proj": 4.2,
         "line": 3.5,
-        "prob": 60.6
+        "prob": 61.4
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.8,
         "line": 2.5,
-        "prob": 54.3
+        "prob": 54.7
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 17.9,
+        "proj": 18.0,
         "line": 15.5,
-        "prob": 66.0
+        "prob": 66.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5174655",
+    "game_id": "401910011",
     "player": "Chaney Johnson",
     "pos": "F",
     "team": "BKN",
@@ -4235,52 +4299,53 @@
     "raw_reb": 3.4,
     "raw_ast": 1.3,
     "raw_3pm": 1.0,
-    "proj_pts": 8.4,
+    "proj_pts": 8.5,
     "proj_reb": 3.7,
     "proj_ast": 1.6,
-    "proj_3pm": 1.1,
-    "proj_pra": 13.7,
+    "proj_3pm": 1.2,
+    "proj_pra": 13.8,
     "best_prop": {
       "market": "O 11.5 PRA",
       "stat": "PRA",
-      "proj": 13.7,
+      "proj": 13.8,
       "line": 11.5,
-      "prob": 64.7
+      "prob": 65.1
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 8.4,
+        "proj": 8.5,
         "line": 7.5,
-        "prob": 55.3
+        "prob": 56.2
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.7,
         "line": 3.5,
-        "prob": 51.9
+        "prob": 51.7
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.6,
         "line": 1.5,
-        "prob": 46.3
+        "prob": 47.0
       },
       {
         "market": "O 11.5 PRA",
         "stat": "PRA",
-        "proj": 13.7,
+        "proj": 13.8,
         "line": 11.5,
-        "prob": 64.7
+        "prob": 65.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278104",
+    "game_id": "401910011",
     "player": "Michael Porter Jr.",
     "pos": "F",
     "team": "BKN",
@@ -4299,52 +4364,53 @@
     "raw_reb": 6.7,
     "raw_ast": 1.2,
     "raw_3pm": 3.4,
-    "proj_pts": 23.6,
-    "proj_reb": 7.0,
-    "proj_ast": 1.5,
+    "proj_pts": 23.7,
+    "proj_reb": 7.1,
+    "proj_ast": 1.6,
     "proj_3pm": 3.5,
-    "proj_pra": 32.2,
+    "proj_pra": 32.3,
     "best_prop": {
-      "market": "O 6.5 REB",
-      "stat": "REB",
-      "proj": 7.0,
-      "line": 6.5,
-      "prob": 58.2
+      "market": "O 30.5 PRA",
+      "stat": "PRA",
+      "proj": 32.3,
+      "line": 30.5,
+      "prob": 59.2
     },
     "all_props": [
       {
         "market": "O 22.5 PTS",
         "stat": "PTS",
-        "proj": 23.6,
+        "proj": 23.7,
         "line": 22.5,
-        "prob": 56.7
+        "prob": 57.6
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 7.0,
+        "proj": 7.1,
         "line": 6.5,
-        "prob": 58.2
+        "prob": 58.7
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 1.5,
+        "proj": 1.6,
         "line": 1.5,
-        "prob": 44.8
+        "prob": 45.0
       },
       {
         "market": "O 30.5 PRA",
         "stat": "PRA",
-        "proj": 32.2,
+        "proj": 32.3,
         "line": 30.5,
-        "prob": 57.9
+        "prob": 59.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3064514",
+    "game_id": "401910011",
     "player": "Julius Randle",
     "pos": "F",
     "team": "BKN",
@@ -4373,7 +4439,7 @@
       "stat": "PRA",
       "proj": 32.9,
       "line": 31.5,
-      "prob": 56.8
+      "prob": 56.7
     },
     "all_props": [
       {
@@ -4381,34 +4447,35 @@
         "stat": "PTS",
         "proj": 21.4,
         "line": 20.5,
-        "prob": 56.0
+        "prob": 55.4
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.3,
         "line": 6.5,
-        "prob": 46.4
+        "prob": 47.3
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 5.2,
         "line": 5.5,
-        "prob": 44.6
+        "prob": 44.7
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
         "proj": 32.9,
         "line": 31.5,
-        "prob": 56.8
+        "prob": 56.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4432194",
+    "game_id": "401910011",
     "player": "Day'Ron Sharpe",
     "pos": "C",
     "team": "BKN",
@@ -4429,15 +4496,15 @@
     "raw_3pm": 0.4,
     "proj_pts": 9.3,
     "proj_reb": 7.6,
-    "proj_ast": 4.9,
+    "proj_ast": 4.8,
     "proj_3pm": 0.7,
-    "proj_pra": 21.8,
+    "proj_pra": 21.7,
     "best_prop": {
-      "market": "O 20.5 PRA",
-      "stat": "PRA",
-      "proj": 21.8,
-      "line": 20.5,
-      "prob": 57.0
+      "market": "O 4.5 AST",
+      "stat": "AST",
+      "proj": 4.8,
+      "line": 4.5,
+      "prob": 56.6
     },
     "all_props": [
       {
@@ -4445,34 +4512,35 @@
         "stat": "PTS",
         "proj": 9.3,
         "line": 8.5,
-        "prob": 55.9
+        "prob": 55.2
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.6,
         "line": 7.5,
-        "prob": 51.0
+        "prob": 51.5
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
-        "proj": 4.9,
+        "proj": 4.8,
         "line": 4.5,
-        "prob": 56.8
+        "prob": 56.6
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 21.8,
+        "proj": 21.7,
         "line": 20.5,
-        "prob": 57.0
+        "prob": 56.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5279130",
+    "game_id": "401910011",
     "player": "Nolan Traore",
     "pos": "G",
     "team": "BKN",
@@ -4501,7 +4569,7 @@
       "stat": "PRA",
       "proj": 22.2,
       "line": 20.5,
-      "prob": 60.2
+      "prob": 60.0
     },
     "all_props": [
       {
@@ -4509,34 +4577,35 @@
         "stat": "PTS",
         "proj": 16.6,
         "line": 15.5,
-        "prob": 58.1
+        "prob": 57.4
       },
       {
         "market": "O 1.5 REB",
         "stat": "REB",
         "proj": 2.1,
         "line": 1.5,
-        "prob": 56.0
+        "prob": 55.6
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.4,
         "line": 3.5,
-        "prob": 48.2
+        "prob": 47.8
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
         "proj": 22.2,
         "line": 20.5,
-        "prob": 60.2
+        "prob": 60.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5107173",
+    "game_id": "401910011",
     "player": "Danny Wolf",
     "pos": "F",
     "team": "BKN",
@@ -4557,15 +4626,15 @@
     "raw_3pm": 2.0,
     "proj_pts": 12.8,
     "proj_reb": 7.4,
-    "proj_ast": 2.5,
+    "proj_ast": 2.4,
     "proj_3pm": 2.1,
-    "proj_pra": 22.7,
+    "proj_pra": 22.6,
     "best_prop": {
       "market": "O 20.5 PRA",
       "stat": "PRA",
-      "proj": 22.7,
+      "proj": 22.6,
       "line": 20.5,
-      "prob": 62.5
+      "prob": 62.2
     },
     "all_props": [
       {
@@ -4573,34 +4642,35 @@
         "stat": "PTS",
         "proj": 12.8,
         "line": 11.5,
-        "prob": 60.6
+        "prob": 60.8
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.4,
         "line": 7.5,
-        "prob": 48.7
+        "prob": 47.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.5,
+        "proj": 2.4,
         "line": 2.5,
-        "prob": 46.9
+        "prob": 46.5
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 22.7,
+        "proj": 22.6,
         "line": 20.5,
-        "prob": 62.5
+        "prob": 62.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278129",
+    "game_id": "401910012",
     "player": "Deandre Ayton",
     "pos": "C",
     "team": "WSH",
@@ -4626,14 +4696,14 @@
     "proj_pts": 6.6,
     "proj_reb": 8.5,
     "proj_ast": 3.4,
-    "proj_3pm": 0.4,
+    "proj_3pm": 0.5,
     "proj_pra": 18.5,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
       "proj": 18.5,
       "line": 16.5,
-      "prob": 63.0
+      "prob": 62.9
     },
     "all_props": [
       {
@@ -4641,34 +4711,35 @@
         "stat": "PTS",
         "proj": 6.6,
         "line": 5.5,
-        "prob": 59.0
+        "prob": 58.8
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
         "proj": 8.5,
         "line": 8.5,
-        "prob": 49.5
+        "prob": 50.0
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.4,
         "line": 3.5,
-        "prob": 48.0
+        "prob": 48.1
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
         "proj": 18.5,
         "line": 16.5,
-        "prob": 63.0
+        "prob": 62.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5104155",
+    "game_id": "401910012",
     "player": "Bilal Coulibaly",
     "pos": "G",
     "team": "WSH",
@@ -4701,7 +4772,7 @@
       "stat": "PRA",
       "proj": 14.3,
       "line": 12.5,
-      "prob": 62.0
+      "prob": 61.8
     },
     "all_props": [
       {
@@ -4709,34 +4780,35 @@
         "stat": "PTS",
         "proj": 8.9,
         "line": 7.5,
-        "prob": 59.9
+        "prob": 60.3
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 4.2,
         "line": 3.5,
-        "prob": 60.7
+        "prob": 59.9
       },
       {
         "market": "O 0.5 AST",
         "stat": "AST",
         "proj": 1.2,
         "line": 0.5,
-        "prob": 57.1
+        "prob": 56.5
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
         "proj": 14.3,
         "line": 12.5,
-        "prob": 62.0
+        "prob": 61.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "6583",
+    "game_id": "401910012",
     "player": "Anthony Davis",
     "pos": "F",
     "team": "WSH",
@@ -4759,52 +4831,53 @@
     "raw_reb": 9.9,
     "raw_ast": 2.1,
     "raw_3pm": 0.6,
-    "proj_pts": 25.8,
+    "proj_pts": 25.9,
     "proj_reb": 10.5,
-    "proj_ast": 2.6,
+    "proj_ast": 2.5,
     "proj_3pm": 0.9,
-    "proj_pra": 38.9,
+    "proj_pra": 39.0,
     "best_prop": {
       "market": "O 22.5 PTS",
       "stat": "PTS",
-      "proj": 25.8,
+      "proj": 25.9,
       "line": 22.5,
-      "prob": 71.4
+      "prob": 72.0
     },
     "all_props": [
       {
         "market": "O 22.5 PTS",
         "stat": "PTS",
-        "proj": 25.8,
+        "proj": 25.9,
         "line": 22.5,
-        "prob": 71.4
+        "prob": 72.0
       },
       {
         "market": "O 9.5 REB",
         "stat": "REB",
         "proj": 10.5,
         "line": 9.5,
-        "prob": 64.6
+        "prob": 64.9
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.6,
+        "proj": 2.5,
         "line": 2.5,
-        "prob": 48.9
+        "prob": 49.4
       },
       {
         "market": "O 34.5 PRA",
         "stat": "PRA",
-        "proj": 38.9,
+        "proj": 39.0,
         "line": 34.5,
-        "prob": 71.3
+        "prob": 71.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5142718",
+    "game_id": "401910012",
     "player": "AJ Dybantsa",
     "pos": "F",
     "team": "WSH",
@@ -4827,7 +4900,7 @@
     "raw_reb": 5.7,
     "raw_ast": 2.3,
     "raw_3pm": 0.8,
-    "proj_pts": 17.1,
+    "proj_pts": 17.0,
     "proj_reb": 6.1,
     "proj_ast": 2.7,
     "proj_3pm": 1.0,
@@ -4837,42 +4910,43 @@
       "stat": "PRA",
       "proj": 25.8,
       "line": 23.5,
-      "prob": 62.9
+      "prob": 62.5
     },
     "all_props": [
       {
         "market": "O 15.5 PTS",
         "stat": "PTS",
-        "proj": 17.1,
+        "proj": 17.0,
         "line": 15.5,
-        "prob": 61.4
+        "prob": 60.7
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 6.1,
         "line": 5.5,
-        "prob": 58.7
+        "prob": 58.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 51.1
+        "prob": 51.9
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
         "proj": 25.8,
         "line": 23.5,
-        "prob": 62.9
+        "prob": 62.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5174563",
+    "game_id": "401910012",
     "player": "Kyshawn George",
     "pos": "F",
     "team": "WSH",
@@ -4905,7 +4979,7 @@
       "stat": "PRA",
       "proj": 29.8,
       "line": 26.5,
-      "prob": 68.6
+      "prob": 68.2
     },
     "all_props": [
       {
@@ -4913,34 +4987,35 @@
         "stat": "PTS",
         "proj": 20.0,
         "line": 17.5,
-        "prob": 68.2
+        "prob": 67.3
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.7,
         "line": 4.5,
-        "prob": 52.9
+        "prob": 53.1
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 5.1,
         "line": 4.5,
-        "prob": 61.9
+        "prob": 61.7
       },
       {
         "market": "O 26.5 PRA",
         "stat": "PRA",
         "proj": 29.8,
         "line": 26.5,
-        "prob": 68.6
+        "prob": 68.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5160992",
+    "game_id": "401910012",
     "player": "Alex Sarr",
     "pos": "C",
     "team": "WSH",
@@ -4963,52 +5038,53 @@
     "raw_reb": 7.4,
     "raw_ast": 1.5,
     "raw_3pm": 1.0,
-    "proj_pts": 13.4,
+    "proj_pts": 13.5,
     "proj_reb": 7.9,
-    "proj_ast": 1.9,
+    "proj_ast": 2.0,
     "proj_3pm": 1.2,
-    "proj_pra": 23.2,
+    "proj_pra": 23.3,
     "best_prop": {
       "market": "O 20.5 PRA",
       "stat": "PRA",
-      "proj": 23.2,
+      "proj": 23.3,
       "line": 20.5,
-      "prob": 64.8
+      "prob": 65.7
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 13.4,
+        "proj": 13.5,
         "line": 11.5,
-        "prob": 63.9
+        "prob": 64.6
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.9,
         "line": 7.5,
-        "prob": 55.7
+        "prob": 56.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 1.9,
+        "proj": 2.0,
         "line": 1.5,
-        "prob": 55.2
+        "prob": 55.8
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 23.2,
+        "proj": 23.3,
         "line": 20.5,
-        "prob": 64.8
+        "prob": 65.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4277905",
+    "game_id": "401910012",
     "player": "Trae Young",
     "pos": "G",
     "team": "WSH",
@@ -5031,52 +5107,53 @@
     "raw_reb": 2.9,
     "raw_ast": 8.9,
     "raw_3pm": 2.0,
-    "proj_pts": 20.2,
+    "proj_pts": 20.3,
     "proj_reb": 3.1,
-    "proj_ast": 10.2,
+    "proj_ast": 10.3,
     "proj_3pm": 2.3,
-    "proj_pra": 33.5,
+    "proj_pra": 33.7,
     "best_prop": {
       "market": "O 8.5 AST",
       "stat": "AST",
-      "proj": 10.2,
+      "proj": 10.3,
       "line": 8.5,
-      "prob": 76.7
+      "prob": 77.9
     },
     "all_props": [
       {
         "market": "O 17.5 PTS",
         "stat": "PTS",
-        "proj": 20.2,
+        "proj": 20.3,
         "line": 17.5,
-        "prob": 69.5
+        "prob": 70.4
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.1,
         "line": 2.5,
-        "prob": 58.8
+        "prob": 59.2
       },
       {
         "market": "O 8.5 AST",
         "stat": "AST",
-        "proj": 10.2,
+        "proj": 10.3,
         "line": 8.5,
-        "prob": 76.7
+        "prob": 77.9
       },
       {
         "market": "O 29.5 PRA",
         "stat": "PRA",
-        "proj": 33.5,
+        "proj": 33.7,
         "line": 29.5,
-        "prob": 72.0
+        "prob": 72.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4433134",
+    "game_id": "401910012",
     "player": "Scottie Barnes",
     "pos": "F",
     "team": "TOR",
@@ -5098,7 +5175,7 @@
     "raw_reb": 7.2,
     "raw_ast": 4.5,
     "raw_3pm": 1.1,
-    "proj_pts": 24.4,
+    "proj_pts": 24.5,
     "proj_reb": 7.4,
     "proj_ast": 4.8,
     "proj_3pm": 1.3,
@@ -5106,44 +5183,45 @@
     "best_prop": {
       "market": "O 22.5 PTS",
       "stat": "PTS",
-      "proj": 24.4,
+      "proj": 24.5,
       "line": 22.5,
-      "prob": 62.5
+      "prob": 62.7
     },
     "all_props": [
       {
         "market": "O 22.5 PTS",
         "stat": "PTS",
-        "proj": 24.4,
+        "proj": 24.5,
         "line": 22.5,
-        "prob": 62.5
+        "prob": 62.7
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.4,
         "line": 7.5,
-        "prob": 48.6
+        "prob": 47.9
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.8,
         "line": 4.5,
-        "prob": 55.3
+        "prob": 56.2
       },
       {
         "market": "O 34.5 PRA",
         "stat": "PRA",
         "proj": 36.6,
         "line": 34.5,
-        "prob": 59.7
+        "prob": 60.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4395625",
+    "game_id": "401910012",
     "player": "RJ Barrett",
     "pos": "F",
     "team": "TOR",
@@ -5166,16 +5244,16 @@
     "raw_ast": 4.3,
     "raw_3pm": 1.5,
     "proj_pts": 22.8,
-    "proj_reb": 6.7,
+    "proj_reb": 6.8,
     "proj_ast": 4.6,
     "proj_3pm": 1.7,
-    "proj_pra": 34.1,
+    "proj_pra": 34.2,
     "best_prop": {
       "market": "O 20.5 PTS",
       "stat": "PTS",
       "proj": 22.8,
       "line": 20.5,
-      "prob": 68.0
+      "prob": 67.3
     },
     "all_props": [
       {
@@ -5183,34 +5261,35 @@
         "stat": "PTS",
         "proj": 22.8,
         "line": 20.5,
-        "prob": 68.0
+        "prob": 67.3
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 6.7,
+        "proj": 6.8,
         "line": 6.5,
-        "prob": 54.0
+        "prob": 54.8
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.6,
         "line": 4.5,
-        "prob": 51.8
+        "prob": 52.4
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
-        "proj": 34.1,
+        "proj": 34.2,
         "line": 31.5,
-        "prob": 66.2
+        "prob": 66.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5093267",
+    "game_id": "401910012",
     "player": "Collin Murray-Boyles",
     "pos": "F",
     "team": "TOR",
@@ -5233,7 +5312,7 @@
     "raw_ast": 1.9,
     "raw_3pm": 0.4,
     "proj_pts": 11.1,
-    "proj_reb": 5.9,
+    "proj_reb": 5.8,
     "proj_ast": 2.2,
     "proj_3pm": 0.7,
     "proj_pra": 19.1,
@@ -5242,7 +5321,7 @@
       "stat": "AST",
       "proj": 2.2,
       "line": 1.5,
-      "prob": 61.6
+      "prob": 61.4
     },
     "all_props": [
       {
@@ -5250,34 +5329,35 @@
         "stat": "PTS",
         "proj": 11.1,
         "line": 10.5,
-        "prob": 53.7
+        "prob": 53.4
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
-        "proj": 5.9,
+        "proj": 5.8,
         "line": 5.5,
-        "prob": 55.5
+        "prob": 54.8
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.2,
         "line": 1.5,
-        "prob": 61.6
+        "prob": 61.4
       },
       {
         "market": "O 17.5 PRA",
         "stat": "PRA",
         "proj": 19.1,
         "line": 17.5,
-        "prob": 58.7
+        "prob": 58.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4395724",
+    "game_id": "401910012",
     "player": "Immanuel Quickley",
     "pos": "G",
     "team": "TOR",
@@ -5299,52 +5379,53 @@
     "raw_reb": 3.7,
     "raw_ast": 5.7,
     "raw_3pm": 2.4,
-    "proj_pts": 18.4,
+    "proj_pts": 18.3,
     "proj_reb": 3.8,
-    "proj_ast": 6.1,
+    "proj_ast": 6.2,
     "proj_3pm": 2.6,
-    "proj_pra": 28.4,
+    "proj_pra": 28.3,
     "best_prop": {
-      "market": "O 16.5 PTS",
-      "stat": "PTS",
-      "proj": 18.4,
-      "line": 16.5,
-      "prob": 63.1
+      "market": "O 5.5 AST",
+      "stat": "AST",
+      "proj": 6.2,
+      "line": 5.5,
+      "prob": 62.5
     },
     "all_props": [
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 18.4,
+        "proj": 18.3,
         "line": 16.5,
-        "prob": 63.1
+        "prob": 62.1
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 54.7
+        "prob": 54.2
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 6.1,
+        "proj": 6.2,
         "line": 5.5,
-        "prob": 61.2
+        "prob": 62.5
       },
       {
         "market": "O 26.5 PRA",
         "stat": "PRA",
-        "proj": 28.4,
+        "proj": 28.3,
         "line": 26.5,
-        "prob": 59.9
+        "prob": 59.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4684272",
+    "game_id": "401910012",
     "player": "Ja'Kobe Walter",
     "pos": "G",
     "team": "TOR",
@@ -5366,25 +5447,25 @@
     "raw_reb": 3.7,
     "raw_ast": 1.8,
     "raw_3pm": 2.3,
-    "proj_pts": 13.0,
+    "proj_pts": 12.9,
     "proj_reb": 3.9,
     "proj_ast": 2.1,
     "proj_3pm": 2.5,
-    "proj_pra": 19.1,
+    "proj_pra": 18.9,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
-      "proj": 19.1,
+      "proj": 18.9,
       "line": 16.5,
-      "prob": 66.9
+      "prob": 64.6
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 13.0,
+        "proj": 12.9,
         "line": 11.5,
-        "prob": 64.4
+        "prob": 63.1
       },
       {
         "market": "O 3.5 REB",
@@ -5398,20 +5479,21 @@
         "stat": "AST",
         "proj": 2.1,
         "line": 1.5,
-        "prob": 59.3
+        "prob": 58.3
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 19.1,
+        "proj": 18.9,
         "line": 16.5,
-        "prob": 66.9
+        "prob": 64.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3908845",
+    "game_id": "401910013",
     "player": "John Collins",
     "pos": "F",
     "team": "DET",
@@ -5435,16 +5517,16 @@
     "raw_ast": 0.5,
     "raw_3pm": 1.1,
     "proj_pts": 12.1,
-    "proj_reb": 6.0,
+    "proj_reb": 5.9,
     "proj_ast": 1.1,
     "proj_3pm": 1.3,
-    "proj_pra": 19.2,
+    "proj_pra": 19.1,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
-      "proj": 19.2,
+      "proj": 19.1,
       "line": 16.5,
-      "prob": 66.8
+      "prob": 66.1
     },
     "all_props": [
       {
@@ -5452,34 +5534,35 @@
         "stat": "PTS",
         "proj": 12.1,
         "line": 10.5,
-        "prob": 61.8
+        "prob": 61.4
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
-        "proj": 6.0,
+        "proj": 5.9,
         "line": 5.5,
-        "prob": 57.5
+        "prob": 56.5
       },
       {
         "market": "O 0.5 AST",
         "stat": "AST",
         "proj": 1.1,
         "line": 0.5,
-        "prob": 53.3
+        "prob": 52.5
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 19.2,
+        "proj": 19.1,
         "line": 16.5,
-        "prob": 66.8
+        "prob": 66.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4432166",
+    "game_id": "401910013",
     "player": "Cade Cunningham",
     "pos": "G",
     "team": "DET",
@@ -5502,7 +5585,7 @@
     "raw_reb": 4.7,
     "raw_ast": 7.8,
     "raw_3pm": 2.0,
-    "proj_pts": 27.5,
+    "proj_pts": 27.4,
     "proj_reb": 4.9,
     "proj_ast": 8.9,
     "proj_3pm": 2.3,
@@ -5518,16 +5601,16 @@
       {
         "market": "O 24.5 PTS",
         "stat": "PTS",
-        "proj": 27.5,
+        "proj": 27.4,
         "line": 24.5,
-        "prob": 67.8
+        "prob": 67.7
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.9,
         "line": 4.5,
-        "prob": 57.3
+        "prob": 56.7
       },
       {
         "market": "O 7.5 AST",
@@ -5541,13 +5624,14 @@
         "stat": "PRA",
         "proj": 41.3,
         "line": 36.5,
-        "prob": 71.1
+        "prob": 71.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4066372",
+    "game_id": "401910013",
     "player": "Kevin Huerter",
     "pos": "G",
     "team": "DET",
@@ -5572,7 +5656,7 @@
     "raw_3pm": 1.5,
     "proj_pts": 11.5,
     "proj_reb": 3.0,
-    "proj_ast": 2.8,
+    "proj_ast": 2.9,
     "proj_3pm": 1.8,
     "proj_pra": 17.4,
     "best_prop": {
@@ -5580,7 +5664,7 @@
       "stat": "PRA",
       "proj": 17.4,
       "line": 14.5,
-      "prob": 66.7
+      "prob": 67.8
     },
     "all_props": [
       {
@@ -5588,34 +5672,35 @@
         "stat": "PTS",
         "proj": 11.5,
         "line": 9.5,
-        "prob": 62.9
+        "prob": 63.1
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.0,
         "line": 2.5,
-        "prob": 56.4
+        "prob": 56.9
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.8,
+        "proj": 2.9,
         "line": 2.5,
-        "prob": 55.3
+        "prob": 55.5
       },
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
         "proj": 17.4,
         "line": 14.5,
-        "prob": 66.7
+        "prob": 67.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5107199",
+    "game_id": "401910013",
     "player": "Daniss Jenkins",
     "pos": "G",
     "team": "DET",
@@ -5642,13 +5727,13 @@
     "proj_reb": 3.7,
     "proj_ast": 5.1,
     "proj_3pm": 2.5,
-    "proj_pra": 24.7,
+    "proj_pra": 24.8,
     "best_prop": {
       "market": "O 21.5 PRA",
       "stat": "PRA",
-      "proj": 24.7,
+      "proj": 24.8,
       "line": 21.5,
-      "prob": 67.0
+      "prob": 67.3
     },
     "all_props": [
       {
@@ -5670,20 +5755,21 @@
         "stat": "AST",
         "proj": 5.1,
         "line": 4.5,
-        "prob": 60.7
+        "prob": 60.0
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 24.7,
+        "proj": 24.8,
         "line": 21.5,
-        "prob": 67.0
+        "prob": 67.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278562",
+    "game_id": "401910013",
     "player": "Paul Reed",
     "pos": "F",
     "team": "DET",
@@ -5706,9 +5792,9 @@
     "raw_reb": 7.9,
     "raw_ast": 2.4,
     "raw_3pm": 0.4,
-    "proj_pts": 13.1,
+    "proj_pts": 13.0,
     "proj_reb": 8.3,
-    "proj_ast": 2.8,
+    "proj_ast": 2.9,
     "proj_3pm": 0.7,
     "proj_pra": 24.2,
     "best_prop": {
@@ -5716,42 +5802,43 @@
       "stat": "PRA",
       "proj": 24.2,
       "line": 21.5,
-      "prob": 63.4
+      "prob": 63.5
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 13.1,
+        "proj": 13.0,
         "line": 11.5,
-        "prob": 60.9
+        "prob": 61.2
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 8.3,
         "line": 7.5,
-        "prob": 61.6
+        "prob": 61.1
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.8,
+        "proj": 2.9,
         "line": 2.5,
-        "prob": 55.1
+        "prob": 56.0
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
         "proj": 24.2,
         "line": 21.5,
-        "prob": 63.4
+        "prob": 63.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4684742",
+    "game_id": "401910013",
     "player": "Ausar Thompson",
     "pos": "G",
     "team": "DET",
@@ -5777,14 +5864,14 @@
     "proj_pts": 11.4,
     "proj_reb": 8.0,
     "proj_ast": 5.9,
-    "proj_3pm": 0.5,
+    "proj_3pm": 0.4,
     "proj_pra": 25.3,
     "best_prop": {
       "market": "O 22.5 PRA",
       "stat": "PRA",
       "proj": 25.3,
       "line": 22.5,
-      "prob": 64.1
+      "prob": 64.0
     },
     "all_props": [
       {
@@ -5792,14 +5879,14 @@
         "stat": "PTS",
         "proj": 11.4,
         "line": 10.5,
-        "prob": 56.8
+        "prob": 56.2
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 8.0,
         "line": 7.5,
-        "prob": 56.2
+        "prob": 56.4
       },
       {
         "market": "O 5.5 AST",
@@ -5813,13 +5900,14 @@
         "stat": "PRA",
         "proj": 25.3,
         "line": 22.5,
-        "prob": 64.1
+        "prob": 64.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4397136",
+    "game_id": "401910013",
     "player": "Saddiq Bey",
     "pos": "F",
     "team": "NO",
@@ -5842,52 +5930,53 @@
     "raw_reb": 4.2,
     "raw_ast": 2.3,
     "raw_3pm": 2.3,
-    "proj_pts": 19.5,
+    "proj_pts": 19.8,
     "proj_reb": 4.5,
     "proj_ast": 2.7,
     "proj_3pm": 2.7,
-    "proj_pra": 26.8,
+    "proj_pra": 27.0,
     "best_prop": {
       "market": "O 16.5 PTS",
       "stat": "PTS",
-      "proj": 19.5,
+      "proj": 19.8,
       "line": 16.5,
-      "prob": 69.3
+      "prob": 71.2
     },
     "all_props": [
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 19.5,
+        "proj": 19.8,
         "line": 16.5,
-        "prob": 69.3
+        "prob": 71.2
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.5,
         "line": 4.5,
-        "prob": 49.8
+        "prob": 49.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 52.7
+        "prob": 52.9
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
-        "proj": 26.8,
+        "proj": 27.0,
         "line": 23.5,
-        "prob": 66.7
+        "prob": 67.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5144091",
+    "game_id": "401910013",
     "player": "Jeremiah Fears",
     "pos": "G",
     "team": "NO",
@@ -5910,7 +5999,7 @@
     "raw_reb": 4.9,
     "raw_ast": 5.5,
     "raw_3pm": 1.1,
-    "proj_pts": 18.1,
+    "proj_pts": 18.0,
     "proj_reb": 5.1,
     "proj_ast": 6.3,
     "proj_3pm": 1.3,
@@ -5920,42 +6009,43 @@
       "stat": "PRA",
       "proj": 29.5,
       "line": 25.5,
-      "prob": 70.4
+      "prob": 69.9
     },
     "all_props": [
       {
         "market": "O 15.5 PTS",
         "stat": "PTS",
-        "proj": 18.1,
+        "proj": 18.0,
         "line": 15.5,
-        "prob": 68.1
+        "prob": 67.4
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 5.1,
         "line": 4.5,
-        "prob": 59.8
+        "prob": 59.9
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.3,
         "line": 5.5,
-        "prob": 64.2
+        "prob": 65.0
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
         "proj": 29.5,
         "line": 25.5,
-        "prob": 70.4
+        "prob": 69.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4277813",
+    "game_id": "401910013",
     "player": "Herbert Jones",
     "pos": "F",
     "team": "NO",
@@ -5978,23 +6068,23 @@
     "raw_reb": 2.8,
     "raw_ast": 1.5,
     "raw_3pm": 0.9,
-    "proj_pts": 8.9,
+    "proj_pts": 9.0,
     "proj_reb": 3.1,
     "proj_ast": 1.9,
     "proj_3pm": 1.2,
-    "proj_pra": 13.9,
+    "proj_pra": 14.0,
     "best_prop": {
       "market": "O 11.5 PRA",
       "stat": "PRA",
-      "proj": 13.9,
+      "proj": 14.0,
       "line": 11.5,
-      "prob": 65.2
+      "prob": 65.5
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 8.9,
+        "proj": 9.0,
         "line": 7.5,
         "prob": 60.3
       },
@@ -6003,27 +6093,28 @@
         "stat": "REB",
         "proj": 3.1,
         "line": 2.5,
-        "prob": 58.5
+        "prob": 58.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.9,
         "line": 1.5,
-        "prob": 54.2
+        "prob": 55.2
       },
       {
         "market": "O 11.5 PRA",
         "stat": "PRA",
-        "proj": 13.9,
+        "proj": 14.0,
         "line": 11.5,
-        "prob": 65.2
+        "prob": 65.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4277956",
+    "game_id": "401910013",
     "player": "Jordan Poole",
     "pos": "G",
     "team": "NO",
@@ -6047,16 +6138,16 @@
     "raw_ast": 3.9,
     "raw_3pm": 1.2,
     "proj_pts": 12.6,
-    "proj_reb": 2.3,
-    "proj_ast": 4.4,
+    "proj_reb": 2.2,
+    "proj_ast": 4.5,
     "proj_3pm": 1.5,
-    "proj_pra": 19.3,
+    "proj_pra": 19.4,
     "best_prop": {
       "market": "O 3.5 AST",
       "stat": "AST",
-      "proj": 4.4,
+      "proj": 4.5,
       "line": 3.5,
-      "prob": 66.9
+      "prob": 67.5
     },
     "all_props": [
       {
@@ -6069,29 +6160,30 @@
       {
         "market": "O 1.5 REB",
         "stat": "REB",
-        "proj": 2.3,
+        "proj": 2.2,
         "line": 1.5,
-        "prob": 58.7
+        "prob": 58.3
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
-        "proj": 4.4,
+        "proj": 4.5,
         "line": 3.5,
-        "prob": 66.9
+        "prob": 67.5
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 19.3,
+        "proj": 19.4,
         "line": 16.5,
-        "prob": 65.3
+        "prob": 65.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4395628",
+    "game_id": "401910013",
     "player": "Zion Williamson",
     "pos": "F",
     "team": "NO",
@@ -6114,15 +6206,15 @@
     "raw_reb": 5.3,
     "raw_ast": 2.5,
     "raw_3pm": 0.4,
-    "proj_pts": 24.0,
+    "proj_pts": 24.1,
     "proj_reb": 5.6,
-    "proj_ast": 2.9,
+    "proj_ast": 3.0,
     "proj_3pm": 0.7,
-    "proj_pra": 32.5,
+    "proj_pra": 32.6,
     "best_prop": {
       "market": "O 20.5 PTS",
       "stat": "PTS",
-      "proj": 24.0,
+      "proj": 24.1,
       "line": 20.5,
       "prob": 73.8
     },
@@ -6130,7 +6222,7 @@
       {
         "market": "O 20.5 PTS",
         "stat": "PTS",
-        "proj": 24.0,
+        "proj": 24.1,
         "line": 20.5,
         "prob": 73.8
       },
@@ -6139,27 +6231,28 @@
         "stat": "REB",
         "proj": 5.6,
         "line": 5.5,
-        "prob": 51.3
+        "prob": 51.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.9,
+        "proj": 3.0,
         "line": 2.5,
-        "prob": 57.2
+        "prob": 58.7
       },
       {
         "market": "O 28.5 PRA",
         "stat": "PRA",
-        "proj": 32.5,
+        "proj": 32.6,
         "line": 28.5,
-        "prob": 72.5
+        "prob": 72.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278039",
+    "game_id": "401910014",
     "player": "Nickeil Alexander-Walker",
     "pos": "G",
     "team": "ATL",
@@ -6182,52 +6275,53 @@
     "raw_reb": 3.5,
     "raw_ast": 2.9,
     "raw_3pm": 3.7,
-    "proj_pts": 24.6,
+    "proj_pts": 24.5,
     "proj_reb": 3.8,
-    "proj_ast": 3.4,
+    "proj_ast": 3.3,
     "proj_3pm": 4.3,
-    "proj_pra": 31.8,
+    "proj_pra": 31.7,
     "best_prop": {
       "market": "O 21.5 PTS",
       "stat": "PTS",
-      "proj": 24.6,
+      "proj": 24.5,
       "line": 21.5,
-      "prob": 71.2
+      "prob": 71.4
     },
     "all_props": [
       {
         "market": "O 21.5 PTS",
         "stat": "PTS",
-        "proj": 24.6,
+        "proj": 24.5,
         "line": 21.5,
-        "prob": 71.2
+        "prob": 71.4
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 54.4
+        "prob": 54.7
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 3.4,
+        "proj": 3.3,
         "line": 2.5,
-        "prob": 67.2
+        "prob": 66.7
       },
       {
         "market": "O 28.5 PRA",
         "stat": "PRA",
-        "proj": 31.8,
+        "proj": 31.7,
         "line": 28.5,
-        "prob": 69.1
+        "prob": 68.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4869342",
+    "game_id": "401910014",
     "player": "Dyson Daniels",
     "pos": "G",
     "team": "ATL",
@@ -6252,15 +6346,15 @@
     "raw_3pm": 0.1,
     "proj_pts": 10.8,
     "proj_reb": 7.7,
-    "proj_ast": 6.3,
+    "proj_ast": 6.2,
     "proj_3pm": 0.5,
-    "proj_pra": 24.8,
+    "proj_pra": 24.7,
     "best_prop": {
       "market": "O 22.5 PRA",
       "stat": "PRA",
-      "proj": 24.8,
+      "proj": 24.7,
       "line": 22.5,
-      "prob": 64.5
+      "prob": 63.6
     },
     "all_props": [
       {
@@ -6268,34 +6362,35 @@
         "stat": "PTS",
         "proj": 10.8,
         "line": 9.5,
-        "prob": 60.2
+        "prob": 59.8
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.7,
         "line": 7.5,
-        "prob": 52.6
+        "prob": 52.8
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 6.3,
+        "proj": 6.2,
         "line": 5.5,
-        "prob": 64.2
+        "prob": 63.1
       },
       {
         "market": "O 22.5 PRA",
         "stat": "PRA",
-        "proj": 24.8,
+        "proj": 24.7,
         "line": 22.5,
-        "prob": 64.5
+        "prob": 63.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4701230",
+    "game_id": "401910014",
     "player": "Jalen Johnson",
     "pos": "F",
     "team": "ATL",
@@ -6318,52 +6413,53 @@
     "raw_reb": 8.9,
     "raw_ast": 6.4,
     "raw_3pm": 0.8,
-    "proj_pts": 21.2,
-    "proj_reb": 9.5,
+    "proj_pts": 21.1,
+    "proj_reb": 9.6,
     "proj_ast": 7.3,
     "proj_3pm": 1.0,
     "proj_pra": 38.0,
     "best_prop": {
       "market": "O 18.5 PTS",
       "stat": "PTS",
-      "proj": 21.2,
+      "proj": 21.1,
       "line": 18.5,
-      "prob": 68.1
+      "prob": 67.1
     },
     "all_props": [
       {
         "market": "O 18.5 PTS",
         "stat": "PTS",
-        "proj": 21.2,
+        "proj": 21.1,
         "line": 18.5,
-        "prob": 68.1
+        "prob": 67.1
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
-        "proj": 9.5,
+        "proj": 9.6,
         "line": 8.5,
-        "prob": 63.8
+        "prob": 65.0
       },
       {
         "market": "O 6.5 AST",
         "stat": "AST",
         "proj": 7.3,
         "line": 6.5,
-        "prob": 64.2
+        "prob": 64.1
       },
       {
         "market": "O 34.5 PRA",
         "stat": "PRA",
         "proj": 38.0,
         "line": 34.5,
-        "prob": 66.2
+        "prob": 66.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4431680",
+    "game_id": "401910014",
     "player": "Onyeka Okongwu",
     "pos": "F",
     "team": "ATL",
@@ -6387,16 +6483,16 @@
     "raw_ast": 2.6,
     "raw_3pm": 1.5,
     "proj_pts": 15.4,
-    "proj_reb": 8.5,
+    "proj_reb": 8.6,
     "proj_ast": 3.0,
     "proj_3pm": 1.8,
     "proj_pra": 27.0,
     "best_prop": {
-      "market": "O 13.5 PTS",
-      "stat": "PTS",
-      "proj": 15.4,
-      "line": 13.5,
-      "prob": 64.5
+      "market": "O 24.5 PRA",
+      "stat": "PRA",
+      "proj": 27.0,
+      "line": 24.5,
+      "prob": 63.8
     },
     "all_props": [
       {
@@ -6404,34 +6500,35 @@
         "stat": "PTS",
         "proj": 15.4,
         "line": 13.5,
-        "prob": 64.5
+        "prob": 63.7
       },
       {
         "market": "O 8.5 REB",
         "stat": "REB",
-        "proj": 8.5,
+        "proj": 8.6,
         "line": 8.5,
-        "prob": 50.3
+        "prob": 50.7
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 3.0,
         "line": 2.5,
-        "prob": 60.2
+        "prob": 59.7
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
         "proj": 27.0,
         "line": 24.5,
-        "prob": 64.3
+        "prob": 63.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4397183",
+    "game_id": "401910014",
     "player": "Aaron Wiggins",
     "pos": "G",
     "team": "ATL",
@@ -6464,7 +6561,7 @@
       "stat": "PRA",
       "proj": 23.6,
       "line": 20.5,
-      "prob": 70.1
+      "prob": 69.7
     },
     "all_props": [
       {
@@ -6472,34 +6569,35 @@
         "stat": "PTS",
         "proj": 16.6,
         "line": 14.5,
-        "prob": 67.4
+        "prob": 67.5
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 4.2,
         "line": 3.5,
-        "prob": 60.4
+        "prob": 59.9
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.9,
         "line": 2.5,
-        "prob": 57.1
+        "prob": 57.2
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
         "proj": 23.6,
         "line": 20.5,
-        "prob": 70.1
+        "prob": 69.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4431714",
+    "game_id": "401910014",
     "player": "Jalen Wilson",
     "pos": "F",
     "team": "ATL",
@@ -6522,52 +6620,53 @@
     "raw_reb": 4.4,
     "raw_ast": 2.1,
     "raw_3pm": 1.3,
-    "proj_pts": 12.8,
+    "proj_pts": 12.7,
     "proj_reb": 4.7,
     "proj_ast": 2.5,
     "proj_3pm": 1.5,
-    "proj_pra": 20.0,
+    "proj_pra": 19.9,
     "best_prop": {
       "market": "O 10.5 PTS",
       "stat": "PTS",
-      "proj": 12.8,
+      "proj": 12.7,
       "line": 10.5,
-      "prob": 65.6
+      "prob": 65.0
     },
     "all_props": [
       {
         "market": "O 10.5 PTS",
         "stat": "PTS",
-        "proj": 12.8,
+        "proj": 12.7,
         "line": 10.5,
-        "prob": 65.6
+        "prob": 65.0
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.7,
         "line": 4.5,
-        "prob": 53.2
+        "prob": 53.3
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.5,
         "line": 2.5,
-        "prob": 47.4
+        "prob": 48.2
       },
       {
         "market": "O 17.5 PRA",
         "stat": "PRA",
-        "proj": 20.0,
+        "proj": 19.9,
         "line": 17.5,
-        "prob": 63.2
+        "prob": 62.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4684208",
+    "game_id": "401910014",
     "player": "Brooks Barnhizer",
     "pos": "F",
     "team": "OKC",
@@ -6590,52 +6689,53 @@
     "raw_reb": 4.8,
     "raw_ast": 2.0,
     "raw_3pm": 1.0,
-    "proj_pts": 13.3,
-    "proj_reb": 5.0,
+    "proj_pts": 13.4,
+    "proj_reb": 5.1,
     "proj_ast": 2.4,
     "proj_3pm": 1.2,
-    "proj_pra": 20.7,
+    "proj_pra": 20.9,
     "best_prop": {
-      "market": "O 18.5 PRA",
-      "stat": "PRA",
-      "proj": 20.7,
-      "line": 18.5,
-      "prob": 62.0
+      "market": "O 11.5 PTS",
+      "stat": "PTS",
+      "proj": 13.4,
+      "line": 11.5,
+      "prob": 63.2
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 13.3,
+        "proj": 13.4,
         "line": 11.5,
-        "prob": 61.8
+        "prob": 63.2
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 5.0,
+        "proj": 5.1,
         "line": 4.5,
-        "prob": 58.3
+        "prob": 59.2
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.4,
         "line": 2.5,
-        "prob": 46.0
+        "prob": 46.6
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.7,
+        "proj": 20.9,
         "line": 18.5,
-        "prob": 62.0
+        "prob": 63.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5105800",
+    "game_id": "401910014",
     "player": "Josh Dix",
     "pos": "G",
     "team": "OKC",
@@ -6659,7 +6759,7 @@
     "raw_ast": 1.7,
     "raw_3pm": 1.2,
     "proj_pts": 8.0,
-    "proj_reb": 2.9,
+    "proj_reb": 3.0,
     "proj_ast": 2.1,
     "proj_3pm": 1.4,
     "proj_pra": 13.0,
@@ -6668,7 +6768,7 @@
       "stat": "PTS",
       "proj": 8.0,
       "line": 5.5,
-      "prob": 75.7
+      "prob": 75.8
     },
     "all_props": [
       {
@@ -6676,34 +6776,35 @@
         "stat": "PTS",
         "proj": 8.0,
         "line": 5.5,
-        "prob": 75.7
+        "prob": 75.8
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
-        "proj": 2.9,
+        "proj": 3.0,
         "line": 2.5,
-        "prob": 55.4
+        "prob": 55.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.1,
         "line": 1.5,
-        "prob": 58.9
+        "prob": 59.8
       },
       {
         "market": "O 9.5 PRA",
         "stat": "PRA",
         "proj": 13.0,
         "line": 9.5,
-        "prob": 74.3
+        "prob": 74.4
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278073",
+    "game_id": "401910014",
     "player": "Shai Gilgeous-Alexander",
     "pos": "G",
     "team": "OKC",
@@ -6726,25 +6827,25 @@
     "raw_reb": 3.9,
     "raw_ast": 4.3,
     "raw_3pm": 2.3,
-    "proj_pts": 35.0,
+    "proj_pts": 35.1,
     "proj_reb": 4.2,
     "proj_ast": 4.9,
     "proj_3pm": 2.7,
-    "proj_pra": 44.0,
+    "proj_pra": 44.2,
     "best_prop": {
-      "market": "O 38.5 PRA",
-      "stat": "PRA",
-      "proj": 44.0,
-      "line": 38.5,
-      "prob": 76.2
+      "market": "O 30.5 PTS",
+      "stat": "PTS",
+      "proj": 35.1,
+      "line": 30.5,
+      "prob": 76.8
     },
     "all_props": [
       {
         "market": "O 30.5 PTS",
         "stat": "PTS",
-        "proj": 35.0,
+        "proj": 35.1,
         "line": 30.5,
-        "prob": 76.0
+        "prob": 76.8
       },
       {
         "market": "O 3.5 REB",
@@ -6763,15 +6864,16 @@
       {
         "market": "O 38.5 PRA",
         "stat": "PRA",
-        "proj": 44.0,
+        "proj": 44.2,
         "line": 38.5,
-        "prob": 76.2
+        "prob": 76.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4222252",
+    "game_id": "401910014",
     "player": "Isaiah Hartenstein",
     "pos": "C",
     "team": "OKC",
@@ -6794,52 +6896,53 @@
     "raw_reb": 10.9,
     "raw_ast": 3.6,
     "raw_3pm": 0.0,
-    "proj_pts": 10.3,
-    "proj_reb": 11.6,
+    "proj_pts": 10.2,
+    "proj_reb": 11.7,
     "proj_ast": 4.1,
-    "proj_3pm": 0.5,
-    "proj_pra": 26.1,
+    "proj_3pm": 0.4,
+    "proj_pra": 26.0,
     "best_prop": {
       "market": "O 10.5 REB",
       "stat": "REB",
-      "proj": 11.6,
+      "proj": 11.7,
       "line": 10.5,
-      "prob": 64.5
+      "prob": 64.6
     },
     "all_props": [
       {
         "market": "O 8.5 PTS",
         "stat": "PTS",
-        "proj": 10.3,
+        "proj": 10.2,
         "line": 8.5,
-        "prob": 63.9
+        "prob": 63.1
       },
       {
         "market": "O 10.5 REB",
         "stat": "REB",
-        "proj": 11.6,
+        "proj": 11.7,
         "line": 10.5,
-        "prob": 64.5
+        "prob": 64.6
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.1,
         "line": 3.5,
-        "prob": 62.3
+        "prob": 61.9
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
-        "proj": 26.1,
+        "proj": 26.0,
         "line": 23.5,
-        "prob": 63.7
+        "prob": 63.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5174983",
+    "game_id": "401910014",
     "player": "Aday Mara",
     "pos": "C",
     "team": "OKC",
@@ -6864,15 +6967,15 @@
     "raw_3pm": 0.1,
     "proj_pts": 13.5,
     "proj_reb": 8.0,
-    "proj_ast": 2.3,
+    "proj_ast": 2.4,
     "proj_3pm": 0.5,
-    "proj_pra": 23.8,
+    "proj_pra": 23.9,
     "best_prop": {
       "market": "O 20.5 PRA",
       "stat": "PRA",
-      "proj": 23.8,
+      "proj": 23.9,
       "line": 20.5,
-      "prob": 68.2
+      "prob": 67.9
     },
     "all_props": [
       {
@@ -6880,34 +6983,35 @@
         "stat": "PTS",
         "proj": 13.5,
         "line": 11.5,
-        "prob": 64.5
+        "prob": 65.2
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 8.0,
         "line": 7.5,
-        "prob": 57.1
+        "prob": 56.7
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 2.3,
+        "proj": 2.4,
         "line": 1.5,
-        "prob": 65.0
+        "prob": 64.6
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 23.8,
+        "proj": 23.9,
         "line": 20.5,
-        "prob": 68.2
+        "prob": 67.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4683778",
+    "game_id": "401910014",
     "player": "Jared McCain",
     "pos": "G",
     "team": "OKC",
@@ -6932,15 +7036,15 @@
     "raw_3pm": 2.1,
     "proj_pts": 15.4,
     "proj_reb": 3.9,
-    "proj_ast": 2.2,
+    "proj_ast": 2.1,
     "proj_3pm": 2.4,
-    "proj_pra": 21.4,
+    "proj_pra": 21.5,
     "best_prop": {
       "market": "O 18.5 PRA",
       "stat": "PRA",
-      "proj": 21.4,
+      "proj": 21.5,
       "line": 18.5,
-      "prob": 67.2
+      "prob": 67.5
     },
     "all_props": [
       {
@@ -6948,34 +7052,35 @@
         "stat": "PTS",
         "proj": 15.4,
         "line": 13.5,
-        "prob": 63.1
+        "prob": 63.5
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.9,
         "line": 3.5,
-        "prob": 54.6
+        "prob": 55.1
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 2.2,
+        "proj": 2.1,
         "line": 1.5,
-        "prob": 60.5
+        "prob": 60.0
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 21.4,
+        "proj": 21.5,
         "line": 18.5,
-        "prob": 67.2
+        "prob": 67.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4900671",
+    "game_id": "401910014",
     "player": "Ajay Mitchell",
     "pos": "G",
     "team": "OKC",
@@ -6998,7 +7103,7 @@
     "raw_reb": 3.4,
     "raw_ast": 3.3,
     "raw_3pm": 0.8,
-    "proj_pts": 19.7,
+    "proj_pts": 19.6,
     "proj_reb": 3.6,
     "proj_ast": 3.8,
     "proj_3pm": 1.0,
@@ -7006,44 +7111,45 @@
     "best_prop": {
       "market": "O 16.5 PTS",
       "stat": "PTS",
-      "proj": 19.7,
+      "proj": 19.6,
       "line": 16.5,
-      "prob": 71.0
+      "prob": 70.9
     },
     "all_props": [
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 19.7,
+        "proj": 19.6,
         "line": 16.5,
-        "prob": 71.0
+        "prob": 70.9
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.6,
         "line": 3.5,
-        "prob": 50.9
+        "prob": 51.2
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 55.7
+        "prob": 55.8
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
         "proj": 27.1,
         "line": 23.5,
-        "prob": 69.6
+        "prob": 69.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5241364",
+    "game_id": "401910014",
     "player": "Bennett Stirtz",
     "pos": "G",
     "team": "OKC",
@@ -7070,13 +7176,13 @@
     "proj_reb": 2.6,
     "proj_ast": 2.7,
     "proj_3pm": 2.8,
-    "proj_pra": 19.9,
+    "proj_pra": 20.0,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
-      "proj": 19.9,
+      "proj": 20.0,
       "line": 16.5,
-      "prob": 70.2
+      "prob": 71.1
     },
     "all_props": [
       {
@@ -7084,34 +7190,35 @@
         "stat": "PTS",
         "proj": 14.7,
         "line": 12.5,
-        "prob": 64.0
+        "prob": 64.9
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.6,
         "line": 2.5,
-        "prob": 47.7
+        "prob": 47.3
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 52.1
+        "prob": 51.7
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 19.9,
+        "proj": 20.0,
         "line": 16.5,
-        "prob": 70.2
+        "prob": 71.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "6589",
+    "game_id": "401910016",
     "player": "Draymond Green",
     "pos": "F",
     "team": "GS",
@@ -7144,7 +7251,7 @@
       "stat": "PRA",
       "proj": 19.7,
       "line": 16.5,
-      "prob": 70.8
+      "prob": 70.6
     },
     "all_props": [
       {
@@ -7152,34 +7259,35 @@
         "stat": "PTS",
         "proj": 5.2,
         "line": 3.5,
-        "prob": 58.9
+        "prob": 59.8
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.9,
         "line": 5.5,
-        "prob": 55.7
+        "prob": 55.8
       },
       {
         "market": "O 7.5 AST",
         "stat": "AST",
         "proj": 8.6,
         "line": 7.5,
-        "prob": 69.1
+        "prob": 67.5
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
         "proj": 19.7,
         "line": 16.5,
-        "prob": 70.8
+        "prob": 70.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5175737",
+    "game_id": "401910016",
     "player": "Yaxel Lendeborg",
     "pos": "F",
     "team": "GS",
@@ -7202,52 +7310,53 @@
     "raw_reb": 7.2,
     "raw_ast": 3.5,
     "raw_3pm": 2.2,
-    "proj_pts": 22.5,
-    "proj_reb": 7.5,
+    "proj_pts": 22.6,
+    "proj_reb": 7.4,
     "proj_ast": 4.0,
     "proj_3pm": 2.5,
-    "proj_pra": 33.9,
+    "proj_pra": 34.0,
     "best_prop": {
       "market": "O 20.5 PTS",
       "stat": "PTS",
-      "proj": 22.5,
+      "proj": 22.6,
       "line": 20.5,
-      "prob": 63.4
+      "prob": 65.2
     },
     "all_props": [
       {
         "market": "O 20.5 PTS",
         "stat": "PTS",
-        "proj": 22.5,
+        "proj": 22.6,
         "line": 20.5,
-        "prob": 63.4
+        "prob": 65.2
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
-        "proj": 7.5,
+        "proj": 7.4,
         "line": 7.5,
-        "prob": 49.5
+        "prob": 49.1
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.0,
         "line": 3.5,
-        "prob": 59.2
+        "prob": 59.4
       },
       {
         "market": "O 31.5 PRA",
         "stat": "PRA",
-        "proj": 33.9,
+        "proj": 34.0,
         "line": 31.5,
-        "prob": 62.9
+        "prob": 63.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4709138",
+    "game_id": "401910016",
     "player": "Brandin Podziemski",
     "pos": "G",
     "team": "GS",
@@ -7280,7 +7389,7 @@
       "stat": "PRA",
       "proj": 27.2,
       "line": 24.5,
-      "prob": 65.1
+      "prob": 65.3
     },
     "all_props": [
       {
@@ -7288,34 +7397,35 @@
         "stat": "PTS",
         "proj": 18.1,
         "line": 16.5,
-        "prob": 60.6
+        "prob": 60.8
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.2,
         "line": 5.5,
-        "prob": 44.3
+        "prob": 44.7
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.0,
         "line": 3.5,
-        "prob": 59.5
+        "prob": 58.8
       },
       {
         "market": "O 24.5 PRA",
         "stat": "PRA",
         "proj": 27.2,
         "line": 24.5,
-        "prob": 65.1
+        "prob": 65.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4897262",
+    "game_id": "401910016",
     "player": "Will Richard",
     "pos": "G",
     "team": "GS",
@@ -7348,7 +7458,7 @@
       "stat": "PTS",
       "proj": 10.2,
       "line": 8.5,
-      "prob": 66.2
+      "prob": 66.0
     },
     "all_props": [
       {
@@ -7356,34 +7466,35 @@
         "stat": "PTS",
         "proj": 10.2,
         "line": 8.5,
-        "prob": 66.2
+        "prob": 66.0
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.2,
         "line": 3.5,
-        "prob": 43.3
+        "prob": 43.5
       },
       {
         "market": "O 0.5 AST",
         "stat": "AST",
         "proj": 1.4,
         "line": 0.5,
-        "prob": 60.7
+        "prob": 60.5
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
         "proj": 14.8,
         "line": 12.5,
-        "prob": 65.1
+        "prob": 65.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4432582",
+    "game_id": "401910016",
     "player": "Max Christie",
     "pos": "G",
     "team": "DAL",
@@ -7406,52 +7517,53 @@
     "raw_reb": 3.6,
     "raw_ast": 1.9,
     "raw_3pm": 2.0,
-    "proj_pts": 11.6,
-    "proj_reb": 3.7,
+    "proj_pts": 11.7,
+    "proj_reb": 3.8,
     "proj_ast": 2.2,
     "proj_3pm": 2.2,
-    "proj_pra": 17.5,
+    "proj_pra": 17.7,
     "best_prop": {
       "market": "O 9.5 PTS",
       "stat": "PTS",
-      "proj": 11.6,
+      "proj": 11.7,
       "line": 9.5,
-      "prob": 63.8
+      "prob": 64.9
     },
     "all_props": [
       {
         "market": "O 9.5 PTS",
         "stat": "PTS",
-        "proj": 11.6,
+        "proj": 11.7,
         "line": 9.5,
-        "prob": 63.8
+        "prob": 64.9
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.7,
+        "proj": 3.8,
         "line": 3.5,
-        "prob": 52.7
+        "prob": 53.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.2,
         "line": 1.5,
-        "prob": 60.3
+        "prob": 60.8
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 17.5,
+        "proj": 17.7,
         "line": 15.5,
-        "prob": 61.8
+        "prob": 63.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5041939",
+    "game_id": "401910016",
     "player": "Cooper Flagg",
     "pos": "F",
     "team": "DAL",
@@ -7474,52 +7586,53 @@
     "raw_reb": 6.9,
     "raw_ast": 5.9,
     "raw_3pm": 1.3,
-    "proj_pts": 25.6,
-    "proj_reb": 7.0,
+    "proj_pts": 25.7,
+    "proj_reb": 7.1,
     "proj_ast": 6.4,
     "proj_3pm": 1.4,
-    "proj_pra": 39.0,
+    "proj_pra": 39.2,
     "best_prop": {
       "market": "O 5.5 AST",
       "stat": "AST",
       "proj": 6.4,
       "line": 5.5,
-      "prob": 66.3
+      "prob": 66.4
     },
     "all_props": [
       {
         "market": "O 23.5 PTS",
         "stat": "PTS",
-        "proj": 25.6,
+        "proj": 25.7,
         "line": 23.5,
-        "prob": 62.8
+        "prob": 64.1
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 7.0,
+        "proj": 7.1,
         "line": 6.5,
-        "prob": 58.1
+        "prob": 58.2
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.4,
         "line": 5.5,
-        "prob": 66.3
+        "prob": 66.4
       },
       {
         "market": "O 36.5 PRA",
         "stat": "PRA",
-        "proj": 39.0,
+        "proj": 39.2,
         "line": 36.5,
-        "prob": 61.6
+        "prob": 62.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "6442",
+    "game_id": "401910016",
     "player": "Kyrie Irving",
     "pos": "G",
     "team": "DAL",
@@ -7542,52 +7655,53 @@
     "raw_reb": 3.2,
     "raw_ast": 4.3,
     "raw_3pm": 3.5,
-    "proj_pts": 24.0,
+    "proj_pts": 24.1,
     "proj_reb": 3.4,
     "proj_ast": 4.6,
     "proj_3pm": 3.8,
-    "proj_pra": 32.0,
+    "proj_pra": 32.2,
     "best_prop": {
       "market": "O 21.5 PTS",
       "stat": "PTS",
-      "proj": 24.0,
+      "proj": 24.1,
       "line": 21.5,
-      "prob": 65.0
+      "prob": 66.0
     },
     "all_props": [
       {
         "market": "O 21.5 PTS",
         "stat": "PTS",
-        "proj": 24.0,
+        "proj": 24.1,
         "line": 21.5,
-        "prob": 65.0
+        "prob": 66.0
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.4,
         "line": 3.5,
-        "prob": 46.1
+        "prob": 47.3
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.6,
         "line": 4.5,
-        "prob": 51.9
+        "prob": 52.6
       },
       {
         "market": "O 29.5 PRA",
         "stat": "PRA",
-        "proj": 32.0,
+        "proj": 32.2,
         "line": 29.5,
-        "prob": 62.2
+        "prob": 62.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278594",
+    "game_id": "401910016",
     "player": "Naji Marshall",
     "pos": "F",
     "team": "DAL",
@@ -7610,52 +7724,53 @@
     "raw_reb": 2.6,
     "raw_ast": 4.1,
     "raw_3pm": 0.9,
-    "proj_pts": 13.1,
-    "proj_reb": 2.9,
+    "proj_pts": 13.3,
+    "proj_reb": 2.8,
     "proj_ast": 4.4,
     "proj_3pm": 1.1,
-    "proj_pra": 20.4,
+    "proj_pra": 20.5,
     "best_prop": {
       "market": "O 11.5 PTS",
       "stat": "PTS",
-      "proj": 13.1,
+      "proj": 13.3,
       "line": 11.5,
-      "prob": 61.8
+      "prob": 62.8
     },
     "all_props": [
       {
         "market": "O 11.5 PTS",
         "stat": "PTS",
-        "proj": 13.1,
+        "proj": 13.3,
         "line": 11.5,
-        "prob": 61.8
+        "prob": 62.8
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
-        "proj": 2.9,
+        "proj": 2.8,
         "line": 2.5,
-        "prob": 53.6
+        "prob": 53.5
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.4,
         "line": 4.5,
-        "prob": 47.4
+        "prob": 47.5
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 20.4,
+        "proj": 20.5,
         "line": 18.5,
-        "prob": 60.3
+        "prob": 60.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "3138160",
+    "game_id": "401910016",
     "player": "Caleb Martin",
     "pos": "F",
     "team": "DAL",
@@ -7680,15 +7795,15 @@
     "raw_3pm": 1.1,
     "proj_pts": 8.0,
     "proj_reb": 3.8,
-    "proj_ast": 3.0,
+    "proj_ast": 3.1,
     "proj_3pm": 1.3,
-    "proj_pra": 14.8,
+    "proj_pra": 14.9,
     "best_prop": {
       "market": "O 12.5 PRA",
       "stat": "PRA",
-      "proj": 14.8,
+      "proj": 14.9,
       "line": 12.5,
-      "prob": 64.0
+      "prob": 65.5
     },
     "all_props": [
       {
@@ -7696,7 +7811,7 @@
         "stat": "PTS",
         "proj": 8.0,
         "line": 6.5,
-        "prob": 59.0
+        "prob": 58.6
       },
       {
         "market": "O 3.5 REB",
@@ -7708,22 +7823,23 @@
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 3.0,
+        "proj": 3.1,
         "line": 2.5,
-        "prob": 58.5
+        "prob": 60.5
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
-        "proj": 14.8,
+        "proj": 14.9,
         "line": 12.5,
-        "prob": 64.0
+        "prob": 65.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "5211175",
+    "game_id": "401910016",
     "player": "Zaccharie Risacher",
     "pos": "F",
     "team": "DAL",
@@ -7747,16 +7863,16 @@
     "raw_ast": 1.7,
     "raw_3pm": 1.1,
     "proj_pts": 11.4,
-    "proj_reb": 5.2,
+    "proj_reb": 5.3,
     "proj_ast": 2.0,
     "proj_3pm": 1.3,
-    "proj_pra": 18.6,
+    "proj_pra": 18.7,
     "best_prop": {
       "market": "O 16.5 PRA",
       "stat": "PRA",
-      "proj": 18.6,
+      "proj": 18.7,
       "line": 16.5,
-      "prob": 62.5
+      "prob": 63.2
     },
     "all_props": [
       {
@@ -7764,34 +7880,35 @@
         "stat": "PTS",
         "proj": 11.4,
         "line": 10.5,
-        "prob": 55.8
+        "prob": 56.3
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
-        "proj": 5.2,
+        "proj": 5.3,
         "line": 5.5,
-        "prob": 45.5
+        "prob": 46.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.0,
         "line": 1.5,
-        "prob": 56.5
+        "prob": 56.6
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 18.6,
+        "proj": 18.7,
         "line": 16.5,
-        "prob": 62.5
+        "prob": 63.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4278078",
+    "game_id": "401910016",
     "player": "P.J. Washington",
     "pos": "F",
     "team": "DAL",
@@ -7818,13 +7935,13 @@
     "proj_reb": 7.1,
     "proj_ast": 1.7,
     "proj_3pm": 2.3,
-    "proj_pra": 23.8,
+    "proj_pra": 23.7,
     "best_prop": {
       "market": "O 21.5 PRA",
       "stat": "PRA",
-      "proj": 23.8,
+      "proj": 23.7,
       "line": 21.5,
-      "prob": 62.8
+      "prob": 62.6
     },
     "all_props": [
       {
@@ -7832,34 +7949,35 @@
         "stat": "PTS",
         "proj": 14.9,
         "line": 13.5,
-        "prob": 59.9
+        "prob": 59.8
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.1,
         "line": 7.5,
-        "prob": 44.5
+        "prob": 44.4
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.7,
         "line": 1.5,
-        "prob": 48.7
+        "prob": 48.6
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 23.8,
+        "proj": 23.7,
         "line": 21.5,
-        "prob": 62.8
+        "prob": 62.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4251",
+    "game_id": "401910015",
     "player": "Paul George",
     "pos": "F",
     "team": "BOS",
@@ -7888,7 +8006,7 @@
       "stat": "AST",
       "proj": 3.9,
       "line": 3.5,
-      "prob": 57.1
+      "prob": 56.7
     },
     "all_props": [
       {
@@ -7896,7 +8014,7 @@
         "stat": "PTS",
         "proj": 18.6,
         "line": 19.5,
-        "prob": 41.7
+        "prob": 42.2
       },
       {
         "market": "O 5.5 REB",
@@ -7910,20 +8028,21 @@
         "stat": "AST",
         "proj": 3.9,
         "line": 3.5,
-        "prob": 57.1
+        "prob": 56.7
       },
       {
         "market": "O 28.5 PRA",
         "stat": "PRA",
         "proj": 27.9,
         "line": 28.5,
-        "prob": 45.7
+        "prob": 45.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:10 AM"
   },
   {
     "id": "4066354",
+    "game_id": "401910015",
     "player": "Payton Pritchard",
     "pos": "G",
     "team": "BOS",
@@ -7944,15 +8063,15 @@
     "raw_3pm": 2.3,
     "proj_pts": 13.2,
     "proj_reb": 3.2,
-    "proj_ast": 4.3,
+    "proj_ast": 4.4,
     "proj_3pm": 2.2,
-    "proj_pra": 20.7,
+    "proj_pra": 20.8,
     "best_prop": {
       "market": "O 20.5 PRA",
       "stat": "PRA",
-      "proj": 20.7,
+      "proj": 20.8,
       "line": 20.5,
-      "prob": 50.2
+      "prob": 50.3
     },
     "all_props": [
       {
@@ -7960,34 +8079,35 @@
         "stat": "PTS",
         "proj": 13.2,
         "line": 13.5,
-        "prob": 46.0
+        "prob": 44.7
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.2,
         "line": 3.5,
-        "prob": 43.3
+        "prob": 43.6
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
-        "proj": 4.3,
+        "proj": 4.4,
         "line": 4.5,
-        "prob": 46.1
+        "prob": 47.0
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 20.7,
+        "proj": 20.8,
         "line": 20.5,
-        "prob": 50.2
+        "prob": 50.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4065648",
+    "game_id": "401910015",
     "player": "Jayson Tatum",
     "pos": "F",
     "team": "BOS",
@@ -8007,16 +8127,16 @@
     "raw_ast": 6.8,
     "raw_3pm": 2.7,
     "proj_pts": 24.8,
-    "proj_reb": 6.4,
-    "proj_ast": 6.6,
+    "proj_reb": 6.3,
+    "proj_ast": 6.7,
     "proj_3pm": 2.7,
-    "proj_pra": 37.9,
+    "proj_pra": 37.8,
     "best_prop": {
       "market": "O 6.5 AST",
       "stat": "AST",
-      "proj": 6.6,
+      "proj": 6.7,
       "line": 6.5,
-      "prob": 52.6
+      "prob": 53.1
     },
     "all_props": [
       {
@@ -8024,34 +8144,35 @@
         "stat": "PTS",
         "proj": 24.8,
         "line": 25.5,
-        "prob": 45.0
+        "prob": 45.5
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 6.4,
+        "proj": 6.3,
         "line": 6.5,
-        "prob": 48.1
+        "prob": 47.2
       },
       {
         "market": "O 6.5 AST",
         "stat": "AST",
-        "proj": 6.6,
+        "proj": 6.7,
         "line": 6.5,
-        "prob": 52.6
+        "prob": 53.1
       },
       {
         "market": "O 39.5 PRA",
         "stat": "PRA",
-        "proj": 37.9,
+        "proj": 37.8,
         "line": 39.5,
-        "prob": 41.9
+        "prob": 41.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3078576",
+    "game_id": "401910015",
     "player": "Derrick White",
     "pos": "G",
     "team": "BOS",
@@ -8074,13 +8195,13 @@
     "proj_reb": 3.1,
     "proj_ast": 4.5,
     "proj_3pm": 1.8,
-    "proj_pra": 20.4,
+    "proj_pra": 20.5,
     "best_prop": {
       "market": "O 4.5 AST",
       "stat": "AST",
       "proj": 4.5,
       "line": 4.5,
-      "prob": 50.2
+      "prob": 50.0
     },
     "all_props": [
       {
@@ -8088,34 +8209,35 @@
         "stat": "PTS",
         "proj": 12.9,
         "line": 13.5,
-        "prob": 43.2
+        "prob": 43.3
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.1,
         "line": 3.5,
-        "prob": 40.6
+        "prob": 41.0
       },
       {
         "market": "O 4.5 AST",
         "stat": "AST",
         "proj": 4.5,
         "line": 4.5,
-        "prob": 50.2
+        "prob": 50.0
       },
       {
         "market": "O 20.5 PRA",
         "stat": "PRA",
-        "proj": 20.4,
+        "proj": 20.5,
         "line": 20.5,
-        "prob": 47.9
+        "prob": 48.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4431767",
+    "game_id": "401910015",
     "player": "Christian Braun",
     "pos": "G",
     "team": "DEN",
@@ -8136,52 +8258,53 @@
     "raw_reb": 4.4,
     "raw_ast": 2.1,
     "raw_3pm": 1.5,
-    "proj_pts": 12.7,
+    "proj_pts": 12.6,
     "proj_reb": 4.4,
     "proj_ast": 2.3,
     "proj_3pm": 1.6,
-    "proj_pra": 19.3,
+    "proj_pra": 19.4,
     "best_prop": {
       "market": "O 18.5 PRA",
       "stat": "PRA",
-      "proj": 19.3,
+      "proj": 19.4,
       "line": 18.5,
-      "prob": 54.4
+      "prob": 55.0
     },
     "all_props": [
       {
         "market": "O 12.5 PTS",
         "stat": "PTS",
-        "proj": 12.7,
+        "proj": 12.6,
         "line": 12.5,
-        "prob": 49.3
+        "prob": 49.4
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.4,
         "line": 4.5,
-        "prob": 47.3
+        "prob": 48.8
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 42.5
+        "prob": 43.7
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 19.3,
+        "proj": 19.4,
         "line": 18.5,
-        "prob": 54.4
+        "prob": 55.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3064290",
+    "game_id": "401910015",
     "player": "Aaron Gordon",
     "pos": "F",
     "team": "DEN",
@@ -8203,16 +8326,16 @@
     "raw_ast": 1.8,
     "raw_3pm": 1.3,
     "proj_pts": 12.6,
-    "proj_reb": 4.7,
+    "proj_reb": 4.8,
     "proj_ast": 2.0,
     "proj_3pm": 1.4,
-    "proj_pra": 19.3,
+    "proj_pra": 19.4,
     "best_prop": {
       "market": "O 1.5 AST",
       "stat": "AST",
       "proj": 2.0,
       "line": 1.5,
-      "prob": 56.0
+      "prob": 55.6
     },
     "all_props": [
       {
@@ -8220,34 +8343,35 @@
         "stat": "PTS",
         "proj": 12.6,
         "line": 12.5,
-        "prob": 49.4
+        "prob": 49.5
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 4.7,
+        "proj": 4.8,
         "line": 4.5,
-        "prob": 53.9
+        "prob": 54.9
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.0,
         "line": 1.5,
-        "prob": 56.0
+        "prob": 55.6
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 19.3,
+        "proj": 19.4,
         "line": 18.5,
-        "prob": 54.5
+        "prob": 55.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4565698",
+    "game_id": "401910015",
     "player": "Bryce Hopkins",
     "pos": "F",
     "team": "DEN",
@@ -8271,14 +8395,14 @@
     "proj_pts": 11.5,
     "proj_reb": 3.1,
     "proj_ast": 1.4,
-    "proj_3pm": 0.9,
-    "proj_pra": 15.9,
+    "proj_3pm": 0.8,
+    "proj_pra": 16.0,
     "best_prop": {
       "market": "O 15.5 PRA",
       "stat": "PRA",
-      "proj": 15.9,
+      "proj": 16.0,
       "line": 15.5,
-      "prob": 50.9
+      "prob": 52.2
     },
     "all_props": [
       {
@@ -8286,34 +8410,35 @@
         "stat": "PTS",
         "proj": 11.5,
         "line": 11.5,
-        "prob": 48.8
+        "prob": 49.8
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.1,
         "line": 3.5,
-        "prob": 40.6
+        "prob": 41.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.4,
         "line": 1.5,
-        "prob": 39.8
+        "prob": 40.1
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 15.9,
+        "proj": 16.0,
         "line": 15.5,
-        "prob": 50.9
+        "prob": 52.2
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3138196",
+    "game_id": "401910015",
     "player": "Cameron Johnson",
     "pos": "F",
     "team": "DEN",
@@ -8338,13 +8463,13 @@
     "proj_reb": 3.6,
     "proj_ast": 1.9,
     "proj_3pm": 2.2,
-    "proj_pra": 19.0,
+    "proj_pra": 19.1,
     "best_prop": {
       "market": "O 12.5 PTS",
       "stat": "PTS",
       "proj": 13.5,
       "line": 12.5,
-      "prob": 56.3
+      "prob": 56.4
     },
     "all_props": [
       {
@@ -8352,34 +8477,35 @@
         "stat": "PTS",
         "proj": 13.5,
         "line": 12.5,
-        "prob": 56.3
+        "prob": 56.4
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.6,
         "line": 3.5,
-        "prob": 50.7
+        "prob": 51.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.9,
         "line": 1.5,
-        "prob": 54.5
+        "prob": 54.7
       },
       {
         "market": "O 18.5 PRA",
         "stat": "PRA",
-        "proj": 19.0,
+        "proj": 19.1,
         "line": 18.5,
-        "prob": 52.0
+        "prob": 52.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3112335",
+    "game_id": "401910015",
     "player": "Nikola Jokic",
     "pos": "C",
     "team": "DEN",
@@ -8404,13 +8530,13 @@
     "proj_reb": 10.5,
     "proj_ast": 9.0,
     "proj_3pm": 1.3,
-    "proj_pra": 43.5,
+    "proj_pra": 43.6,
     "best_prop": {
       "market": "O 8.5 AST",
       "stat": "AST",
       "proj": 9.0,
       "line": 8.5,
-      "prob": 60.2
+      "prob": 59.4
     },
     "all_props": [
       {
@@ -8418,34 +8544,35 @@
         "stat": "PTS",
         "proj": 24.0,
         "line": 23.5,
-        "prob": 54.1
+        "prob": 54.0
       },
       {
         "market": "O 10.5 REB",
         "stat": "REB",
         "proj": 10.5,
         "line": 10.5,
-        "prob": 50.1
+        "prob": 50.2
       },
       {
         "market": "O 8.5 AST",
         "stat": "AST",
         "proj": 9.0,
         "line": 8.5,
-        "prob": 60.2
+        "prob": 59.4
       },
       {
         "market": "O 42.5 PRA",
         "stat": "PRA",
-        "proj": 43.5,
+        "proj": 43.6,
         "line": 42.5,
-        "prob": 55.2
+        "prob": 55.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3936299",
+    "game_id": "401910015",
     "player": "Jamal Murray",
     "pos": "G",
     "team": "DEN",
@@ -8476,7 +8603,7 @@
       "stat": "AST",
       "proj": 6.0,
       "line": 5.5,
-      "prob": 59.0
+      "prob": 59.5
     },
     "all_props": [
       {
@@ -8484,34 +8611,35 @@
         "stat": "PTS",
         "proj": 25.4,
         "line": 24.5,
-        "prob": 56.5
+        "prob": 56.6
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.8,
         "line": 4.5,
-        "prob": 54.6
+        "prob": 54.2
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
         "proj": 6.0,
         "line": 5.5,
-        "prob": 59.0
+        "prob": 59.5
       },
       {
         "market": "O 35.5 PRA",
         "stat": "PRA",
         "proj": 36.2,
         "line": 35.5,
-        "prob": 54.2
+        "prob": 53.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4873138",
+    "game_id": "401910017",
     "player": "Ace Bailey",
     "pos": "G",
     "team": "UTAH",
@@ -8536,7 +8664,7 @@
     "raw_3pm": 1.5,
     "proj_pts": 15.1,
     "proj_reb": 6.6,
-    "proj_ast": 2.3,
+    "proj_ast": 2.2,
     "proj_3pm": 1.8,
     "proj_pra": 24.0,
     "best_prop": {
@@ -8544,7 +8672,7 @@
       "stat": "PRA",
       "proj": 24.0,
       "line": 21.5,
-      "prob": 64.0
+      "prob": 63.4
     },
     "all_props": [
       {
@@ -8552,34 +8680,35 @@
         "stat": "PTS",
         "proj": 15.1,
         "line": 13.5,
-        "prob": 61.1
+        "prob": 62.1
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.6,
         "line": 6.5,
-        "prob": 52.2
+        "prob": 51.6
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 2.3,
+        "proj": 2.2,
         "line": 1.5,
-        "prob": 63.1
+        "prob": 62.2
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
         "proj": 24.0,
         "line": 21.5,
-        "prob": 64.0
+        "prob": 63.4
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4433627",
+    "game_id": "401910017",
     "player": "Keyonte George",
     "pos": "G",
     "team": "UTAH",
@@ -8603,16 +8732,16 @@
     "raw_ast": 6.1,
     "raw_3pm": 1.8,
     "proj_pts": 21.9,
-    "proj_reb": 4.4,
+    "proj_reb": 4.5,
     "proj_ast": 7.0,
     "proj_3pm": 2.1,
-    "proj_pra": 33.3,
+    "proj_pra": 33.4,
     "best_prop": {
       "market": "O 29.5 PRA",
       "stat": "PRA",
-      "proj": 33.3,
+      "proj": 33.4,
       "line": 29.5,
-      "prob": 67.5
+      "prob": 68.4
     },
     "all_props": [
       {
@@ -8625,29 +8754,30 @@
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 4.4,
+        "proj": 4.5,
         "line": 4.5,
-        "prob": 48.6
+        "prob": 49.5
       },
       {
         "market": "O 6.5 AST",
         "stat": "AST",
         "proj": 7.0,
         "line": 6.5,
-        "prob": 58.4
+        "prob": 59.0
       },
       {
         "market": "O 29.5 PRA",
         "stat": "PRA",
-        "proj": 33.3,
+        "proj": 33.4,
         "line": 29.5,
-        "prob": 67.5
+        "prob": 68.4
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4432811",
+    "game_id": "401910017",
     "player": "Josh Green",
     "pos": "G",
     "team": "UTAH",
@@ -8670,52 +8800,53 @@
     "raw_reb": 2.4,
     "raw_ast": 1.4,
     "raw_3pm": 0.7,
-    "proj_pts": 6.5,
+    "proj_pts": 6.7,
     "proj_reb": 2.7,
     "proj_ast": 1.8,
     "proj_3pm": 1.0,
-    "proj_pra": 11.1,
+    "proj_pra": 11.3,
     "best_prop": {
       "market": "O 8.5 PRA",
       "stat": "PRA",
-      "proj": 11.1,
+      "proj": 11.3,
       "line": 8.5,
-      "prob": 69.4
+      "prob": 71.0
     },
     "all_props": [
       {
         "market": "O 4.5 PTS",
         "stat": "PTS",
-        "proj": 6.5,
+        "proj": 6.7,
         "line": 4.5,
-        "prob": 67.3
+        "prob": 69.1
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 51.8
+        "prob": 51.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.8,
         "line": 1.5,
-        "prob": 53.2
+        "prob": 52.7
       },
       {
         "market": "O 8.5 PRA",
         "stat": "PRA",
-        "proj": 11.1,
+        "proj": 11.3,
         "line": 8.5,
-        "prob": 69.4
+        "prob": 71.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "5041955",
+    "game_id": "401910017",
     "player": "Darryn Peterson",
     "pos": "G",
     "team": "UTAH",
@@ -8738,15 +8869,15 @@
     "raw_reb": 4.4,
     "raw_ast": 3.9,
     "raw_3pm": 2.2,
-    "proj_pts": 19.0,
-    "proj_reb": 4.6,
+    "proj_pts": 19.1,
+    "proj_reb": 4.7,
     "proj_ast": 4.5,
     "proj_3pm": 2.5,
     "proj_pra": 28.2,
     "best_prop": {
       "market": "O 16.5 PTS",
       "stat": "PTS",
-      "proj": 19.0,
+      "proj": 19.1,
       "line": 16.5,
       "prob": 69.5
     },
@@ -8754,36 +8885,37 @@
       {
         "market": "O 16.5 PTS",
         "stat": "PTS",
-        "proj": 19.0,
+        "proj": 19.1,
         "line": 16.5,
         "prob": 69.5
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
-        "proj": 4.6,
+        "proj": 4.7,
         "line": 4.5,
-        "prob": 52.2
+        "prob": 52.4
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 4.5,
         "line": 3.5,
-        "prob": 69.4
+        "prob": 68.3
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
         "proj": 28.2,
         "line": 25.5,
-        "prob": 66.9
+        "prob": 66.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3945274",
+    "game_id": "401910017",
     "player": "Luka Doncic",
     "pos": "G",
     "team": "LAL",
@@ -8805,52 +8937,53 @@
     "raw_reb": 6.6,
     "raw_ast": 7.0,
     "raw_3pm": 5.0,
-    "proj_pts": 39.3,
-    "proj_reb": 6.8,
+    "proj_pts": 39.4,
+    "proj_reb": 6.9,
     "proj_ast": 7.5,
-    "proj_3pm": 5.4,
-    "proj_pra": 53.6,
+    "proj_3pm": 5.3,
+    "proj_pra": 53.8,
     "best_prop": {
       "market": "O 49.5 PRA",
       "stat": "PRA",
-      "proj": 53.6,
+      "proj": 53.8,
       "line": 49.5,
-      "prob": 65.5
+      "prob": 65.9
     },
     "all_props": [
       {
         "market": "O 36.5 PTS",
         "stat": "PTS",
-        "proj": 39.3,
+        "proj": 39.4,
         "line": 36.5,
-        "prob": 64.1
+        "prob": 64.4
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
-        "proj": 6.8,
+        "proj": 6.9,
         "line": 6.5,
-        "prob": 55.7
+        "prob": 55.6
       },
       {
         "market": "O 7.5 AST",
         "stat": "AST",
         "proj": 7.5,
         "line": 7.5,
-        "prob": 50.1
+        "prob": 50.8
       },
       {
         "market": "O 49.5 PRA",
         "stat": "PRA",
-        "proj": 53.6,
+        "proj": 53.8,
         "line": 49.5,
-        "prob": 65.5
+        "prob": 65.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4397014",
+    "game_id": "401910017",
     "player": "Quentin Grimes",
     "pos": "G",
     "team": "LAL",
@@ -8876,13 +9009,13 @@
     "proj_reb": 2.6,
     "proj_ast": 2.8,
     "proj_3pm": 1.4,
-    "proj_pra": 16.2,
+    "proj_pra": 16.3,
     "best_prop": {
       "market": "O 14.5 PRA",
       "stat": "PRA",
-      "proj": 16.2,
+      "proj": 16.3,
       "line": 14.5,
-      "prob": 60.8
+      "prob": 60.6
     },
     "all_props": [
       {
@@ -8890,34 +9023,35 @@
         "stat": "PTS",
         "proj": 10.8,
         "line": 9.5,
-        "prob": 57.8
+        "prob": 58.4
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.6,
         "line": 2.5,
-        "prob": 48.4
+        "prob": 49.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.8,
         "line": 2.5,
-        "prob": 55.0
+        "prob": 55.1
       },
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
-        "proj": 16.2,
+        "proj": 16.3,
         "line": 14.5,
-        "prob": 60.8
+        "prob": 60.6
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4592691",
+    "game_id": "401910017",
     "player": "Jake LaRavia",
     "pos": "F",
     "team": "LAL",
@@ -8949,7 +9083,7 @@
       "stat": "PRA",
       "proj": 15.1,
       "line": 12.5,
-      "prob": 67.6
+      "prob": 67.0
     },
     "all_props": [
       {
@@ -8957,7 +9091,7 @@
         "stat": "PTS",
         "proj": 8.6,
         "line": 6.5,
-        "prob": 64.3
+        "prob": 64.4
       },
       {
         "market": "O 3.5 REB",
@@ -8978,13 +9112,14 @@
         "stat": "PRA",
         "proj": 15.1,
         "line": 12.5,
-        "prob": 67.6
+        "prob": 67.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3907498",
+    "game_id": "401910017",
     "player": "Matisse Thybulle",
     "pos": "G",
     "team": "LAL",
@@ -9016,7 +9151,7 @@
       "stat": "PTS",
       "proj": 9.5,
       "line": 7.5,
-      "prob": 66.6
+      "prob": 66.8
     },
     "all_props": [
       {
@@ -9024,34 +9159,35 @@
         "stat": "PTS",
         "proj": 9.5,
         "line": 7.5,
-        "prob": 66.6
+        "prob": 66.8
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 50.6
+        "prob": 50.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.5,
         "line": 1.5,
-        "prob": 43.5
+        "prob": 43.7
       },
       {
         "market": "O 11.5 PRA",
         "stat": "PRA",
         "proj": 13.6,
         "line": 11.5,
-        "prob": 64.9
+        "prob": 65.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4433137",
+    "game_id": "401910017",
     "player": "Ziaire Williams",
     "pos": "F",
     "team": "LAL",
@@ -9073,52 +9209,53 @@
     "raw_reb": 2.5,
     "raw_ast": 2.0,
     "raw_3pm": 1.8,
-    "proj_pts": 12.3,
+    "proj_pts": 12.4,
     "proj_reb": 2.7,
-    "proj_ast": 2.2,
+    "proj_ast": 2.3,
     "proj_3pm": 2.0,
-    "proj_pra": 17.3,
+    "proj_pra": 17.4,
     "best_prop": {
       "market": "O 10.5 PTS",
       "stat": "PTS",
-      "proj": 12.3,
+      "proj": 12.4,
       "line": 10.5,
-      "prob": 63.0
+      "prob": 64.2
     },
     "all_props": [
       {
         "market": "O 10.5 PTS",
         "stat": "PTS",
-        "proj": 12.3,
+        "proj": 12.4,
         "line": 10.5,
-        "prob": 63.0
+        "prob": 64.2
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.7,
         "line": 2.5,
-        "prob": 50.8
+        "prob": 50.6
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.2,
+        "proj": 2.3,
         "line": 2.5,
-        "prob": 41.4
+        "prob": 42.3
       },
       {
         "market": "O 15.5 PRA",
         "stat": "PRA",
-        "proj": 17.3,
+        "proj": 17.4,
         "line": 15.5,
-        "prob": 60.8
+        "prob": 61.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3136193",
+    "game_id": "401910018",
     "player": "Devin Booker",
     "pos": "G",
     "team": "PHX",
@@ -9139,9 +9276,9 @@
     "raw_reb": 2.6,
     "raw_ast": 5.1,
     "raw_3pm": 1.7,
-    "proj_pts": 23.6,
+    "proj_pts": 23.7,
     "proj_reb": 2.8,
-    "proj_ast": 5.4,
+    "proj_ast": 5.3,
     "proj_3pm": 1.8,
     "proj_pra": 31.8,
     "best_prop": {
@@ -9149,13 +9286,13 @@
       "stat": "PRA",
       "proj": 31.8,
       "line": 30.5,
-      "prob": 57.3
+      "prob": 56.5
     },
     "all_props": [
       {
         "market": "O 23.5 PTS",
         "stat": "PTS",
-        "proj": 23.6,
+        "proj": 23.7,
         "line": 23.5,
         "prob": 50.7
       },
@@ -9164,27 +9301,28 @@
         "stat": "REB",
         "proj": 2.8,
         "line": 2.5,
-        "prob": 53.3
+        "prob": 52.8
       },
       {
         "market": "O 5.5 AST",
         "stat": "AST",
-        "proj": 5.4,
+        "proj": 5.3,
         "line": 5.5,
-        "prob": 47.2
+        "prob": 45.9
       },
       {
         "market": "O 30.5 PRA",
         "stat": "PRA",
         "proj": 31.8,
         "line": 30.5,
-        "prob": 57.3
+        "prob": 56.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4066383",
+    "game_id": "401910018",
     "player": "Miles Bridges",
     "pos": "F",
     "team": "PHX",
@@ -9205,15 +9343,15 @@
     "raw_reb": 6.7,
     "raw_ast": 2.9,
     "raw_3pm": 1.8,
-    "proj_pts": 14.8,
+    "proj_pts": 14.7,
     "proj_reb": 6.9,
-    "proj_ast": 3.1,
+    "proj_ast": 3.0,
     "proj_3pm": 1.9,
-    "proj_pra": 24.7,
+    "proj_pra": 24.6,
     "best_prop": {
       "market": "O 2.5 AST",
       "stat": "AST",
-      "proj": 3.1,
+      "proj": 3.0,
       "line": 2.5,
       "prob": 60.2
     },
@@ -9221,36 +9359,37 @@
       {
         "market": "O 14.5 PTS",
         "stat": "PTS",
-        "proj": 14.8,
+        "proj": 14.7,
         "line": 14.5,
-        "prob": 51.2
+        "prob": 50.6
       },
       {
         "market": "O 6.5 REB",
         "stat": "REB",
         "proj": 6.9,
         "line": 6.5,
-        "prob": 55.6
+        "prob": 55.0
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 3.1,
+        "proj": 3.0,
         "line": 2.5,
         "prob": 60.2
       },
       {
         "market": "O 23.5 PRA",
         "stat": "PRA",
-        "proj": 24.7,
+        "proj": 24.6,
         "line": 23.5,
-        "prob": 56.0
+        "prob": 55.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3155526",
+    "game_id": "401910018",
     "player": "Dillon Brooks",
     "pos": "F",
     "team": "PHX",
@@ -9273,7 +9412,7 @@
     "raw_3pm": 1.9,
     "proj_pts": 14.8,
     "proj_reb": 3.8,
-    "proj_ast": 2.2,
+    "proj_ast": 2.3,
     "proj_3pm": 2.0,
     "proj_pra": 20.8,
     "best_prop": {
@@ -9281,7 +9420,7 @@
       "stat": "PRA",
       "proj": 20.8,
       "line": 19.5,
-      "prob": 56.7
+      "prob": 57.1
     },
     "all_props": [
       {
@@ -9289,34 +9428,35 @@
         "stat": "PTS",
         "proj": 14.8,
         "line": 14.5,
-        "prob": 50.9
+        "prob": 51.7
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 53.8
+        "prob": 54.0
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
-        "proj": 2.2,
+        "proj": 2.3,
         "line": 2.5,
-        "prob": 40.7
+        "prob": 42.4
       },
       {
         "market": "O 19.5 PRA",
         "stat": "PRA",
         "proj": 20.8,
         "line": 19.5,
-        "prob": 56.7
+        "prob": 57.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4278585",
+    "game_id": "401910018",
     "player": "Collin Gillespie",
     "pos": "G",
     "team": "PHX",
@@ -9341,13 +9481,13 @@
     "proj_reb": 2.8,
     "proj_ast": 3.8,
     "proj_3pm": 2.1,
-    "proj_pra": 16.9,
+    "proj_pra": 16.8,
     "best_prop": {
       "market": "O 8.5 PTS",
       "stat": "PTS",
       "proj": 10.3,
       "line": 8.5,
-      "prob": 69.8
+      "prob": 68.8
     },
     "all_props": [
       {
@@ -9355,34 +9495,35 @@
         "stat": "PTS",
         "proj": 10.3,
         "line": 8.5,
-        "prob": 69.8
+        "prob": 68.8
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.8,
         "line": 2.5,
-        "prob": 53.0
+        "prob": 52.1
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.8,
         "line": 3.5,
-        "prob": 55.1
+        "prob": 55.0
       },
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
-        "proj": 16.9,
+        "proj": 16.8,
         "line": 14.5,
-        "prob": 66.8
+        "prob": 65.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4437244",
+    "game_id": "401910018",
     "player": "Jalen Green",
     "pos": "G",
     "team": "PHX",
@@ -9404,7 +9545,7 @@
     "raw_ast": 3.0,
     "raw_3pm": 1.3,
     "proj_pts": 13.3,
-    "proj_reb": 3.4,
+    "proj_reb": 3.5,
     "proj_ast": 3.2,
     "proj_3pm": 1.4,
     "proj_pra": 19.9,
@@ -9413,7 +9554,7 @@
       "stat": "PTS",
       "proj": 13.3,
       "line": 12.5,
-      "prob": 55.0
+      "prob": 54.6
     },
     "all_props": [
       {
@@ -9421,34 +9562,35 @@
         "stat": "PTS",
         "proj": 13.3,
         "line": 12.5,
-        "prob": 55.0
+        "prob": 54.6
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
-        "proj": 3.4,
+        "proj": 3.5,
         "line": 3.5,
-        "prob": 47.5
+        "prob": 48.0
       },
       {
         "market": "O 3.5 AST",
         "stat": "AST",
         "proj": 3.2,
         "line": 3.5,
-        "prob": 42.9
+        "prob": 42.1
       },
       {
         "market": "O 19.5 PRA",
         "stat": "PRA",
         "proj": 19.9,
         "line": 19.5,
-        "prob": 51.5
+        "prob": 51.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4431695",
+    "game_id": "401910018",
     "player": "Drew Timme",
     "pos": "F",
     "team": "PHX",
@@ -9469,52 +9611,53 @@
     "raw_reb": 2.2,
     "raw_ast": 1.8,
     "raw_3pm": 1.8,
-    "proj_pts": 13.1,
+    "proj_pts": 13.2,
     "proj_reb": 2.5,
     "proj_ast": 2.0,
-    "proj_3pm": 1.8,
-    "proj_pra": 17.6,
+    "proj_3pm": 1.9,
+    "proj_pra": 17.7,
     "best_prop": {
-      "market": "O 16.5 PRA",
-      "stat": "PRA",
-      "proj": 17.6,
-      "line": 16.5,
-      "prob": 56.5
+      "market": "O 1.5 AST",
+      "stat": "AST",
+      "proj": 2.0,
+      "line": 1.5,
+      "prob": 57.3
     },
     "all_props": [
       {
         "market": "O 12.5 PTS",
         "stat": "PTS",
-        "proj": 13.1,
+        "proj": 13.2,
         "line": 12.5,
-        "prob": 53.1
+        "prob": 54.1
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 2.5,
         "line": 2.5,
-        "prob": 46.1
+        "prob": 45.6
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.0,
         "line": 1.5,
-        "prob": 56.4
+        "prob": 57.3
       },
       {
         "market": "O 16.5 PRA",
         "stat": "PRA",
-        "proj": 17.6,
+        "proj": 17.7,
         "line": 16.5,
-        "prob": 56.5
+        "prob": 57.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4431679",
+    "game_id": "401910018",
     "player": "Precious Achiuwa",
     "pos": "F",
     "team": "SAC",
@@ -9540,13 +9683,13 @@
     "proj_reb": 7.9,
     "proj_ast": 2.1,
     "proj_3pm": 0.6,
-    "proj_pra": 23.3,
+    "proj_pra": 23.2,
     "best_prop": {
       "market": "O 21.5 PRA",
       "stat": "PRA",
-      "proj": 23.3,
+      "proj": 23.2,
       "line": 21.5,
-      "prob": 59.5
+      "prob": 59.3
     },
     "all_props": [
       {
@@ -9554,34 +9697,35 @@
         "stat": "PTS",
         "proj": 13.3,
         "line": 12.5,
-        "prob": 54.9
+        "prob": 55.0
       },
       {
         "market": "O 7.5 REB",
         "stat": "REB",
         "proj": 7.9,
         "line": 7.5,
-        "prob": 56.1
+        "prob": 56.0
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 2.1,
         "line": 1.5,
-        "prob": 58.6
+        "prob": 58.1
       },
       {
         "market": "O 21.5 PRA",
         "stat": "PRA",
-        "proj": 23.3,
+        "proj": 23.2,
         "line": 21.5,
-        "prob": 59.5
+        "prob": 59.3
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "5142620",
+    "game_id": "401910018",
     "player": "Darius Acuff Jr.",
     "pos": "G",
     "team": "SAC",
@@ -9613,7 +9757,7 @@
       "stat": "PRA",
       "proj": 37.8,
       "line": 34.5,
-      "prob": 66.0
+      "prob": 66.7
     },
     "all_props": [
       {
@@ -9621,34 +9765,35 @@
         "stat": "PTS",
         "proj": 26.9,
         "line": 24.5,
-        "prob": 64.9
+        "prob": 65.5
       },
       {
         "market": "O 3.5 REB",
         "stat": "REB",
         "proj": 3.6,
         "line": 3.5,
-        "prob": 50.5
+        "prob": 50.1
       },
       {
         "market": "O 6.5 AST",
         "stat": "AST",
         "proj": 7.3,
         "line": 6.5,
-        "prob": 64.0
+        "prob": 65.0
       },
       {
         "market": "O 34.5 PRA",
         "stat": "PRA",
         "proj": 37.8,
         "line": 34.5,
-        "prob": 66.0
+        "prob": 66.7
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4395650",
+    "game_id": "401910018",
     "player": "Leaky Black",
     "pos": "F",
     "team": "SAC",
@@ -9670,52 +9815,53 @@
     "raw_reb": 5.1,
     "raw_ast": 1.9,
     "raw_3pm": 2.3,
-    "proj_pts": 10.8,
+    "proj_pts": 10.7,
     "proj_reb": 5.4,
-    "proj_ast": 2.2,
+    "proj_ast": 2.1,
     "proj_3pm": 2.5,
-    "proj_pra": 18.3,
+    "proj_pra": 18.2,
     "best_prop": {
       "market": "O 7.5 PTS",
       "stat": "PTS",
-      "proj": 10.8,
+      "proj": 10.7,
       "line": 7.5,
-      "prob": 77.7
+      "prob": 76.7
     },
     "all_props": [
       {
         "market": "O 7.5 PTS",
         "stat": "PTS",
-        "proj": 10.8,
+        "proj": 10.7,
         "line": 7.5,
-        "prob": 77.7
+        "prob": 76.7
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.4,
         "line": 5.5,
-        "prob": 47.3
+        "prob": 47.5
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
-        "proj": 2.2,
+        "proj": 2.1,
         "line": 1.5,
-        "prob": 60.8
+        "prob": 60.1
       },
       {
         "market": "O 14.5 PRA",
         "stat": "PRA",
-        "proj": 18.3,
+        "proj": 18.2,
         "line": 14.5,
-        "prob": 73.7
+        "prob": 73.5
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4065732",
+    "game_id": "401910018",
     "player": "De'Andre Hunter",
     "pos": "F",
     "team": "SAC",
@@ -9747,7 +9893,7 @@
       "stat": "PTS",
       "proj": 13.3,
       "line": 11.5,
-      "prob": 63.6
+      "prob": 63.2
     },
     "all_props": [
       {
@@ -9755,34 +9901,35 @@
         "stat": "PTS",
         "proj": 13.3,
         "line": 11.5,
-        "prob": 63.6
+        "prob": 63.2
       },
       {
         "market": "O 4.5 REB",
         "stat": "REB",
         "proj": 4.4,
         "line": 4.5,
-        "prob": 47.2
+        "prob": 48.3
       },
       {
         "market": "O 1.5 AST",
         "stat": "AST",
         "proj": 1.5,
         "line": 1.5,
-        "prob": 45.1
+        "prob": 44.8
       },
       {
         "market": "O 17.5 PRA",
         "stat": "PRA",
         "proj": 19.2,
         "line": 17.5,
-        "prob": 60.5
+        "prob": 60.0
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4917149",
+    "game_id": "401910018",
     "player": "Alex Karaban",
     "pos": "F",
     "team": "SAC",
@@ -9804,52 +9951,53 @@
     "raw_reb": 5.3,
     "raw_ast": 2.0,
     "raw_3pm": 1.3,
-    "proj_pts": 7.7,
+    "proj_pts": 7.6,
     "proj_reb": 5.6,
     "proj_ast": 2.3,
     "proj_3pm": 1.5,
-    "proj_pra": 15.5,
+    "proj_pra": 15.4,
     "best_prop": {
       "market": "O 5.5 PTS",
       "stat": "PTS",
-      "proj": 7.7,
+      "proj": 7.6,
       "line": 5.5,
-      "prob": 74.0
+      "prob": 73.1
     },
     "all_props": [
       {
         "market": "O 5.5 PTS",
         "stat": "PTS",
-        "proj": 7.7,
+        "proj": 7.6,
         "line": 5.5,
-        "prob": 74.0
+        "prob": 73.1
       },
       {
         "market": "O 5.5 REB",
         "stat": "REB",
         "proj": 5.6,
         "line": 5.5,
-        "prob": 51.1
+        "prob": 50.7
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 2.3,
         "line": 2.5,
-        "prob": 43.5
+        "prob": 43.3
       },
       {
         "market": "O 12.5 PRA",
         "stat": "PRA",
-        "proj": 15.5,
+        "proj": 15.4,
         "line": 12.5,
-        "prob": 70.5
+        "prob": 69.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3064440",
+    "game_id": "401910018",
     "player": "Zach LaVine",
     "pos": "G",
     "team": "SAC",
@@ -9881,7 +10029,7 @@
       "stat": "PTS",
       "proj": 21.8,
       "line": 19.5,
-      "prob": 65.2
+      "prob": 64.5
     },
     "all_props": [
       {
@@ -9889,34 +10037,35 @@
         "stat": "PTS",
         "proj": 21.8,
         "line": 19.5,
-        "prob": 65.2
+        "prob": 64.5
       },
       {
         "market": "O 2.5 REB",
         "stat": "REB",
         "proj": 3.2,
         "line": 2.5,
-        "prob": 59.1
+        "prob": 59.4
       },
       {
         "market": "O 2.5 AST",
         "stat": "AST",
         "proj": 3.1,
         "line": 2.5,
-        "prob": 61.3
+        "prob": 61.2
       },
       {
         "market": "O 25.5 PRA",
         "stat": "PRA",
         "proj": 28.1,
         "line": 25.5,
-        "prob": 64.0
+        "prob": 64.1
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "4594327",
+    "game_id": "401910018",
     "player": "Keegan Murray",
     "pos": "F",
     "team": "SAC",
@@ -9942,13 +10091,13 @@
     "proj_reb": 3.1,
     "proj_ast": 1.5,
     "proj_3pm": 1.2,
-    "proj_pra": 15.5,
+    "proj_pra": 15.6,
     "best_prop": {
       "market": "O 13.5 PRA",
       "stat": "PRA",
-      "proj": 15.5,
+      "proj": 15.6,
       "line": 13.5,
-      "prob": 62.1
+      "prob": 62.8
     },
     "all_props": [
       {
@@ -9956,7 +10105,7 @@
         "stat": "PTS",
         "proj": 10.9,
         "line": 9.5,
-        "prob": 58.6
+        "prob": 59.7
       },
       {
         "market": "O 2.5 REB",
@@ -9970,20 +10119,21 @@
         "stat": "AST",
         "proj": 1.5,
         "line": 1.5,
-        "prob": 44.9
+        "prob": 44.8
       },
       {
         "market": "O 13.5 PRA",
         "stat": "PRA",
-        "proj": 15.5,
+        "proj": 15.6,
         "line": 13.5,
-        "prob": 62.1
+        "prob": 62.8
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   },
   {
     "id": "3155942",
+    "game_id": "401910018",
     "player": "Domantas Sabonis",
     "pos": "F",
     "team": "SAC",
@@ -10009,7 +10159,7 @@
     "proj_reb": 13.4,
     "proj_ast": 5.7,
     "proj_3pm": 0.6,
-    "proj_pra": 34.7,
+    "proj_pra": 34.6,
     "best_prop": {
       "market": "O 12.5 REB",
       "stat": "REB",
@@ -10023,7 +10173,7 @@
         "stat": "PTS",
         "proj": 15.5,
         "line": 14.5,
-        "prob": 57.8
+        "prob": 57.9
       },
       {
         "market": "O 12.5 REB",
@@ -10037,16 +10187,16 @@
         "stat": "AST",
         "proj": 5.7,
         "line": 5.5,
-        "prob": 53.7
+        "prob": 53.6
       },
       {
         "market": "O 32.5 PRA",
         "stat": "PRA",
-        "proj": 34.7,
+        "proj": 34.6,
         "line": 32.5,
         "prob": 61.9
       }
     ],
-    "generated_at": "2026-11-18 03:51 AM"
+    "generated_at": "2026-11-18 04:11 AM"
   }
 ]
