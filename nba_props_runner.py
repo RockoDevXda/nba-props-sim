@@ -8,8 +8,7 @@ import requests
 from datetime import datetime
 
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
-ODDS_API_KEY = os.getenv("ODDS_API_KEY", "")  # Optional: free key from the-odds-api.com for live sportsbook prop lines
-
+DASHBOARD_URL = os.getenv("DASHBOARD_URL", "https://rockodevxda.github.io/nba-props-sim/")
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 
@@ -28,8 +27,11 @@ def fetch_todays_nba_games():
         away = next(c for c in competitors if c["homeAway"] == "away")
 
         odds_info = comp.get("odds", [{}])[0] if comp.get("odds") else {}
+        tip_dt = datetime.fromisoformat(event["date"].replace("Z", "+00:00"))
+
         games.append({
             "game_id": event["id"],
+            "tipoff": tip_dt.strftime("%I:%M %p UTC"),
             "matchup": f"{away['team']['abbreviation']} @ {home['team']['abbreviation']}",
             "away_id": away["team"]["id"],
             "away_abbr": away["team"]["abbreviation"],
@@ -41,8 +43,7 @@ def fetch_todays_nba_games():
     return games
 
 
-def fetch_team_roster_and_injuries(team_id, team_abbr, opponent_abbr, game_total, is_home):
-    """Fetches active rotation players and adjusts usage if key teammates are OUT."""
+def fetch_team_roster_and_injuries(team_id, team_abbr, opponent_abbr, game_info, is_home):
     url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_id}/roster"
     resp = requests.get(url, headers=HEADERS, timeout=15)
     if resp.status_code != 200:
@@ -64,12 +65,14 @@ def fetch_team_roster_and_injuries(team_id, team_abbr, opponent_abbr, game_total
                 "pos": p.get("position", {}).get("abbreviation", "G"),
                 "team": team_abbr,
                 "opponent": opponent_abbr,
-                "game_total": game_total,
+                "matchup": game_info["matchup"],
+                "tipoff": game_info["tipoff"],
+                "spread": game_info["spread"],
+                "game_total": game_info["over_under"],
                 "is_home": is_home,
                 "status": status,
             })
 
-    # Calculate usage bump if rotation players are sidelined
     usage_bump = min(1.0 + (len(out_players) * 0.035), 1.14)
     for p in active_players:
         p["usage_bump"] = usage_bump
@@ -79,7 +82,6 @@ def fetch_team_roster_and_injuries(team_id, team_abbr, opponent_abbr, game_total
 
 
 def fetch_player_gamelog(player_id):
-    """Pulls current season game logs (MIN, PTS, REB, AST, 3PM) for distribution modeling."""
     url = f"https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/{player_id}/gamelog"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
@@ -104,7 +106,7 @@ def fetch_player_gamelog(player_id):
                     if len(stats) <= max(idx_min, idx_pts, idx_reb, idx_ast):
                         continue
                     mins = float(stats[idx_min])
-                    if mins < 18.0:  # Filter out injury-shortened appearances
+                    if mins < 18.0:
                         continue
                     fg3_made = float(stats[idx_3pt].split("-")[0]) if idx_3pt != -1 and "-" in stats[idx_3pt] else 0.0
                     logs.append({
@@ -114,7 +116,7 @@ def fetch_player_gamelog(player_id):
                         "ast": float(stats[idx_ast]),
                         "fg3m": fg3_made,
                     })
-        return logs[:15]  # Most recent 15 games
+        return logs[:15]
     except Exception:
         return None
 
@@ -124,27 +126,26 @@ def simulate_player_props(player, logs, n_sims=10000):
         return None
 
     avg_min = statistics.mean(g["min"] for g in logs)
-    if avg_min < 24.0:  # Focus on primary starters & sixth men
+    if avg_min < 24.0:
         return None
 
     std_min = statistics.stdev(g["min"] for g in logs) if len(logs) > 1 else 3.2
     std_min = max(2.2, min(std_min, 5.5))
 
-    # Per-minute rates with game-environment pace scaling (226.5 league avg total)
     pace_mult = player["game_total"] / 226.5
     home_mult = 1.015 if player["is_home"] else 0.985
     bump = player["usage_bump"]
 
-    pts_per_min = (statistics.mean(g["pts"] for g in logs) / avg_min) * pace_mult * home_mult * bump
-    reb_per_min = (statistics.mean(g["reb"] for g in logs) / avg_min) * pace_mult * (1.0 + (bump - 1.0) * 0.4)
-    ast_per_min = (statistics.mean(g["ast"] for g in logs) / avg_min) * pace_mult * bump
-    fg3_per_min = (statistics.mean(g["fg3m"] for g in logs) / avg_min) * pace_mult * bump
-
-    # Set baseline prop lines (rounded to nearest 0.5 around raw season average)
     raw_pts = statistics.mean(g["pts"] for g in logs)
     raw_reb = statistics.mean(g["reb"] for g in logs)
     raw_ast = statistics.mean(g["ast"] for g in logs)
+    raw_3pm = statistics.mean(g["fg3m"] for g in logs)
     raw_pra = raw_pts + raw_reb + raw_ast
+
+    pts_per_min = (raw_pts / avg_min) * pace_mult * home_mult * bump
+    reb_per_min = (raw_reb / avg_min) * pace_mult * (1.0 + (bump - 1.0) * 0.4)
+    ast_per_min = (raw_ast / avg_min) * pace_mult * bump
+    fg3_per_min = (raw_3pm / avg_min) * pace_mult * bump
 
     pts_line = math.floor(raw_pts) + 0.5
     reb_line = math.floor(raw_reb) + 0.5
@@ -156,12 +157,9 @@ def simulate_player_props(player, logs, n_sims=10000):
 
     for _ in range(n_sims):
         sim_min = max(16.0, min(44.0, random.gauss(avg_min, std_min)))
-
-        # Correlated scoring & 3PM simulation
         sim_3pm = max(0, round(random.gauss(fg3_per_min * sim_min, 1.15)))
         two_pt_and_ft = max(0.0, random.gauss(max(0.0, (pts_per_min * sim_min) - (sim_3pm * 3.0)), 4.6))
         sim_pts = round((sim_3pm * 3) + two_pt_and_ft)
-
         sim_reb = max(0, round(random.gauss(reb_per_min * sim_min, 2.3)))
         sim_ast = max(0, round(random.gauss(ast_per_min * sim_min, 1.9)))
         sim_pra = sim_pts + sim_reb + sim_ast
@@ -187,23 +185,34 @@ def simulate_player_props(player, logs, n_sims=10000):
     proj_3pm = round(statistics.mean(fg3_sims), 1)
     proj_pra = round(statistics.mean(pra_sims), 1)
 
-    # Identify strongest prop edge for this player
     candidates = [
-        {"market": f"O {pts_line} PTS", "proj": proj_pts, "line": pts_line, "prob": round((pts_overs / n_sims) * 100, 1)},
-        {"market": f"O {reb_line} REB", "proj": proj_reb, "line": reb_line, "prob": round((reb_overs / n_sims) * 100, 1)},
-        {"market": f"O {ast_line} AST", "proj": proj_ast, "line": ast_line, "prob": round((ast_overs / n_sims) * 100, 1)},
-        {"market": f"O {pra_line} PRA", "proj": proj_pra, "line": pra_line, "prob": round((pra_overs / n_sims) * 100, 1)},
+        {"market": f"O {pts_line} PTS", "stat": "PTS", "proj": proj_pts, "line": pts_line, "prob": round((pts_overs / n_sims) * 100, 1)},
+        {"market": f"O {reb_line} REB", "stat": "REB", "proj": proj_reb, "line": reb_line, "prob": round((reb_overs / n_sims) * 100, 1)},
+        {"market": f"O {ast_line} AST", "stat": "AST", "proj": proj_ast, "line": ast_line, "prob": round((ast_overs / n_sims) * 100, 1)},
+        {"market": f"O {pra_line} PRA", "stat": "PRA", "proj": proj_pra, "line": pra_line, "prob": round((pra_overs / n_sims) * 100, 1)},
     ]
     best_prop = max(candidates, key=lambda x: x["prob"])
 
     return {
+        "id": player["id"],
         "player": player["name"],
+        "pos": player["pos"],
         "team": player["team"],
         "opponent": player["opponent"],
+        "matchup": player["matchup"],
+        "tipoff": player["tipoff"],
+        "spread": player["spread"],
+        "game_total": player["game_total"],
+        "is_home": player["is_home"],
         "status": player["status"],
         "usage_bump_pct": round((bump - 1.0) * 100, 1),
         "out_teammates": player["out_teammates"][:3],
-        "proj_min": round(avg_min, 1),
+        "avg_min": round(avg_min, 1),
+        "std_min": round(std_min, 1),
+        "raw_pts": round(raw_pts, 1),
+        "raw_reb": round(raw_reb, 1),
+        "raw_ast": round(raw_ast, 1),
+        "raw_3pm": round(raw_3pm, 1),
         "proj_pts": proj_pts,
         "proj_reb": proj_reb,
         "proj_ast": proj_ast,
@@ -211,6 +220,7 @@ def simulate_player_props(player, logs, n_sims=10000):
         "proj_pra": proj_pra,
         "best_prop": best_prop,
         "all_props": candidates,
+        "generated_at": datetime.now().strftime("%Y-%m-%d %I:%M %p"),
     }
 
 
@@ -225,22 +235,19 @@ def prob_to_american_odds(prob_pct):
 
 def send_discord_props_report(results, num_games):
     if not DISCORD_WEBHOOK_URL:
-        print("DISCORD_WEBHOOK_URL not set; skipping Discord post.")
         return
 
     date_label = datetime.now().strftime("%b %d, %Y")
     if not results:
         requests.post(
             DISCORD_WEBHOOK_URL,
-            json={"username": "NBA Prop Sim Engine", "content": f"🏀 **{date_label}:** No NBA games scheduled tonight."},
+            json={"username": "NBA Prop Sim Engine", "content": f"🏀 **{date_label}:** No NBA games scheduled today."},
             timeout=15,
         )
         return
 
     ranked = sorted(results, key=lambda x: x["best_prop"]["prob"], reverse=True)
     top_8 = ranked[:8]
-
-    # Suggested 3-Leg Top Prop Slip
     top_3 = ranked[:3]
     parlay_prob = 1.0
     for r in top_3:
@@ -269,15 +276,15 @@ def send_discord_props_report(results, num_games):
 
     embed = {
         "title": f"🏀 NBA Player Props Monte Carlo Report — {date_label}",
-        "description": f"Simulated **{len(results)} rotation players** across **{num_games} NBA games** (`10,000` runs each).",
-        "color": 15105570,  # NBA Orange (#E67E22)
+        "url": DASHBOARD_URL,
+        "description": f"Simulated **{len(results)} rotation players** across **{num_games} NBA games**. [Open Interactive NBA Props Dashboard]({DASHBOARD_URL})",
+        "color": 15105570,
         "fields": fields,
-        "footer": {"text": "NBA Prop Sim Engine • Full projections attached in nba_props_slate.json"},
+        "footer": {"text": "NBA Prop Sim Engine • Auto-Updated at 12:30 AM & 10:30 AM CST"},
         "timestamp": datetime.utcnow().isoformat() + "Z",
     }
 
     payload = {"username": "NBA Prop Sim Engine", "embeds": [embed]}
-
     with open("nba_props_slate.json", "rb") as json_file:
         files = {
             "payload_json": (None, json.dumps(payload), "application/json"),
@@ -298,10 +305,10 @@ if __name__ == "__main__":
 
     for g in games:
         all_candidates.extend(
-            fetch_team_roster_and_injuries(g["away_id"], g["away_abbr"], g["home_abbr"], g["over_under"], is_home=False)
+            fetch_team_roster_and_injuries(g["away_id"], g["away_abbr"], g["home_abbr"], g, is_home=False)
         )
         all_candidates.extend(
-            fetch_team_roster_and_injuries(g["home_id"], g["home_abbr"], g["away_abbr"], g["over_under"], is_home=True)
+            fetch_team_roster_and_injuries(g["home_id"], g["home_abbr"], g["away_abbr"], g, is_home=True)
         )
 
     sim_results = []
@@ -310,7 +317,7 @@ if __name__ == "__main__":
         res = simulate_player_props(player, logs, n_sims=10000)
         if res:
             sim_results.append(res)
-        time.sleep(0.15)  # Polite pacing for game log requests
+        time.sleep(0.15)
 
     with open("nba_props_slate.json", "w") as f:
         json.dump(sim_results, f, indent=2)
