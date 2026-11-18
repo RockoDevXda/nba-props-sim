@@ -1,16 +1,16 @@
-name: Daily NBA Player Props Simulation
+name: Nightly NCAA D1 Simulation
 
 on:
   schedule:
-    - cron: '30 6 * * *'  # 12:30 AM CST (6:30 AM UTC)
-    - cron: '30 16 * * *' # 10:30 AM CST (4:30 PM UTC) after morning injury reports
+    - cron: '15 6 * * *'  # 12:15 AM CST (Captures morning opening lines)
+    - cron: '15 21 * * *' # 3:15 PM CST (Captures afternoon sharp line movement)
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  run-nba-props:
+  run-sim:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -24,15 +24,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run NBA Props Monte Carlo Engine (ESPN)
+      - name: Run NCAA Monte Carlo Simulation (ESPN + Line Tracking)
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DASHBOARD_URL: "https://rockodevxda.github.io/sports-command-center/"
-        run: python nba_props_runner.py
+        run: python daily_runner.py
 
-      - name: Commit updated NBA props JSON
+      - name: Commit updated slate JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add nba_props_slate.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily NBA player props slate" && git push)
+          git add daily_slate.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily NCAA slate & line movement" && git push)
