@@ -50,7 +50,6 @@ def fetch_team_defensive_factor(team_id):
                     if stat.get("name") in ("avgPointsAgainst", "pointsAgainst"):
                         val = float(stat.get("value", 113.5) or 113.5)
                         if 95.0 < val < 135.0:
-                            # League avg ~113.5 PPG allowed; >117 is soft defense, <109 is elite defense
                             mult = max(0.94, min(1.06, val / 113.5))
                             res = {"pts_allowed": round(val, 1), "mult": mult}
                             team_defense_cache[team_id] = res
@@ -108,7 +107,8 @@ def fetch_team_roster_and_injuries(team_id):
             injuries = ath.get("injuries", [])
             status = injuries[0].get("status", "").lower() if injuries else ""
             if status in ("out", "doubtful", "injured reserve", "suspension"):
-                out_count += 1
+                if status == "out":
+                    out_count += 1
                 continue
 
             active_players.append({
@@ -183,7 +183,7 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_def, i
         return None
 
     pace_factor = max(0.92, min(1.08, game["game_total"] / 226.0))
-    usage_bump = 1.0 + min(0.14, out_teammates * 0.035)
+    usage_bump = 1.0 + min(0.06, max(0, out_teammates - 1) * 0.02)
     team_spread = game["home_spread"] if is_home else -game["home_spread"]
     blowout_factor = 0.96 if abs(team_spread) >= 13.5 else 1.0
     def_mult = opp_def["mult"]
@@ -248,7 +248,6 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_def, i
     prop_edges.sort(key=lambda x: (x["prob"], x["hits"]), reverse=True)
     best_prop = prop_edges[0]
 
-    # Build sharp situational tags
     tags = []
     usg_pct = round((usage_bump - 1.0) * 100, 1)
     if usg_pct > 0:
@@ -351,61 +350,3 @@ def send_discord_props_report(players_data):
         f"• **{p['player']}** ({p['team']}) — `{p['best_prop']['market']}` | Sim: `{p['best_prop']['proj']}` (**{p['best_prop']['prob']}%** | {p['best_prop']['hit_str']})"
         for p in ranked[:20]
     ]
-    embed_board = {
-        "title": f"📊 Top 20 NBA Prop Edges ({len(players_data)} Players Simulated)",
-        "description": "\n".join(top_lines)[:3900],
-        "color": 3447003,
-    }
-
-    payload = {"username": "NBA Prop Engine", "embeds": [embed_parlay, embed_board]}
-    with open("nba_props_slate.json", "rb") as jf:
-        files = {
-            "payload_json": (None, json.dumps(payload), "application/json"),
-            "files[0]": ("nba_props_slate.json", jf, "application/json"),
-        }
-        resp = requests.post(DISCORD_WEBHOOK_URL, files=files, timeout=20)
-        if resp.status_code == 429:
-            time.sleep(float(resp.json().get("retry_after", 2)))
-            jf.seek(0)
-            requests.post(DISCORD_WEBHOOK_URL, files=files, timeout=20)
-        else:
-            resp.raise_for_status()
-
-
-if __name__ == "__main__":
-    b2b_set = fetch_yesterdays_teams()
-    games = fetch_todays_nba_games()
-    all_simulated_players = []
-
-    for g in games:
-        away_def = fetch_team_defensive_factor(g["away_id"])
-        home_def = fetch_team_defensive_factor(g["home_id"])
-
-        for side, is_home, opp_def in [("away", False, home_def), ("home", True, away_def)]:
-            team_abbr = g[f"{side}_abbr"]
-            opp_abbr = g["home_abbr" if side == "away" else "away_abbr"]
-            roster, out_cnt = fetch_team_roster_and_injuries(g[f"{side}_id"])
-
-            for ath in roster[:9]:
-                logs = fetch_player_gamelog(ath["id"])
-                if logs:
-                    sim = simulate_player_props(
-                        ath,
-                        logs,
-                        g,
-                        is_home,
-                        out_cnt,
-                        opp_def,
-                        is_b2b=(team_abbr in b2b_set),
-                        opp_b2b=(opp_abbr in b2b_set),
-                        n_sims=10000,
-                    )
-                    if sim:
-                        all_simulated_players.append(sim)
-                time.sleep(0.1)
-
-    with open("nba_props_slate.json", "w") as f:
-        json.dump(all_simulated_players, f, indent=2)
-
-    send_discord_props_report(all_simulated_players)
-    print(f"Completed NBA prop simulations for {len(all_simulated_players)} players via ESPN.")
