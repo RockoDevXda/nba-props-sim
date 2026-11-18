@@ -1,0 +1,41 @@
+name: Nightly NBA Player Props Sim
+
+on:
+  schedule:
+    # Runs daily at 16:30 UTC (10:30 AM CST, after morning shootaround injury updates)
+    - cron: '30 16 * * *'
+    # Also runs at 06:30 UTC (12:30 AM CST) for early overnight lines
+    - cron: '30 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  simulate-nba-props:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run NBA player props simulation
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python nba_props_runner.py
+
+      - name: Commit & push nba_props_slate.json
+        run: |
+          git config user.name "SimBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add nba_props_slate.json
+          git commit -m "Auto-update NBA props for $(date +'%Y-%m-%d')" || exit 0
+          git push
