@@ -65,6 +65,7 @@ def fetch_team_roster_and_injuries(team_id, team_abbr, opponent_abbr, game_info,
                 "pos": p.get("position", {}).get("abbreviation", "G"),
                 "team": team_abbr,
                 "opponent": opponent_abbr,
+                "game_id": game_info["game_id"],
                 "matchup": game_info["matchup"],
                 "tipoff": game_info["tipoff"],
                 "spread": game_info["spread"],
@@ -195,6 +196,7 @@ def simulate_player_props(player, logs, n_sims=10000):
 
     return {
         "id": player["id"],
+        "game_id": player["game_id"],
         "player": player["name"],
         "pos": player["pos"],
         "team": player["team"],
@@ -247,44 +249,74 @@ def send_discord_props_report(results, num_games):
         return
 
     ranked = sorted(results, key=lambda x: x["best_prop"]["prob"], reverse=True)
-    top_8 = ranked[:8]
-    top_3 = ranked[:3]
+
+    # Build 4-Team Optimal Prop Parlay (1 top-edge player per game across 4 distinct games)
+    parlay_legs = []
+    used_games = set()
+    for r in ranked:
+        if len(parlay_legs) >= 4:
+            break
+        if r["game_id"] not in used_games:
+            parlay_legs.append(r)
+            used_games.add(r["game_id"])
+
+    # Fallback if fewer than 4 games exist on the slate
+    if len(parlay_legs) < 4:
+        for r in ranked:
+            if len(parlay_legs) >= 4:
+                break
+            if r not in parlay_legs:
+                parlay_legs.append(r)
+
     parlay_prob = 1.0
-    for r in top_3:
-        parlay_prob *= (r["best_prop"]["prob"] / 100.0)
+    for leg in parlay_legs:
+        parlay_prob *= (leg["best_prop"]["prob"] / 100.0)
     parlay_pct = round(parlay_prob * 100, 1)
 
-    fields = []
-    for r in top_8:
+    parlay_fields = []
+    for i, r in enumerate(parlay_legs):
         bp = r["best_prop"]
-        bump_note = f" • ⚡ +{r['usage_bump_pct']}% Usg (Out: {', '.join(r['out_teammates'])})" if r["usage_bump_pct"] > 0 else ""
-        fields.append({
-            "name": f"🔥 {r['player']} ({r['team']} vs {r['opponent']}) — {bp['market']} ({bp['prob']}% | Fair {prob_to_american_odds(bp['prob'])})",
+        bump_str = f" • ⚡ +{r['usage_bump_pct']}% Usg ({', '.join(r['out_teammates'])} Out)" if r["usage_bump_pct"] > 0 else ""
+        parlay_fields.append({
+            "name": f"Leg {i+1}: {r['player']} ({r['team']}) — {bp['market']} ({bp['prob']}% | Fair {prob_to_american_odds(bp['prob'])})",
+            "value": f"**{r['matchup']}** (O/U `{r['game_total']}`) • Baseline `{bp['line']}` → Sim Proj `{bp['proj']}`{bump_str}",
+            "inline": False,
+        })
+
+    embed_parlay = {
+        "title": f"🎯 Top 4-Leg NBA Player Prop Parlay — {date_label}",
+        "url": DASHBOARD_URL,
+        "description": (
+            f"**Combined Hit Rate:** `{parlay_pct}%` (**Fair Odds: {prob_to_american_odds(parlay_pct)}**)\n"
+            f"Built from top injury-usage & pace edges across {len(used_games)} games. [Open Interactive NBA Props Dashboard]({DASHBOARD_URL})"
+        ),
+        "color": 15105570,
+        "fields": parlay_fields,
+    }
+
+    # Embed 2: Top 8 Individual Prop Edges on Tonight's Slate
+    top_fields = []
+    for r in ranked[:8]:
+        bp = r["best_prop"]
+        bump_note = f" • ⚡ +{r['usage_bump_pct']}% Usg" if r["usage_bump_pct"] > 0 else ""
+        top_fields.append({
+            "name": f"🔥 {r['player']} ({r['team']} vs {r['opponent']}) — {bp['market']} ({bp['prob']}%)",
             "value": (
-                f"Sim Proj: **{r['proj_pts']} PTS** / **{r['proj_reb']} REB** / **{r['proj_ast']} AST** / **{r['proj_3pm']} 3PM** "
+                f"Sim Line: **{r['proj_pts']} PTS** / **{r['proj_reb']} REB** / **{r['proj_ast']} AST** / **{r['proj_3pm']} 3PM** "
                 f"(Line `{bp['line']}` → Sim `{bp['proj']}`){bump_note}"
             ),
             "inline": False,
         })
 
-    slip_text = " + ".join([f"**{r['player']} {r['best_prop']['market']}** ({r['best_prop']['prob']}%)" for r in top_3])
-    fields.append({
-        "name": f"🎯 Top 3-Leg Prop Slip — Hit Rate: {parlay_pct}% ({prob_to_american_odds(parlay_pct)})",
-        "value": slip_text,
-        "inline": False,
-    })
-
-    embed = {
-        "title": f"🏀 NBA Player Props Monte Carlo Report — {date_label}",
-        "url": DASHBOARD_URL,
-        "description": f"Simulated **{len(results)} rotation players** across **{num_games} NBA games**. [Open Interactive NBA Props Dashboard]({DASHBOARD_URL})",
-        "color": 15105570,
-        "fields": fields,
+    embed_top = {
+        "title": f"📋 Top 8 Individual NBA Prop Edges ({len(results)} Players Simulated)",
+        "color": 3447003,
+        "fields": top_fields,
         "footer": {"text": "NBA Prop Sim Engine • Auto-Updated at 12:30 AM & 10:30 AM CST"},
         "timestamp": datetime.utcnow().isoformat() + "Z",
     }
 
-    payload = {"username": "NBA Prop Sim Engine", "embeds": [embed]}
+    payload = {"username": "NBA Prop Sim Engine", "embeds": [embed_parlay, embed_top]}
     with open("nba_props_slate.json", "rb") as json_file:
         files = {
             "payload_json": (None, json.dumps(payload), "application/json"),
@@ -323,4 +355,4 @@ if __name__ == "__main__":
         json.dump(sim_results, f, indent=2)
 
     send_discord_props_report(sim_results, len(games))
-    print(f"Simulated {len(sim_results)} NBA players across {len(games)} games.")
+    print(f"Simulated {len(sim_results)} NBA players with Top 4-Leg Prop Parlay.")
