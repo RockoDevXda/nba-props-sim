@@ -1,0 +1,7352 @@
+[
+  {
+    "player": "Cameron Boozer",
+    "team": "MEM",
+    "opponent": "CLE",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "GG Jackson",
+      "Ty Jerome",
+      "Scotty Pippen Jr."
+    ],
+    "proj_min": 31.1,
+    "proj_pts": 19.4,
+    "proj_reb": 10.2,
+    "proj_ast": 6.2,
+    "proj_3pm": 2.4,
+    "proj_pra": 35.8,
+    "best_prop": {
+      "market": "O 31.5 PRA",
+      "proj": 35.8,
+      "line": 31.5,
+      "prob": 73.2
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 19.4,
+        "line": 16.5,
+        "prob": 70.8
+      },
+      {
+        "market": "O 9.5 REB",
+        "proj": 10.2,
+        "line": 9.5,
+        "prob": 61.1
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.2,
+        "line": 5.5,
+        "prob": 63.2
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 35.8,
+        "line": 31.5,
+        "prob": 73.2
+      }
+    ]
+  },
+  {
+    "player": "Cedric Coward",
+    "team": "MEM",
+    "opponent": "CLE",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "GG Jackson",
+      "Ty Jerome",
+      "Scotty Pippen Jr."
+    ],
+    "proj_min": 28.1,
+    "proj_pts": 16.1,
+    "proj_reb": 8.9,
+    "proj_ast": 3.9,
+    "proj_3pm": 2.5,
+    "proj_pra": 28.9,
+    "best_prop": {
+      "market": "O 25.5 PRA",
+      "proj": 28.9,
+      "line": 25.5,
+      "prob": 70.1
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 16.1,
+        "line": 13.5,
+        "prob": 69.5
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.9,
+        "line": 8.5,
+        "prob": 57.1
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 57.8
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 28.9,
+        "line": 25.5,
+        "prob": 70.1
+      }
+    ]
+  },
+  {
+    "player": "Javon Small",
+    "team": "MEM",
+    "opponent": "CLE",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "GG Jackson",
+      "Ty Jerome",
+      "Scotty Pippen Jr."
+    ],
+    "proj_min": 24.8,
+    "proj_pts": 13.5,
+    "proj_reb": 3.2,
+    "proj_ast": 6.9,
+    "proj_3pm": 1.7,
+    "proj_pra": 23.5,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.9,
+      "line": 5.5,
+      "prob": 72.6
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.5,
+        "line": 11.5,
+        "prob": 64.5
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.2,
+        "line": 2.5,
+        "prob": 59.3
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.9,
+        "line": 5.5,
+        "prob": 72.6
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 23.5,
+        "line": 20.5,
+        "prob": 66.3
+      }
+    ]
+  },
+  {
+    "player": "Jaylen Wells",
+    "team": "MEM",
+    "opponent": "CLE",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "GG Jackson",
+      "Ty Jerome",
+      "Scotty Pippen Jr."
+    ],
+    "proj_min": 26.7,
+    "proj_pts": 13.0,
+    "proj_reb": 3.1,
+    "proj_ast": 1.8,
+    "proj_3pm": 2.4,
+    "proj_pra": 18.0,
+    "best_prop": {
+      "market": "O 14.5 PRA",
+      "proj": 18.0,
+      "line": 14.5,
+      "prob": 73.2
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 13.0,
+        "line": 10.5,
+        "prob": 69.9
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 59.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.8,
+        "line": 1.5,
+        "prob": 52.9
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 18.0,
+        "line": 14.5,
+        "prob": 73.2
+      }
+    ]
+  },
+  {
+    "player": "Jarrett Allen",
+    "team": "CLE",
+    "opponent": "MEM",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Sam Merrill",
+      "Evan Mobley",
+      "Nae'Qwan Tomlin"
+    ],
+    "proj_min": 27.5,
+    "proj_pts": 14.8,
+    "proj_reb": 9.7,
+    "proj_ast": 1.8,
+    "proj_3pm": 0.6,
+    "proj_pra": 26.4,
+    "best_prop": {
+      "market": "O 12.5 PTS",
+      "proj": 14.8,
+      "line": 12.5,
+      "prob": 68.1
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 14.8,
+        "line": 12.5,
+        "prob": 68.1
+      },
+      {
+        "market": "O 9.5 REB",
+        "proj": 9.7,
+        "line": 9.5,
+        "prob": 53.1
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.8,
+        "line": 1.5,
+        "prob": 52.9
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 26.4,
+        "line": 23.5,
+        "prob": 66.9
+      }
+    ]
+  },
+  {
+    "player": "James Harden",
+    "team": "CLE",
+    "opponent": "MEM",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Sam Merrill",
+      "Evan Mobley",
+      "Nae'Qwan Tomlin"
+    ],
+    "proj_min": 32.5,
+    "proj_pts": 18.8,
+    "proj_reb": 4.7,
+    "proj_ast": 6.6,
+    "proj_3pm": 2.8,
+    "proj_pra": 30.1,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.6,
+      "line": 5.5,
+      "prob": 70.6
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 18.8,
+        "line": 16.5,
+        "prob": 66.3
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.7,
+        "line": 4.5,
+        "prob": 52.0
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.6,
+        "line": 5.5,
+        "prob": 70.6
+      },
+      {
+        "market": "O 26.5 PRA",
+        "proj": 30.1,
+        "line": 26.5,
+        "prob": 70.1
+      }
+    ]
+  },
+  {
+    "player": "Donovan Mitchell",
+    "team": "CLE",
+    "opponent": "MEM",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Sam Merrill",
+      "Evan Mobley",
+      "Nae'Qwan Tomlin"
+    ],
+    "proj_min": 32.5,
+    "proj_pts": 27.3,
+    "proj_reb": 5.1,
+    "proj_ast": 6.5,
+    "proj_3pm": 3.0,
+    "proj_pra": 38.9,
+    "best_prop": {
+      "market": "O 33.5 PRA",
+      "proj": 38.9,
+      "line": 33.5,
+      "prob": 75.3
+    },
+    "all_props": [
+      {
+        "market": "O 23.5 PTS",
+        "proj": 27.3,
+        "line": 23.5,
+        "prob": 73.2
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.1,
+        "line": 4.5,
+        "prob": 59.3
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.5,
+        "line": 5.5,
+        "prob": 68.2
+      },
+      {
+        "market": "O 33.5 PRA",
+        "proj": 38.9,
+        "line": 33.5,
+        "prob": 75.3
+      }
+    ]
+  },
+  {
+    "player": "Peyton Watson",
+    "team": "CLE",
+    "opponent": "MEM",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Sam Merrill",
+      "Evan Mobley",
+      "Nae'Qwan Tomlin"
+    ],
+    "proj_min": 26.9,
+    "proj_pts": 12.1,
+    "proj_reb": 4.8,
+    "proj_ast": 2.8,
+    "proj_3pm": 1.2,
+    "proj_pra": 19.6,
+    "best_prop": {
+      "market": "O 17.5 PRA",
+      "proj": 19.6,
+      "line": 17.5,
+      "prob": 62.0
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 12.1,
+        "line": 10.5,
+        "prob": 61.2
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 53.5
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 54.1
+      },
+      {
+        "market": "O 17.5 PRA",
+        "proj": 19.6,
+        "line": 17.5,
+        "prob": 62.0
+      }
+    ]
+  },
+  {
+    "player": "Kevin Durant",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 33.6,
+    "proj_pts": 21.6,
+    "proj_reb": 5.5,
+    "proj_ast": 3.9,
+    "proj_3pm": 1.6,
+    "proj_pra": 31.1,
+    "best_prop": {
+      "market": "O 3.5 AST",
+      "proj": 3.9,
+      "line": 3.5,
+      "prob": 58.7
+    },
+    "all_props": [
+      {
+        "market": "O 21.5 PTS",
+        "proj": 21.6,
+        "line": 21.5,
+        "prob": 50.5
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.5,
+        "line": 5.5,
+        "prob": 50.1
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 58.7
+      },
+      {
+        "market": "O 30.5 PRA",
+        "proj": 31.1,
+        "line": 30.5,
+        "prob": 53.2
+      }
+    ]
+  },
+  {
+    "player": "Tari Eason",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 26.3,
+    "proj_pts": 11.4,
+    "proj_reb": 6.6,
+    "proj_ast": 1.7,
+    "proj_3pm": 1.1,
+    "proj_pra": 19.8,
+    "best_prop": {
+      "market": "O 6.5 REB",
+      "proj": 6.6,
+      "line": 6.5,
+      "prob": 52.2
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 11.4,
+        "line": 11.5,
+        "prob": 48.7
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.6,
+        "line": 6.5,
+        "prob": 52.2
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.7,
+        "line": 1.5,
+        "prob": 48.7
+      },
+      {
+        "market": "O 19.5 PRA",
+        "proj": 19.8,
+        "line": 19.5,
+        "prob": 51.1
+      }
+    ]
+  },
+  {
+    "player": "Alperen Sengun",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 32.7,
+    "proj_pts": 21.9,
+    "proj_reb": 9.3,
+    "proj_ast": 7.5,
+    "proj_3pm": 1.0,
+    "proj_pra": 38.7,
+    "best_prop": {
+      "market": "O 21.5 PTS",
+      "proj": 21.9,
+      "line": 21.5,
+      "prob": 52.9
+    },
+    "all_props": [
+      {
+        "market": "O 21.5 PTS",
+        "proj": 21.9,
+        "line": 21.5,
+        "prob": 52.9
+      },
+      {
+        "market": "O 9.5 REB",
+        "proj": 9.3,
+        "line": 9.5,
+        "prob": 46.8
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 7.5,
+        "line": 7.5,
+        "prob": 49.0
+      },
+      {
+        "market": "O 38.5 PRA",
+        "proj": 38.7,
+        "line": 38.5,
+        "prob": 50.8
+      }
+    ]
+  },
+  {
+    "player": "Jabari Smith Jr.",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 33.8,
+    "proj_pts": 15.6,
+    "proj_reb": 6.7,
+    "proj_ast": 2.3,
+    "proj_3pm": 2.4,
+    "proj_pra": 24.6,
+    "best_prop": {
+      "market": "O 23.5 PRA",
+      "proj": 24.6,
+      "line": 23.5,
+      "prob": 56.6
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 15.6,
+        "line": 15.5,
+        "prob": 49.5
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.7,
+        "line": 6.5,
+        "prob": 53.0
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 43.3
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 24.6,
+        "line": 23.5,
+        "prob": 56.6
+      }
+    ]
+  },
+  {
+    "player": "Amen Thompson",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 32.5,
+    "proj_pts": 15.8,
+    "proj_reb": 6.9,
+    "proj_ast": 3.5,
+    "proj_3pm": 0.6,
+    "proj_pra": 26.1,
+    "best_prop": {
+      "market": "O 6.5 REB",
+      "proj": 6.9,
+      "line": 6.5,
+      "prob": 55.9
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 15.8,
+        "line": 15.5,
+        "prob": 51.8
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.9,
+        "line": 6.5,
+        "prob": 55.9
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.5,
+        "line": 3.5,
+        "prob": 49.7
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 26.1,
+        "line": 25.5,
+        "prob": 53.5
+      }
+    ]
+  },
+  {
+    "player": "Fred VanVleet",
+    "team": "HOU",
+    "opponent": "IND",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Clint Capela"
+    ],
+    "proj_min": 29.6,
+    "proj_pts": 14.3,
+    "proj_reb": 3.3,
+    "proj_ast": 5.9,
+    "proj_3pm": 3.0,
+    "proj_pra": 23.6,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 5.9,
+      "line": 5.5,
+      "prob": 58.1
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 14.3,
+        "line": 13.5,
+        "prob": 55.1
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.3,
+        "line": 3.5,
+        "prob": 45.7
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 5.9,
+        "line": 5.5,
+        "prob": 58.1
+      },
+      {
+        "market": "O 22.5 PRA",
+        "proj": 23.6,
+        "line": 22.5,
+        "prob": 56.5
+      }
+    ]
+  },
+  {
+    "player": "Kobe Brown",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 29.0,
+    "proj_pts": 13.7,
+    "proj_reb": 5.7,
+    "proj_ast": 2.6,
+    "proj_3pm": 1.0,
+    "proj_pra": 22.0,
+    "best_prop": {
+      "market": "O 12.5 PTS",
+      "proj": 13.7,
+      "line": 12.5,
+      "prob": 59.1
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 13.7,
+        "line": 12.5,
+        "prob": 59.1
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.7,
+        "line": 5.5,
+        "prob": 53.5
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 49.0
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 22.0,
+        "line": 20.5,
+        "prob": 59.1
+      }
+    ]
+  },
+  {
+    "player": "Jay Huff",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 24.2,
+    "proj_pts": 15.1,
+    "proj_reb": 3.7,
+    "proj_ast": 2.0,
+    "proj_3pm": 1.8,
+    "proj_pra": 20.7,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 20.7,
+      "line": 18.5,
+      "prob": 61.2
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 15.1,
+        "line": 13.5,
+        "prob": 59.4
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 51.2
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.0,
+        "line": 1.5,
+        "prob": 55.5
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.7,
+        "line": 18.5,
+        "prob": 61.2
+      }
+    ]
+  },
+  {
+    "player": "Quenton Jackson",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 24.6,
+    "proj_pts": 12.6,
+    "proj_reb": 4.4,
+    "proj_ast": 3.6,
+    "proj_3pm": 1.6,
+    "proj_pra": 20.6,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 20.6,
+      "line": 18.5,
+      "prob": 61.4
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.6,
+        "line": 11.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.4,
+        "line": 4.5,
+        "prob": 48.2
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.6,
+        "line": 3.5,
+        "prob": 50.4
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.6,
+        "line": 18.5,
+        "prob": 61.4
+      }
+    ]
+  },
+  {
+    "player": "Andrew Nembhard",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 31.5,
+    "proj_pts": 17.5,
+    "proj_reb": 2.3,
+    "proj_ast": 8.0,
+    "proj_3pm": 2.4,
+    "proj_pra": 27.7,
+    "best_prop": {
+      "market": "O 24.5 PRA",
+      "proj": 27.7,
+      "line": 24.5,
+      "prob": 67.8
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 17.5,
+        "line": 15.5,
+        "prob": 63.3
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 42.0
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 8.0,
+        "line": 7.5,
+        "prob": 58.3
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 27.7,
+        "line": 24.5,
+        "prob": 67.8
+      }
+    ]
+  },
+  {
+    "player": "Aaron Nesmith",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 26.2,
+    "proj_pts": 13.6,
+    "proj_reb": 2.9,
+    "proj_ast": 2.4,
+    "proj_3pm": 1.8,
+    "proj_pra": 18.9,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 13.6,
+      "line": 11.5,
+      "prob": 65.1
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.6,
+        "line": 11.5,
+        "prob": 65.1
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 54.0
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 46.8
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 18.9,
+        "line": 16.5,
+        "prob": 63.8
+      }
+    ]
+  },
+  {
+    "player": "Kelly Oubre Jr.",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 24.5,
+    "proj_pts": 13.2,
+    "proj_reb": 3.4,
+    "proj_ast": 1.7,
+    "proj_3pm": 1.4,
+    "proj_pra": 18.4,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 13.2,
+      "line": 11.5,
+      "prob": 62.4
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.2,
+        "line": 11.5,
+        "prob": 62.4
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 46.4
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.7,
+        "line": 1.5,
+        "prob": 49.7
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 18.4,
+        "line": 16.5,
+        "prob": 60.3
+      }
+    ]
+  },
+  {
+    "player": "Pascal Siakam",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 30.9,
+    "proj_pts": 24.6,
+    "proj_reb": 5.9,
+    "proj_ast": 4.3,
+    "proj_3pm": 1.9,
+    "proj_pra": 34.8,
+    "best_prop": {
+      "market": "O 31.5 PRA",
+      "proj": 34.8,
+      "line": 31.5,
+      "prob": 66.3
+    },
+    "all_props": [
+      {
+        "market": "O 22.5 PTS",
+        "proj": 24.6,
+        "line": 22.5,
+        "prob": 63.0
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.9,
+        "line": 5.5,
+        "prob": 56.7
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.3,
+        "line": 3.5,
+        "prob": 65.1
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 34.8,
+        "line": 31.5,
+        "prob": 66.3
+      }
+    ]
+  },
+  {
+    "player": "Jalen Slawson",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 24.5,
+    "proj_pts": 5.8,
+    "proj_reb": 5.1,
+    "proj_ast": 1.9,
+    "proj_3pm": 0.6,
+    "proj_pra": 12.7,
+    "best_prop": {
+      "market": "O 10.5 PRA",
+      "proj": 12.7,
+      "line": 10.5,
+      "prob": 64.9
+    },
+    "all_props": [
+      {
+        "market": "O 4.5 PTS",
+        "proj": 5.8,
+        "line": 4.5,
+        "prob": 58.7
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.1,
+        "line": 4.5,
+        "prob": 58.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.9,
+        "line": 1.5,
+        "prob": 53.1
+      },
+      {
+        "market": "O 10.5 PRA",
+        "proj": 12.7,
+        "line": 10.5,
+        "prob": 64.9
+      }
+    ]
+  },
+  {
+    "player": "Braden Smith",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 28.3,
+    "proj_pts": 11.7,
+    "proj_reb": 2.0,
+    "proj_ast": 8.1,
+    "proj_3pm": 0.9,
+    "proj_pra": 21.8,
+    "best_prop": {
+      "market": "O 19.5 PRA",
+      "proj": 21.8,
+      "line": 19.5,
+      "prob": 62.5
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 11.7,
+        "line": 10.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 1.5 REB",
+        "proj": 2.0,
+        "line": 1.5,
+        "prob": 54.6
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 8.1,
+        "line": 7.5,
+        "prob": 59.0
+      },
+      {
+        "market": "O 19.5 PRA",
+        "proj": 21.8,
+        "line": 19.5,
+        "prob": 62.5
+      }
+    ]
+  },
+  {
+    "player": "Jarace Walker",
+    "team": "IND",
+    "opponent": "HOU",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Johnny Furphy",
+      "Tyrese Haliburton",
+      "Ben Sheppard"
+    ],
+    "proj_min": 25.0,
+    "proj_pts": 10.4,
+    "proj_reb": 6.8,
+    "proj_ast": 3.4,
+    "proj_3pm": 1.6,
+    "proj_pra": 20.6,
+    "best_prop": {
+      "market": "O 8.5 PTS",
+      "proj": 10.4,
+      "line": 8.5,
+      "prob": 66.6
+    },
+    "all_props": [
+      {
+        "market": "O 8.5 PTS",
+        "proj": 10.4,
+        "line": 8.5,
+        "prob": 66.6
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.8,
+        "line": 6.5,
+        "prob": 54.1
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 47.6
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.6,
+        "line": 18.5,
+        "prob": 61.3
+      }
+    ]
+  },
+  {
+    "player": "Brayden Burries",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 25.8,
+    "proj_pts": 12.7,
+    "proj_reb": 6.5,
+    "proj_ast": 3.2,
+    "proj_3pm": 1.0,
+    "proj_pra": 22.4,
+    "best_prop": {
+      "market": "O 2.5 AST",
+      "proj": 3.2,
+      "line": 2.5,
+      "prob": 63.2
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.7,
+        "line": 11.5,
+        "prob": 58.1
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.5,
+        "line": 6.5,
+        "prob": 49.3
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.2,
+        "line": 2.5,
+        "prob": 63.2
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 22.4,
+        "line": 20.5,
+        "prob": 59.8
+      }
+    ]
+  },
+  {
+    "player": "Tyler Herro",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 29.5,
+    "proj_pts": 21.8,
+    "proj_reb": 4.5,
+    "proj_ast": 4.3,
+    "proj_3pm": 3.1,
+    "proj_pra": 30.7,
+    "best_prop": {
+      "market": "O 28.5 PRA",
+      "proj": 30.7,
+      "line": 28.5,
+      "prob": 62.4
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 21.8,
+        "line": 20.5,
+        "prob": 59.1
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.5,
+        "line": 4.5,
+        "prob": 49.9
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.3,
+        "line": 4.5,
+        "prob": 46.2
+      },
+      {
+        "market": "O 28.5 PRA",
+        "proj": 30.7,
+        "line": 28.5,
+        "prob": 62.4
+      }
+    ]
+  },
+  {
+    "player": "Jaime Jaquez Jr.",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 27.5,
+    "proj_pts": 16.5,
+    "proj_reb": 5.7,
+    "proj_ast": 3.1,
+    "proj_3pm": 2.0,
+    "proj_pra": 25.4,
+    "best_prop": {
+      "market": "O 2.5 AST",
+      "proj": 3.1,
+      "line": 2.5,
+      "prob": 62.2
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 16.5,
+        "line": 15.5,
+        "prob": 56.9
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.7,
+        "line": 5.5,
+        "prob": 54.2
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 62.2
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 25.4,
+        "line": 23.5,
+        "prob": 60.5
+      }
+    ]
+  },
+  {
+    "player": "Kam Jones",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 25.9,
+    "proj_pts": 8.6,
+    "proj_reb": 2.9,
+    "proj_ast": 6.4,
+    "proj_3pm": 1.3,
+    "proj_pra": 18.0,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.4,
+      "line": 5.5,
+      "prob": 65.0
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 8.6,
+        "line": 7.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 54.6
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.4,
+        "line": 5.5,
+        "prob": 65.0
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 18.0,
+        "line": 15.5,
+        "prob": 64.9
+      }
+    ]
+  },
+  {
+    "player": "Kyle Kuzma",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 26.3,
+    "proj_pts": 12.5,
+    "proj_reb": 5.6,
+    "proj_ast": 2.7,
+    "proj_3pm": 1.9,
+    "proj_pra": 20.7,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 20.7,
+      "line": 18.5,
+      "prob": 63.2
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.5,
+        "line": 11.5,
+        "prob": 57.4
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.6,
+        "line": 5.5,
+        "prob": 50.9
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 51.7
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.7,
+        "line": 18.5,
+        "prob": 63.2
+      }
+    ]
+  },
+  {
+    "player": "Ryan Rollins",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 25.5,
+    "proj_pts": 12.7,
+    "proj_reb": 5.6,
+    "proj_ast": 4.7,
+    "proj_3pm": 2.1,
+    "proj_pra": 23.0,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 12.7,
+      "line": 11.5,
+      "prob": 59.6
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.7,
+        "line": 11.5,
+        "prob": 59.6
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.6,
+        "line": 5.5,
+        "prob": 52.1
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.7,
+        "line": 4.5,
+        "prob": 52.9
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 23.0,
+        "line": 21.5,
+        "prob": 58.5
+      }
+    ]
+  },
+  {
+    "player": "Cormac Ryan",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 31.4,
+    "proj_pts": 20.1,
+    "proj_reb": 3.7,
+    "proj_ast": 2.5,
+    "proj_3pm": 3.5,
+    "proj_pra": 26.3,
+    "best_prop": {
+      "market": "O 18.5 PTS",
+      "proj": 20.1,
+      "line": 18.5,
+      "prob": 59.9
+    },
+    "all_props": [
+      {
+        "market": "O 18.5 PTS",
+        "proj": 20.1,
+        "line": 18.5,
+        "prob": 59.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 52.2
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.5,
+        "line": 2.5,
+        "prob": 48.4
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 26.3,
+        "line": 24.5,
+        "prob": 59.6
+      }
+    ]
+  },
+  {
+    "player": "Myles Turner",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 26.6,
+    "proj_pts": 8.8,
+    "proj_reb": 6.6,
+    "proj_ast": 2.7,
+    "proj_3pm": 1.5,
+    "proj_pra": 18.1,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 18.1,
+      "line": 15.5,
+      "prob": 66.6
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 8.8,
+        "line": 7.5,
+        "prob": 60.0
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.6,
+        "line": 6.5,
+        "prob": 51.0
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 50.9
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 18.1,
+        "line": 15.5,
+        "prob": 66.6
+      }
+    ]
+  },
+  {
+    "player": "Kel'el Ware",
+    "team": "MIL",
+    "opponent": "MIA",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Ousmane Dieng"
+    ],
+    "proj_min": 24.1,
+    "proj_pts": 14.0,
+    "proj_reb": 9.2,
+    "proj_ast": 1.5,
+    "proj_3pm": 1.3,
+    "proj_pra": 24.7,
+    "best_prop": {
+      "market": "O 22.5 PRA",
+      "proj": 24.7,
+      "line": 22.5,
+      "prob": 64.2
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 14.0,
+        "line": 13.5,
+        "prob": 53.6
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 9.2,
+        "line": 8.5,
+        "prob": 61.6
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.5,
+        "line": 1.5,
+        "prob": 42.9
+      },
+      {
+        "market": "O 22.5 PRA",
+        "proj": 24.7,
+        "line": 22.5,
+        "prob": 64.2
+      }
+    ]
+  },
+  {
+    "player": "Bam Adebayo",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 33.8,
+    "proj_pts": 20.6,
+    "proj_reb": 8.9,
+    "proj_ast": 3.5,
+    "proj_3pm": 0.9,
+    "proj_pra": 33.0,
+    "best_prop": {
+      "market": "O 19.5 PTS",
+      "proj": 20.6,
+      "line": 19.5,
+      "prob": 58.4
+    },
+    "all_props": [
+      {
+        "market": "O 19.5 PTS",
+        "proj": 20.6,
+        "line": 19.5,
+        "prob": 58.4
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.9,
+        "line": 8.5,
+        "prob": 56.6
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.5,
+        "line": 3.5,
+        "prob": 49.5
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 33.0,
+        "line": 31.5,
+        "prob": 58.3
+      }
+    ]
+  },
+  {
+    "player": "Giannis Antetokounmpo",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 31.7,
+    "proj_pts": 29.4,
+    "proj_reb": 13.2,
+    "proj_ast": 5.7,
+    "proj_3pm": 0.8,
+    "proj_pra": 48.4,
+    "best_prop": {
+      "market": "O 45.5 PRA",
+      "proj": 48.4,
+      "line": 45.5,
+      "prob": 62.4
+    },
+    "all_props": [
+      {
+        "market": "O 27.5 PTS",
+        "proj": 29.4,
+        "line": 27.5,
+        "prob": 62.3
+      },
+      {
+        "market": "O 12.5 REB",
+        "proj": 13.2,
+        "line": 12.5,
+        "prob": 59.8
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 5.7,
+        "line": 5.5,
+        "prob": 53.6
+      },
+      {
+        "market": "O 45.5 PRA",
+        "proj": 48.4,
+        "line": 45.5,
+        "prob": 62.4
+      }
+    ]
+  },
+  {
+    "player": "Ryan Conwell",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 26.3,
+    "proj_pts": 14.0,
+    "proj_reb": 2.9,
+    "proj_ast": 3.4,
+    "proj_3pm": 2.2,
+    "proj_pra": 20.3,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 20.3,
+      "line": 18.5,
+      "prob": 59.5
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 14.0,
+        "line": 12.5,
+        "prob": 59.2
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 54.5
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 46.1
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.3,
+        "line": 18.5,
+        "prob": 59.5
+      }
+    ]
+  },
+  {
+    "player": "Myron Gardner",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 24.0,
+    "proj_pts": 9.4,
+    "proj_reb": 5.6,
+    "proj_ast": 3.0,
+    "proj_3pm": 1.9,
+    "proj_pra": 18.0,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 18.0,
+      "line": 15.5,
+      "prob": 67.2
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 9.4,
+        "line": 7.5,
+        "prob": 65.8
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.6,
+        "line": 5.5,
+        "prob": 51.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 58.6
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 18.0,
+        "line": 15.5,
+        "prob": 67.2
+      }
+    ]
+  },
+  {
+    "player": "Pelle Larsson",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 29.2,
+    "proj_pts": 12.5,
+    "proj_reb": 3.6,
+    "proj_ast": 3.9,
+    "proj_3pm": 1.4,
+    "proj_pra": 20.0,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 20.0,
+      "line": 18.5,
+      "prob": 59.3
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.5,
+        "line": 11.5,
+        "prob": 57.6
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.6,
+        "line": 3.5,
+        "prob": 51.3
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 56.9
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.0,
+        "line": 18.5,
+        "prob": 59.3
+      }
+    ]
+  },
+  {
+    "player": "Davion Mitchell",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 34.7,
+    "proj_pts": 17.6,
+    "proj_reb": 2.7,
+    "proj_ast": 9.2,
+    "proj_3pm": 2.3,
+    "proj_pra": 29.4,
+    "best_prop": {
+      "market": "O 8.5 AST",
+      "proj": 9.2,
+      "line": 8.5,
+      "prob": 62.0
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 17.6,
+        "line": 16.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 50.2
+      },
+      {
+        "market": "O 8.5 AST",
+        "proj": 9.2,
+        "line": 8.5,
+        "prob": 62.0
+      },
+      {
+        "market": "O 27.5 PRA",
+        "proj": 29.4,
+        "line": 27.5,
+        "prob": 62.0
+      }
+    ]
+  },
+  {
+    "player": "Klay Thompson",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 26.3,
+    "proj_pts": 19.4,
+    "proj_reb": 1.9,
+    "proj_ast": 2.4,
+    "proj_3pm": 4.6,
+    "proj_pra": 23.7,
+    "best_prop": {
+      "market": "O 17.5 PTS",
+      "proj": 19.4,
+      "line": 17.5,
+      "prob": 65.2
+    },
+    "all_props": [
+      {
+        "market": "O 17.5 PTS",
+        "proj": 19.4,
+        "line": 17.5,
+        "prob": 65.2
+      },
+      {
+        "market": "O 1.5 REB",
+        "proj": 1.9,
+        "line": 1.5,
+        "prob": 50.4
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 45.6
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 23.7,
+        "line": 21.5,
+        "prob": 63.0
+      }
+    ]
+  },
+  {
+    "player": "Andrew Wiggins",
+    "team": "MIA",
+    "opponent": "MIL",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 26.3,
+    "proj_pts": 11.1,
+    "proj_reb": 3.4,
+    "proj_ast": 1.8,
+    "proj_3pm": 1.5,
+    "proj_pra": 16.3,
+    "best_prop": {
+      "market": "O 14.5 PRA",
+      "proj": 16.3,
+      "line": 14.5,
+      "prob": 60.8
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 11.1,
+        "line": 10.5,
+        "prob": 52.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 46.8
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.8,
+        "line": 1.5,
+        "prob": 51.7
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 16.3,
+        "line": 14.5,
+        "prob": 60.8
+      }
+    ]
+  },
+  {
+    "player": "Kentavious Caldwell-Pope",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 24.1,
+    "proj_pts": 8.6,
+    "proj_reb": 3.2,
+    "proj_ast": 2.1,
+    "proj_3pm": 1.7,
+    "proj_pra": 14.0,
+    "best_prop": {
+      "market": "O 11.5 PRA",
+      "proj": 14.0,
+      "line": 11.5,
+      "prob": 68.0
+    },
+    "all_props": [
+      {
+        "market": "O 6.5 PTS",
+        "proj": 8.6,
+        "line": 6.5,
+        "prob": 64.2
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.2,
+        "line": 3.5,
+        "prob": 43.6
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 59.9
+      },
+      {
+        "market": "O 11.5 PRA",
+        "proj": 14.0,
+        "line": 11.5,
+        "prob": 68.0
+      }
+    ]
+  },
+  {
+    "player": "VJ Edgecombe",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 32.9,
+    "proj_pts": 14.7,
+    "proj_reb": 6.4,
+    "proj_ast": 4.2,
+    "proj_3pm": 1.7,
+    "proj_pra": 25.4,
+    "best_prop": {
+      "market": "O 3.5 AST",
+      "proj": 4.2,
+      "line": 3.5,
+      "prob": 63.8
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 14.7,
+        "line": 13.5,
+        "prob": 59.4
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.4,
+        "line": 6.5,
+        "prob": 48.3
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.2,
+        "line": 3.5,
+        "prob": 63.8
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 25.4,
+        "line": 23.5,
+        "prob": 61.3
+      }
+    ]
+  },
+  {
+    "player": "Justin Edwards",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 26.7,
+    "proj_pts": 9.3,
+    "proj_reb": 4.2,
+    "proj_ast": 1.7,
+    "proj_3pm": 1.9,
+    "proj_pra": 15.2,
+    "best_prop": {
+      "market": "O 6.5 PTS",
+      "proj": 9.3,
+      "line": 6.5,
+      "prob": 69.9
+    },
+    "all_props": [
+      {
+        "market": "O 6.5 PTS",
+        "proj": 9.3,
+        "line": 6.5,
+        "prob": 69.9
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.2,
+        "line": 4.5,
+        "prob": 44.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.7,
+        "line": 1.5,
+        "prob": 50.4
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 15.2,
+        "line": 12.5,
+        "prob": 68.6
+      }
+    ]
+  },
+  {
+    "player": "Joel Embiid",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 30.8,
+    "proj_pts": 21.2,
+    "proj_reb": 8.4,
+    "proj_ast": 4.0,
+    "proj_3pm": 0.8,
+    "proj_pra": 33.6,
+    "best_prop": {
+      "market": "O 30.5 PRA",
+      "proj": 33.6,
+      "line": 30.5,
+      "prob": 66.9
+    },
+    "all_props": [
+      {
+        "market": "O 19.5 PTS",
+        "proj": 21.2,
+        "line": 19.5,
+        "prob": 62.5
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.4,
+        "line": 8.5,
+        "prob": 48.4
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.0,
+        "line": 3.5,
+        "prob": 60.4
+      },
+      {
+        "market": "O 30.5 PRA",
+        "proj": 33.6,
+        "line": 30.5,
+        "prob": 66.9
+      }
+    ]
+  },
+  {
+    "player": "LeBron James",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 30.8,
+    "proj_pts": 15.7,
+    "proj_reb": 7.3,
+    "proj_ast": 7.6,
+    "proj_3pm": 0.9,
+    "proj_pra": 30.6,
+    "best_prop": {
+      "market": "O 6.5 AST",
+      "proj": 7.6,
+      "line": 6.5,
+      "prob": 69.4
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 15.7,
+        "line": 14.5,
+        "prob": 58.7
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.3,
+        "line": 7.5,
+        "prob": 46.4
+      },
+      {
+        "market": "O 6.5 AST",
+        "proj": 7.6,
+        "line": 6.5,
+        "prob": 69.4
+      },
+      {
+        "market": "O 27.5 PRA",
+        "proj": 30.6,
+        "line": 27.5,
+        "prob": 66.7
+      }
+    ]
+  },
+  {
+    "player": "Tyrese Maxey",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 36.1,
+    "proj_pts": 29.3,
+    "proj_reb": 3.4,
+    "proj_ast": 6.5,
+    "proj_3pm": 3.1,
+    "proj_pra": 39.2,
+    "best_prop": {
+      "market": "O 35.5 PRA",
+      "proj": 39.2,
+      "line": 35.5,
+      "prob": 72.2
+    },
+    "all_props": [
+      {
+        "market": "O 26.5 PTS",
+        "proj": 29.3,
+        "line": 26.5,
+        "prob": 70.7
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 47.3
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.5,
+        "line": 5.5,
+        "prob": 69.5
+      },
+      {
+        "market": "O 35.5 PRA",
+        "proj": 39.2,
+        "line": 35.5,
+        "prob": 72.2
+      }
+    ]
+  },
+  {
+    "player": "Labaron Philon Jr.",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 24.5,
+    "proj_pts": 10.8,
+    "proj_reb": 2.3,
+    "proj_ast": 5.0,
+    "proj_3pm": 1.7,
+    "proj_pra": 18.1,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 18.1,
+      "line": 15.5,
+      "prob": 68.1
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 10.8,
+        "line": 9.5,
+        "prob": 58.0
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 42.6
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 5.0,
+        "line": 4.5,
+        "prob": 60.4
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 18.1,
+        "line": 15.5,
+        "prob": 68.1
+      }
+    ]
+  },
+  {
+    "player": "Anfernee Simons",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 24.1,
+    "proj_pts": 14.7,
+    "proj_reb": 2.3,
+    "proj_ast": 1.8,
+    "proj_3pm": 3.3,
+    "proj_pra": 18.9,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 18.9,
+      "line": 15.5,
+      "prob": 72.6
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 14.7,
+        "line": 12.5,
+        "prob": 65.0
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 43.3
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.8,
+        "line": 1.5,
+        "prob": 52.2
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 18.9,
+        "line": 15.5,
+        "prob": 72.6
+      }
+    ]
+  },
+  {
+    "player": "Dean Wade",
+    "team": "PHI",
+    "opponent": "ORL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Dominick Barlow",
+      "Adem Bona",
+      "Jaylen Brown"
+    ],
+    "proj_min": 26.9,
+    "proj_pts": 7.3,
+    "proj_reb": 5.0,
+    "proj_ast": 2.1,
+    "proj_3pm": 1.3,
+    "proj_pra": 14.4,
+    "best_prop": {
+      "market": "O 11.5 PRA",
+      "proj": 14.4,
+      "line": 11.5,
+      "prob": 70.0
+    },
+    "all_props": [
+      {
+        "market": "O 5.5 PTS",
+        "proj": 7.3,
+        "line": 5.5,
+        "prob": 69.5
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.0,
+        "line": 4.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 59.6
+      },
+      {
+        "market": "O 11.5 PRA",
+        "proj": 14.4,
+        "line": 11.5,
+        "prob": 70.0
+      }
+    ]
+  },
+  {
+    "player": "Desmond Bane",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 33.6,
+    "proj_pts": 21.1,
+    "proj_reb": 4.2,
+    "proj_ast": 3.0,
+    "proj_3pm": 4.6,
+    "proj_pra": 28.3,
+    "best_prop": {
+      "market": "O 24.5 PRA",
+      "proj": 28.3,
+      "line": 24.5,
+      "prob": 71.9
+    },
+    "all_props": [
+      {
+        "market": "O 18.5 PTS",
+        "proj": 21.1,
+        "line": 18.5,
+        "prob": 67.8
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.2,
+        "line": 4.5,
+        "prob": 45.3
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 58.1
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 28.3,
+        "line": 24.5,
+        "prob": 71.9
+      }
+    ]
+  },
+  {
+    "player": "Anthony Black",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 32.3,
+    "proj_pts": 19.0,
+    "proj_reb": 5.4,
+    "proj_ast": 6.3,
+    "proj_3pm": 2.4,
+    "proj_pra": 30.7,
+    "best_prop": {
+      "market": "O 16.5 PTS",
+      "proj": 19.0,
+      "line": 16.5,
+      "prob": 67.0
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 19.0,
+        "line": 16.5,
+        "prob": 67.0
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.4,
+        "line": 5.5,
+        "prob": 47.9
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.3,
+        "line": 5.5,
+        "prob": 64.0
+      },
+      {
+        "market": "O 27.5 PRA",
+        "proj": 30.7,
+        "line": 27.5,
+        "prob": 65.6
+      }
+    ]
+  },
+  {
+    "player": "Wendell Carter Jr.",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 30.7,
+    "proj_pts": 14.0,
+    "proj_reb": 8.8,
+    "proj_ast": 1.6,
+    "proj_3pm": 1.1,
+    "proj_pra": 24.4,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 24.4,
+      "line": 21.5,
+      "prob": 65.9
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 14.0,
+        "line": 12.5,
+        "prob": 61.2
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.8,
+        "line": 8.5,
+        "prob": 54.4
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.6,
+        "line": 1.5,
+        "prob": 46.3
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 24.4,
+        "line": 21.5,
+        "prob": 65.9
+      }
+    ]
+  },
+  {
+    "player": "Tristan da Silva",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 28.2,
+    "proj_pts": 17.8,
+    "proj_reb": 4.2,
+    "proj_ast": 2.4,
+    "proj_3pm": 3.8,
+    "proj_pra": 24.5,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 24.5,
+      "line": 21.5,
+      "prob": 66.8
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 17.8,
+        "line": 15.5,
+        "prob": 64.6
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.2,
+        "line": 4.5,
+        "prob": 44.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 46.4
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 24.5,
+        "line": 21.5,
+        "prob": 66.8
+      }
+    ]
+  },
+  {
+    "player": "Jase Richardson",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 26.2,
+    "proj_pts": 8.1,
+    "proj_reb": 3.0,
+    "proj_ast": 3.8,
+    "proj_3pm": 0.8,
+    "proj_pra": 14.9,
+    "best_prop": {
+      "market": "O 12.5 PRA",
+      "proj": 14.9,
+      "line": 12.5,
+      "prob": 66.0
+    },
+    "all_props": [
+      {
+        "market": "O 6.5 PTS",
+        "proj": 8.1,
+        "line": 6.5,
+        "prob": 61.1
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 56.5
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 55.0
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 14.9,
+        "line": 12.5,
+        "prob": 66.0
+      }
+    ]
+  },
+  {
+    "player": "Jalen Suggs",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 27.8,
+    "proj_pts": 9.5,
+    "proj_reb": 4.5,
+    "proj_ast": 5.3,
+    "proj_3pm": 1.2,
+    "proj_pra": 19.3,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 19.3,
+      "line": 16.5,
+      "prob": 66.8
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 9.5,
+        "line": 7.5,
+        "prob": 66.4
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.5,
+        "line": 4.5,
+        "prob": 49.9
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 5.3,
+        "line": 4.5,
+        "prob": 63.6
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 19.3,
+        "line": 16.5,
+        "prob": 66.8
+      }
+    ]
+  },
+  {
+    "player": "Franz Wagner",
+    "team": "ORL",
+    "opponent": "PHI",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Paolo Banchero",
+      "Jonathan Isaac",
+      "Izaiyah Nelson"
+    ],
+    "proj_min": 34.7,
+    "proj_pts": 26.1,
+    "proj_reb": 6.8,
+    "proj_ast": 9.1,
+    "proj_3pm": 1.4,
+    "proj_pra": 42.0,
+    "best_prop": {
+      "market": "O 37.5 PRA",
+      "proj": 42.0,
+      "line": 37.5,
+      "prob": 70.2
+    },
+    "all_props": [
+      {
+        "market": "O 23.5 PTS",
+        "proj": 26.1,
+        "line": 23.5,
+        "prob": 66.5
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.8,
+        "line": 6.5,
+        "prob": 55.5
+      },
+      {
+        "market": "O 8.5 AST",
+        "proj": 9.1,
+        "line": 8.5,
+        "prob": 61.0
+      },
+      {
+        "market": "O 37.5 PRA",
+        "proj": 42.0,
+        "line": 37.5,
+        "prob": 70.2
+      }
+    ]
+  },
+  {
+    "player": "Matas Buzelis",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 26.8,
+    "proj_pts": 16.7,
+    "proj_reb": 5.1,
+    "proj_ast": 2.2,
+    "proj_3pm": 2.3,
+    "proj_pra": 23.9,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 23.9,
+      "line": 21.5,
+      "prob": 63.3
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 16.7,
+        "line": 15.5,
+        "prob": 57.4
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.1,
+        "line": 4.5,
+        "prob": 58.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.2,
+        "line": 1.5,
+        "prob": 61.3
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 23.9,
+        "line": 21.5,
+        "prob": 63.3
+      }
+    ]
+  },
+  {
+    "player": "Josh Giddey",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 27.1,
+    "proj_pts": 11.2,
+    "proj_reb": 5.5,
+    "proj_ast": 9.2,
+    "proj_3pm": 1.4,
+    "proj_pra": 25.9,
+    "best_prop": {
+      "market": "O 23.5 PRA",
+      "proj": 25.9,
+      "line": 23.5,
+      "prob": 63.0
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 11.2,
+        "line": 9.5,
+        "prob": 61.5
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.5,
+        "line": 5.5,
+        "prob": 50.6
+      },
+      {
+        "market": "O 8.5 AST",
+        "proj": 9.2,
+        "line": 8.5,
+        "prob": 60.5
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 25.9,
+        "line": 23.5,
+        "prob": 63.0
+      }
+    ]
+  },
+  {
+    "player": "Isaac Okoro",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 25.3,
+    "proj_pts": 9.3,
+    "proj_reb": 3.1,
+    "proj_ast": 2.3,
+    "proj_3pm": 1.0,
+    "proj_pra": 14.7,
+    "best_prop": {
+      "market": "O 12.5 PRA",
+      "proj": 14.7,
+      "line": 12.5,
+      "prob": 64.0
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 9.3,
+        "line": 7.5,
+        "prob": 62.8
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 57.9
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.3,
+        "line": 1.5,
+        "prob": 63.6
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 14.7,
+        "line": 12.5,
+        "prob": 64.0
+      }
+    ]
+  },
+  {
+    "player": "Norman Powell",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 28.2,
+    "proj_pts": 23.2,
+    "proj_reb": 3.2,
+    "proj_ast": 2.4,
+    "proj_3pm": 2.4,
+    "proj_pra": 28.8,
+    "best_prop": {
+      "market": "O 25.5 PRA",
+      "proj": 28.8,
+      "line": 25.5,
+      "prob": 66.5
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 23.2,
+        "line": 20.5,
+        "prob": 66.3
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.2,
+        "line": 2.5,
+        "prob": 58.8
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 46.2
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 28.8,
+        "line": 25.5,
+        "prob": 66.5
+      }
+    ]
+  },
+  {
+    "player": "Jalen Smith",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 25.6,
+    "proj_pts": 15.9,
+    "proj_reb": 9.1,
+    "proj_ast": 2.5,
+    "proj_3pm": 2.2,
+    "proj_pra": 27.6,
+    "best_prop": {
+      "market": "O 24.5 PRA",
+      "proj": 27.6,
+      "line": 24.5,
+      "prob": 65.6
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 15.9,
+        "line": 14.5,
+        "prob": 60.3
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 9.1,
+        "line": 8.5,
+        "prob": 58.8
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.5,
+        "line": 2.5,
+        "prob": 47.7
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 27.6,
+        "line": 24.5,
+        "prob": 65.6
+      }
+    ]
+  },
+  {
+    "player": "Patrick Williams",
+    "team": "CHI",
+    "opponent": "BKN",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Tobe Awaka",
+      "Caleb Wilson"
+    ],
+    "proj_min": 24.6,
+    "proj_pts": 10.9,
+    "proj_reb": 4.1,
+    "proj_ast": 2.8,
+    "proj_3pm": 1.6,
+    "proj_pra": 17.8,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 17.8,
+      "line": 15.5,
+      "prob": 65.6
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 10.9,
+        "line": 9.5,
+        "prob": 59.3
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 4.1,
+        "line": 3.5,
+        "prob": 59.9
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 54.4
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 17.8,
+        "line": 15.5,
+        "prob": 65.6
+      }
+    ]
+  },
+  {
+    "player": "Chaney Johnson",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 24.7,
+    "proj_pts": 8.5,
+    "proj_reb": 3.7,
+    "proj_ast": 1.6,
+    "proj_3pm": 1.2,
+    "proj_pra": 13.7,
+    "best_prop": {
+      "market": "O 11.5 PRA",
+      "proj": 13.7,
+      "line": 11.5,
+      "prob": 65.1
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 8.5,
+        "line": 7.5,
+        "prob": 56.1
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 51.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.6,
+        "line": 1.5,
+        "prob": 46.9
+      },
+      {
+        "market": "O 11.5 PRA",
+        "proj": 13.7,
+        "line": 11.5,
+        "prob": 65.1
+      }
+    ]
+  },
+  {
+    "player": "Michael Porter Jr.",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 32.1,
+    "proj_pts": 23.7,
+    "proj_reb": 7.0,
+    "proj_ast": 1.6,
+    "proj_3pm": 3.5,
+    "proj_pra": 32.3,
+    "best_prop": {
+      "market": "O 30.5 PRA",
+      "proj": 32.3,
+      "line": 30.5,
+      "prob": 59.1
+    },
+    "all_props": [
+      {
+        "market": "O 22.5 PTS",
+        "proj": 23.7,
+        "line": 22.5,
+        "prob": 57.1
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 7.0,
+        "line": 6.5,
+        "prob": 58.1
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.6,
+        "line": 1.5,
+        "prob": 45.3
+      },
+      {
+        "market": "O 30.5 PRA",
+        "proj": 32.3,
+        "line": 30.5,
+        "prob": 59.1
+      }
+    ]
+  },
+  {
+    "player": "Julius Randle",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 31.9,
+    "proj_pts": 21.4,
+    "proj_reb": 6.3,
+    "proj_ast": 5.3,
+    "proj_3pm": 1.6,
+    "proj_pra": 32.9,
+    "best_prop": {
+      "market": "O 31.5 PRA",
+      "proj": 32.9,
+      "line": 31.5,
+      "prob": 57.4
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 21.4,
+        "line": 20.5,
+        "prob": 55.9
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.3,
+        "line": 6.5,
+        "prob": 46.7
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 5.3,
+        "line": 5.5,
+        "prob": 45.0
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 32.9,
+        "line": 31.5,
+        "prob": 57.4
+      }
+    ]
+  },
+  {
+    "player": "Day'Ron Sharpe",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 24.2,
+    "proj_pts": 9.3,
+    "proj_reb": 7.6,
+    "proj_ast": 4.8,
+    "proj_3pm": 0.7,
+    "proj_pra": 21.7,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 21.7,
+      "line": 20.5,
+      "prob": 56.5
+    },
+    "all_props": [
+      {
+        "market": "O 8.5 PTS",
+        "proj": 9.3,
+        "line": 8.5,
+        "prob": 56.1
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.6,
+        "line": 7.5,
+        "prob": 50.8
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 56.1
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 21.7,
+        "line": 20.5,
+        "prob": 56.5
+      }
+    ]
+  },
+  {
+    "player": "Nolan Traore",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 24.3,
+    "proj_pts": 16.6,
+    "proj_reb": 2.1,
+    "proj_ast": 3.4,
+    "proj_3pm": 2.0,
+    "proj_pra": 22.1,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 22.1,
+      "line": 20.5,
+      "prob": 60.3
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 16.6,
+        "line": 15.5,
+        "prob": 58.2
+      },
+      {
+        "market": "O 1.5 REB",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 56.0
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 47.4
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 22.1,
+        "line": 20.5,
+        "prob": 60.3
+      }
+    ]
+  },
+  {
+    "player": "Danny Wolf",
+    "team": "BKN",
+    "opponent": "CHI",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 28.6,
+    "proj_pts": 12.9,
+    "proj_reb": 7.4,
+    "proj_ast": 2.4,
+    "proj_3pm": 2.1,
+    "proj_pra": 22.7,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 22.7,
+      "line": 20.5,
+      "prob": 62.4
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 12.9,
+        "line": 11.5,
+        "prob": 61.5
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.4,
+        "line": 7.5,
+        "prob": 48.2
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 45.8
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 22.7,
+        "line": 20.5,
+        "prob": 62.4
+      }
+    ]
+  },
+  {
+    "player": "Deandre Ayton",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 24.0,
+    "proj_pts": 6.6,
+    "proj_reb": 8.4,
+    "proj_ast": 3.4,
+    "proj_3pm": 0.4,
+    "proj_pra": 18.4,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 18.4,
+      "line": 16.5,
+      "prob": 63.2
+    },
+    "all_props": [
+      {
+        "market": "O 5.5 PTS",
+        "proj": 6.6,
+        "line": 5.5,
+        "prob": 59.2
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.4,
+        "line": 8.5,
+        "prob": 49.3
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 47.9
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 18.4,
+        "line": 16.5,
+        "prob": 63.2
+      }
+    ]
+  },
+  {
+    "player": "Bilal Coulibaly",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 25.1,
+    "proj_pts": 8.8,
+    "proj_reb": 4.2,
+    "proj_ast": 1.2,
+    "proj_3pm": 0.8,
+    "proj_pra": 14.2,
+    "best_prop": {
+      "market": "O 12.5 PRA",
+      "proj": 14.2,
+      "line": 12.5,
+      "prob": 61.2
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 8.8,
+        "line": 7.5,
+        "prob": 58.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 4.2,
+        "line": 3.5,
+        "prob": 60.4
+      },
+      {
+        "market": "O 0.5 AST",
+        "proj": 1.2,
+        "line": 0.5,
+        "prob": 57.2
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 14.2,
+        "line": 12.5,
+        "prob": 61.2
+      }
+    ]
+  },
+  {
+    "player": "Anthony Davis",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 32.8,
+    "proj_pts": 25.7,
+    "proj_reb": 10.5,
+    "proj_ast": 2.5,
+    "proj_3pm": 0.9,
+    "proj_pra": 38.7,
+    "best_prop": {
+      "market": "O 22.5 PTS",
+      "proj": 25.7,
+      "line": 22.5,
+      "prob": 70.7
+    },
+    "all_props": [
+      {
+        "market": "O 22.5 PTS",
+        "proj": 25.7,
+        "line": 22.5,
+        "prob": 70.7
+      },
+      {
+        "market": "O 9.5 REB",
+        "proj": 10.5,
+        "line": 9.5,
+        "prob": 63.9
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.5,
+        "line": 2.5,
+        "prob": 48.7
+      },
+      {
+        "market": "O 34.5 PRA",
+        "proj": 38.7,
+        "line": 34.5,
+        "prob": 70.3
+      }
+    ]
+  },
+  {
+    "player": "AJ Dybantsa",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 31.2,
+    "proj_pts": 17.0,
+    "proj_reb": 6.1,
+    "proj_ast": 2.7,
+    "proj_3pm": 1.0,
+    "proj_pra": 25.7,
+    "best_prop": {
+      "market": "O 23.5 PRA",
+      "proj": 25.7,
+      "line": 23.5,
+      "prob": 62.0
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 17.0,
+        "line": 15.5,
+        "prob": 59.9
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 6.1,
+        "line": 5.5,
+        "prob": 58.9
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 52.5
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 25.7,
+        "line": 23.5,
+        "prob": 62.0
+      }
+    ]
+  },
+  {
+    "player": "Kyshawn George",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 33.3,
+    "proj_pts": 19.8,
+    "proj_reb": 4.6,
+    "proj_ast": 5.1,
+    "proj_3pm": 2.6,
+    "proj_pra": 29.6,
+    "best_prop": {
+      "market": "O 26.5 PRA",
+      "proj": 29.6,
+      "line": 26.5,
+      "prob": 67.5
+    },
+    "all_props": [
+      {
+        "market": "O 17.5 PTS",
+        "proj": 19.8,
+        "line": 17.5,
+        "prob": 66.5
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.6,
+        "line": 4.5,
+        "prob": 51.8
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 5.1,
+        "line": 4.5,
+        "prob": 61.7
+      },
+      {
+        "market": "O 26.5 PRA",
+        "proj": 29.6,
+        "line": 26.5,
+        "prob": 67.5
+      }
+    ]
+  },
+  {
+    "player": "Alex Sarr",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 27.5,
+    "proj_pts": 13.3,
+    "proj_reb": 7.9,
+    "proj_ast": 1.9,
+    "proj_3pm": 1.2,
+    "proj_pra": 23.2,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 23.2,
+      "line": 20.5,
+      "prob": 64.6
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.3,
+        "line": 11.5,
+        "prob": 63.5
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.9,
+        "line": 7.5,
+        "prob": 55.1
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.9,
+        "line": 1.5,
+        "prob": 55.4
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 23.2,
+        "line": 20.5,
+        "prob": 64.6
+      }
+    ]
+  },
+  {
+    "player": "Trae Young",
+    "team": "WSH",
+    "opponent": "TOR",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Reece Beekman",
+      "Justin Champagnie",
+      "Tristan Vukcevic"
+    ],
+    "proj_min": 35.2,
+    "proj_pts": 20.1,
+    "proj_reb": 3.1,
+    "proj_ast": 10.2,
+    "proj_3pm": 2.3,
+    "proj_pra": 33.4,
+    "best_prop": {
+      "market": "O 8.5 AST",
+      "proj": 10.2,
+      "line": 8.5,
+      "prob": 76.5
+    },
+    "all_props": [
+      {
+        "market": "O 17.5 PTS",
+        "proj": 20.1,
+        "line": 17.5,
+        "prob": 69.0
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 58.8
+      },
+      {
+        "market": "O 8.5 AST",
+        "proj": 10.2,
+        "line": 8.5,
+        "prob": 76.5
+      },
+      {
+        "market": "O 29.5 PRA",
+        "proj": 33.4,
+        "line": 29.5,
+        "prob": 71.5
+      }
+    ]
+  },
+  {
+    "player": "Scottie Barnes",
+    "team": "TOR",
+    "opponent": "WSH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Nate Bittle",
+      "Kawhi Leonard"
+    ],
+    "proj_min": 31.5,
+    "proj_pts": 24.3,
+    "proj_reb": 7.4,
+    "proj_ast": 4.8,
+    "proj_3pm": 1.2,
+    "proj_pra": 36.4,
+    "best_prop": {
+      "market": "O 22.5 PTS",
+      "proj": 24.3,
+      "line": 22.5,
+      "prob": 60.9
+    },
+    "all_props": [
+      {
+        "market": "O 22.5 PTS",
+        "proj": 24.3,
+        "line": 22.5,
+        "prob": 60.9
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.4,
+        "line": 7.5,
+        "prob": 48.0
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 55.1
+      },
+      {
+        "market": "O 34.5 PRA",
+        "proj": 36.4,
+        "line": 34.5,
+        "prob": 59.4
+      }
+    ]
+  },
+  {
+    "player": "RJ Barrett",
+    "team": "TOR",
+    "opponent": "WSH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Nate Bittle",
+      "Kawhi Leonard"
+    ],
+    "proj_min": 33.9,
+    "proj_pts": 22.7,
+    "proj_reb": 6.7,
+    "proj_ast": 4.6,
+    "proj_3pm": 1.7,
+    "proj_pra": 34.0,
+    "best_prop": {
+      "market": "O 20.5 PTS",
+      "proj": 22.7,
+      "line": 20.5,
+      "prob": 66.5
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 22.7,
+        "line": 20.5,
+        "prob": 66.5
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.7,
+        "line": 6.5,
+        "prob": 53.4
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.6,
+        "line": 4.5,
+        "prob": 51.9
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 34.0,
+        "line": 31.5,
+        "prob": 65.2
+      }
+    ]
+  },
+  {
+    "player": "Collin Murray-Boyles",
+    "team": "TOR",
+    "opponent": "WSH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Nate Bittle",
+      "Kawhi Leonard"
+    ],
+    "proj_min": 24.9,
+    "proj_pts": 11.0,
+    "proj_reb": 5.8,
+    "proj_ast": 2.2,
+    "proj_3pm": 0.7,
+    "proj_pra": 19.0,
+    "best_prop": {
+      "market": "O 1.5 AST",
+      "proj": 2.2,
+      "line": 1.5,
+      "prob": 62.1
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 11.0,
+        "line": 10.5,
+        "prob": 52.8
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.8,
+        "line": 5.5,
+        "prob": 53.6
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.2,
+        "line": 1.5,
+        "prob": 62.1
+      },
+      {
+        "market": "O 17.5 PRA",
+        "proj": 19.0,
+        "line": 17.5,
+        "prob": 58.4
+      }
+    ]
+  },
+  {
+    "player": "Immanuel Quickley",
+    "team": "TOR",
+    "opponent": "WSH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Nate Bittle",
+      "Kawhi Leonard"
+    ],
+    "proj_min": 30.1,
+    "proj_pts": 18.3,
+    "proj_reb": 3.8,
+    "proj_ast": 6.1,
+    "proj_3pm": 2.6,
+    "proj_pra": 28.3,
+    "best_prop": {
+      "market": "O 16.5 PTS",
+      "proj": 18.3,
+      "line": 16.5,
+      "prob": 62.0
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 18.3,
+        "line": 16.5,
+        "prob": 62.0
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 54.5
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.1,
+        "line": 5.5,
+        "prob": 61.2
+      },
+      {
+        "market": "O 26.5 PRA",
+        "proj": 28.3,
+        "line": 26.5,
+        "prob": 58.8
+      }
+    ]
+  },
+  {
+    "player": "Ja'Kobe Walter",
+    "team": "TOR",
+    "opponent": "WSH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Nate Bittle",
+      "Kawhi Leonard"
+    ],
+    "proj_min": 30.1,
+    "proj_pts": 13.0,
+    "proj_reb": 3.8,
+    "proj_ast": 2.1,
+    "proj_3pm": 2.5,
+    "proj_pra": 18.9,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 18.9,
+      "line": 16.5,
+      "prob": 65.5
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.0,
+        "line": 11.5,
+        "prob": 64.2
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 54.9
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 58.4
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 18.9,
+        "line": 16.5,
+        "prob": 65.5
+      }
+    ]
+  },
+  {
+    "player": "John Collins",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 25.5,
+    "proj_pts": 12.2,
+    "proj_reb": 6.3,
+    "proj_ast": 1.1,
+    "proj_3pm": 1.3,
+    "proj_pra": 19.7,
+    "best_prop": {
+      "market": "O 17.5 PRA",
+      "proj": 19.7,
+      "line": 17.5,
+      "prob": 62.8
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 12.2,
+        "line": 10.5,
+        "prob": 62.1
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 6.3,
+        "line": 5.5,
+        "prob": 62.0
+      },
+      {
+        "market": "O 0.5 AST",
+        "proj": 1.1,
+        "line": 0.5,
+        "prob": 53.5
+      },
+      {
+        "market": "O 17.5 PRA",
+        "proj": 19.7,
+        "line": 17.5,
+        "prob": 62.8
+      }
+    ]
+  },
+  {
+    "player": "Cade Cunningham",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 33.4,
+    "proj_pts": 27.3,
+    "proj_reb": 4.9,
+    "proj_ast": 9.0,
+    "proj_3pm": 2.4,
+    "proj_pra": 41.2,
+    "best_prop": {
+      "market": "O 7.5 AST",
+      "proj": 9.0,
+      "line": 7.5,
+      "prob": 73.4
+    },
+    "all_props": [
+      {
+        "market": "O 24.5 PTS",
+        "proj": 27.3,
+        "line": 24.5,
+        "prob": 67.0
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.9,
+        "line": 4.5,
+        "prob": 56.8
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 9.0,
+        "line": 7.5,
+        "prob": 73.4
+      },
+      {
+        "market": "O 36.5 PRA",
+        "proj": 41.2,
+        "line": 36.5,
+        "prob": 70.9
+      }
+    ]
+  },
+  {
+    "player": "Kevin Huerter",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 24.1,
+    "proj_pts": 11.8,
+    "proj_reb": 2.7,
+    "proj_ast": 2.9,
+    "proj_3pm": 1.9,
+    "proj_pra": 17.4,
+    "best_prop": {
+      "market": "O 14.5 PRA",
+      "proj": 17.4,
+      "line": 14.5,
+      "prob": 67.1
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 11.8,
+        "line": 9.5,
+        "prob": 64.7
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 51.2
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 57.7
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 17.4,
+        "line": 14.5,
+        "prob": 67.1
+      }
+    ]
+  },
+  {
+    "player": "Daniss Jenkins",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 27.5,
+    "proj_pts": 15.1,
+    "proj_reb": 3.6,
+    "proj_ast": 5.0,
+    "proj_3pm": 2.5,
+    "proj_pra": 23.7,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 23.7,
+      "line": 20.5,
+      "prob": 67.4
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 15.1,
+        "line": 13.5,
+        "prob": 60.6
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.6,
+        "line": 3.5,
+        "prob": 49.8
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 5.0,
+        "line": 4.5,
+        "prob": 59.6
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 23.7,
+        "line": 20.5,
+        "prob": 67.4
+      }
+    ]
+  },
+  {
+    "player": "Paul Reed",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 26.6,
+    "proj_pts": 13.2,
+    "proj_reb": 8.5,
+    "proj_ast": 2.6,
+    "proj_3pm": 0.7,
+    "proj_pra": 24.3,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 24.3,
+      "line": 21.5,
+      "prob": 64.6
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.2,
+        "line": 11.5,
+        "prob": 62.9
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.5,
+        "line": 8.5,
+        "prob": 49.5
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 50.7
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 24.3,
+        "line": 21.5,
+        "prob": 64.6
+      }
+    ]
+  },
+  {
+    "player": "Ausar Thompson",
+    "team": "DET",
+    "opponent": "NO",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jalen Duren",
+      "Ronald Holland II",
+      "Isaiah Joe"
+    ],
+    "proj_min": 25.9,
+    "proj_pts": 11.2,
+    "proj_reb": 7.9,
+    "proj_ast": 5.4,
+    "proj_3pm": 0.4,
+    "proj_pra": 24.5,
+    "best_prop": {
+      "market": "O 4.5 AST",
+      "proj": 5.4,
+      "line": 4.5,
+      "prob": 65.9
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 11.2,
+        "line": 9.5,
+        "prob": 61.7
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.9,
+        "line": 7.5,
+        "prob": 55.2
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 5.4,
+        "line": 4.5,
+        "prob": 65.9
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 24.5,
+        "line": 21.5,
+        "prob": 64.5
+      }
+    ]
+  },
+  {
+    "player": "Saddiq Bey",
+    "team": "NO",
+    "opponent": "DET",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Bennedict Mathurin",
+      "Bryce McGowens",
+      "Trey Murphy III"
+    ],
+    "proj_min": 28.7,
+    "proj_pts": 19.6,
+    "proj_reb": 4.5,
+    "proj_ast": 2.8,
+    "proj_3pm": 2.7,
+    "proj_pra": 26.9,
+    "best_prop": {
+      "market": "O 16.5 PTS",
+      "proj": 19.6,
+      "line": 16.5,
+      "prob": 69.8
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 19.6,
+        "line": 16.5,
+        "prob": 69.8
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.5,
+        "line": 4.5,
+        "prob": 50.5
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 54.0
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 26.9,
+        "line": 23.5,
+        "prob": 67.4
+      }
+    ]
+  },
+  {
+    "player": "Jeremiah Fears",
+    "team": "NO",
+    "opponent": "DET",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Bennedict Mathurin",
+      "Bryce McGowens",
+      "Trey Murphy III"
+    ],
+    "proj_min": 29.5,
+    "proj_pts": 18.0,
+    "proj_reb": 5.2,
+    "proj_ast": 6.3,
+    "proj_3pm": 1.3,
+    "proj_pra": 29.4,
+    "best_prop": {
+      "market": "O 25.5 PRA",
+      "proj": 29.4,
+      "line": 25.5,
+      "prob": 69.1
+    },
+    "all_props": [
+      {
+        "market": "O 15.5 PTS",
+        "proj": 18.0,
+        "line": 15.5,
+        "prob": 66.7
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.2,
+        "line": 4.5,
+        "prob": 60.6
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.3,
+        "line": 5.5,
+        "prob": 64.0
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 29.4,
+        "line": 25.5,
+        "prob": 69.1
+      }
+    ]
+  },
+  {
+    "player": "Herbert Jones",
+    "team": "NO",
+    "opponent": "DET",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Bennedict Mathurin",
+      "Bryce McGowens",
+      "Trey Murphy III"
+    ],
+    "proj_min": 25.2,
+    "proj_pts": 9.0,
+    "proj_reb": 3.1,
+    "proj_ast": 1.9,
+    "proj_3pm": 1.2,
+    "proj_pra": 14.0,
+    "best_prop": {
+      "market": "O 11.5 PRA",
+      "proj": 14.0,
+      "line": 11.5,
+      "prob": 65.6
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 9.0,
+        "line": 7.5,
+        "prob": 60.6
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 57.6
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.9,
+        "line": 1.5,
+        "prob": 54.3
+      },
+      {
+        "market": "O 11.5 PRA",
+        "proj": 14.0,
+        "line": 11.5,
+        "prob": 65.6
+      }
+    ]
+  },
+  {
+    "player": "Jordan Poole",
+    "team": "NO",
+    "opponent": "DET",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Bennedict Mathurin",
+      "Bryce McGowens",
+      "Trey Murphy III"
+    ],
+    "proj_min": 24.0,
+    "proj_pts": 12.7,
+    "proj_reb": 2.3,
+    "proj_ast": 4.5,
+    "proj_3pm": 1.5,
+    "proj_pra": 19.4,
+    "best_prop": {
+      "market": "O 3.5 AST",
+      "proj": 4.5,
+      "line": 3.5,
+      "prob": 67.0
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 12.7,
+        "line": 10.5,
+        "prob": 64.7
+      },
+      {
+        "market": "O 1.5 REB",
+        "proj": 2.3,
+        "line": 1.5,
+        "prob": 58.9
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.5,
+        "line": 3.5,
+        "prob": 67.0
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 19.4,
+        "line": 16.5,
+        "prob": 66.4
+      }
+    ]
+  },
+  {
+    "player": "Zion Williamson",
+    "team": "NO",
+    "opponent": "DET",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Bennedict Mathurin",
+      "Bryce McGowens",
+      "Trey Murphy III"
+    ],
+    "proj_min": 31.5,
+    "proj_pts": 24.1,
+    "proj_reb": 5.6,
+    "proj_ast": 2.9,
+    "proj_3pm": 0.7,
+    "proj_pra": 32.6,
+    "best_prop": {
+      "market": "O 20.5 PTS",
+      "proj": 24.1,
+      "line": 20.5,
+      "prob": 74.4
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 24.1,
+        "line": 20.5,
+        "prob": 74.4
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.6,
+        "line": 5.5,
+        "prob": 51.1
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 57.5
+      },
+      {
+        "market": "O 28.5 PRA",
+        "proj": 32.6,
+        "line": 28.5,
+        "prob": 72.9
+      }
+    ]
+  },
+  {
+    "player": "Nickeil Alexander-Walker",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 31.5,
+    "proj_pts": 24.5,
+    "proj_reb": 3.8,
+    "proj_ast": 3.3,
+    "proj_3pm": 4.3,
+    "proj_pra": 31.7,
+    "best_prop": {
+      "market": "O 21.5 PTS",
+      "proj": 24.5,
+      "line": 21.5,
+      "prob": 71.3
+    },
+    "all_props": [
+      {
+        "market": "O 21.5 PTS",
+        "proj": 24.5,
+        "line": 21.5,
+        "prob": 71.3
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 54.5
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.3,
+        "line": 2.5,
+        "prob": 66.0
+      },
+      {
+        "market": "O 28.5 PRA",
+        "proj": 31.7,
+        "line": 28.5,
+        "prob": 69.0
+      }
+    ]
+  },
+  {
+    "player": "Dyson Daniels",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 30.1,
+    "proj_pts": 10.7,
+    "proj_reb": 7.7,
+    "proj_ast": 6.2,
+    "proj_3pm": 0.5,
+    "proj_pra": 24.6,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.2,
+      "line": 5.5,
+      "prob": 63.5
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 10.7,
+        "line": 9.5,
+        "prob": 59.0
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.7,
+        "line": 7.5,
+        "prob": 53.1
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.2,
+        "line": 5.5,
+        "prob": 63.5
+      },
+      {
+        "market": "O 22.5 PRA",
+        "proj": 24.6,
+        "line": 22.5,
+        "prob": 62.3
+      }
+    ]
+  },
+  {
+    "player": "Jalen Johnson",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 31.9,
+    "proj_pts": 21.1,
+    "proj_reb": 9.5,
+    "proj_ast": 7.3,
+    "proj_3pm": 1.0,
+    "proj_pra": 37.9,
+    "best_prop": {
+      "market": "O 18.5 PTS",
+      "proj": 21.1,
+      "line": 18.5,
+      "prob": 68.0
+    },
+    "all_props": [
+      {
+        "market": "O 18.5 PTS",
+        "proj": 21.1,
+        "line": 18.5,
+        "prob": 68.0
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 9.5,
+        "line": 8.5,
+        "prob": 63.3
+      },
+      {
+        "market": "O 6.5 AST",
+        "proj": 7.3,
+        "line": 6.5,
+        "prob": 64.1
+      },
+      {
+        "market": "O 34.5 PRA",
+        "proj": 37.9,
+        "line": 34.5,
+        "prob": 65.8
+      }
+    ]
+  },
+  {
+    "player": "Onyeka Okongwu",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 29.7,
+    "proj_pts": 15.4,
+    "proj_reb": 8.5,
+    "proj_ast": 3.0,
+    "proj_3pm": 1.8,
+    "proj_pra": 27.0,
+    "best_prop": {
+      "market": "O 13.5 PTS",
+      "proj": 15.4,
+      "line": 13.5,
+      "prob": 63.9
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 15.4,
+        "line": 13.5,
+        "prob": 63.9
+      },
+      {
+        "market": "O 8.5 REB",
+        "proj": 8.5,
+        "line": 8.5,
+        "prob": 49.7
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 59.6
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 27.0,
+        "line": 24.5,
+        "prob": 63.6
+      }
+    ]
+  },
+  {
+    "player": "Aaron Wiggins",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 25.6,
+    "proj_pts": 16.6,
+    "proj_reb": 4.1,
+    "proj_ast": 2.9,
+    "proj_3pm": 3.2,
+    "proj_pra": 23.6,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 23.6,
+      "line": 20.5,
+      "prob": 69.5
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 16.6,
+        "line": 14.5,
+        "prob": 67.5
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 4.1,
+        "line": 3.5,
+        "prob": 59.0
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.9,
+        "line": 2.5,
+        "prob": 56.5
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 23.6,
+        "line": 20.5,
+        "prob": 69.5
+      }
+    ]
+  },
+  {
+    "player": "Jalen Wilson",
+    "team": "ATL",
+    "opponent": "OKC",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Kingston Flemings",
+      "Mouhamed Gueye",
+      "Jock Landale"
+    ],
+    "proj_min": 24.7,
+    "proj_pts": 12.8,
+    "proj_reb": 4.8,
+    "proj_ast": 2.5,
+    "proj_3pm": 1.5,
+    "proj_pra": 20.1,
+    "best_prop": {
+      "market": "O 10.5 PTS",
+      "proj": 12.8,
+      "line": 10.5,
+      "prob": 66.3
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 12.8,
+        "line": 10.5,
+        "prob": 66.3
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 54.1
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.5,
+        "line": 2.5,
+        "prob": 47.9
+      },
+      {
+        "market": "O 17.5 PRA",
+        "proj": 20.1,
+        "line": 17.5,
+        "prob": 64.5
+      }
+    ]
+  },
+  {
+    "player": "Brooks Barnhizer",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 26.5,
+    "proj_pts": 13.3,
+    "proj_reb": 5.1,
+    "proj_ast": 2.4,
+    "proj_3pm": 1.2,
+    "proj_pra": 20.8,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 13.3,
+      "line": 11.5,
+      "prob": 62.7
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.3,
+        "line": 11.5,
+        "prob": 62.7
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 5.1,
+        "line": 4.5,
+        "prob": 58.4
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.4,
+        "line": 2.5,
+        "prob": 46.5
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.8,
+        "line": 18.5,
+        "prob": 62.6
+      }
+    ]
+  },
+  {
+    "player": "Josh Dix",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 26.3,
+    "proj_pts": 8.0,
+    "proj_reb": 3.0,
+    "proj_ast": 2.1,
+    "proj_3pm": 1.4,
+    "proj_pra": 13.0,
+    "best_prop": {
+      "market": "O 5.5 PTS",
+      "proj": 8.0,
+      "line": 5.5,
+      "prob": 76.2
+    },
+    "all_props": [
+      {
+        "market": "O 5.5 PTS",
+        "proj": 8.0,
+        "line": 5.5,
+        "prob": 76.2
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 55.2
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 58.9
+      },
+      {
+        "market": "O 9.5 PRA",
+        "proj": 13.0,
+        "line": 9.5,
+        "prob": 74.4
+      }
+    ]
+  },
+  {
+    "player": "Shai Gilgeous-Alexander",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 32.6,
+    "proj_pts": 35.0,
+    "proj_reb": 4.2,
+    "proj_ast": 4.9,
+    "proj_3pm": 2.7,
+    "proj_pra": 44.1,
+    "best_prop": {
+      "market": "O 38.5 PRA",
+      "proj": 44.1,
+      "line": 38.5,
+      "prob": 76.3
+    },
+    "all_props": [
+      {
+        "market": "O 30.5 PTS",
+        "proj": 35.0,
+        "line": 30.5,
+        "prob": 75.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 4.2,
+        "line": 3.5,
+        "prob": 61.2
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.9,
+        "line": 4.5,
+        "prob": 57.7
+      },
+      {
+        "market": "O 38.5 PRA",
+        "proj": 44.1,
+        "line": 38.5,
+        "prob": 76.3
+      }
+    ]
+  },
+  {
+    "player": "Isaiah Hartenstein",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 25.0,
+    "proj_pts": 10.3,
+    "proj_reb": 11.6,
+    "proj_ast": 4.1,
+    "proj_3pm": 0.4,
+    "proj_pra": 26.1,
+    "best_prop": {
+      "market": "O 10.5 REB",
+      "proj": 11.6,
+      "line": 10.5,
+      "prob": 64.6
+    },
+    "all_props": [
+      {
+        "market": "O 8.5 PTS",
+        "proj": 10.3,
+        "line": 8.5,
+        "prob": 63.7
+      },
+      {
+        "market": "O 10.5 REB",
+        "proj": 11.6,
+        "line": 10.5,
+        "prob": 64.6
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.1,
+        "line": 3.5,
+        "prob": 61.9
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 26.1,
+        "line": 23.5,
+        "prob": 64.1
+      }
+    ]
+  },
+  {
+    "player": "Aday Mara",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 24.1,
+    "proj_pts": 13.5,
+    "proj_reb": 8.0,
+    "proj_ast": 2.4,
+    "proj_3pm": 0.5,
+    "proj_pra": 23.9,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 23.9,
+      "line": 20.5,
+      "prob": 68.0
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.5,
+        "line": 11.5,
+        "prob": 64.0
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 8.0,
+        "line": 7.5,
+        "prob": 57.4
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.4,
+        "line": 1.5,
+        "prob": 65.3
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 23.9,
+        "line": 20.5,
+        "prob": 68.0
+      }
+    ]
+  },
+  {
+    "player": "Jared McCain",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 26.4,
+    "proj_pts": 15.5,
+    "proj_reb": 3.9,
+    "proj_ast": 2.2,
+    "proj_3pm": 2.4,
+    "proj_pra": 21.6,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 21.6,
+      "line": 18.5,
+      "prob": 67.9
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 15.5,
+        "line": 13.5,
+        "prob": 64.2
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 56.0
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.2,
+        "line": 1.5,
+        "prob": 60.2
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 21.6,
+        "line": 18.5,
+        "prob": 67.9
+      }
+    ]
+  },
+  {
+    "player": "Ajay Mitchell",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 26.4,
+    "proj_pts": 19.6,
+    "proj_reb": 3.7,
+    "proj_ast": 3.8,
+    "proj_3pm": 1.0,
+    "proj_pra": 27.1,
+    "best_prop": {
+      "market": "O 16.5 PTS",
+      "proj": 19.6,
+      "line": 16.5,
+      "prob": 71.1
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 19.6,
+        "line": 16.5,
+        "prob": 71.1
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 51.8
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 55.2
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 27.1,
+        "line": 23.5,
+        "prob": 69.6
+      }
+    ]
+  },
+  {
+    "player": "Bennett Stirtz",
+    "team": "OKC",
+    "opponent": "ATL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Chet Holmgren",
+      "Thomas Sorber",
+      "Cason Wallace"
+    ],
+    "proj_min": 25.7,
+    "proj_pts": 14.7,
+    "proj_reb": 2.6,
+    "proj_ast": 2.6,
+    "proj_3pm": 2.8,
+    "proj_pra": 19.9,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 19.9,
+      "line": 16.5,
+      "prob": 70.3
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 14.7,
+        "line": 12.5,
+        "prob": 64.6
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 47.7
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 51.4
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 19.9,
+        "line": 16.5,
+        "prob": 70.3
+      }
+    ]
+  },
+  {
+    "player": "Draymond Green",
+    "team": "GS",
+    "opponent": "DAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jimmy Butler III",
+      "Stephen Curry",
+      "Moses Moody"
+    ],
+    "proj_min": 27.0,
+    "proj_pts": 5.2,
+    "proj_reb": 5.9,
+    "proj_ast": 8.6,
+    "proj_3pm": 0.7,
+    "proj_pra": 19.7,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 19.7,
+      "line": 16.5,
+      "prob": 70.4
+    },
+    "all_props": [
+      {
+        "market": "O 3.5 PTS",
+        "proj": 5.2,
+        "line": 3.5,
+        "prob": 58.6
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.9,
+        "line": 5.5,
+        "prob": 55.5
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 8.6,
+        "line": 7.5,
+        "prob": 68.7
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 19.7,
+        "line": 16.5,
+        "prob": 70.4
+      }
+    ]
+  },
+  {
+    "player": "Yaxel Lendeborg",
+    "team": "GS",
+    "opponent": "DAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jimmy Butler III",
+      "Stephen Curry",
+      "Moses Moody"
+    ],
+    "proj_min": 31.2,
+    "proj_pts": 22.7,
+    "proj_reb": 7.4,
+    "proj_ast": 4.0,
+    "proj_3pm": 2.5,
+    "proj_pra": 34.1,
+    "best_prop": {
+      "market": "O 20.5 PTS",
+      "proj": 22.7,
+      "line": 20.5,
+      "prob": 65.0
+    },
+    "all_props": [
+      {
+        "market": "O 20.5 PTS",
+        "proj": 22.7,
+        "line": 20.5,
+        "prob": 65.0
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.4,
+        "line": 7.5,
+        "prob": 49.0
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.0,
+        "line": 3.5,
+        "prob": 59.4
+      },
+      {
+        "market": "O 31.5 PRA",
+        "proj": 34.1,
+        "line": 31.5,
+        "prob": 63.1
+      }
+    ]
+  },
+  {
+    "player": "Brandin Podziemski",
+    "team": "GS",
+    "opponent": "DAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jimmy Butler III",
+      "Stephen Curry",
+      "Moses Moody"
+    ],
+    "proj_min": 31.1,
+    "proj_pts": 18.1,
+    "proj_reb": 5.2,
+    "proj_ast": 4.0,
+    "proj_3pm": 3.2,
+    "proj_pra": 27.2,
+    "best_prop": {
+      "market": "O 24.5 PRA",
+      "proj": 27.2,
+      "line": 24.5,
+      "prob": 65.8
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 18.1,
+        "line": 16.5,
+        "prob": 61.1
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.2,
+        "line": 5.5,
+        "prob": 44.4
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.0,
+        "line": 3.5,
+        "prob": 58.6
+      },
+      {
+        "market": "O 24.5 PRA",
+        "proj": 27.2,
+        "line": 24.5,
+        "prob": 65.8
+      }
+    ]
+  },
+  {
+    "player": "Will Richard",
+    "team": "GS",
+    "opponent": "DAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jimmy Butler III",
+      "Stephen Curry",
+      "Moses Moody"
+    ],
+    "proj_min": 25.4,
+    "proj_pts": 10.2,
+    "proj_reb": 3.3,
+    "proj_ast": 1.4,
+    "proj_3pm": 1.8,
+    "proj_pra": 14.8,
+    "best_prop": {
+      "market": "O 8.5 PTS",
+      "proj": 10.2,
+      "line": 8.5,
+      "prob": 66.6
+    },
+    "all_props": [
+      {
+        "market": "O 8.5 PTS",
+        "proj": 10.2,
+        "line": 8.5,
+        "prob": 66.6
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.3,
+        "line": 3.5,
+        "prob": 44.3
+      },
+      {
+        "market": "O 0.5 AST",
+        "proj": 1.4,
+        "line": 0.5,
+        "prob": 60.6
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 14.8,
+        "line": 12.5,
+        "prob": 65.7
+      }
+    ]
+  },
+  {
+    "player": "Max Christie",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 25.6,
+    "proj_pts": 11.6,
+    "proj_reb": 3.7,
+    "proj_ast": 2.2,
+    "proj_3pm": 2.2,
+    "proj_pra": 17.5,
+    "best_prop": {
+      "market": "O 9.5 PTS",
+      "proj": 11.6,
+      "line": 9.5,
+      "prob": 64.6
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 11.6,
+        "line": 9.5,
+        "prob": 64.6
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 53.1
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.2,
+        "line": 1.5,
+        "prob": 60.8
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 17.5,
+        "line": 15.5,
+        "prob": 62.7
+      }
+    ]
+  },
+  {
+    "player": "Cooper Flagg",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 32.7,
+    "proj_pts": 25.6,
+    "proj_reb": 7.1,
+    "proj_ast": 6.4,
+    "proj_3pm": 1.4,
+    "proj_pra": 39.1,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.4,
+      "line": 5.5,
+      "prob": 67.2
+    },
+    "all_props": [
+      {
+        "market": "O 23.5 PTS",
+        "proj": 25.6,
+        "line": 23.5,
+        "prob": 63.4
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 7.1,
+        "line": 6.5,
+        "prob": 58.8
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.4,
+        "line": 5.5,
+        "prob": 67.2
+      },
+      {
+        "market": "O 36.5 PRA",
+        "proj": 39.1,
+        "line": 36.5,
+        "prob": 62.3
+      }
+    ]
+  },
+  {
+    "player": "Kyrie Irving",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 29.7,
+    "proj_pts": 24.1,
+    "proj_reb": 3.4,
+    "proj_ast": 4.7,
+    "proj_3pm": 3.8,
+    "proj_pra": 32.2,
+    "best_prop": {
+      "market": "O 21.5 PTS",
+      "proj": 24.1,
+      "line": 21.5,
+      "prob": 65.9
+    },
+    "all_props": [
+      {
+        "market": "O 21.5 PTS",
+        "proj": 24.1,
+        "line": 21.5,
+        "prob": 65.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 46.4
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.7,
+        "line": 4.5,
+        "prob": 53.1
+      },
+      {
+        "market": "O 29.5 PRA",
+        "proj": 32.2,
+        "line": 29.5,
+        "prob": 62.8
+      }
+    ]
+  },
+  {
+    "player": "Naji Marshall",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 24.7,
+    "proj_pts": 13.2,
+    "proj_reb": 2.8,
+    "proj_ast": 4.4,
+    "proj_3pm": 1.1,
+    "proj_pra": 20.4,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 13.2,
+      "line": 11.5,
+      "prob": 62.2
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.2,
+        "line": 11.5,
+        "prob": 62.2
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 52.2
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.4,
+        "line": 4.5,
+        "prob": 47.6
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 20.4,
+        "line": 18.5,
+        "prob": 60.9
+      }
+    ]
+  },
+  {
+    "player": "Caleb Martin",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 24.0,
+    "proj_pts": 8.0,
+    "proj_reb": 3.8,
+    "proj_ast": 3.0,
+    "proj_3pm": 1.3,
+    "proj_pra": 14.9,
+    "best_prop": {
+      "market": "O 12.5 PRA",
+      "proj": 14.9,
+      "line": 12.5,
+      "prob": 64.6
+    },
+    "all_props": [
+      {
+        "market": "O 6.5 PTS",
+        "proj": 8.0,
+        "line": 6.5,
+        "prob": 58.2
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 53.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 59.4
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 14.9,
+        "line": 12.5,
+        "prob": 64.6
+      }
+    ]
+  },
+  {
+    "player": "Zaccharie Risacher",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 25.7,
+    "proj_pts": 11.4,
+    "proj_reb": 5.3,
+    "proj_ast": 2.0,
+    "proj_3pm": 1.3,
+    "proj_pra": 18.7,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 18.7,
+      "line": 16.5,
+      "prob": 63.9
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 11.4,
+        "line": 10.5,
+        "prob": 56.1
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.3,
+        "line": 5.5,
+        "prob": 46.3
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.0,
+        "line": 1.5,
+        "prob": 56.2
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 18.7,
+        "line": 16.5,
+        "prob": 63.9
+      }
+    ]
+  },
+  {
+    "player": "P.J. Washington",
+    "team": "DAL",
+    "opponent": "GS",
+    "status": "Active",
+    "usage_bump_pct": 10.5,
+    "out_teammates": [
+      "Tarik Biberovic",
+      "Sergio de Larrea",
+      "Dereck Lively II"
+    ],
+    "proj_min": 32.1,
+    "proj_pts": 14.9,
+    "proj_reb": 7.1,
+    "proj_ast": 1.7,
+    "proj_3pm": 2.3,
+    "proj_pra": 23.7,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 23.7,
+      "line": 21.5,
+      "prob": 62.7
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 14.9,
+        "line": 13.5,
+        "prob": 59.7
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.1,
+        "line": 7.5,
+        "prob": 43.9
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.7,
+        "line": 1.5,
+        "prob": 48.0
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 23.7,
+        "line": 21.5,
+        "prob": 62.7
+      }
+    ]
+  },
+  {
+    "player": "Paul George",
+    "team": "BOS",
+    "opponent": "DEN",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 29.4,
+    "proj_pts": 18.6,
+    "proj_reb": 5.4,
+    "proj_ast": 3.9,
+    "proj_3pm": 3.2,
+    "proj_pra": 27.9,
+    "best_prop": {
+      "market": "O 3.5 AST",
+      "proj": 3.9,
+      "line": 3.5,
+      "prob": 57.5
+    },
+    "all_props": [
+      {
+        "market": "O 19.5 PTS",
+        "proj": 18.6,
+        "line": 19.5,
+        "prob": 42.3
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.4,
+        "line": 5.5,
+        "prob": 48.8
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 57.5
+      },
+      {
+        "market": "O 28.5 PRA",
+        "proj": 27.9,
+        "line": 28.5,
+        "prob": 46.2
+      }
+    ]
+  },
+  {
+    "player": "Payton Pritchard",
+    "team": "BOS",
+    "opponent": "DEN",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 27.1,
+    "proj_pts": 13.2,
+    "proj_reb": 3.3,
+    "proj_ast": 4.3,
+    "proj_3pm": 2.2,
+    "proj_pra": 20.8,
+    "best_prop": {
+      "market": "O 20.5 PRA",
+      "proj": 20.8,
+      "line": 20.5,
+      "prob": 50.2
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 13.2,
+        "line": 13.5,
+        "prob": 44.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.3,
+        "line": 3.5,
+        "prob": 44.0
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.3,
+        "line": 4.5,
+        "prob": 46.7
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 20.8,
+        "line": 20.5,
+        "prob": 50.2
+      }
+    ]
+  },
+  {
+    "player": "Jayson Tatum",
+    "team": "BOS",
+    "opponent": "DEN",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 33.1,
+    "proj_pts": 24.9,
+    "proj_reb": 6.4,
+    "proj_ast": 6.6,
+    "proj_3pm": 2.7,
+    "proj_pra": 37.9,
+    "best_prop": {
+      "market": "O 6.5 AST",
+      "proj": 6.6,
+      "line": 6.5,
+      "prob": 52.8
+    },
+    "all_props": [
+      {
+        "market": "O 25.5 PTS",
+        "proj": 24.9,
+        "line": 25.5,
+        "prob": 45.9
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.4,
+        "line": 6.5,
+        "prob": 48.4
+      },
+      {
+        "market": "O 6.5 AST",
+        "proj": 6.6,
+        "line": 6.5,
+        "prob": 52.8
+      },
+      {
+        "market": "O 39.5 PRA",
+        "proj": 37.9,
+        "line": 39.5,
+        "prob": 41.8
+      }
+    ]
+  },
+  {
+    "player": "Derrick White",
+    "team": "BOS",
+    "opponent": "DEN",
+    "status": "Active",
+    "usage_bump_pct": 0.0,
+    "out_teammates": [],
+    "proj_min": 28.9,
+    "proj_pts": 12.9,
+    "proj_reb": 3.0,
+    "proj_ast": 4.5,
+    "proj_3pm": 1.8,
+    "proj_pra": 20.4,
+    "best_prop": {
+      "market": "O 4.5 AST",
+      "proj": 4.5,
+      "line": 4.5,
+      "prob": 49.5
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 12.9,
+        "line": 13.5,
+        "prob": 43.4
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.0,
+        "line": 3.5,
+        "prob": 40.0
+      },
+      {
+        "market": "O 4.5 AST",
+        "proj": 4.5,
+        "line": 4.5,
+        "prob": 49.5
+      },
+      {
+        "market": "O 20.5 PRA",
+        "proj": 20.4,
+        "line": 20.5,
+        "prob": 47.9
+      }
+    ]
+  },
+  {
+    "player": "Christian Braun",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 32.5,
+    "proj_pts": 12.6,
+    "proj_reb": 4.4,
+    "proj_ast": 2.3,
+    "proj_3pm": 1.6,
+    "proj_pra": 19.3,
+    "best_prop": {
+      "market": "O 18.5 PRA",
+      "proj": 19.3,
+      "line": 18.5,
+      "prob": 53.8
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 12.6,
+        "line": 12.5,
+        "prob": 48.4
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.4,
+        "line": 4.5,
+        "prob": 47.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 42.9
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 19.3,
+        "line": 18.5,
+        "prob": 53.8
+      }
+    ]
+  },
+  {
+    "player": "Aaron Gordon",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 28.5,
+    "proj_pts": 12.6,
+    "proj_reb": 4.8,
+    "proj_ast": 2.0,
+    "proj_3pm": 1.4,
+    "proj_pra": 19.3,
+    "best_prop": {
+      "market": "O 1.5 AST",
+      "proj": 2.0,
+      "line": 1.5,
+      "prob": 55.9
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 12.6,
+        "line": 12.5,
+        "prob": 48.7
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 54.3
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.0,
+        "line": 1.5,
+        "prob": 55.9
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 19.3,
+        "line": 18.5,
+        "prob": 54.1
+      }
+    ]
+  },
+  {
+    "player": "Bryce Hopkins",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 26.0,
+    "proj_pts": 11.5,
+    "proj_reb": 3.1,
+    "proj_ast": 1.4,
+    "proj_3pm": 0.9,
+    "proj_pra": 15.9,
+    "best_prop": {
+      "market": "O 15.5 PRA",
+      "proj": 15.9,
+      "line": 15.5,
+      "prob": 51.9
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 11.5,
+        "line": 11.5,
+        "prob": 48.9
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.1,
+        "line": 3.5,
+        "prob": 41.4
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.4,
+        "line": 1.5,
+        "prob": 39.4
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 15.9,
+        "line": 15.5,
+        "prob": 51.9
+      }
+    ]
+  },
+  {
+    "player": "Cameron Johnson",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 29.4,
+    "proj_pts": 13.5,
+    "proj_reb": 3.6,
+    "proj_ast": 1.9,
+    "proj_3pm": 2.2,
+    "proj_pra": 19.1,
+    "best_prop": {
+      "market": "O 12.5 PTS",
+      "proj": 13.5,
+      "line": 12.5,
+      "prob": 55.8
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 13.5,
+        "line": 12.5,
+        "prob": 55.8
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.6,
+        "line": 3.5,
+        "prob": 50.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.9,
+        "line": 1.5,
+        "prob": 54.6
+      },
+      {
+        "market": "O 18.5 PRA",
+        "proj": 19.1,
+        "line": 18.5,
+        "prob": 52.9
+      }
+    ]
+  },
+  {
+    "player": "Nikola Jokic",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 35.4,
+    "proj_pts": 24.1,
+    "proj_reb": 10.5,
+    "proj_ast": 9.1,
+    "proj_3pm": 1.3,
+    "proj_pra": 43.6,
+    "best_prop": {
+      "market": "O 8.5 AST",
+      "proj": 9.1,
+      "line": 8.5,
+      "prob": 60.5
+    },
+    "all_props": [
+      {
+        "market": "O 23.5 PTS",
+        "proj": 24.1,
+        "line": 23.5,
+        "prob": 54.6
+      },
+      {
+        "market": "O 10.5 REB",
+        "proj": 10.5,
+        "line": 10.5,
+        "prob": 50.5
+      },
+      {
+        "market": "O 8.5 AST",
+        "proj": 9.1,
+        "line": 8.5,
+        "prob": 60.5
+      },
+      {
+        "market": "O 42.5 PRA",
+        "proj": 43.6,
+        "line": 42.5,
+        "prob": 56.2
+      }
+    ]
+  },
+  {
+    "player": "Jamal Murray",
+    "team": "DEN",
+    "opponent": "BOS",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Julian Strawther"
+    ],
+    "proj_min": 35.2,
+    "proj_pts": 25.5,
+    "proj_reb": 4.8,
+    "proj_ast": 6.0,
+    "proj_3pm": 3.1,
+    "proj_pra": 36.3,
+    "best_prop": {
+      "market": "O 5.5 AST",
+      "proj": 6.0,
+      "line": 5.5,
+      "prob": 60.1
+    },
+    "all_props": [
+      {
+        "market": "O 24.5 PTS",
+        "proj": 25.5,
+        "line": 24.5,
+        "prob": 57.5
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.8,
+        "line": 4.5,
+        "prob": 54.4
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 6.0,
+        "line": 5.5,
+        "prob": 60.1
+      },
+      {
+        "market": "O 35.5 PRA",
+        "proj": 36.3,
+        "line": 35.5,
+        "prob": 54.6
+      }
+    ]
+  },
+  {
+    "player": "Ace Bailey",
+    "team": "UTAH",
+    "opponent": "LAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jaxson Hayes",
+      "Jaren Jackson Jr.",
+      "Lauri Markkanen"
+    ],
+    "proj_min": 30.5,
+    "proj_pts": 15.1,
+    "proj_reb": 6.6,
+    "proj_ast": 2.3,
+    "proj_3pm": 1.8,
+    "proj_pra": 24.0,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 24.0,
+      "line": 21.5,
+      "prob": 63.4
+    },
+    "all_props": [
+      {
+        "market": "O 13.5 PTS",
+        "proj": 15.1,
+        "line": 13.5,
+        "prob": 60.9
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.6,
+        "line": 6.5,
+        "prob": 51.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.3,
+        "line": 1.5,
+        "prob": 62.6
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 24.0,
+        "line": 21.5,
+        "prob": 63.4
+      }
+    ]
+  },
+  {
+    "player": "Keyonte George",
+    "team": "UTAH",
+    "opponent": "LAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jaxson Hayes",
+      "Jaren Jackson Jr.",
+      "Lauri Markkanen"
+    ],
+    "proj_min": 31.3,
+    "proj_pts": 21.9,
+    "proj_reb": 4.5,
+    "proj_ast": 7.0,
+    "proj_3pm": 2.1,
+    "proj_pra": 33.4,
+    "best_prop": {
+      "market": "O 29.5 PRA",
+      "proj": 33.4,
+      "line": 29.5,
+      "prob": 68.6
+    },
+    "all_props": [
+      {
+        "market": "O 19.5 PTS",
+        "proj": 21.9,
+        "line": 19.5,
+        "prob": 65.5
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.5,
+        "line": 4.5,
+        "prob": 49.6
+      },
+      {
+        "market": "O 6.5 AST",
+        "proj": 7.0,
+        "line": 6.5,
+        "prob": 58.5
+      },
+      {
+        "market": "O 29.5 PRA",
+        "proj": 33.4,
+        "line": 29.5,
+        "prob": 68.6
+      }
+    ]
+  },
+  {
+    "player": "Josh Green",
+    "team": "UTAH",
+    "opponent": "LAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jaxson Hayes",
+      "Jaren Jackson Jr.",
+      "Lauri Markkanen"
+    ],
+    "proj_min": 25.7,
+    "proj_pts": 6.6,
+    "proj_reb": 2.7,
+    "proj_ast": 1.8,
+    "proj_3pm": 1.0,
+    "proj_pra": 11.2,
+    "best_prop": {
+      "market": "O 8.5 PRA",
+      "proj": 11.2,
+      "line": 8.5,
+      "prob": 70.0
+    },
+    "all_props": [
+      {
+        "market": "O 4.5 PTS",
+        "proj": 6.6,
+        "line": 4.5,
+        "prob": 68.4
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 51.3
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.8,
+        "line": 1.5,
+        "prob": 52.5
+      },
+      {
+        "market": "O 8.5 PRA",
+        "proj": 11.2,
+        "line": 8.5,
+        "prob": 70.0
+      }
+    ]
+  },
+  {
+    "player": "Darryn Peterson",
+    "team": "UTAH",
+    "opponent": "LAL",
+    "status": "Active",
+    "usage_bump_pct": 14.0,
+    "out_teammates": [
+      "Jaxson Hayes",
+      "Jaren Jackson Jr.",
+      "Lauri Markkanen"
+    ],
+    "proj_min": 31.2,
+    "proj_pts": 19.0,
+    "proj_reb": 4.7,
+    "proj_ast": 4.5,
+    "proj_3pm": 2.5,
+    "proj_pra": 28.2,
+    "best_prop": {
+      "market": "O 3.5 AST",
+      "proj": 4.5,
+      "line": 3.5,
+      "prob": 69.8
+    },
+    "all_props": [
+      {
+        "market": "O 16.5 PTS",
+        "proj": 19.0,
+        "line": 16.5,
+        "prob": 68.9
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.7,
+        "line": 4.5,
+        "prob": 52.2
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 4.5,
+        "line": 3.5,
+        "prob": 69.8
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 28.2,
+        "line": 25.5,
+        "prob": 66.6
+      }
+    ]
+  },
+  {
+    "player": "Luka Doncic",
+    "team": "LAL",
+    "opponent": "UTAH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Walker Kessler",
+      "Austin Reaves"
+    ],
+    "proj_min": 33.9,
+    "proj_pts": 39.2,
+    "proj_reb": 6.8,
+    "proj_ast": 7.5,
+    "proj_3pm": 5.4,
+    "proj_pra": 53.6,
+    "best_prop": {
+      "market": "O 49.5 PRA",
+      "proj": 53.6,
+      "line": 49.5,
+      "prob": 66.0
+    },
+    "all_props": [
+      {
+        "market": "O 36.5 PTS",
+        "proj": 39.2,
+        "line": 36.5,
+        "prob": 63.9
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.8,
+        "line": 6.5,
+        "prob": 55.3
+      },
+      {
+        "market": "O 7.5 AST",
+        "proj": 7.5,
+        "line": 7.5,
+        "prob": 49.9
+      },
+      {
+        "market": "O 49.5 PRA",
+        "proj": 53.6,
+        "line": 49.5,
+        "prob": 66.0
+      }
+    ]
+  },
+  {
+    "player": "Quentin Grimes",
+    "team": "LAL",
+    "opponent": "UTAH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Walker Kessler",
+      "Austin Reaves"
+    ],
+    "proj_min": 27.1,
+    "proj_pts": 10.9,
+    "proj_reb": 2.6,
+    "proj_ast": 2.8,
+    "proj_3pm": 1.4,
+    "proj_pra": 16.3,
+    "best_prop": {
+      "market": "O 14.5 PRA",
+      "proj": 16.3,
+      "line": 14.5,
+      "prob": 60.8
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 10.9,
+        "line": 9.5,
+        "prob": 58.2
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 49.4
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 54.4
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 16.3,
+        "line": 14.5,
+        "prob": 60.8
+      }
+    ]
+  },
+  {
+    "player": "Jake LaRavia",
+    "team": "LAL",
+    "opponent": "UTAH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Walker Kessler",
+      "Austin Reaves"
+    ],
+    "proj_min": 25.6,
+    "proj_pts": 8.6,
+    "proj_reb": 3.9,
+    "proj_ast": 2.6,
+    "proj_3pm": 1.4,
+    "proj_pra": 15.1,
+    "best_prop": {
+      "market": "O 12.5 PRA",
+      "proj": 15.1,
+      "line": 12.5,
+      "prob": 67.6
+    },
+    "all_props": [
+      {
+        "market": "O 6.5 PTS",
+        "proj": 8.6,
+        "line": 6.5,
+        "prob": 64.5
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.9,
+        "line": 3.5,
+        "prob": 55.3
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.6,
+        "line": 2.5,
+        "prob": 51.1
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 15.1,
+        "line": 12.5,
+        "prob": 67.6
+      }
+    ]
+  },
+  {
+    "player": "Matisse Thybulle",
+    "team": "LAL",
+    "opponent": "UTAH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Walker Kessler",
+      "Austin Reaves"
+    ],
+    "proj_min": 24.5,
+    "proj_pts": 9.4,
+    "proj_reb": 2.7,
+    "proj_ast": 1.5,
+    "proj_3pm": 1.8,
+    "proj_pra": 13.6,
+    "best_prop": {
+      "market": "O 7.5 PTS",
+      "proj": 9.4,
+      "line": 7.5,
+      "prob": 66.0
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 9.4,
+        "line": 7.5,
+        "prob": 66.0
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 51.1
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.5,
+        "line": 1.5,
+        "prob": 44.2
+      },
+      {
+        "market": "O 11.5 PRA",
+        "proj": 13.6,
+        "line": 11.5,
+        "prob": 65.0
+      }
+    ]
+  },
+  {
+    "player": "Ziaire Williams",
+    "team": "LAL",
+    "opponent": "UTAH",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Walker Kessler",
+      "Austin Reaves"
+    ],
+    "proj_min": 24.2,
+    "proj_pts": 12.4,
+    "proj_reb": 2.7,
+    "proj_ast": 2.3,
+    "proj_3pm": 2.0,
+    "proj_pra": 17.4,
+    "best_prop": {
+      "market": "O 10.5 PTS",
+      "proj": 12.4,
+      "line": 10.5,
+      "prob": 64.3
+    },
+    "all_props": [
+      {
+        "market": "O 10.5 PTS",
+        "proj": 12.4,
+        "line": 10.5,
+        "prob": 64.3
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.7,
+        "line": 2.5,
+        "prob": 50.3
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 41.8
+      },
+      {
+        "market": "O 15.5 PRA",
+        "proj": 17.4,
+        "line": 15.5,
+        "prob": 61.3
+      }
+    ]
+  },
+  {
+    "player": "Devin Booker",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 32.5,
+    "proj_pts": 23.7,
+    "proj_reb": 2.8,
+    "proj_ast": 5.4,
+    "proj_3pm": 1.8,
+    "proj_pra": 31.8,
+    "best_prop": {
+      "market": "O 30.5 PRA",
+      "proj": 31.8,
+      "line": 30.5,
+      "prob": 57.5
+    },
+    "all_props": [
+      {
+        "market": "O 23.5 PTS",
+        "proj": 23.7,
+        "line": 23.5,
+        "prob": 50.9
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 53.0
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 5.4,
+        "line": 5.5,
+        "prob": 47.7
+      },
+      {
+        "market": "O 30.5 PRA",
+        "proj": 31.8,
+        "line": 30.5,
+        "prob": 57.5
+      }
+    ]
+  },
+  {
+    "player": "Miles Bridges",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 28.7,
+    "proj_pts": 14.8,
+    "proj_reb": 6.9,
+    "proj_ast": 3.0,
+    "proj_3pm": 1.9,
+    "proj_pra": 24.7,
+    "best_prop": {
+      "market": "O 2.5 AST",
+      "proj": 3.0,
+      "line": 2.5,
+      "prob": 59.8
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 14.8,
+        "line": 14.5,
+        "prob": 51.5
+      },
+      {
+        "market": "O 6.5 REB",
+        "proj": 6.9,
+        "line": 6.5,
+        "prob": 55.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.0,
+        "line": 2.5,
+        "prob": 59.8
+      },
+      {
+        "market": "O 23.5 PRA",
+        "proj": 24.7,
+        "line": 23.5,
+        "prob": 56.7
+      }
+    ]
+  },
+  {
+    "player": "Dillon Brooks",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 28.3,
+    "proj_pts": 14.9,
+    "proj_reb": 3.7,
+    "proj_ast": 2.2,
+    "proj_3pm": 2.0,
+    "proj_pra": 20.8,
+    "best_prop": {
+      "market": "O 19.5 PRA",
+      "proj": 20.8,
+      "line": 19.5,
+      "prob": 57.2
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 14.9,
+        "line": 14.5,
+        "prob": 52.0
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.7,
+        "line": 3.5,
+        "prob": 52.6
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.2,
+        "line": 2.5,
+        "prob": 41.7
+      },
+      {
+        "market": "O 19.5 PRA",
+        "proj": 20.8,
+        "line": 19.5,
+        "prob": 57.2
+      }
+    ]
+  },
+  {
+    "player": "Collin Gillespie",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 24.2,
+    "proj_pts": 10.3,
+    "proj_reb": 2.8,
+    "proj_ast": 3.8,
+    "proj_3pm": 2.1,
+    "proj_pra": 16.9,
+    "best_prop": {
+      "market": "O 8.5 PTS",
+      "proj": 10.3,
+      "line": 8.5,
+      "prob": 68.6
+    },
+    "all_props": [
+      {
+        "market": "O 8.5 PTS",
+        "proj": 10.3,
+        "line": 8.5,
+        "prob": 68.6
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.8,
+        "line": 2.5,
+        "prob": 52.5
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.8,
+        "line": 3.5,
+        "prob": 54.9
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 16.9,
+        "line": 14.5,
+        "prob": 65.3
+      }
+    ]
+  },
+  {
+    "player": "Jalen Green",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 26.6,
+    "proj_pts": 13.3,
+    "proj_reb": 3.4,
+    "proj_ast": 3.2,
+    "proj_3pm": 1.4,
+    "proj_pra": 19.9,
+    "best_prop": {
+      "market": "O 12.5 PTS",
+      "proj": 13.3,
+      "line": 12.5,
+      "prob": 55.3
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 13.3,
+        "line": 12.5,
+        "prob": 55.3
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.4,
+        "line": 3.5,
+        "prob": 47.6
+      },
+      {
+        "market": "O 3.5 AST",
+        "proj": 3.2,
+        "line": 3.5,
+        "prob": 42.3
+      },
+      {
+        "market": "O 19.5 PRA",
+        "proj": 19.9,
+        "line": 19.5,
+        "prob": 51.9
+      }
+    ]
+  },
+  {
+    "player": "Drew Timme",
+    "team": "PHX",
+    "opponent": "SAC",
+    "status": "Active",
+    "usage_bump_pct": 3.5,
+    "out_teammates": [
+      "Mark Williams"
+    ],
+    "proj_min": 24.8,
+    "proj_pts": 13.2,
+    "proj_reb": 2.5,
+    "proj_ast": 2.0,
+    "proj_3pm": 1.8,
+    "proj_pra": 17.7,
+    "best_prop": {
+      "market": "O 16.5 PRA",
+      "proj": 17.7,
+      "line": 16.5,
+      "prob": 56.6
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 13.2,
+        "line": 12.5,
+        "prob": 53.6
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 2.5,
+        "line": 2.5,
+        "prob": 47.0
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.0,
+        "line": 1.5,
+        "prob": 56.3
+      },
+      {
+        "market": "O 16.5 PRA",
+        "proj": 17.7,
+        "line": 16.5,
+        "prob": 56.6
+      }
+    ]
+  },
+  {
+    "player": "Precious Achiuwa",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 28.6,
+    "proj_pts": 13.2,
+    "proj_reb": 7.9,
+    "proj_ast": 2.1,
+    "proj_3pm": 0.6,
+    "proj_pra": 23.2,
+    "best_prop": {
+      "market": "O 21.5 PRA",
+      "proj": 23.2,
+      "line": 21.5,
+      "prob": 59.1
+    },
+    "all_props": [
+      {
+        "market": "O 12.5 PTS",
+        "proj": 13.2,
+        "line": 12.5,
+        "prob": 55.3
+      },
+      {
+        "market": "O 7.5 REB",
+        "proj": 7.9,
+        "line": 7.5,
+        "prob": 55.8
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.1,
+        "line": 1.5,
+        "prob": 58.9
+      },
+      {
+        "market": "O 21.5 PRA",
+        "proj": 23.2,
+        "line": 21.5,
+        "prob": 59.1
+      }
+    ]
+  },
+  {
+    "player": "Darius Acuff Jr.",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 34.9,
+    "proj_pts": 27.0,
+    "proj_reb": 3.6,
+    "proj_ast": 7.3,
+    "proj_3pm": 3.3,
+    "proj_pra": 37.9,
+    "best_prop": {
+      "market": "O 34.5 PRA",
+      "proj": 37.9,
+      "line": 34.5,
+      "prob": 67.2
+    },
+    "all_props": [
+      {
+        "market": "O 24.5 PTS",
+        "proj": 27.0,
+        "line": 24.5,
+        "prob": 66.0
+      },
+      {
+        "market": "O 3.5 REB",
+        "proj": 3.6,
+        "line": 3.5,
+        "prob": 49.5
+      },
+      {
+        "market": "O 6.5 AST",
+        "proj": 7.3,
+        "line": 6.5,
+        "prob": 65.5
+      },
+      {
+        "market": "O 34.5 PRA",
+        "proj": 37.9,
+        "line": 34.5,
+        "prob": 67.2
+      }
+    ]
+  },
+  {
+    "player": "Leaky Black",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 26.6,
+    "proj_pts": 10.8,
+    "proj_reb": 5.4,
+    "proj_ast": 2.2,
+    "proj_3pm": 2.5,
+    "proj_pra": 18.3,
+    "best_prop": {
+      "market": "O 7.5 PTS",
+      "proj": 10.8,
+      "line": 7.5,
+      "prob": 77.6
+    },
+    "all_props": [
+      {
+        "market": "O 7.5 PTS",
+        "proj": 10.8,
+        "line": 7.5,
+        "prob": 77.6
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.4,
+        "line": 5.5,
+        "prob": 48.4
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 2.2,
+        "line": 1.5,
+        "prob": 60.7
+      },
+      {
+        "market": "O 14.5 PRA",
+        "proj": 18.3,
+        "line": 14.5,
+        "prob": 74.0
+      }
+    ]
+  },
+  {
+    "player": "De'Andre Hunter",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Day-To-Day",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 29.6,
+    "proj_pts": 13.3,
+    "proj_reb": 4.4,
+    "proj_ast": 1.5,
+    "proj_3pm": 1.8,
+    "proj_pra": 19.2,
+    "best_prop": {
+      "market": "O 11.5 PTS",
+      "proj": 13.3,
+      "line": 11.5,
+      "prob": 63.7
+    },
+    "all_props": [
+      {
+        "market": "O 11.5 PTS",
+        "proj": 13.3,
+        "line": 11.5,
+        "prob": 63.7
+      },
+      {
+        "market": "O 4.5 REB",
+        "proj": 4.4,
+        "line": 4.5,
+        "prob": 48.0
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.5,
+        "line": 1.5,
+        "prob": 43.6
+      },
+      {
+        "market": "O 17.5 PRA",
+        "proj": 19.2,
+        "line": 17.5,
+        "prob": 59.5
+      }
+    ]
+  },
+  {
+    "player": "Alex Karaban",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 25.0,
+    "proj_pts": 7.6,
+    "proj_reb": 5.5,
+    "proj_ast": 2.3,
+    "proj_3pm": 1.5,
+    "proj_pra": 15.3,
+    "best_prop": {
+      "market": "O 5.5 PTS",
+      "proj": 7.6,
+      "line": 5.5,
+      "prob": 72.8
+    },
+    "all_props": [
+      {
+        "market": "O 5.5 PTS",
+        "proj": 7.6,
+        "line": 5.5,
+        "prob": 72.8
+      },
+      {
+        "market": "O 5.5 REB",
+        "proj": 5.5,
+        "line": 5.5,
+        "prob": 48.9
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 2.3,
+        "line": 2.5,
+        "prob": 43.4
+      },
+      {
+        "market": "O 12.5 PRA",
+        "proj": 15.3,
+        "line": 12.5,
+        "prob": 68.8
+      }
+    ]
+  },
+  {
+    "player": "Zach LaVine",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 31.5,
+    "proj_pts": 21.9,
+    "proj_reb": 3.2,
+    "proj_ast": 3.1,
+    "proj_3pm": 2.6,
+    "proj_pra": 28.2,
+    "best_prop": {
+      "market": "O 19.5 PTS",
+      "proj": 21.9,
+      "line": 19.5,
+      "prob": 65.4
+    },
+    "all_props": [
+      {
+        "market": "O 19.5 PTS",
+        "proj": 21.9,
+        "line": 19.5,
+        "prob": 65.4
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.2,
+        "line": 2.5,
+        "prob": 59.7
+      },
+      {
+        "market": "O 2.5 AST",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 61.7
+      },
+      {
+        "market": "O 25.5 PRA",
+        "proj": 28.2,
+        "line": 25.5,
+        "prob": 64.2
+      }
+    ]
+  },
+  {
+    "player": "Keegan Murray",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 25.9,
+    "proj_pts": 10.9,
+    "proj_reb": 3.1,
+    "proj_ast": 1.5,
+    "proj_3pm": 1.2,
+    "proj_pra": 15.5,
+    "best_prop": {
+      "market": "O 13.5 PRA",
+      "proj": 15.5,
+      "line": 13.5,
+      "prob": 61.8
+    },
+    "all_props": [
+      {
+        "market": "O 9.5 PTS",
+        "proj": 10.9,
+        "line": 9.5,
+        "prob": 58.7
+      },
+      {
+        "market": "O 2.5 REB",
+        "proj": 3.1,
+        "line": 2.5,
+        "prob": 57.5
+      },
+      {
+        "market": "O 1.5 AST",
+        "proj": 1.5,
+        "line": 1.5,
+        "prob": 44.4
+      },
+      {
+        "market": "O 13.5 PRA",
+        "proj": 15.5,
+        "line": 13.5,
+        "prob": 61.8
+      }
+    ]
+  },
+  {
+    "player": "Domantas Sabonis",
+    "team": "SAC",
+    "opponent": "PHX",
+    "status": "Active",
+    "usage_bump_pct": 7.0,
+    "out_teammates": [
+      "Maxime Raynaud",
+      "Ben Simmons"
+    ],
+    "proj_min": 33.7,
+    "proj_pts": 15.4,
+    "proj_reb": 13.4,
+    "proj_ast": 5.6,
+    "proj_3pm": 0.6,
+    "proj_pra": 34.4,
+    "best_prop": {
+      "market": "O 12.5 REB",
+      "proj": 13.4,
+      "line": 12.5,
+      "prob": 61.6
+    },
+    "all_props": [
+      {
+        "market": "O 14.5 PTS",
+        "proj": 15.4,
+        "line": 14.5,
+        "prob": 57.6
+      },
+      {
+        "market": "O 12.5 REB",
+        "proj": 13.4,
+        "line": 12.5,
+        "prob": 61.6
+      },
+      {
+        "market": "O 5.5 AST",
+        "proj": 5.6,
+        "line": 5.5,
+        "prob": 52.0
+      },
+      {
+        "market": "O 32.5 PRA",
+        "proj": 34.4,
+        "line": 32.5,
+        "prob": 60.3
+      }
+    ]
+  }
+]
