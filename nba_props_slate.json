@@ -28,7 +28,7 @@
       "side": "O",
       "line": 4.5,
       "proj": 4.6,
-      "prob": 52.6,
+      "prob": 51.8,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -41,7 +41,7 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.6,
-        "prob": 52.6,
+        "prob": 51.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -53,7 +53,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.4,
-        "prob": 49.7,
+        "prob": 49.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -65,26 +65,26 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.4,
-        "prob": 49.0,
+        "prob": 48.8,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0101011011"
       },
       {
-        "stat": "PTS",
-        "market": "O 3.5 PTS",
+        "stat": "3PM",
+        "market": "O 0.5 3PM",
         "side": "O",
-        "line": 3.5,
-        "proj": 3.3,
-        "prob": 44.9,
-        "hit_str": "3/10",
-        "hits": 3,
+        "line": 0.5,
+        "proj": 0.4,
+        "prob": 45.8,
+        "hit_str": "2/10",
+        "hits": 2,
         "sample": 10,
-        "dots": "0011000100"
+        "dots": "1001000000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5175737",
@@ -115,7 +115,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.0,
-      "prob": 61.1,
+      "prob": 61.3,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -128,7 +128,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.0,
-        "prob": 61.1,
+        "prob": 61.3,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -140,7 +140,7 @@
         "side": "O",
         "line": 30.5,
         "proj": 30.9,
-        "prob": 51.4,
+        "prob": 51.9,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -152,7 +152,7 @@
         "side": "O",
         "line": 20.5,
         "proj": 20.6,
-        "prob": 50.7,
+        "prob": 50.6,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -164,14 +164,14 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.3,
-        "prob": 45.0,
+        "prob": 44.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1000101110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4066436",
@@ -227,7 +227,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.6,
-        "prob": 50.7,
+        "prob": 49.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -239,7 +239,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.4,
-        "prob": 46.3,
+        "prob": 45.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -251,14 +251,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.2,
-        "prob": 42.6,
+        "prob": 42.2,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0001100011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "2990969",
@@ -284,41 +284,41 @@
     "proj_3pm": 1.6,
     "proj_pra": 12.5,
     "best_prop": {
-      "stat": "PTS",
-      "market": "O 7.5 PTS",
+      "stat": "AST",
+      "market": "O 1.5 AST",
       "side": "O",
-      "line": 7.5,
-      "proj": 7.9,
-      "prob": 54.0,
+      "line": 1.5,
+      "proj": 1.6,
+      "prob": 54.7,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
-      "dots": "1000111101"
+      "dots": "0110101110"
     },
     "all_props": [
-      {
-        "stat": "PTS",
-        "market": "O 7.5 PTS",
-        "side": "O",
-        "line": 7.5,
-        "proj": 7.9,
-        "prob": 54.0,
-        "hit_str": "6/10",
-        "hits": 6,
-        "sample": 10,
-        "dots": "1000111101"
-      },
       {
         "stat": "AST",
         "market": "O 1.5 AST",
         "side": "O",
         "line": 1.5,
         "proj": 1.6,
-        "prob": 54.0,
+        "prob": 54.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0110101110"
+      },
+      {
+        "stat": "PTS",
+        "market": "O 7.5 PTS",
+        "side": "O",
+        "line": 7.5,
+        "proj": 7.9,
+        "prob": 52.8,
+        "hit_str": "6/10",
+        "hits": 6,
+        "sample": 10,
+        "dots": "1000111101"
       },
       {
         "stat": "3PM",
@@ -326,7 +326,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.6,
-        "prob": 52.9,
+        "prob": 52.2,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -338,14 +338,14 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.5,
-        "prob": 50.3,
+        "prob": 49.8,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "1000111101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4709138",
@@ -376,7 +376,7 @@
       "side": "O",
       "line": 4.5,
       "proj": 4.9,
-      "prob": 59.1,
+      "prob": 59.4,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -389,7 +389,7 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.9,
-        "prob": 59.1,
+        "prob": 59.4,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -401,7 +401,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 57.9,
+        "prob": 57.1,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -413,7 +413,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.9,
-        "prob": 56.3,
+        "prob": 56.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -425,14 +425,14 @@
         "side": "O",
         "line": 15.5,
         "proj": 15.9,
-        "prob": 52.9,
+        "prob": 52.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0001100111"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4897262",
@@ -463,7 +463,7 @@
       "side": "O",
       "line": 8.5,
       "proj": 8.5,
-      "prob": 50.7,
+      "prob": 50.3,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -476,23 +476,11 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.5,
-        "prob": 50.7,
+        "prob": 50.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1101010000"
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 REB",
-        "side": "O",
-        "line": 2.5,
-        "proj": 2.4,
-        "prob": 48.0,
-        "hit_str": "6/10",
-        "hits": 6,
-        "sample": 10,
-        "dots": "0111001011"
       },
       {
         "stat": "PRA",
@@ -500,11 +488,23 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.2,
-        "prob": 48.0,
+        "prob": 49.2,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "1101000000"
+      },
+      {
+        "stat": "REB",
+        "market": "O 2.5 REB",
+        "side": "O",
+        "line": 2.5,
+        "proj": 2.4,
+        "prob": 48.1,
+        "hit_str": "6/10",
+        "hits": 6,
+        "sample": 10,
+        "dots": "0111001011"
       },
       {
         "stat": "3PM",
@@ -512,14 +512,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.3,
-        "prob": 43.2,
+        "prob": 42.9,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0101011000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4997536",
@@ -550,7 +550,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.0,
-      "prob": 62.1,
+      "prob": 62.5,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -563,7 +563,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.0,
-        "prob": 62.1,
+        "prob": 62.5,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -575,7 +575,7 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.7,
-        "prob": 51.6,
+        "prob": 51.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -587,7 +587,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.5,
-        "prob": 50.1,
+        "prob": 51.0,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -599,14 +599,14 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.5,
-        "prob": 49.1,
+        "prob": 48.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1100100100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5041935",
@@ -637,7 +637,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.1,
-      "prob": 61.1,
+      "prob": 61.8,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -650,7 +650,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.1,
-        "prob": 61.1,
+        "prob": 61.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -662,7 +662,7 @@
         "side": "O",
         "line": 16.5,
         "proj": 18.3,
-        "prob": 60.9,
+        "prob": 61.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -674,7 +674,7 @@
         "side": "O",
         "line": 31.5,
         "proj": 32.7,
-        "prob": 57.0,
+        "prob": 57.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -686,14 +686,14 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.8,
-        "prob": 56.1,
+        "prob": 56.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0001101011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4903027",
@@ -724,7 +724,7 @@
       "side": "O",
       "line": 3.5,
       "proj": 4.1,
-      "prob": 64.5,
+      "prob": 64.7,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -737,7 +737,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 4.1,
-        "prob": 64.5,
+        "prob": 64.7,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -749,7 +749,7 @@
         "side": "O",
         "line": 27.5,
         "proj": 28.8,
-        "prob": 58.1,
+        "prob": 57.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -761,7 +761,7 @@
         "side": "O",
         "line": 15.5,
         "proj": 16.5,
-        "prob": 57.1,
+        "prob": 57.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -773,14 +773,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.5,
-        "prob": 50.7,
+        "prob": 49.9,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "1010000100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4600663",
@@ -811,7 +811,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.9,
-      "prob": 65.4,
+      "prob": 65.6,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -824,7 +824,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.9,
-        "prob": 65.4,
+        "prob": 65.6,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -860,14 +860,14 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.3,
-        "prob": 46.8,
+        "prob": 46.9,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0101011000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "2991070",
@@ -898,7 +898,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.0,
-      "prob": 65.9,
+      "prob": 66.6,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -911,7 +911,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.0,
-        "prob": 65.9,
+        "prob": 66.6,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -923,7 +923,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.8,
-        "prob": 60.5,
+        "prob": 60.1,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -935,7 +935,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 59.7,
+        "prob": 59.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -947,14 +947,14 @@
         "side": "O",
         "line": 11.5,
         "proj": 12.5,
-        "prob": 57.3,
+        "prob": 59.0,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0011100010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4781746",
@@ -980,41 +980,41 @@
     "proj_3pm": 1.3,
     "proj_pra": 16.8,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 4.5 AST",
+      "stat": "PRA",
+      "market": "O 15.5 PRA",
       "side": "O",
-      "line": 4.5,
-      "proj": 5.1,
-      "prob": 59.7,
+      "line": 15.5,
+      "proj": 16.8,
+      "prob": 59.4,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
-      "dots": "1111010100"
+      "dots": "0111011010"
     },
     "all_props": [
-      {
-        "stat": "AST",
-        "market": "O 4.5 AST",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.1,
-        "prob": 59.7,
-        "hit_str": "6/10",
-        "hits": 6,
-        "sample": 10,
-        "dots": "1111010100"
-      },
       {
         "stat": "PRA",
         "market": "O 15.5 PRA",
         "side": "O",
         "line": 15.5,
         "proj": 16.8,
-        "prob": 58.4,
+        "prob": 59.4,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0111011010"
+      },
+      {
+        "stat": "AST",
+        "market": "O 4.5 AST",
+        "side": "O",
+        "line": 4.5,
+        "proj": 5.1,
+        "prob": 59.0,
+        "hit_str": "6/10",
+        "hits": 6,
+        "sample": 10,
+        "dots": "1111010100"
       },
       {
         "stat": "PTS",
@@ -1022,7 +1022,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 9.1,
-        "prob": 55.8,
+        "prob": 55.5,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1034,14 +1034,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.5,
-        "prob": 49.8,
+        "prob": 50.0,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1100001010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4433083",
@@ -1072,7 +1072,7 @@
       "side": "O",
       "line": 12.5,
       "proj": 13.6,
-      "prob": 57.6,
+      "prob": 57.5,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -1085,7 +1085,7 @@
         "side": "O",
         "line": 12.5,
         "proj": 13.6,
-        "prob": 57.6,
+        "prob": 57.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1097,7 +1097,7 @@
         "side": "O",
         "line": 22.5,
         "proj": 23.5,
-        "prob": 55.8,
+        "prob": 55.5,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -1109,7 +1109,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.8,
-        "prob": 53.8,
+        "prob": 53.0,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1121,14 +1121,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.3,
-        "prob": 43.2,
+        "prob": 44.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1011100000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5112087",
@@ -1159,7 +1159,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.1,
-      "prob": 64.3,
+      "prob": 65.4,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -1172,7 +1172,19 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.1,
-        "prob": 64.3,
+        "prob": 65.4,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "0101110010"
+      },
+      {
+        "stat": "PRA",
+        "market": "O 13.5 PRA",
+        "side": "O",
+        "line": 13.5,
+        "proj": 14.4,
+        "prob": 56.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1184,23 +1196,11 @@
         "side": "O",
         "line": 9.5,
         "proj": 10.5,
-        "prob": 56.0,
+        "prob": 56.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0001110010"
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.4,
-        "prob": 55.8,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "0101110010"
       },
       {
         "stat": "AST",
@@ -1208,14 +1208,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.5,
-        "prob": 49.6,
+        "prob": 48.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1110000110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4683021",
@@ -1272,7 +1272,7 @@
         "side": "O",
         "line": 36.5,
         "proj": 39.7,
-        "prob": 70.6,
+        "prob": 70.0,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1284,7 +1284,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.8,
-        "prob": 56.0,
+        "prob": 57.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1296,14 +1296,14 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.4,
-        "prob": 48.2,
+        "prob": 48.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0001011001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4431736",
@@ -1335,7 +1335,7 @@
       "side": "O",
       "line": 15.5,
       "proj": 17.2,
-      "prob": 64.7,
+      "prob": 65.3,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -1348,7 +1348,7 @@
         "side": "O",
         "line": 15.5,
         "proj": 17.2,
-        "prob": 64.7,
+        "prob": 65.3,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1360,7 +1360,7 @@
         "side": "O",
         "line": 11.5,
         "proj": 12.3,
-        "prob": 57.8,
+        "prob": 58.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1372,7 +1372,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.7,
-        "prob": 52.9,
+        "prob": 52.5,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1384,14 +1384,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.4,
-        "prob": 46.2,
+        "prob": 46.5,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "0000001011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5081727",
@@ -1423,7 +1423,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.0,
-      "prob": 64.1,
+      "prob": 63.6,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -1436,7 +1436,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.0,
-        "prob": 64.1,
+        "prob": 63.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -1448,7 +1448,7 @@
         "side": "O",
         "line": 12.5,
         "proj": 13.8,
-        "prob": 59.8,
+        "prob": 59.4,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -1460,7 +1460,7 @@
         "side": "O",
         "line": 7.5,
         "proj": 8.4,
-        "prob": 56.5,
+        "prob": 56.9,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -1472,14 +1472,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.6,
-        "prob": 52.8,
+        "prob": 51.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1001101010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5105565",
@@ -1511,7 +1511,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 1.0,
-      "prob": 65.7,
+      "prob": 66.0,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -1524,7 +1524,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 1.0,
-        "prob": 65.7,
+        "prob": 66.0,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1536,7 +1536,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 61.4,
+        "prob": 60.9,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1548,7 +1548,7 @@
         "side": "O",
         "line": 23.5,
         "proj": 25.0,
-        "prob": 59.5,
+        "prob": 59.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1560,14 +1560,14 @@
         "side": "O",
         "line": 11.5,
         "proj": 12.2,
-        "prob": 54.6,
+        "prob": 55.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010001110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4683678",
@@ -1599,7 +1599,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 1.0,
-      "prob": 68.0,
+      "prob": 69.4,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -1612,7 +1612,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 1.0,
-        "prob": 68.0,
+        "prob": 69.4,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1624,7 +1624,7 @@
         "side": "O",
         "line": 11.5,
         "proj": 12.8,
-        "prob": 62.6,
+        "prob": 62.5,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1636,7 +1636,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 9.6,
-        "prob": 61.8,
+        "prob": 61.9,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1648,14 +1648,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.7,
-        "prob": 57.7,
+        "prob": 58.0,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0001011111"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "3995",
@@ -1687,7 +1687,7 @@
       "side": "O",
       "line": 13.5,
       "proj": 15.3,
-      "prob": 64.0,
+      "prob": 62.8,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -1700,7 +1700,7 @@
         "side": "O",
         "line": 13.5,
         "proj": 15.3,
-        "prob": 64.0,
+        "prob": 62.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1712,7 +1712,7 @@
         "side": "O",
         "line": 21.5,
         "proj": 23.3,
-        "prob": 60.8,
+        "prob": 60.3,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -1724,7 +1724,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.9,
-        "prob": 60.5,
+        "prob": 59.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1736,14 +1736,14 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.7,
-        "prob": 54.4,
+        "prob": 53.8,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "1110000111"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "6606",
@@ -1775,7 +1775,7 @@
       "side": "O",
       "line": 19.5,
       "proj": 22.1,
-      "prob": 66.1,
+      "prob": 65.4,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -1788,7 +1788,7 @@
         "side": "O",
         "line": 19.5,
         "proj": 22.1,
-        "prob": 66.1,
+        "prob": 65.4,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1800,7 +1800,7 @@
         "side": "O",
         "line": 27.5,
         "proj": 29.5,
-        "prob": 61.2,
+        "prob": 62.5,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1812,7 +1812,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 56.6,
+        "prob": 56.8,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -1824,14 +1824,14 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.6,
-        "prob": 53.6,
+        "prob": 53.9,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010010110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5164559",
@@ -1861,7 +1861,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.7,
-      "prob": 58.5,
+      "prob": 57.6,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -1874,7 +1874,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.7,
-        "prob": 58.5,
+        "prob": 57.6,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -1886,7 +1886,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.7,
-        "prob": 56.3,
+        "prob": 55.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -1898,7 +1898,7 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.7,
-        "prob": 53.0,
+        "prob": 53.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1910,14 +1910,14 @@
         "side": "O",
         "line": 11.5,
         "proj": 11.2,
-        "prob": 45.8,
+        "prob": 47.6,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010110001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5082206",
@@ -1947,7 +1947,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.8,
-      "prob": 55.4,
+      "prob": 55.1,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -1960,7 +1960,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.8,
-        "prob": 55.4,
+        "prob": 55.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1972,7 +1972,7 @@
         "side": "O",
         "line": 18.5,
         "proj": 18.8,
-        "prob": 51.9,
+        "prob": 52.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1984,7 +1984,7 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.5,
-        "prob": 50.4,
+        "prob": 50.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -1996,14 +1996,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.4,
-        "prob": 49.2,
+        "prob": 47.6,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0110111100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "4395725",
@@ -2058,7 +2058,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.8,
-        "prob": 55.3,
+        "prob": 55.4,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -2070,7 +2070,7 @@
         "side": "O",
         "line": 17.5,
         "proj": 17.5,
-        "prob": 49.7,
+        "prob": 50.6,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2082,14 +2082,14 @@
         "side": "O",
         "line": 25.5,
         "proj": 25.2,
-        "prob": 48.7,
+        "prob": 48.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0001011101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:56 AM"
   },
   {
     "id": "5214640",
@@ -2144,7 +2144,7 @@
         "side": "O",
         "line": 16.5,
         "proj": 16.8,
-        "prob": 51.7,
+        "prob": 51.4,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -2168,14 +2168,14 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.3,
-        "prob": 49.2,
+        "prob": 49.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1110000001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4432848",
@@ -2254,14 +2254,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.1,
-        "prob": 37.3,
+        "prob": 37.8,
         "hit_str": "2/10",
         "hits": 2,
         "sample": 10,
         "dots": "0010000100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4697268",
@@ -2291,7 +2291,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.9,
-      "prob": 64.1,
+      "prob": 63.2,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -2304,7 +2304,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.9,
-        "prob": 64.1,
+        "prob": 63.2,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2316,23 +2316,11 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.8,
-        "prob": 52.3,
+        "prob": 52.5,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1001011000"
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 13.6,
-        "prob": 51.7,
-        "hit_str": "3/10",
-        "hits": 3,
-        "sample": 10,
-        "dots": "0001011000"
       },
       {
         "stat": "AST",
@@ -2340,14 +2328,26 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.6,
-        "prob": 51.1,
+        "prob": 50.5,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0010011001"
+      },
+      {
+        "stat": "PRA",
+        "market": "O 13.5 PRA",
+        "side": "O",
+        "line": 13.5,
+        "proj": 13.6,
+        "prob": 50.3,
+        "hit_str": "3/10",
+        "hits": 3,
+        "sample": 10,
+        "dots": "0001011000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3134907",
@@ -2377,7 +2377,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.8,
-      "prob": 57.3,
+      "prob": 56.8,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -2390,7 +2390,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.8,
-        "prob": 57.3,
+        "prob": 56.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -2414,7 +2414,7 @@
         "side": "O",
         "line": 19.5,
         "proj": 19.3,
-        "prob": 49.6,
+        "prob": 48.3,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2426,14 +2426,14 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.3,
-        "prob": 44.5,
+        "prob": 44.9,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1100100100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "2991043",
@@ -2463,7 +2463,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.9,
-      "prob": 64.8,
+      "prob": 63.7,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -2476,7 +2476,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.9,
-        "prob": 64.8,
+        "prob": 63.7,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -2488,7 +2488,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.6,
-        "prob": 51.0,
+        "prob": 51.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -2500,7 +2500,7 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.6,
-        "prob": 50.7,
+        "prob": 50.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -2512,14 +2512,14 @@
         "side": "O",
         "line": 11.5,
         "proj": 11.4,
-        "prob": 49.7,
+        "prob": 49.6,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "1101000000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4397114",
@@ -2549,7 +2549,7 @@
       "side": "O",
       "line": 17.5,
       "proj": 17.9,
-      "prob": 51.9,
+      "prob": 52.4,
       "hit_str": "4/9",
       "hits": 4,
       "sample": 9,
@@ -2562,7 +2562,7 @@
         "side": "O",
         "line": 17.5,
         "proj": 17.9,
-        "prob": 51.9,
+        "prob": 52.4,
         "hit_str": "4/9",
         "hits": 4,
         "sample": 9,
@@ -2574,7 +2574,7 @@
         "side": "O",
         "line": 23.5,
         "proj": 23.3,
-        "prob": 48.9,
+        "prob": 49.4,
         "hit_str": "4/9",
         "hits": 4,
         "sample": 9,
@@ -2586,7 +2586,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.3,
-        "prob": 47.8,
+        "prob": 47.7,
         "hit_str": "4/9",
         "hits": 4,
         "sample": 9,
@@ -2598,14 +2598,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.2,
-        "prob": 41.2,
+        "prob": 41.0,
         "hit_str": "4/9",
         "hits": 4,
         "sample": 9,
         "dots": "110010100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4277843",
@@ -2635,7 +2635,7 @@
       "side": "O",
       "line": 7.5,
       "proj": 7.9,
-      "prob": 52.2,
+      "prob": 51.9,
       "hit_str": "2/5",
       "hits": 2,
       "sample": 5,
@@ -2648,7 +2648,7 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.9,
-        "prob": 52.2,
+        "prob": 51.9,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
@@ -2660,7 +2660,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.3,
-        "prob": 49.1,
+        "prob": 49.2,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
@@ -2672,7 +2672,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.4,
-        "prob": 48.5,
+        "prob": 47.8,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
@@ -2684,14 +2684,14 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.4,
-        "prob": 46.3,
+        "prob": 46.7,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
         "dots": "01001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3133628",
@@ -2721,7 +2721,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.9,
-      "prob": 57.8,
+      "prob": 58.0,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -2734,7 +2734,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.9,
-        "prob": 57.8,
+        "prob": 58.0,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -2746,7 +2746,7 @@
         "side": "O",
         "line": 15.5,
         "proj": 15.7,
-        "prob": 51.3,
+        "prob": 51.5,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2758,7 +2758,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.5,
-        "prob": 50.3,
+        "prob": 50.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -2770,14 +2770,14 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.3,
-        "prob": 47.1,
+        "prob": 47.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0110011010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3934719",
@@ -2805,7 +2805,7 @@
       "side": "O",
       "line": 4.5,
       "proj": 4.8,
-      "prob": 55.5,
+      "prob": 55.3,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -2818,7 +2818,7 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.8,
-        "prob": 55.5,
+        "prob": 55.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -2830,7 +2830,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.5,
-        "prob": 51.5,
+        "prob": 50.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2842,7 +2842,7 @@
         "side": "O",
         "line": 16.5,
         "proj": 15.7,
-        "prob": 41.6,
+        "prob": 42.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -2854,14 +2854,14 @@
         "side": "O",
         "line": 23.5,
         "proj": 22.0,
-        "prob": 37.0,
+        "prob": 37.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0100101101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3147657",
@@ -2889,7 +2889,7 @@
       "side": "O",
       "line": 3.5,
       "proj": 3.8,
-      "prob": 55.6,
+      "prob": 55.9,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -2902,7 +2902,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.8,
-        "prob": 55.6,
+        "prob": 55.9,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -2938,14 +2938,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.0,
-        "prob": 35.4,
+        "prob": 35.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0110011000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3934672",
@@ -2973,7 +2973,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.8,
-      "prob": 55.1,
+      "prob": 56.5,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -2986,7 +2986,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 55.1,
+        "prob": 56.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -2998,7 +2998,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.0,
-        "prob": 41.1,
+        "prob": 42.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -3010,7 +3010,7 @@
         "side": "O",
         "line": 37.5,
         "proj": 35.5,
-        "prob": 36.8,
+        "prob": 37.9,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -3022,14 +3022,14 @@
         "side": "O",
         "line": 28.5,
         "proj": 26.8,
-        "prob": 36.5,
+        "prob": 37.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010011001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3062679",
@@ -3057,7 +3057,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.7,
-      "prob": 54.1,
+      "prob": 53.4,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -3070,7 +3070,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.7,
-        "prob": 54.1,
+        "prob": 53.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3082,7 +3082,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.5,
-        "prob": 48.7,
+        "prob": 51.1,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -3094,7 +3094,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.3,
-        "prob": 44.5,
+        "prob": 43.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -3106,14 +3106,14 @@
         "side": "O",
         "line": 15.5,
         "proj": 14.5,
-        "prob": 42.5,
+        "prob": 42.9,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0000110011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3914044",
@@ -3141,7 +3141,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.7,
-      "prob": 56.2,
+      "prob": 56.7,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -3154,7 +3154,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.7,
-        "prob": 56.2,
+        "prob": 56.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3166,7 +3166,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.7,
-        "prob": 54.4,
+        "prob": 54.6,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -3178,7 +3178,7 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.0,
-        "prob": 47.2,
+        "prob": 46.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3190,14 +3190,14 @@
         "side": "O",
         "line": 11.5,
         "proj": 10.7,
-        "prob": 44.3,
+        "prob": 45.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1101000101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3136195",
@@ -3227,7 +3227,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.9,
-      "prob": 62.4,
+      "prob": 62.5,
       "hit_str": "8/10",
       "hits": 8,
       "sample": 10,
@@ -3240,7 +3240,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 62.4,
+        "prob": 62.5,
         "hit_str": "8/10",
         "hits": 8,
         "sample": 10,
@@ -3252,7 +3252,7 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.3,
-        "prob": 47.0,
+        "prob": 46.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3264,7 +3264,7 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.2,
-        "prob": 44.8,
+        "prob": 44.0,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3276,14 +3276,14 @@
         "side": "O",
         "line": 21.5,
         "proj": 20.3,
-        "prob": 40.6,
+        "prob": 40.9,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0110010010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4432816",
@@ -3314,7 +3314,7 @@
       "side": "O",
       "line": 27.5,
       "proj": 27.7,
-      "prob": 50.7,
+      "prob": 50.6,
       "hit_str": "8/10",
       "hits": 8,
       "sample": 10,
@@ -3327,23 +3327,11 @@
         "side": "O",
         "line": 27.5,
         "proj": 27.7,
-        "prob": 50.7,
+        "prob": 50.6,
         "hit_str": "8/10",
         "hits": 8,
         "sample": 10,
         "dots": "1011111101"
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 REB",
-        "side": "O",
-        "line": 4.5,
-        "proj": 4.5,
-        "prob": 49.7,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1110000110"
       },
       {
         "stat": "3PM",
@@ -3351,11 +3339,23 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.5,
-        "prob": 48.7,
+        "prob": 49.2,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0011101101"
+      },
+      {
+        "stat": "REB",
+        "market": "O 4.5 REB",
+        "side": "O",
+        "line": 4.5,
+        "proj": 4.5,
+        "prob": 49.0,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1110000110"
       },
       {
         "stat": "PTS",
@@ -3363,14 +3363,14 @@
         "side": "O",
         "line": 18.5,
         "proj": 18.1,
-        "prob": 48.5,
+        "prob": 47.7,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
         "dots": "0011111101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "5279133",
@@ -3395,41 +3395,41 @@
     "proj_3pm": 0.0,
     "proj_pra": 12.6,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 6.5 REB",
+      "stat": "PRA",
+      "market": "O 12.5 PRA",
       "side": "O",
-      "line": 6.5,
-      "proj": 6.6,
-      "prob": 52.0,
-      "hit_str": "5/10",
-      "hits": 5,
+      "line": 12.5,
+      "proj": 12.6,
+      "prob": 51.3,
+      "hit_str": "4/10",
+      "hits": 4,
       "sample": 10,
-      "dots": "1001011001"
+      "dots": "1001000101"
     },
     "all_props": [
-      {
-        "stat": "REB",
-        "market": "O 6.5 REB",
-        "side": "O",
-        "line": 6.5,
-        "proj": 6.6,
-        "prob": 52.0,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1001011001"
-      },
       {
         "stat": "PRA",
         "market": "O 12.5 PRA",
         "side": "O",
         "line": 12.5,
         "proj": 12.6,
-        "prob": 50.0,
+        "prob": 51.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1001000101"
+      },
+      {
+        "stat": "REB",
+        "market": "O 6.5 REB",
+        "side": "O",
+        "line": 6.5,
+        "proj": 6.6,
+        "prob": 50.8,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1001011001"
       },
       {
         "stat": "PTS",
@@ -3437,7 +3437,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.6,
-        "prob": 49.7,
+        "prob": 50.2,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -3449,14 +3449,14 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.4,
-        "prob": 48.2,
+        "prob": 48.3,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "0000001101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4397002",
@@ -3486,7 +3486,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.8,
-      "prob": 56.0,
+      "prob": 55.6,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -3499,7 +3499,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 56.0,
+        "prob": 55.6,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3511,23 +3511,11 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.5,
-        "prob": 49.5,
+        "prob": 50.7,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1000110001"
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 REB",
-        "side": "O",
-        "line": 4.5,
-        "proj": 4.3,
-        "prob": 47.9,
-        "hit_str": "4/10",
-        "hits": 4,
-        "sample": 10,
-        "dots": "0100000111"
       },
       {
         "stat": "PRA",
@@ -3535,14 +3523,26 @@
         "side": "O",
         "line": 27.5,
         "proj": 27.2,
-        "prob": 47.6,
+        "prob": 49.6,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
         "dots": "1010111110"
+      },
+      {
+        "stat": "REB",
+        "market": "O 4.5 REB",
+        "side": "O",
+        "line": 4.5,
+        "proj": 4.3,
+        "prob": 47.5,
+        "hit_str": "4/10",
+        "hits": 4,
+        "sample": 10,
+        "dots": "0100000111"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3032976",
@@ -3572,7 +3572,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.9,
-      "prob": 62.2,
+      "prob": 60.7,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -3585,7 +3585,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 62.2,
+        "prob": 60.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -3597,7 +3597,7 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.6,
-        "prob": 52.7,
+        "prob": 51.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3609,7 +3609,7 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.3,
-        "prob": 48.4,
+        "prob": 47.3,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -3621,14 +3621,14 @@
         "side": "O",
         "line": 20.5,
         "proj": 19.8,
-        "prob": 45.7,
+        "prob": 46.0,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0100101110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4433247",
@@ -3658,7 +3658,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.7,
-      "prob": 53.5,
+      "prob": 53.6,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -3671,23 +3671,11 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.7,
-        "prob": 53.5,
+        "prob": 53.6,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "1010111100"
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 20.7,
-        "prob": 51.4,
-        "hit_str": "7/10",
-        "hits": 7,
-        "sample": 10,
-        "dots": "1010111101"
       },
       {
         "stat": "AST",
@@ -3702,19 +3690,31 @@
         "dots": "0110111101"
       },
       {
+        "stat": "PRA",
+        "market": "O 20.5 PRA",
+        "side": "O",
+        "line": 20.5,
+        "proj": 20.7,
+        "prob": 51.1,
+        "hit_str": "7/10",
+        "hits": 7,
+        "sample": 10,
+        "dots": "1010111101"
+      },
+      {
         "stat": "PTS",
         "market": "O 12.5 PTS",
         "side": "O",
         "line": 12.5,
         "proj": 12.4,
-        "prob": 49.1,
+        "prob": 48.3,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "1010110101"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3136196",
@@ -3744,7 +3744,7 @@
       "side": "O",
       "line": 6.5,
       "proj": 6.7,
-      "prob": 52.8,
+      "prob": 53.9,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -3757,7 +3757,7 @@
         "side": "O",
         "line": 6.5,
         "proj": 6.7,
-        "prob": 52.8,
+        "prob": 53.9,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3769,7 +3769,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.6,
-        "prob": 52.1,
+        "prob": 51.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3781,7 +3781,7 @@
         "side": "O",
         "line": 11.5,
         "proj": 11.5,
-        "prob": 49.6,
+        "prob": 49.9,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -3793,14 +3793,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.2,
-        "prob": 39.6,
+        "prob": 38.2,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1010110000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4431671",
@@ -3830,7 +3830,7 @@
       "side": "O",
       "line": 17.5,
       "proj": 17.4,
-      "prob": 48.6,
+      "prob": 48.7,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -3843,7 +3843,7 @@
         "side": "O",
         "line": 17.5,
         "proj": 17.4,
-        "prob": 48.6,
+        "prob": 48.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3855,7 +3855,7 @@
         "side": "O",
         "line": 27.5,
         "proj": 27.3,
-        "prob": 48.0,
+        "prob": 47.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -3867,7 +3867,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.3,
-        "prob": 42.9,
+        "prob": 43.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -3879,14 +3879,14 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.0,
-        "prob": 34.9,
+        "prob": 34.5,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "0010010001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4592979",
@@ -3911,12 +3911,12 @@
     "proj_3pm": 0.0,
     "proj_pra": 18.1,
     "best_prop": {
-      "stat": "PTS",
-      "market": "O 12.5 PTS",
+      "stat": "PRA",
+      "market": "O 18.5 PRA",
       "side": "O",
-      "line": 12.5,
-      "proj": 12.2,
-      "prob": 47.0,
+      "line": 18.5,
+      "proj": 18.1,
+      "prob": 48.2,
       "hit_str": "2/5",
       "hits": 2,
       "sample": 5,
@@ -3924,24 +3924,24 @@
     },
     "all_props": [
       {
-        "stat": "PTS",
-        "market": "O 12.5 PTS",
+        "stat": "PRA",
+        "market": "O 18.5 PRA",
         "side": "O",
-        "line": 12.5,
-        "proj": 12.2,
-        "prob": 47.0,
+        "line": 18.5,
+        "proj": 18.1,
+        "prob": 48.2,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
         "dots": "10100"
       },
       {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
+        "stat": "PTS",
+        "market": "O 12.5 PTS",
         "side": "O",
-        "line": 18.5,
-        "proj": 18.1,
-        "prob": 46.7,
+        "line": 12.5,
+        "proj": 12.2,
+        "prob": 47.6,
         "hit_str": "2/5",
         "hits": 2,
         "sample": 5,
@@ -3953,7 +3953,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.0,
-        "prob": 44.1,
+        "prob": 43.2,
         "hit_str": "1/5",
         "hits": 1,
         "sample": 5,
@@ -3965,14 +3965,14 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.0,
-        "prob": 33.1,
+        "prob": 32.8,
         "hit_str": "0/5",
         "hits": 0,
         "sample": 5,
         "dots": "00000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4432847",
@@ -4002,7 +4002,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.9,
-      "prob": 60.6,
+      "prob": 61.0,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -4015,23 +4015,11 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.9,
-        "prob": 60.6,
+        "prob": 61.0,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
         "dots": "1101110011"
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 PTS",
-        "side": "O",
-        "line": 13.5,
-        "proj": 13.0,
-        "prob": 48.4,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "0110000111"
       },
       {
         "stat": "PRA",
@@ -4039,7 +4027,19 @@
         "side": "O",
         "line": 19.5,
         "proj": 19.2,
-        "prob": 48.4,
+        "prob": 47.9,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "0110000111"
+      },
+      {
+        "stat": "PTS",
+        "market": "O 13.5 PTS",
+        "side": "O",
+        "line": 13.5,
+        "proj": 13.0,
+        "prob": 47.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4051,14 +4051,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.3,
-        "prob": 44.7,
+        "prob": 44.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0100001011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4845363",
@@ -4088,7 +4088,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.9,
-      "prob": 56.1,
+      "prob": 55.2,
       "hit_str": "2/3",
       "hits": 2,
       "sample": 3,
@@ -4101,7 +4101,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.9,
-        "prob": 56.1,
+        "prob": 55.2,
         "hit_str": "2/3",
         "hits": 2,
         "sample": 3,
@@ -4113,7 +4113,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.5,
-        "prob": 49.8,
+        "prob": 50.6,
         "hit_str": "1/3",
         "hits": 1,
         "sample": 3,
@@ -4125,7 +4125,7 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.4,
-        "prob": 49.4,
+        "prob": 48.3,
         "hit_str": "2/3",
         "hits": 2,
         "sample": 3,
@@ -4137,14 +4137,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.0,
-        "prob": 34.7,
+        "prob": 36.1,
         "hit_str": "1/3",
         "hits": 1,
         "sample": 3,
         "dots": "001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "5106258",
@@ -4174,7 +4174,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.9,
-      "prob": 60.4,
+      "prob": 61.4,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -4187,7 +4187,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.9,
-        "prob": 60.4,
+        "prob": 61.4,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -4211,7 +4211,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.5,
-        "prob": 50.2,
+        "prob": 49.5,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4223,14 +4223,14 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.1,
-        "prob": 47.4,
+        "prob": 46.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0111110000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "2991139",
@@ -4260,7 +4260,7 @@
       "side": "O",
       "line": 3.5,
       "proj": 3.9,
-      "prob": 58.6,
+      "prob": 58.2,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -4273,23 +4273,11 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.9,
-        "prob": 58.6,
+        "prob": 58.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010100110"
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 REB",
-        "side": "O",
-        "line": 3.5,
-        "proj": 3.6,
-        "prob": 55.6,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1000111010"
       },
       {
         "stat": "3PM",
@@ -4297,11 +4285,23 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.6,
-        "prob": 55.4,
+        "prob": 55.6,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0001111001"
+      },
+      {
+        "stat": "REB",
+        "market": "O 3.5 REB",
+        "side": "O",
+        "line": 3.5,
+        "proj": 3.6,
+        "prob": 55.5,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1000111010"
       },
       {
         "stat": "PRA",
@@ -4309,14 +4309,14 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.6,
-        "prob": 50.4,
+        "prob": 50.0,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0000101110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4396907",
@@ -4346,7 +4346,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.5,
-      "prob": 50.8,
+      "prob": 51.1,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -4359,7 +4359,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.5,
-        "prob": 50.8,
+        "prob": 51.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4371,7 +4371,7 @@
         "side": "O",
         "line": 20.5,
         "proj": 20.1,
-        "prob": 46.9,
+        "prob": 47.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4383,7 +4383,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.4,
-        "prob": 44.8,
+        "prob": 45.0,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4395,14 +4395,14 @@
         "side": "O",
         "line": 30.5,
         "proj": 29.7,
-        "prob": 44.3,
+        "prob": 44.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0110110010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4066648",
@@ -4432,7 +4432,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.5,
-      "prob": 50.8,
+      "prob": 50.2,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -4445,7 +4445,7 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.5,
-        "prob": 50.8,
+        "prob": 50.2,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -4457,23 +4457,11 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.5,
-        "prob": 49.0,
+        "prob": 49.2,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "0010110000"
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 PTS",
-        "side": "O",
-        "line": 13.5,
-        "proj": 13.0,
-        "prob": 47.5,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1000111001"
       },
       {
         "stat": "PRA",
@@ -4481,14 +4469,26 @@
         "side": "O",
         "line": 20.5,
         "proj": 19.9,
-        "prob": 46.8,
+        "prob": 46.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1010011001"
+      },
+      {
+        "stat": "PTS",
+        "market": "O 13.5 PTS",
+        "side": "O",
+        "line": 13.5,
+        "proj": 13.0,
+        "prob": 45.8,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1000111001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4432170",
@@ -4518,7 +4518,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.8,
-      "prob": 58.2,
+      "prob": 58.7,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -4531,7 +4531,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.8,
-        "prob": 58.2,
+        "prob": 58.7,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -4555,7 +4555,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 7.8,
-        "prob": 43.9,
+        "prob": 43.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -4567,14 +4567,14 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.2,
-        "prob": 39.0,
+        "prob": 38.4,
         "hit_str": "2/10",
         "hits": 2,
         "sample": 10,
         "dots": "0100010000"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3936099",
@@ -4604,7 +4604,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.9,
-      "prob": 64.2,
+      "prob": 64.4,
       "hit_str": "7/10",
       "hits": 7,
       "sample": 10,
@@ -4617,7 +4617,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 64.2,
+        "prob": 64.4,
         "hit_str": "7/10",
         "hits": 7,
         "sample": 10,
@@ -4629,23 +4629,11 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.7,
-        "prob": 52.6,
+        "prob": 51.9,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0111010011"
-      },
-      {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
-        "side": "O",
-        "line": 16.5,
-        "proj": 16.0,
-        "prob": 45.8,
-        "hit_str": "6/10",
-        "hits": 6,
-        "sample": 10,
-        "dots": "0110011011"
       },
       {
         "stat": "REB",
@@ -4653,14 +4641,26 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.2,
-        "prob": 43.4,
+        "prob": 44.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0010011011"
+      },
+      {
+        "stat": "PRA",
+        "market": "O 16.5 PRA",
+        "side": "O",
+        "line": 16.5,
+        "proj": 16.0,
+        "prob": 44.3,
+        "hit_str": "6/10",
+        "hits": 6,
+        "sample": 10,
+        "dots": "0110011011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "3448",
@@ -4690,7 +4690,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.7,
-      "prob": 55.4,
+      "prob": 56.2,
       "hit_str": "3/10",
       "hits": 3,
       "sample": 10,
@@ -4703,7 +4703,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.7,
-        "prob": 55.4,
+        "prob": 56.2,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -4715,7 +4715,7 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.5,
-        "prob": 49.7,
+        "prob": 49.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -4727,7 +4727,7 @@
         "side": "O",
         "line": 21.5,
         "proj": 21.4,
-        "prob": 49.5,
+        "prob": 48.2,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -4739,14 +4739,14 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.0,
-        "prob": 41.9,
+        "prob": 41.7,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
         "dots": "0110000001"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "5105832",
@@ -4776,7 +4776,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.7,
-      "prob": 55.9,
+      "prob": 54.9,
       "hit_str": "2/3",
       "hits": 2,
       "sample": 3,
@@ -4789,7 +4789,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.7,
-        "prob": 55.9,
+        "prob": 54.9,
         "hit_str": "2/3",
         "hits": 2,
         "sample": 3,
@@ -4801,7 +4801,7 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.4,
-        "prob": 49.1,
+        "prob": 48.2,
         "hit_str": "1/3",
         "hits": 1,
         "sample": 3,
@@ -4813,7 +4813,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.2,
-        "prob": 45.1,
+        "prob": 45.3,
         "hit_str": "1/3",
         "hits": 1,
         "sample": 3,
@@ -4825,14 +4825,14 @@
         "side": "O",
         "line": 7.5,
         "proj": 7.2,
-        "prob": 42.1,
+        "prob": 42.0,
         "hit_str": "2/3",
         "hits": 2,
         "sample": 3,
         "dots": "110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4702352",
@@ -4862,7 +4862,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.8,
-      "prob": 57.1,
+      "prob": 58.0,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -4875,7 +4875,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 57.1,
+        "prob": 58.0,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -4887,7 +4887,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.7,
-        "prob": 55.2,
+        "prob": 55.4,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -4899,26 +4899,26 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.4,
-        "prob": 49.6,
+        "prob": 49.4,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0001001101"
       },
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
+        "stat": "PRA",
+        "market": "O 14.5 PRA",
         "side": "O",
-        "line": 1.5,
-        "proj": 1.4,
-        "prob": 47.6,
+        "line": 14.5,
+        "proj": 14.0,
+        "prob": 47.0,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
-        "dots": "0000101100"
+        "dots": "0001001100"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4065778",
@@ -4948,7 +4948,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 1.9,
-      "prob": 60.6,
+      "prob": 61.8,
       "hit_str": "4/7",
       "hits": 4,
       "sample": 7,
@@ -4961,7 +4961,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.9,
-        "prob": 60.6,
+        "prob": 61.8,
         "hit_str": "4/7",
         "hits": 4,
         "sample": 7,
@@ -4973,7 +4973,7 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.4,
-        "prob": 48.6,
+        "prob": 48.7,
         "hit_str": "4/7",
         "hits": 4,
         "sample": 7,
@@ -4985,7 +4985,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.1,
-        "prob": 46.0,
+        "prob": 45.3,
         "hit_str": "4/7",
         "hits": 4,
         "sample": 7,
@@ -5004,7 +5004,7 @@
         "dots": "0100011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "5254165",
@@ -5034,7 +5034,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.8,
-      "prob": 58.2,
+      "prob": 59.0,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -5047,7 +5047,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.8,
-        "prob": 58.2,
+        "prob": 59.0,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -5059,7 +5059,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.6,
-        "prob": 52.9,
+        "prob": 52.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5071,7 +5071,7 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.2,
-        "prob": 46.6,
+        "prob": 46.4,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -5083,14 +5083,14 @@
         "side": "O",
         "line": 18.5,
         "proj": 17.9,
-        "prob": 44.8,
+        "prob": 44.3,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0100100011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4845367",
@@ -5120,7 +5120,7 @@
       "side": "O",
       "line": 5.5,
       "proj": 5.7,
-      "prob": 54.8,
+      "prob": 54.0,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -5133,23 +5133,11 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.7,
-        "prob": 54.8,
+        "prob": 54.0,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1110101000"
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 1.6,
-        "prob": 53.4,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1010010110"
       },
       {
         "stat": "REB",
@@ -5157,11 +5145,23 @@
         "side": "O",
         "line": 4.5,
         "proj": 4.6,
-        "prob": 52.3,
+        "prob": 53.7,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0010110111"
+      },
+      {
+        "stat": "3PM",
+        "market": "O 1.5 3PM",
+        "side": "O",
+        "line": 1.5,
+        "proj": 1.6,
+        "prob": 52.8,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1010010110"
       },
       {
         "stat": "PTS",
@@ -5169,14 +5169,14 @@
         "side": "O",
         "line": 14.5,
         "proj": 14.6,
-        "prob": 50.6,
+        "prob": 51.3,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "0110001110"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4592479",
@@ -5206,7 +5206,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 2.7,
-      "prob": 54.4,
+      "prob": 54.1,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -5219,23 +5219,11 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.7,
-        "prob": 54.4,
+        "prob": 54.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1001110001"
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 REB",
-        "side": "O",
-        "line": 4.5,
-        "proj": 4.4,
-        "prob": 47.4,
-        "hit_str": "5/10",
-        "hits": 5,
-        "sample": 10,
-        "dots": "1110001010"
       },
       {
         "stat": "AST",
@@ -5243,7 +5231,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.4,
-        "prob": 47.2,
+        "prob": 48.0,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5255,14 +5243,26 @@
         "side": "O",
         "line": 10.5,
         "proj": 10.2,
-        "prob": 47.0,
+        "prob": 47.7,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
         "dots": "1001110001"
+      },
+      {
+        "stat": "REB",
+        "market": "O 4.5 REB",
+        "side": "O",
+        "line": 4.5,
+        "proj": 4.4,
+        "prob": 47.1,
+        "hit_str": "5/10",
+        "hits": 5,
+        "sample": 10,
+        "dots": "1110001010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4066259",
@@ -5292,7 +5292,7 @@
       "side": "O",
       "line": 0.5,
       "proj": 0.9,
-      "prob": 64.8,
+      "prob": 65.8,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -5305,7 +5305,7 @@
         "side": "O",
         "line": 0.5,
         "proj": 0.9,
-        "prob": 64.8,
+        "prob": 65.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5317,7 +5317,7 @@
         "side": "O",
         "line": 12.5,
         "proj": 12.4,
-        "prob": 48.5,
+        "prob": 48.4,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -5329,7 +5329,7 @@
         "side": "O",
         "line": 21.5,
         "proj": 21.3,
-        "prob": 47.6,
+        "prob": 47.8,
         "hit_str": "3/10",
         "hits": 3,
         "sample": 10,
@@ -5341,14 +5341,14 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.0,
-        "prob": 41.6,
+        "prob": 41.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0011100010"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4395723",
@@ -5378,7 +5378,7 @@
       "side": "O",
       "line": 8.5,
       "proj": 8.8,
-      "prob": 53.1,
+      "prob": 52.2,
       "hit_str": "5/10",
       "hits": 5,
       "sample": 10,
@@ -5391,7 +5391,7 @@
         "side": "O",
         "line": 8.5,
         "proj": 8.8,
-        "prob": 53.1,
+        "prob": 52.2,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5403,7 +5403,7 @@
         "side": "O",
         "line": 16.5,
         "proj": 16.7,
-        "prob": 51.0,
+        "prob": 51.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5415,7 +5415,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 2.4,
-        "prob": 48.9,
+        "prob": 49.1,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5427,14 +5427,14 @@
         "side": "O",
         "line": 5.5,
         "proj": 5.4,
-        "prob": 48.2,
+        "prob": 48.3,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
         "dots": "0101011011"
       }
     ],
-    "generated_at": "2026-11-19 05:50 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "4395630",
@@ -5464,7 +5464,7 @@
       "side": "O",
       "line": 2.5,
       "proj": 3.0,
-      "prob": 59.9,
+      "prob": 60.1,
       "hit_str": "4/10",
       "hits": 4,
       "sample": 10,
@@ -5477,7 +5477,7 @@
         "side": "O",
         "line": 2.5,
         "proj": 3.0,
-        "prob": 59.9,
+        "prob": 60.1,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
@@ -5489,7 +5489,7 @@
         "side": "O",
         "line": 3.5,
         "proj": 3.8,
-        "prob": 56.7,
+        "prob": 55.4,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -5501,7 +5501,7 @@
         "side": "O",
         "line": 11.5,
         "proj": 11.6,
-        "prob": 50.0,
+        "prob": 49.8,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5513,14 +5513,14 @@
         "side": "O",
         "line": 1.5,
         "proj": 1.5,
-        "prob": 49.5,
+        "prob": 49.7,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "1001100001"
       }
     ],
-    "generated_at": "2026-11-19 05:51 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   },
   {
     "id": "5104157",
@@ -5550,7 +5550,7 @@
       "side": "O",
       "line": 1.5,
       "proj": 2.0,
-      "prob": 62.2,
+      "prob": 62.3,
       "hit_str": "6/10",
       "hits": 6,
       "sample": 10,
@@ -5563,7 +5563,7 @@
         "side": "O",
         "line": 1.5,
         "proj": 2.0,
-        "prob": 62.2,
+        "prob": 62.3,
         "hit_str": "6/10",
         "hits": 6,
         "sample": 10,
@@ -5587,7 +5587,7 @@
         "side": "O",
         "line": 45.5,
         "proj": 45.6,
-        "prob": 49.5,
+        "prob": 49.9,
         "hit_str": "5/10",
         "hits": 5,
         "sample": 10,
@@ -5599,13 +5599,13 @@
         "side": "O",
         "line": 30.5,
         "proj": 30.3,
-        "prob": 48.4,
+        "prob": 49.8,
         "hit_str": "4/10",
         "hits": 4,
         "sample": 10,
         "dots": "0001100101"
       }
     ],
-    "generated_at": "2026-11-19 05:51 AM"
+    "generated_at": "2026-11-19 05:57 AM"
   }
 ]
