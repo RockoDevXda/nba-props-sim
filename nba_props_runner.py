@@ -20,6 +20,13 @@ def safe_float(val, default=0.0):
         return default
 
 
+def prob_to_american_odds(prob_pct):
+    p = prob_pct / 100.0
+    if p <= 0.01 or p >= 0.99:
+        return "N/A"
+    return f"{int(round(-100 * p / (1 - p)))}" if p >= 0.5 else f"+{int(round(100 * (1 - p) / p))}"
+
+
 def load_previous_nba_lines():
     if not os.path.exists("nba_games_slate.json"):
         return {}
@@ -109,12 +116,11 @@ def fetch_team_profile(team_id, record_str="0-0"):
 
 
 def fetch_h2h_history(away_id, away_abbr, home_id, home_abbr):
-    """Pulls season/recent head-to-head matchups between these two NBA teams from ESPN schedule."""
     url = f"https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{home_id}/schedule"
     try:
         resp = requests.get(url, headers=HEADERS, timeout=10)
         if resp.status_code != 200:
-            return {"summary": "First meeting this season", "avg_total": 0.0, "games": 0}
+            return {"summary": "1st H2H meeting this season", "avg_total": 0.0, "games": 0}
         events = resp.json().get("events", [])
         h2h_games = []
         for ev in events:
@@ -404,7 +410,7 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_prof, 
     team_spread = game["home_spread"] if is_home else -game["home_spread"]
     blowout_factor = 0.96 if abs(team_spread) >= 13.5 else 1.0
     def_mult = opp_prof["def_mult"]
-    fatigue_mult = 0.97 if (is_b2b and not is_home) else (1.02 if opp_b2b else 1.0)
+    fatigue_mult = 0.965 if (is_b2b and not is_home) else (1.02 if opp_b2b else 1.0)
 
     def weighted_mean_std(vals):
         weights = [1.35 if i < 5 else 1.0 for i in range(len(vals))]
@@ -424,36 +430,96 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_prof, 
 
     recent_10 = logs[:10]
     markets_spec = [
-        ("PTS", "pts", adj_pts, pts_s, math.floor(pts_m) + 0.5),
-        ("REB", "reb", adj_reb, reb_s, math.floor(reb_m) + 0.5),
-        ("AST", "ast", adj_ast, ast_s, math.floor(ast_m) + 0.5),
-        ("3PM", "tpm", adj_tpm, tpm_s, math.floor(tpm_m) + 0.5),
-        ("PRA", "pra", adj_pts + adj_reb + adj_ast, math.sqrt(pts_s**2 + reb_s**2 + ast_s**2), math.floor(pts_m + reb_m + ast_m) + 0.5),
+        ("PTS", "pts", adj_pts, pts_s, math.floor(pts_m) + 0.5, [2.0, 4.0]),
+        ("REB", "reb", adj_reb, reb_s, math.floor(reb_m) + 0.5, [1.0, 2.0]),
+        ("AST", "ast", adj_ast, ast_s, math.floor(ast_m) + 0.5, [1.0, 2.0]),
+        ("3PM", "tpm", adj_tpm, tpm_s, math.floor(tpm_m) + 0.5, [1.0]),
+        ("PRA", "pra", adj_pts + adj_reb + adj_ast, math.sqrt(pts_s**2 + reb_s**2 + ast_s**2), math.floor(pts_m + reb_m + ast_m) + 0.5, [3.0, 5.0]),
     ]
 
     prop_edges = []
-    for stat_name, log_key, proj_mean, proj_std, line in markets_spec:
+    alt_ladders = []
+
+    for stat_name, log_key, proj_mean, proj_std, line, step_offsets in markets_spec:
         if line < 0.5:
             continue
-        overs = sum(1 for _ in range(n_sims) if max(0.0, random.gauss(proj_mean, proj_std)) > line)
-        over_pct = round((overs / n_sims) * 100, 1)
-        hits = sum(1 for g in recent_10 if g[log_key] > line)
+
+        sim_draws = [max(0.0, random.gauss(proj_mean, proj_std)) for _ in range(n_sims)]
+        over_pct = round((sum(1 for v in sim_draws if v > line) / n_sims) * 100, 1)
+        under_pct = round((sum(1 for v in sim_draws if v < line) / n_sims) * 100, 1)
+
+        # Pick the stronger side (Over vs Under) for the main prop board
+        if over_pct >= under_pct:
+            side = "O"
+            best_prob = over_pct
+            hits = sum(1 for g in recent_10 if g[log_key] > line)
+            dots = "".join("1" if g[log_key] > line else "0" for g in recent_10)
+        else:
+            side = "U"
+            best_prob = under_pct
+            hits = sum(1 for g in recent_10 if g[log_key] < line)
+            dots = "".join("1" if g[log_key] < line else "0" for g in recent_10)
+
         prop_edges.append({
             "stat": stat_name,
-            "market": f"O {line} {stat_name}",
-            "side": "O",
+            "market": f"{side} {line} {stat_name}",
+            "side": side,
             "line": line,
             "proj": round(proj_mean, 1),
-            "prob": over_pct,
+            "prob": best_prob,
+            "fair_odds": prob_to_american_odds(best_prob),
             "hit_str": f"{hits}/{len(recent_10)}",
             "hits": hits,
             "sample": len(recent_10),
-            "dots": "".join("1" if g[log_key] > line else "0" for g in recent_10),
+            "dots": dots,
         })
+
+        # Build Alt-Line Ladder options (Milestone Overs + Safe Cushion Unders)
+        for off in step_offsets:
+            alt_over_line = round(line + off, 1)
+            alt_over_pct = round((sum(1 for v in sim_draws if v > alt_over_line) / n_sims) * 100, 1)
+            if 22.0 <= alt_over_pct <= 52.0:
+                alt_hits = sum(1 for g in recent_10 if g[log_key] > alt_over_line)
+                alt_ladders.append({
+                    "stat": stat_name,
+                    "market": f"O {alt_over_line} {stat_name}",
+                    "side": "O",
+                    "line": alt_over_line,
+                    "proj": round(proj_mean, 1),
+                    "prob": alt_over_pct,
+                    "fair_odds": prob_to_american_odds(alt_over_pct),
+                    "hit_str": f"{alt_hits}/{len(recent_10)}",
+                    "hits": alt_hits,
+                    "sample": len(recent_10),
+                    "dots": "".join("1" if g[log_key] > alt_over_line else "0" for g in recent_10),
+                    "is_alt": True,
+                })
+
+            if off == step_offsets[0] and under_pct >= 53.0:
+                alt_under_line = round(line + off, 1)
+                alt_under_pct = round((sum(1 for v in sim_draws if v < alt_under_line) / n_sims) * 100, 1)
+                if 62.0 <= alt_under_pct <= 85.0:
+                    u_hits = sum(1 for g in recent_10 if g[log_key] < alt_under_line)
+                    alt_ladders.append({
+                        "stat": stat_name,
+                        "market": f"U {alt_under_line} {stat_name}",
+                        "side": "U",
+                        "line": alt_under_line,
+                        "proj": round(proj_mean, 1),
+                        "prob": alt_under_pct,
+                        "fair_odds": prob_to_american_odds(alt_under_pct),
+                        "hit_str": f"{u_hits}/{len(recent_10)}",
+                        "hits": u_hits,
+                        "sample": len(recent_10),
+                        "dots": "".join("1" if g[log_key] < alt_under_line else "0" for g in recent_10),
+                        "is_alt": True,
+                    })
 
     if not prop_edges:
         return None
+
     prop_edges.sort(key=lambda x: (x["prob"], x["hits"]), reverse=True)
+    alt_ladders.sort(key=lambda x: x["prob"], reverse=True)
     best_prop = prop_edges[0]
 
     tags = []
@@ -462,8 +528,14 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_prof, 
         tags.append(f"⚡ +{usg_pct}% USG")
     if opp_prof["pts_allowed"] >= 116.5:
         tags.append(f"🎯 SOFT DEF ({opp_prof['pts_allowed']})")
-    if opp_b2b:
-        tags.append("😴 OPP B2B")
+    elif opp_prof["pts_allowed"] <= 109.5:
+        tags.append(f"🛡️ ELITE DEF ({opp_prof['pts_allowed']})")
+    if is_b2b and not is_home:
+        tags.append("😴 ROAD B2B")
+    elif opp_b2b:
+        tags.append("🔥 OPP B2B")
+    if best_prop["side"] == "U":
+        tags.append("📉 UNDER EDGE")
     if best_prop["hits"] >= 8 and best_prop["sample"] >= 9:
         tags.append(f"🔥 {best_prop['hit_str']} L10")
     if player.get("questionable"):
@@ -483,6 +555,8 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_prof, 
         "opp_pts_allowed": opp_prof["pts_allowed"],
         "is_b2b": is_b2b,
         "opp_b2b": opp_b2b,
+        "has_under": any(x["side"] == "U" for x in prop_edges[:4]),
+        "has_alt": len(alt_ladders) > 0,
         "tags": tags,
         "proj_pts": round(adj_pts, 1),
         "proj_reb": round(adj_reb, 1),
@@ -491,15 +565,9 @@ def simulate_player_props(player, logs, game, is_home, out_teammates, opp_prof, 
         "proj_pra": round(adj_pts + adj_reb + adj_ast, 1),
         "best_prop": best_prop,
         "all_props": prop_edges[:4],
+        "alt_props": alt_ladders[:4],
         "generated_at": datetime.now().strftime("%Y-%m-%d %I:%M %p"),
     }
-
-
-def prob_to_american_odds(prob_pct):
-    p = prob_pct / 100.0
-    if p <= 0 or p >= 1:
-        return "N/A"
-    return f"{int(round(-100 * p / (1 - p)))}" if p >= 0.5 else f"+{int(round(100 * (1 - p) / p))}"
 
 
 def send_discord_nba_report(players_data, games_data):
@@ -532,12 +600,12 @@ def send_discord_nba_report(players_data, games_data):
             fields.append({"name": f"Leg {i+1}: {p['player']} {bp['market']} ({bp['prob']}% | L10: {bp['hit_str']})", "value": f"**{p['team']}** vs {p['opponent']} • Sim: `{bp['proj']}`{tag_line}", "inline": False})
 
         embed_parlay = {
-            "title": f"🔥 Top 4-Leg NBA Sharp Prop Parlay — {date_label}",
+            "title": f"🔥 Top 4-Leg NBA Sharp Prop Parlay (Overs + Unders) — {date_label}",
             "url": DASHBOARD_URL,
-            "description": f"**Combined Hit Rate:** `{parlay_pct}%` (**Fair Odds: {prob_to_american_odds(parlay_pct)}**)\nFull-game & player Monte Carlo with H2H, Defense, B2B & Usage adjustments. [Open Command Center]({DASHBOARD_URL})",
+            "description": f"**Combined Hit Rate:** `{parlay_pct}%` (**Fair Odds: {prob_to_american_odds(parlay_pct)}**)\nTwo-way Over/Under & Alt-Ladder Monte Carlo engine. [Open Command Center]({DASHBOARD_URL})",
             "color": 15105570,
             "fields": fields,
-            "footer": {"text": "SimLab NBA Pro Engine • Games + Props Telemetry"},
+            "footer": {"text": "SimLab NBA Pro Engine • Overs + Unders + Alt Ladders"},
             "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         }
 
@@ -609,4 +677,4 @@ if __name__ == "__main__":
         json.dump(all_simulated_players, f, indent=2)
 
     send_discord_nba_report(all_simulated_players, all_simulated_games)
-    print(f"Completed {len(all_simulated_games)} NBA game sims & {len(all_simulated_players)} player prop sims.")
+    print(f"Completed {len(all_simulated_games)} NBA game sims & {len(all_simulated_players)} player prop sims (Overs + Unders + Alt Ladders).")
