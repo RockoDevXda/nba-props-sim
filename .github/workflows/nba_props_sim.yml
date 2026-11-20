@@ -24,8 +24,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run NBA Games & Props Monte Carlo Engine (ESPN)
+      - name: Run NBA Games & Props Monte Carlo Engine (ESPN + Odds API)
         env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           DASHBOARD_URL: "https://rockodevxda.github.io/sports-command-center/"
         run: python nba_props_runner.py
