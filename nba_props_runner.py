@@ -51,6 +51,11 @@ def format_book_name(key: str, title: str = "") -> str:
     return (title or "").strip() or k.upper()
 
 
+def fmt_american(am: float) -> str:
+    n = int(round(float(am)))
+    return f"+{n}" if n > 0 else f"{n}"
+
+
 def american_to_implied(am: float) -> float:
     am = float(am)
     if am == 0:
@@ -129,6 +134,17 @@ def compute_no_vig_and_best(book_offers: list[dict], model_prob_pct: float) -> d
     }
 
 
+def load_existing_json_list(path: str) -> list[dict]:
+    if not os.path.exists(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, list) else []
+    except Exception:
+        return []
+
+
 def fetch_espn_scoreboard(date_yyyymmdd: str) -> list[dict]:
     try:
         resp = requests.get(ESPN_SCOREBOARD_URL, params={"dates": date_yyyymmdd, "limit": 100}, timeout=15)
@@ -140,23 +156,49 @@ def fetch_espn_scoreboard(date_yyyymmdd: str) -> list[dict]:
 
 
 def fetch_slate_events(us_now: datetime.datetime) -> list[dict]:
-    candidates = [
-        us_now.strftime("%Y%m%d"),
-        (us_now + datetime.timedelta(days=1)).strftime("%Y%m%d"),
-        (us_now - datetime.timedelta(days=1)).strftime("%Y%m%d"),
-    ]
+    today_str = us_now.strftime("%Y%m%d")
+    tomorrow_str = (us_now + datetime.timedelta(days=1)).strftime("%Y%m%d")
+    yesterday_str = (us_now - datetime.timedelta(days=1)).strftime("%Y%m%d")
+
+    today_evs = fetch_espn_scoreboard(today_str)
+    print(f"ESPN scoreboard {today_str}: {len(today_evs)} events")
+
+    all_final_today = bool(today_evs) and all(
+        (ev.get("status") or {}).get("type", {}).get("state") == "post"
+        for ev in today_evs
+    )
+
     seen_ids = set()
     merged = []
-    for d in candidates:
-        evs = fetch_espn_scoreboard(d)
-        print(f"ESPN scoreboard {d}: {len(evs)} events")
-        for ev in evs:
+
+    if not today_evs:
+        for d in (tomorrow_str, yesterday_str):
+            evs = fetch_espn_scoreboard(d)
+            print(f"ESPN scoreboard {d}: {len(evs)} events")
+            for ev in evs:
+                eid = str(ev.get("id", ""))
+                if eid and eid not in seen_ids:
+                    seen_ids.add(eid)
+                    merged.append(ev)
+            if merged:
+                break
+        return merged
+
+    if all_final_today:
+        tomorrow_evs = fetch_espn_scoreboard(tomorrow_str)
+        print(f"ESPN scoreboard {tomorrow_str}: {len(tomorrow_evs)} events")
+        for ev in tomorrow_evs:
             eid = str(ev.get("id", ""))
             if eid and eid not in seen_ids:
                 seen_ids.add(eid)
                 merged.append(ev)
-        if merged and d == candidates[0]:
-            break
+
+    for ev in today_evs:
+        eid = str(ev.get("id", ""))
+        if eid and eid not in seen_ids:
+            seen_ids.add(eid)
+            merged.append(ev)
+
     return merged
 
 
@@ -186,10 +228,10 @@ def fetch_team_ratings_map() -> dict[str, dict]:
                         for st in (cat.get("stats") or []):
                             nm = (st.get("name") or "").lower()
                             val = float(st.get("value") or 0)
-                            if nm in ("avgpointsfor", "pointsfor") and val > 0:
-                                ppg = val if val <= 150 else ppg
-                            elif nm in ("avgpointsagainst", "pointsagainst") and val > 0:
-                                oppg = val if val <= 150 else oppg
+                            if nm in ("avgpointsfor", "pointsfor") and 0 < val <= 150:
+                                ppg = val
+                            elif nm in ("avgpointsagainst", "pointsagainst") and 0 < val <= 150:
+                                oppg = val
             except Exception:
                 pass
             pace = round(96.0 + ((ppg + oppg - 228.0) * 0.18), 1)
@@ -404,7 +446,7 @@ def match_odds_event(home_team: str, away_team: str, odds_games: list[dict]) -> 
     return None
 
 
-def extract_real_game_markets(odds_event: dict | None, home_team: str, away_team: str, home_abbr: str, away_abbr: str) -> dict:
+def extract_real_game_markets(odds_event: dict | None) -> dict:
     """Extracts real consensus/book spread & total lines from Odds API (no hardcoded defaults)."""
     spread_pts = None
     total_pts = None
@@ -502,8 +544,15 @@ def extract_real_player_props(event_props_payload: dict) -> tuple[dict, dict[str
 
 def run_slate():
     us_now = datetime.datetime.now(ZoneInfo("America/New_York"))
-    utc_now = datetime.datetime.now(datetime.timezone.utc)
-    generated_at = utc_now.strftime("%b %d %H:%M UTC")
+    generated_at = us_now.strftime("%b %d, %I:%M %p ET")
+
+    prev_games_list = load_existing_json_list("nba_games_slate.json")
+    prev_props_list = load_existing_json_list("nba_props_slate.json")
+    prev_games_by_id = {str(g.get("id")): g for g in prev_games_list if isinstance(g, dict) and g.get("id")}
+    prev_props_by_gid = defaultdict(list)
+    for pr in prev_props_list:
+        if isinstance(pr, dict) and pr.get("game_id"):
+            prev_props_by_gid[str(pr.get("game_id"))].append(pr)
 
     events = fetch_slate_events(us_now)
     odds_games = fetch_odds_api_games()
@@ -511,9 +560,15 @@ def run_slate():
 
     nba_games_slate = []
     nba_props_slate = []
+    active_game_ids = set()
 
     for ev in events:
         espn_gid = str(ev.get("id", ""))
+        active_game_ids.add(espn_gid)
+        status_obj = (ev.get("status") or {}).get("type") or {}
+        game_state = status_obj.get("state", "pre")
+        tipoff_lbl = status_obj.get("shortDetail", "Today")
+
         comp = (ev.get("competitions") or [{}])[0]
         competitors = comp.get("competitors") or []
         home_c = next((c for c in competitors if c.get("homeAway") == "home"), {})
@@ -528,7 +583,7 @@ def run_slate():
 
         matched_odds = match_odds_event(home_team, away_team, odds_games)
         odds_event_id = matched_odds.get("id") if matched_odds else ""
-        mkt_data = extract_real_game_markets(matched_odds, home_team, away_team, home_abbr, away_abbr)
+        mkt_data = extract_real_game_markets(matched_odds)
 
         h_rat = team_ratings.get(home_tid, {"ppg": 114.0, "oppg": 114.0, "pace": 99.0})
         a_rat = team_ratings.get(away_tid, {"ppg": 114.0, "oppg": 114.0, "pace": 99.0})
@@ -540,6 +595,18 @@ def run_slate():
 
         has_line = mkt_data["spread_pts"] is not None
         has_total = mkt_data["total_pts"] is not None
+        prev_game = prev_games_by_id.get(espn_gid)
+
+        # Preserve previously captured pre-game lines once a game is live/final and Odds API drops them
+        if not has_line and not has_total and prev_game and (prev_game.get("has_line") or prev_game.get("has_total")):
+            preserved_game = dict(prev_game)
+            preserved_game["tipoff"] = tipoff_lbl
+            preserved_game["generated_at"] = generated_at
+            nba_games_slate.append(preserved_game)
+            if prev_props_by_gid.get(espn_gid):
+                nba_props_slate.extend(prev_props_by_gid[espn_gid])
+            continue
+
         home_spread = mkt_data["spread_pts"] if has_line else 0.0
         over_under = mkt_data["total_pts"] if has_total else 0.0
 
@@ -582,7 +649,12 @@ def run_slate():
 
         tot_meta = compute_no_vig_and_best(tot_offers, tot_prob)
         favored_team = home_abbr if home_proj >= away_proj else away_abbr
-        favored_prob = calc_side_prob_pct(home_proj - away_proj if home_proj >= away_proj else away_proj - home_proj, 0.0, "O", 11.5)
+        favored_prob = calc_side_prob_pct(
+            home_proj - away_proj if home_proj >= away_proj else away_proj - home_proj,
+            0.0,
+            "O",
+            11.5,
+        )
 
         nba_games_slate.append({
             "id": espn_gid,
@@ -592,7 +664,7 @@ def run_slate():
             "home_abbr": home_abbr,
             "away_short": away_abbr,
             "home_short": home_abbr,
-            "tipoff": ev.get("status", {}).get("type", {}).get("shortDetail", "Today"),
+            "tipoff": tipoff_lbl,
             "has_line": has_line,
             "has_total": has_total,
             "market_line": f"{home_abbr} {home_spread:+g}".replace("+-", "-") if has_line else "PK",
@@ -626,6 +698,10 @@ def run_slate():
         event_props = fetch_odds_api_event_props(odds_event_id) if odds_event_id else {}
         grouped_props, odds_display_names = extract_real_player_props(event_props)
 
+        if not grouped_props and game_state != "pre" and prev_props_by_gid.get(espn_gid):
+            nba_props_slate.extend(prev_props_by_gid[espn_gid])
+            continue
+
         roster = {}
         roster.update(fetch_team_roster(away_tid, away_abbr))
         roster.update(fetch_team_roster(home_tid, home_abbr))
@@ -634,13 +710,11 @@ def run_slate():
                 roster[p_norm] = {"id": p_norm, "player": disp_name, "team": away_abbr}
 
         for p_norm, p_info in roster.items():
-            # Collect all real sportsbook markets for this player
             player_market_entries = [
                 (stat_code, line_val, book_dict)
                 for (offer_p_norm, stat_code, line_val), book_dict in grouped_props.items()
                 if offer_p_norm == p_norm
             ]
-            # Only emit players who actually have real sportsbook prop lines posted
             if not player_market_entries:
                 continue
 
@@ -673,55 +747,4 @@ def run_slate():
                         continue
                     prob_pct = calc_side_prob_pct(mu, line_val, side_code, sd)
                     odds_info = compute_no_vig_and_best(side_offers, prob_pct)
-                    dots, hit_str, hits_cnt = build_streak_info(vals, line_val, side_code)
-                    all_props.append({
-                        "stat": stat_code,
-                        "market": f"{side_code} {line_val} {short_lbl}",
-                        "side": side_code,
-                        "line": line_val,
-                        "proj": mu,
-                        "prob": prob_pct,
-                        "hits": hits_cnt,
-                        "hit_str": hit_str,
-                        "dots": dots,
-                        "best_book": odds_info["best_book"],
-                        "best_odds": odds_info["best_odds"],
-                        "no_vig_odds": odds_info["no_vig_odds"],
-                        "no_vig_prob": odds_info["no_vig_prob"],
-                        "market_ev_pct": odds_info["market_ev_pct"],
-                    })
-
-            if not all_props:
-                continue
-
-            all_props.sort(key=lambda x: x["market_ev_pct"], reverse=True)
-            best_prop = all_props[0]
-            has_under = any(x["side"] == "U" for x in all_props)
-
-            nba_props_slate.append({
-                "id": p_info["id"],
-                "player": p_info["player"],
-                "team": p_info["team"],
-                "opponent": opp_abbr,
-                "game_id": espn_gid,
-                "game_total": over_under,
-                "avg_min": glog["avg_min"] if glog["avg_min"] > 0 else 28.0,
-                "has_under": has_under,
-                "best_prop": best_prop,
-                "all_props": all_props,
-                "alt_props": [],
-                "tags": [best_prop["best_book"], f"No-Vig {fmtAmerican(best_prop['no_vig_odds'])}"],
-                "generated_at": generated_at,
-            })
-
-    with open("nba_games_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_games_slate, f, indent=2)
-
-    with open("nba_props_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_props_slate, f, indent=2)
-
-    print(f"Wrote {len(nba_games_slate)} games and {len(nba_props_slate)} active prop players ({generated_at}).")
-
-
-if __name__ == "__main__":
-    run_slate()
+                    dots, hit_str, hits_cnt = build_streak_info(vals,
