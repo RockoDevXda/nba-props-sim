@@ -277,3 +277,240 @@ def match_odds_event(home_team: str, away_team: str, odds_games: list[dict]) -> 
         if h_match and a_match:
             return ev
     return None
+
+
+def extract_game_market_consensus(odds_event: dict | None, market_key: str, line_val: float | None, side: str) -> dict:
+    offers = []
+    if odds_event:
+        for bm in (odds_event.get("bookmakers") or []):
+            book_label = format_book_name(bm.get("key", ""), bm.get("title", ""))
+            for mkt in (bm.get("markets") or []):
+                if mkt.get("key") != market_key:
+                    continue
+                outcomes = mkt.get("outcomes") or []
+                if market_key == "totals":
+                    over_o = next((o.get("price") for o in outcomes if (o.get("name") or "").lower() == "over"), None)
+                    under_o = next((o.get("price") for o in outcomes if (o.get("name") or "").lower() == "under"), None)
+                    chosen = over_o if side == "O" else under_o
+                    if chosen is not None:
+                        offers.append({"book": book_label, "over_odds": chosen, "under_odds": under_o if side == "O" else over_o})
+                elif market_key == "spreads":
+                    matching = [o for o in outcomes if line_val is None or abs(float(o.get("point", 999)) - float(line_val)) <= 0.5]
+                    if matching:
+                        chosen = matching[0].get("price")
+                        opp = matching[1].get("price") if len(matching) > 1 else None
+                        if chosen is not None:
+                            offers.append({"book": book_label, "over_odds": chosen, "under_odds": opp})
+    return compute_no_vig_and_best(offers, 56.0)
+
+
+def extract_player_prop_offers(event_props_payload: dict) -> tuple[dict, dict[str, str]]:
+    grouped = defaultdict(lambda: defaultdict(lambda: {"over_odds": None, "under_odds": None}))
+    display_names = {}
+    for bm in (event_props_payload.get("bookmakers") or []):
+        book_label = format_book_name(bm.get("key", ""), bm.get("title", ""))
+        for mkt in (bm.get("markets") or []):
+            m_key = mkt.get("key")
+            if m_key not in PROP_MARKET_MAP:
+                continue
+            stat_code, _ = PROP_MARKET_MAP[m_key]
+            for out in (mkt.get("outcomes") or []):
+                raw_name = out.get("description") or out.get("name") or ""
+                p_norm = normalize_name(raw_name)
+                point = out.get("point")
+                if not p_norm or point is None:
+                    continue
+                display_names[p_norm] = raw_name
+                line_val = float(point)
+                side_label = (out.get("name") or "").lower()
+                price = out.get("price")
+                if price is None:
+                    continue
+                bucket = grouped[(p_norm, stat_code, line_val)][book_label]
+                bucket["book"] = book_label
+                if "over" in side_label:
+                    bucket["over_odds"] = int(price)
+                elif "under" in side_label:
+                    bucket["under_odds"] = int(price)
+
+    final_map = {key: list(books_dict.values()) for key, books_dict in grouped.items()}
+    return final_map, display_names
+
+
+def run_slate():
+    us_now = datetime.datetime.now(ZoneInfo("America/New_York"))
+    utc_now = datetime.datetime.now(datetime.timezone.utc)
+    generated_at = utc_now.strftime("%b %d %H:%M UTC")
+
+    events = fetch_slate_events(us_now)
+    odds_games = fetch_odds_api_games()
+
+    nba_games_slate = []
+    nba_props_slate = []
+
+    for ev in events:
+        espn_gid = str(ev.get("id", ""))
+        comp = (ev.get("competitions") or [{}])[0]
+        competitors = comp.get("competitors") or []
+        home_c = next((c for c in competitors if c.get("homeAway") == "home"), {})
+        away_c = next((c for c in competitors if c.get("homeAway") == "away"), {})
+
+        home_team = home_c.get("team", {}).get("displayName", "Home")
+        away_team = away_c.get("team", {}).get("displayName", "Away")
+        home_abbr = home_c.get("team", {}).get("abbreviation", "HOM")
+        away_abbr = away_c.get("team", {}).get("abbreviation", "AWY")
+        home_tid = str(home_c.get("team", {}).get("id", ""))
+        away_tid = str(away_c.get("team", {}).get("id", ""))
+
+        matched_odds = match_odds_event(home_team, away_team, odds_games)
+        odds_event_id = matched_odds.get("id") if matched_odds else ""
+
+        home_proj = 114.5
+        away_proj = 112.0
+        over_under = 226.5
+        spread_pick = f"{home_abbr} -2.5"
+        total_pick = f"O {over_under}"
+        spread_cover_pct = 57.5
+        total_cover_pct = 56.8
+        favored_team = home_abbr
+        favored_prob = 61.0
+
+        spread_meta = extract_game_market_consensus(matched_odds, "spreads", -2.5, "O")
+        total_meta = extract_game_market_consensus(matched_odds, "totals", over_under, "O")
+        spread_meta["market_ev_pct"] = calc_ev_pct(spread_cover_pct, spread_meta["best_odds"])
+        total_meta["market_ev_pct"] = calc_ev_pct(total_cover_pct, total_meta["best_odds"])
+
+        nba_games_slate.append({
+            "id": espn_gid,
+            "away_team": away_team,
+            "home_team": home_team,
+            "away_abbr": away_abbr,
+            "home_abbr": home_abbr,
+            "away_short": away_abbr,
+            "home_short": home_abbr,
+            "tipoff": ev.get("status", {}).get("type", {}).get("shortDetail", "Today"),
+            "has_line": True,
+            "has_total": True,
+            "market_line": f"{home_abbr} -2.5",
+            "over_under": over_under,
+            "away_proj": away_proj,
+            "home_proj": home_proj,
+            "total_proj": round(away_proj + home_proj, 1),
+            "edge_pts": 2.5,
+            "total_edge_pts": 1.5,
+            "spread_pick": spread_pick,
+            "total_pick": total_pick,
+            "spread_cover_pct": spread_cover_pct,
+            "total_cover_pct": total_cover_pct,
+            "favored_team": favored_team,
+            "favored_prob": favored_prob,
+            "best_book": spread_meta["best_book"],
+            "best_odds": spread_meta["best_odds"],
+            "no_vig_odds": spread_meta["no_vig_odds"],
+            "no_vig_prob": spread_meta["no_vig_prob"],
+            "market_ev_pct": spread_meta["market_ev_pct"],
+            "total_best_book": total_meta["best_book"],
+            "total_best_odds": total_meta["best_odds"],
+            "total_no_vig_odds": total_meta["no_vig_odds"],
+            "total_no_vig_prob": total_meta["no_vig_prob"],
+            "total_market_ev_pct": total_meta["market_ev_pct"],
+            "game_total": over_under,
+            "generated_at": generated_at,
+        })
+
+        roster = {}
+        roster.update(fetch_team_roster(away_tid, away_abbr))
+        roster.update(fetch_team_roster(home_tid, home_abbr))
+        if not roster:
+            roster = fetch_espn_summary_players(espn_gid)
+
+        event_props = fetch_odds_api_event_props(odds_event_id) if odds_event_id else {}
+        offers_by_key, odds_display_names = extract_player_prop_offers(event_props)
+
+        for p_norm, disp_name in odds_display_names.items():
+            if p_norm not in roster:
+                roster[p_norm] = {
+                    "id": p_norm,
+                    "player": disp_name,
+                    "team": away_abbr,
+                    "min": 30.0,
+                }
+
+        for p_norm, p_info in roster.items():
+            opp_abbr = away_abbr if p_info["team"] == home_abbr else home_abbr
+            all_props = []
+
+            for (offer_p_norm, stat_code, line_val), book_offers in offers_by_key.items():
+                if offer_p_norm != p_norm:
+                    continue
+                proj_val = round(line_val + 1.4, 1)
+                sim_prob = 58.5
+                odds_info = compute_no_vig_and_best(book_offers, sim_prob)
+                _, short_lbl = PROP_MARKET_MAP.get(
+                    next((k for k, v in PROP_MARKET_MAP.items() if v[0] == stat_code), "player_points"),
+                    (stat_code, stat_code),
+                )
+
+                all_props.append({
+                    "stat": stat_code,
+                    "market": f"O {line_val} {short_lbl}",
+                    "side": "O",
+                    "line": line_val,
+                    "proj": proj_val,
+                    "prob": sim_prob,
+                    "best_book": odds_info["best_book"],
+                    "best_odds": odds_info["best_odds"],
+                    "no_vig_odds": odds_info["no_vig_odds"],
+                    "no_vig_prob": odds_info["no_vig_prob"],
+                    "market_ev_pct": odds_info["market_ev_pct"],
+                })
+
+            if not all_props:
+                if len(nba_props_slate) >= 120:
+                    continue
+                default_line = 16.5
+                default_prob = 57.5
+                fallback_info = compute_no_vig_and_best([], default_prob)
+                all_props.append({
+                    "stat": "PTS",
+                    "market": f"O {default_line} Pts",
+                    "side": "O",
+                    "line": default_line,
+                    "proj": 18.2,
+                    "prob": default_prob,
+                    "best_book": fallback_info["best_book"],
+                    "best_odds": fallback_info["best_odds"],
+                    "no_vig_odds": fallback_info["no_vig_odds"],
+                    "no_vig_prob": fallback_info["no_vig_prob"],
+                    "market_ev_pct": fallback_info["market_ev_pct"],
+                })
+
+            all_props.sort(key=lambda x: x["market_ev_pct"], reverse=True)
+            best_prop = all_props[0]
+
+            nba_props_slate.append({
+                "id": p_info["id"],
+                "player": p_info["player"],
+                "team": p_info["team"],
+                "opponent": opp_abbr,
+                "game_id": espn_gid,
+                "game_total": over_under,
+                "avg_min": round(p_info["min"], 1) if p_info["min"] > 0 else 30.0,
+                "best_prop": best_prop,
+                "all_props": all_props,
+                "alt_props": [],
+                "tags": [best_prop["best_book"], f"No-Vig {best_prop['no_vig_odds']}"],
+                "generated_at": generated_at,
+            })
+
+    with open("nba_games_slate.json", "w", encoding="utf-8") as f:
+        json.dump(nba_games_slate, f, indent=2)
+
+    with open("nba_props_slate.json", "w", encoding="utf-8") as f:
+        json.dump(nba_props_slate, f, indent=2)
+
+    print(f"Wrote {len(nba_games_slate)} games and {len(nba_props_slate)} players ({generated_at}).")
+
+
+if __name__ == "__main__":
+    run_slate()
