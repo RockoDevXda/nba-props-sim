@@ -35,7 +35,7 @@
     "total_no_vig_prob": 49.8,
     "total_market_ev_pct": 15.2,
     "game_total": 219.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909306",
@@ -67,13 +67,13 @@
     "no_vig_odds": 101,
     "no_vig_prob": 49.8,
     "market_ev_pct": 41.9,
-    "total_best_book": "1xBet",
-    "total_best_odds": -105,
-    "total_no_vig_odds": 101,
+    "total_best_book": "Pinnacle",
+    "total_best_odds": -102,
+    "total_no_vig_odds": 100,
     "total_no_vig_prob": 49.9,
-    "total_market_ev_pct": 18.9,
+    "total_market_ev_pct": 20.6,
     "game_total": 222.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909307",
@@ -102,8 +102,8 @@
     "favored_prob": 68.7,
     "best_book": "888sport",
     "best_odds": 100,
-    "no_vig_odds": 102,
-    "no_vig_prob": 49.5,
+    "no_vig_odds": 100,
+    "no_vig_prob": 50.0,
     "market_ev_pct": 0.6,
     "total_best_book": "Pinnacle",
     "total_best_odds": -104,
@@ -111,7 +111,7 @@
     "total_no_vig_prob": 49.9,
     "total_market_ev_pct": 16.5,
     "game_total": 233.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909308",
@@ -138,18 +138,18 @@
     "total_cover_pct": 72.3,
     "favored_team": "DET",
     "favored_prob": 70.5,
-    "best_book": "BetMGM",
-    "best_odds": -105,
-    "no_vig_odds": -101,
-    "no_vig_prob": 50.1,
-    "market_ev_pct": -0.4,
-    "total_best_book": "Pinnacle",
-    "total_best_odds": -101,
+    "best_book": "Marathon Bet",
+    "best_odds": -101,
+    "no_vig_odds": 101,
+    "no_vig_prob": 49.8,
+    "market_ev_pct": 1.5,
+    "total_best_book": "1xBet",
+    "total_best_odds": -102,
     "total_no_vig_odds": 101,
-    "total_no_vig_prob": 49.7,
-    "total_market_ev_pct": 43.9,
+    "total_no_vig_prob": 49.8,
+    "total_market_ev_pct": 43.2,
     "game_total": 216.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909309",
@@ -177,17 +177,17 @@
     "favored_team": "CHI",
     "favored_prob": 58.3,
     "best_book": "Pinnacle",
-    "best_odds": 103,
-    "no_vig_odds": -100,
+    "best_odds": -103,
+    "no_vig_odds": -101,
     "no_vig_prob": 50.1,
-    "market_ev_pct": 2.1,
-    "total_best_book": "DraftKings",
+    "market_ev_pct": -0.9,
+    "total_best_book": "Marathon Bet",
     "total_best_odds": -105,
     "total_no_vig_odds": -101,
-    "total_no_vig_prob": 50.3,
+    "total_no_vig_prob": 50.2,
     "total_market_ev_pct": 19.5,
     "game_total": 238.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909310",
@@ -214,18 +214,18 @@
     "total_cover_pct": 51.5,
     "favored_team": "OKC",
     "favored_prob": 77.8,
-    "best_book": "Pinnacle",
-    "best_odds": 101,
-    "no_vig_odds": 100,
-    "no_vig_prob": 49.9,
-    "market_ev_pct": 19.2,
+    "best_book": "LowVig.ag",
+    "best_odds": -104,
+    "no_vig_odds": 101,
+    "no_vig_prob": 49.8,
+    "market_ev_pct": 16.3,
     "total_best_book": "LowVig.ag",
     "total_best_odds": -102,
-    "total_no_vig_odds": 101,
-    "total_no_vig_prob": 49.6,
+    "total_no_vig_odds": 102,
+    "total_no_vig_prob": 49.5,
     "total_market_ev_pct": 2.0,
     "game_total": 229.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909311",
@@ -253,17 +253,17 @@
     "favored_team": "UTAH",
     "favored_prob": 51.0,
     "best_book": "Pinnacle",
-    "best_odds": -105,
-    "no_vig_odds": 100,
+    "best_odds": -104,
+    "no_vig_odds": 101,
     "no_vig_prob": 49.9,
-    "market_ev_pct": 29.2,
+    "market_ev_pct": 29.9,
     "total_best_book": "Pinnacle",
     "total_best_odds": -104,
     "total_no_vig_odds": -101,
     "total_no_vig_prob": 50.2,
     "total_market_ev_pct": 8.9,
     "game_total": 225.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909312",
@@ -301,7 +301,7 @@
     "total_no_vig_prob": 50.1,
     "total_market_ev_pct": -0.7,
     "game_total": 226.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   },
   {
     "id": "401909313",
@@ -328,17 +328,17 @@
     "total_cover_pct": 58.8,
     "favored_team": "LAL",
     "favored_prob": 87.4,
-    "best_book": "Pinnacle",
-    "best_odds": -105,
-    "no_vig_odds": 100,
-    "no_vig_prob": 49.9,
-    "market_ev_pct": 6.4,
+    "best_book": "LowVig.ag",
+    "best_odds": -106,
+    "no_vig_odds": -100,
+    "no_vig_prob": 50.1,
+    "market_ev_pct": 5.9,
     "total_best_book": "BetMGM",
     "total_best_odds": -105,
     "total_no_vig_odds": -101,
     "total_no_vig_prob": 50.1,
     "total_market_ev_pct": 14.8,
     "game_total": 229.5,
-    "generated_at": "Nov 20, 10:11 AM ET"
+    "generated_at": "Nov 20, 10:41 AM ET"
   }
 ]
