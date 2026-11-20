@@ -8,78 +8,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 9.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 9.5,
-      "proj": 10.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 110,
-      "no_vig_odds": 123,
-      "no_vig_prob": 44.9,
-      "market_ev_pct": 22.8
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 9.5 Reb",
+        "stat": "PTS",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": 123,
-        "no_vig_prob": 44.9,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 8.5 Reb",
-        "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
         "market_ev_pct": 9.8
-      },
-      {
-        "stat": "PTS",
-        "market": "O 14.5 Pts",
-        "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -130,
-        "no_vig_odds": -113,
-        "no_vig_prob": 53.1,
-        "market_ev_pct": 3.5
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 123"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "6430",
@@ -122,7 +83,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4433149",
@@ -165,7 +126,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3975",
@@ -208,7 +169,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "6589",
@@ -251,7 +212,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3213",
@@ -262,104 +223,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 3.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "Bovada",
-      "best_odds": -105,
-      "no_vig_odds": -104,
-      "no_vig_prob": 50.9,
-      "market_ev_pct": 14.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -105,
-        "no_vig_odds": -104,
-        "no_vig_prob": 50.9,
-        "market_ev_pct": 14.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 6.5 Pts",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -107,
-        "no_vig_prob": 51.6,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -135,
-        "no_vig_odds": -119,
-        "no_vig_prob": 54.4,
-        "market_ev_pct": 1.8
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -138,
-        "no_vig_odds": -120,
-        "no_vig_prob": 54.6,
-        "market_ev_pct": 0.9
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "Bovada",
-      "No-Vig -104"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4703396",
@@ -402,7 +298,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5175737",
@@ -413,104 +309,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 168,
-      "no_vig_odds": 169,
-      "no_vig_prob": 37.2,
-      "market_ev_pct": 56.8
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 168,
-        "no_vig_odds": 169,
-        "no_vig_prob": 37.2,
-        "market_ev_pct": 56.8
-      },
       {
         "stat": "PTS",
         "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 104,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": 19.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 26.5 PRA",
-        "side": "O",
-        "line": 26.5,
-        "proj": 27.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 107,
-        "no_vig_prob": 48.4,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 100,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.5,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": -103,
-        "no_vig_prob": 50.8,
-        "market_ev_pct": 12.7
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -144,
-        "no_vig_odds": -126,
-        "no_vig_prob": 55.8,
-        "market_ev_pct": -0.9
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 169"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4897449",
@@ -553,7 +384,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4066436",
@@ -564,104 +395,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 2.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 140,
-      "no_vig_odds": 153,
-      "no_vig_prob": 39.5,
-      "market_ev_pct": 40.4
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 140,
-        "no_vig_odds": 153,
-        "no_vig_prob": 39.5,
-        "market_ev_pct": 40.4
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.6,
-        "market_ev_pct": 18.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": -109,
-        "no_vig_prob": 52.2,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 6.5 Pts",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": 12.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -210,
-        "no_vig_odds": -185,
-        "no_vig_prob": 64.9,
-        "market_ev_pct": -13.6
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 153"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432171",
@@ -704,7 +470,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "2990969",
@@ -747,7 +513,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3134903",
@@ -790,7 +556,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4709138",
@@ -801,143 +567,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 5.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 5.5,
-      "proj": 6.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 125,
-      "no_vig_odds": 140,
-      "no_vig_prob": 41.7,
-      "market_ev_pct": 31.6
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 125,
-        "no_vig_odds": 140,
-        "no_vig_prob": 41.7,
-        "market_ev_pct": 31.6
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 120,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.6,
-        "market_ev_pct": 28.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 108,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.4,
-        "market_ev_pct": 21.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 22.5 PRA",
-        "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -119,
-        "no_vig_prob": 54.3,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PTS",
-        "market": "O 15.5 Pts",
-        "side": "O",
-        "line": 15.5,
-        "proj": 16.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PRA",
-        "market": "O 21.5 PRA",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -130,
-        "no_vig_odds": -113,
-        "no_vig_prob": 53.1,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -144,
-        "no_vig_odds": -127,
-        "no_vig_prob": 55.9,
-        "market_ev_pct": -0.9
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 140"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3102531",
@@ -980,7 +642,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4897262",
@@ -992,90 +654,38 @@
     "avg_min": 30.0,
     "best_prop": {
       "stat": "PTS",
-      "market": "O 9.5 Pts",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 9.5,
-      "proj": 10.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 100,
-      "no_vig_odds": 113,
-      "no_vig_prob": 46.9,
-      "market_ev_pct": 17.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
         "stat": "PTS",
-        "market": "O 9.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 113,
-        "no_vig_prob": 46.9,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 8.5 Pts",
-        "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -104,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.8,
-        "market_ev_pct": 14.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 1.5 Reb",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
         "market_ev_pct": 9.8
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -121,
-        "no_vig_prob": 54.7,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -175,
-        "no_vig_odds": -150,
-        "no_vig_prob": 59.9,
-        "market_ev_pct": -8.1
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 113"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4997536",
@@ -1086,91 +696,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 0.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 0.5,
-      "proj": 1.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 130,
-      "no_vig_odds": 144,
-      "no_vig_prob": 41.1,
-      "market_ev_pct": 34.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 130,
-        "no_vig_odds": 144,
-        "no_vig_prob": 41.1,
-        "market_ev_pct": 34.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 104,
-        "no_vig_odds": 107,
-        "no_vig_prob": 48.3,
-        "market_ev_pct": 19.3
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -105,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.8,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -105,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.5,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 12.5 PRA",
-        "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": 8.1
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 144"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4397040",
@@ -1213,7 +771,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5041935",
@@ -1224,130 +782,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 130,
-      "no_vig_odds": 143,
-      "no_vig_prob": 41.1,
-      "market_ev_pct": 34.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 130,
-        "no_vig_odds": 143,
-        "no_vig_prob": 41.1,
-        "market_ev_pct": 34.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 115,
-        "no_vig_odds": 127,
-        "no_vig_prob": 44.1,
-        "market_ev_pct": 25.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 114,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.4,
-        "market_ev_pct": 25.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 21.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 22.5 Pts",
-        "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -111,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.1,
-        "market_ev_pct": 11.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 31.5 PRA",
-        "side": "O",
-        "line": 31.5,
-        "proj": 32.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PRA",
-        "market": "O 30.5 PRA",
-        "side": "O",
-        "line": 30.5,
-        "proj": 31.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -182,
-        "no_vig_odds": -154,
-        "no_vig_prob": 60.6,
-        "market_ev_pct": -9.4
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 143"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4903027",
@@ -1358,117 +825,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 150,
-      "no_vig_odds": 163,
-      "no_vig_prob": 38.1,
-      "market_ev_pct": 46.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 150,
-        "no_vig_odds": 163,
-        "no_vig_prob": 38.1,
-        "market_ev_pct": 46.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 132,
-        "no_vig_odds": 136,
-        "no_vig_prob": 42.3,
-        "market_ev_pct": 35.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 6.5 Reb",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 110,
-        "no_vig_odds": 126,
-        "no_vig_prob": 44.2,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "PRA",
-        "market": "O 28.5 PRA",
-        "side": "O",
-        "line": 28.5,
-        "proj": 29.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 104,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.9,
-        "market_ev_pct": 19.3
-      },
-      {
         "stat": "PTS",
-        "market": "O 18.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 17.5 Pts",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": 9.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
         "no_vig_odds": -110,
-        "no_vig_prob": 52.4,
-        "market_ev_pct": 9.4
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 163"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4600663",
@@ -1511,7 +900,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "2991070",
@@ -1554,7 +943,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4684806",
@@ -1565,91 +954,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "PRA",
-      "market": "O 16.5 PRA",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
       "line": 16.5,
-      "proj": 17.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 110,
-      "no_vig_odds": 125,
-      "no_vig_prob": 44.5,
-      "market_ev_pct": 22.8
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
+        "stat": "PTS",
+        "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 110,
-        "no_vig_odds": 125,
-        "no_vig_prob": 44.5,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.6,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.7,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -120,
-        "no_vig_odds": -117,
-        "no_vig_prob": 53.9,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 9.5 Pts",
-        "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -135,
-        "no_vig_odds": -115,
-        "no_vig_prob": 53.5,
-        "market_ev_pct": 1.8
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 125"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5105550",
@@ -1692,7 +1029,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4065733",
@@ -1735,7 +1072,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5231919",
@@ -1778,7 +1115,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4683934",
@@ -1821,7 +1158,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4594326",
@@ -1864,7 +1201,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4431785",
@@ -1907,7 +1244,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4593016",
@@ -1950,7 +1287,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4595400",
@@ -1993,7 +1330,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5105462",
@@ -2036,7 +1373,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4781746",
@@ -2079,7 +1416,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4433083",
@@ -2090,117 +1427,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 130,
-      "no_vig_odds": 136,
-      "no_vig_prob": 42.4,
-      "market_ev_pct": 34.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 130,
-        "no_vig_odds": 136,
-        "no_vig_prob": 42.4,
-        "market_ev_pct": 34.5
-      },
-      {
         "stat": "PTS",
-        "market": "O 8.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.4,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 21.5 PRA",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": 8.1
-      },
-      {
-        "stat": "AST",
-        "market": "O 10.5 Ast",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
         "no_vig_odds": -110,
-        "no_vig_prob": 52.5,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 7.5 Pts",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -130,
-        "no_vig_odds": -110,
-        "no_vig_prob": 52.5,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 1.5 Reb",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -165,
-        "no_vig_odds": -149,
-        "no_vig_prob": 59.8,
-        "market_ev_pct": -6.0
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 136"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432810",
@@ -2211,52 +1470,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 2.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 116,
-      "no_vig_odds": 122,
-      "no_vig_prob": 45.1,
-      "market_ev_pct": 26.4
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 116,
-        "no_vig_odds": 122,
-        "no_vig_prob": 45.1,
-        "market_ev_pct": 26.4
-      },
-      {
         "stat": "PTS",
-        "market": "O 5.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": -101,
-        "no_vig_prob": 50.3,
-        "market_ev_pct": 17.0
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 122"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5112087",
@@ -2267,143 +1513,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 1.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 170,
-      "no_vig_odds": 189,
-      "no_vig_prob": 34.6,
-      "market_ev_pct": 58.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 170,
-        "no_vig_odds": 189,
-        "no_vig_prob": 34.6,
-        "market_ev_pct": 58.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 154,
-        "no_vig_odds": 166,
-        "no_vig_prob": 37.6,
-        "market_ev_pct": 48.6
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 122,
-        "no_vig_odds": 126,
-        "no_vig_prob": 44.3,
-        "market_ev_pct": 29.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
+        "stat": "PTS",
+        "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 108,
-        "no_vig_odds": 123,
-        "no_vig_prob": 44.9,
-        "market_ev_pct": 21.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 12.5 Pts",
-        "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 100,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.5,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.7,
-        "market_ev_pct": 10.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 11.5 Pts",
-        "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -220,
-        "no_vig_odds": -180,
-        "no_vig_prob": 64.3,
-        "market_ev_pct": -14.9
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 189"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4683021",
@@ -2446,7 +1588,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4431736",
@@ -2457,78 +1599,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 4.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 4.5,
-      "proj": 5.9,
-      "prob": 58.5,
-      "best_book": "Bovada",
-      "best_odds": 120,
-      "no_vig_odds": 124,
-      "no_vig_prob": 44.5,
-      "market_ev_pct": 28.7
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 120,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.5,
-        "market_ev_pct": 28.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 9.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.8,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
-        "market_ev_pct": 7.3
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "Bovada",
-      "No-Vig 124"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4592435",
@@ -2571,7 +1674,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5081727",
@@ -2582,91 +1685,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 1.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 112,
-      "no_vig_odds": 125,
-      "no_vig_prob": 44.4,
-      "market_ev_pct": 24.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 112,
-        "no_vig_odds": 125,
-        "no_vig_prob": 44.4,
-        "market_ev_pct": 24.0
-      },
-      {
         "stat": "PTS",
-        "market": "O 12.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 105,
-        "no_vig_prob": 48.8,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": -104,
-        "no_vig_prob": 50.9,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.5,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -200,
-        "no_vig_odds": -181,
-        "no_vig_prob": 64.4,
-        "market_ev_pct": -12.3
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 125"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5105565",
@@ -2677,104 +1728,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 2.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 132,
-      "no_vig_odds": 136,
-      "no_vig_prob": 42.3,
-      "market_ev_pct": 35.7
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 132,
-        "no_vig_odds": 136,
-        "no_vig_prob": 42.3,
-        "market_ev_pct": 35.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 11.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 100,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.1,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 27.5 PRA",
-        "side": "O",
-        "line": 27.5,
-        "proj": 28.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 13.5 Reb",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 13.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 136"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5217746",
@@ -2817,7 +1803,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4683678",
@@ -2828,117 +1814,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "PRA",
-      "market": "O 28.5 PRA",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 28.5,
-      "proj": 29.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 102,
-      "no_vig_odds": 116,
-      "no_vig_prob": 46.2,
-      "market_ev_pct": 18.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "PRA",
-        "market": "O 28.5 PRA",
-        "side": "O",
-        "line": 28.5,
-        "proj": 29.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": 18.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.9,
-        "market_ev_pct": 17.0
-      },
-      {
         "stat": "PTS",
-        "market": "O 21.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 100,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.1,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 27.5 PRA",
-        "side": "O",
-        "line": 27.5,
-        "proj": 28.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.9,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "PTS",
-        "market": "O 20.5 Pts",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -175,
-        "no_vig_odds": -165,
-        "no_vig_prob": 62.3,
-        "market_ev_pct": -8.1
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 116"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3995",
@@ -2949,143 +1857,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 7.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 7.5,
-      "proj": 8.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 130,
-      "no_vig_odds": 144,
-      "no_vig_prob": 41.0,
-      "market_ev_pct": 34.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 7.5 Ast",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 130,
-        "no_vig_odds": 144,
-        "no_vig_prob": 41.0,
-        "market_ev_pct": 34.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 124,
-        "no_vig_odds": 138,
-        "no_vig_prob": 42.0,
-        "market_ev_pct": 31.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 105,
-        "no_vig_prob": 48.8,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 27.5 PRA",
-        "side": "O",
-        "line": 27.5,
-        "proj": 28.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 15.9
-      },
-      {
         "stat": "PTS",
-        "market": "O 15.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 15.5,
-        "proj": 16.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -105,
-        "no_vig_odds": 107,
-        "no_vig_prob": 48.4,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 26.5 PRA",
-        "side": "O",
-        "line": 26.5,
-        "proj": 27.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 14.5 Pts",
-        "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -160,
-        "no_vig_odds": -138,
-        "no_vig_prob": 57.9,
-        "market_ev_pct": -4.9
-      },
-      {
-        "stat": "AST",
-        "market": "O 6.5 Ast",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -174,
-        "no_vig_odds": -146,
-        "no_vig_prob": 59.4,
-        "market_ev_pct": -7.9
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 144"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4703889",
@@ -3128,7 +1932,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4578893",
@@ -3171,7 +1975,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "6606",
@@ -3182,104 +1986,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 4.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 4.5,
-      "proj": 5.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 140,
-      "no_vig_odds": 145,
-      "no_vig_prob": 40.7,
-      "market_ev_pct": 40.4
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 4.5 3PM",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 140,
-        "no_vig_odds": 145,
-        "no_vig_prob": 40.7,
-        "market_ev_pct": 40.4
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 122,
-        "no_vig_odds": 131,
-        "no_vig_prob": 43.3,
-        "market_ev_pct": 29.9
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 115,
-        "no_vig_odds": 126,
-        "no_vig_prob": 44.2,
-        "market_ev_pct": 25.8
-      },
-      {
         "stat": "PTS",
-        "market": "O 25.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 25.5,
-        "proj": 26.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 111,
-        "no_vig_prob": 47.4,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 31.5 PRA",
-        "side": "O",
-        "line": 31.5,
-        "proj": 32.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PTS",
-        "market": "O 24.5 Pts",
-        "side": "O",
-        "line": 24.5,
-        "proj": 25.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 145"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4279888",
@@ -3322,7 +2061,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4066399",
@@ -3365,7 +2104,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4914336",
@@ -3408,7 +2147,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4593043",
@@ -3451,7 +2190,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4066211",
@@ -3494,7 +2233,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4706557",
@@ -3537,7 +2276,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5164559",
@@ -3548,52 +2287,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 5.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 5.5,
-      "proj": 6.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 100,
-      "no_vig_odds": 113,
-      "no_vig_prob": 46.9,
-      "market_ev_pct": 17.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 113,
-        "no_vig_prob": 46.9,
-        "market_ev_pct": 17.0
-      },
-      {
         "stat": "PTS",
-        "market": "O 17.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": 11.7
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 113"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5082206",
@@ -3605,116 +2331,38 @@
     "avg_min": 30.0,
     "best_prop": {
       "stat": "PTS",
-      "market": "O 10.5 Pts",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 10.5,
-      "proj": 11.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 108,
-      "no_vig_odds": 120,
-      "no_vig_prob": 45.4,
-      "market_ev_pct": 21.7
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
         "stat": "PTS",
-        "market": "O 10.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 108,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.4,
-        "market_ev_pct": 21.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 9.5 Pts",
-        "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 105,
-        "no_vig_odds": 118,
-        "no_vig_prob": 45.9,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 104,
-        "no_vig_odds": 118,
-        "no_vig_prob": 45.8,
-        "market_ev_pct": 19.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 6.5 Reb",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": -111,
-        "no_vig_prob": 52.5,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
-        "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.3,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -135,
-        "no_vig_odds": -124,
-        "no_vig_prob": 55.4,
-        "market_ev_pct": 1.8
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 120"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4997526",
@@ -3757,7 +2405,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4397475",
@@ -3800,7 +2448,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4395725",
@@ -3811,117 +2459,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 105,
-      "no_vig_odds": 109,
-      "no_vig_prob": 48.0,
-      "market_ev_pct": 19.9
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 105,
-        "no_vig_odds": 109,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 32.5 PRA",
-        "side": "O",
-        "line": 32.5,
-        "proj": 33.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 15.9
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.3,
-        "market_ev_pct": 14.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 23.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 23.5,
-        "proj": 24.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -105,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.5,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 22.5 Pts",
-        "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
-        "market_ev_pct": 8.1
-      },
-      {
-        "stat": "PRA",
-        "market": "O 30.5 PRA",
-        "side": "O",
-        "line": 30.5,
-        "proj": 31.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 109"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5214640",
@@ -3932,65 +2502,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 0.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 0.5,
-      "proj": 1.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 106,
-      "no_vig_odds": 120,
-      "no_vig_prob": 45.4,
-      "market_ev_pct": 20.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 106,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.4,
-        "market_ev_pct": 20.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 100,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.5,
-        "market_ev_pct": 17.0
-      },
-      {
         "stat": "PTS",
-        "market": "O 4.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -135,
-        "no_vig_odds": -118,
-        "no_vig_prob": 54.1,
-        "market_ev_pct": 1.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 120"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432848",
@@ -4001,91 +2545,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "PRA",
-      "market": "O 20.5 PRA",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 20.5,
-      "proj": 21.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 106,
-      "no_vig_odds": 114,
-      "no_vig_prob": 46.7,
-      "market_ev_pct": 20.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 106,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.7,
-        "market_ev_pct": 20.5
-      },
-      {
         "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -120,
-        "no_vig_odds": -107,
-        "no_vig_prob": 51.7,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -136,
-        "no_vig_odds": -128,
-        "no_vig_prob": 56.0,
-        "market_ev_pct": 1.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -154,
-        "no_vig_odds": -140,
-        "no_vig_prob": 58.3,
-        "market_ev_pct": -3.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -155,
-        "no_vig_odds": -135,
-        "no_vig_prob": 57.5,
-        "market_ev_pct": -3.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 114"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4697268",
@@ -4128,7 +2620,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3134907",
@@ -4171,7 +2663,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "2991043",
@@ -4214,7 +2706,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5214989",
@@ -4257,7 +2749,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4397233",
@@ -4300,7 +2792,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4591725",
@@ -4311,130 +2803,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 160,
-      "no_vig_odds": 176,
-      "no_vig_prob": 36.2,
-      "market_ev_pct": 52.1
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 160,
-        "no_vig_odds": 176,
-        "no_vig_prob": 36.2,
-        "market_ev_pct": 52.1
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 110,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.6,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 108,
-        "no_vig_odds": 118,
-        "no_vig_prob": 45.9,
-        "market_ev_pct": 21.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 10.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 107,
-        "no_vig_prob": 48.2,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 21.5 PRA",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": 13.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -225,
-        "no_vig_odds": -183,
-        "no_vig_prob": 64.6,
-        "market_ev_pct": -15.5
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 176"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4397114",
@@ -4477,7 +2878,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4277922",
@@ -4520,7 +2921,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4277843",
@@ -4563,7 +2964,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3133628",
@@ -4606,7 +3007,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5105623",
@@ -4617,65 +3018,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 9.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 9.5,
-      "proj": 10.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 100,
-      "no_vig_odds": 103,
-      "no_vig_prob": 49.3,
-      "market_ev_pct": 17.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 9.5 Reb",
-        "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 103,
-        "no_vig_prob": 49.3,
-        "market_ev_pct": 17.0
-      },
-      {
         "stat": "PTS",
-        "market": "O 8.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.5,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -135,
-        "no_vig_odds": -132,
-        "no_vig_prob": 56.9,
-        "market_ev_pct": 1.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 103"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4683730",
@@ -4718,7 +3093,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4277869",
@@ -4761,7 +3136,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3934719",
@@ -4772,104 +3147,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 2.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 164,
-      "no_vig_odds": 174,
-      "no_vig_prob": 36.5,
-      "market_ev_pct": 54.4
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 164,
-        "no_vig_odds": 174,
-        "no_vig_prob": 36.5,
-        "market_ev_pct": 54.4
-      },
-      {
         "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 100,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.7,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 10.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -145,
-        "no_vig_odds": -127,
-        "no_vig_prob": 56.0,
-        "market_ev_pct": -1.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -200,
-        "no_vig_odds": -178,
-        "no_vig_prob": 64.1,
-        "market_ev_pct": -12.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 174"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3147657",
@@ -4880,104 +3190,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 2.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "Bovada",
-      "best_odds": 125,
-      "no_vig_odds": 128,
-      "no_vig_prob": 43.8,
-      "market_ev_pct": 31.6
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 125,
-        "no_vig_odds": 128,
-        "no_vig_prob": 43.8,
-        "market_ev_pct": 31.6
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 113,
-        "no_vig_prob": 47.0,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 103,
-        "no_vig_prob": 49.3,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 6.5 Pts",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "Bovada",
-      "No-Vig 128"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3934672",
@@ -4988,104 +3233,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 114,
-      "no_vig_odds": 108,
-      "no_vig_prob": 48.2,
-      "market_ev_pct": 25.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 114,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.2,
-        "market_ev_pct": 25.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 23.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 23.5,
-        "proj": 24.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 113,
-        "no_vig_prob": 47.0,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 25.5 Pts",
-        "side": "O",
-        "line": 25.5,
-        "proj": 26.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 5.5 Ast",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": 12.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 1.5 Reb",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -120,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.6,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 29.5 PRA",
-        "side": "O",
-        "line": 29.5,
-        "proj": 30.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": 2.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 108"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "2528426",
@@ -5128,7 +3308,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5211983",
@@ -5171,7 +3351,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5289900",
@@ -5214,7 +3394,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "6585",
@@ -5257,7 +3437,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3062679",
@@ -5268,91 +3448,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 2.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 145,
-      "no_vig_odds": 157,
-      "no_vig_prob": 38.9,
-      "market_ev_pct": 43.3
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 145,
-        "no_vig_odds": 157,
-        "no_vig_prob": 38.9,
-        "market_ev_pct": 43.3
-      },
-      {
         "stat": "PTS",
-        "market": "O 13.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.8,
-        "market_ev_pct": 13.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 21.5 PRA",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": 12.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -130,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.6,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -140,
-        "no_vig_odds": -124,
-        "no_vig_prob": 55.4,
-        "market_ev_pct": 0.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 157"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4897943",
@@ -5395,7 +3523,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4433225",
@@ -5438,7 +3566,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4431823",
@@ -5449,65 +3577,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 0.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 0.5,
-      "proj": 1.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 110,
-      "no_vig_odds": -109,
-      "no_vig_prob": 52.2,
-      "market_ev_pct": 22.8
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": -109,
-        "no_vig_prob": 52.2,
-        "market_ev_pct": 22.8
-      },
-      {
         "stat": "PTS",
-        "market": "O 6.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 105,
-        "no_vig_odds": 121,
-        "no_vig_prob": 45.2,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 5.5 Pts",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig -109"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4838721",
@@ -5550,7 +3652,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3914044",
@@ -5561,65 +3663,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 155,
-      "no_vig_odds": 163,
-      "no_vig_prob": 38.0,
-      "market_ev_pct": 49.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 155,
-        "no_vig_odds": 163,
-        "no_vig_prob": 38.0,
-        "market_ev_pct": 49.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 9.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.2,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -260,
-        "no_vig_odds": -208,
-        "no_vig_prob": 67.5,
-        "market_ev_pct": -19.0
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 163"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3136195",
@@ -5630,130 +3706,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 195,
-      "no_vig_odds": 201,
-      "no_vig_prob": 33.2,
-      "market_ev_pct": 72.6
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 195,
-        "no_vig_odds": 201,
-        "no_vig_prob": 33.2,
-        "market_ev_pct": 72.6
-      },
-      {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 150,
-        "no_vig_odds": 154,
-        "no_vig_prob": 39.4,
-        "market_ev_pct": 46.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 30.5 Pts",
-        "side": "O",
-        "line": 30.5,
-        "proj": 31.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 110,
-        "no_vig_odds": 121,
-        "no_vig_prob": 45.2,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 16.5 Reb",
+        "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 110,
-        "no_vig_odds": 119,
-        "no_vig_prob": 45.7,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "PRA",
-        "market": "O 50.5 PRA",
-        "side": "O",
-        "line": 50.5,
-        "proj": 51.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 15.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 29.5 Pts",
-        "side": "O",
-        "line": 29.5,
-        "proj": 30.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 48.5 PRA",
-        "side": "O",
-        "line": 48.5,
-        "proj": 49.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -250,
-        "no_vig_odds": -201,
-        "no_vig_prob": 66.8,
-        "market_ev_pct": -18.1
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 201"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432808",
@@ -5796,7 +3781,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432816",
@@ -5807,130 +3792,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 114,
-      "no_vig_odds": 116,
-      "no_vig_prob": 46.2,
-      "market_ev_pct": 25.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 114,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": 25.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 5.5 Ast",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": 15.9
-      },
-      {
         "stat": "PTS",
-        "market": "O 22.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -104,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.8,
-        "market_ev_pct": 14.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 34.5 PRA",
-        "side": "O",
-        "line": 34.5,
-        "proj": 35.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": 12.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 21.5 Pts",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PRA",
-        "market": "O 32.5 PRA",
-        "side": "O",
-        "line": 32.5,
-        "proj": 33.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -135,
-        "no_vig_odds": -128,
-        "no_vig_prob": 56.2,
-        "market_ev_pct": 1.8
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -135,
-        "no_vig_odds": -115,
-        "no_vig_prob": 53.5,
-        "market_ev_pct": 1.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 116"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5279133",
@@ -5942,51 +3836,38 @@
     "avg_min": 30.0,
     "best_prop": {
       "stat": "PTS",
-      "market": "O 3.5 Pts",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": -111,
-      "no_vig_odds": 104,
-      "no_vig_prob": 49.1,
-      "market_ev_pct": 11.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
         "stat": "PTS",
-        "market": "O 3.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -111,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.1,
-        "market_ev_pct": 11.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -135,
-        "no_vig_odds": -118,
-        "no_vig_prob": 54.1,
-        "market_ev_pct": 1.8
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 104"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4433569",
@@ -6029,7 +3910,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432247",
@@ -6072,7 +3953,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3934673",
@@ -6115,7 +3996,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4397002",
@@ -6126,143 +4007,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 2.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 155,
-      "no_vig_odds": 173,
-      "no_vig_prob": 36.7,
-      "market_ev_pct": 49.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 155,
-        "no_vig_odds": 173,
-        "no_vig_prob": 36.7,
-        "market_ev_pct": 49.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 114,
-        "no_vig_odds": 119,
-        "no_vig_prob": 45.7,
-        "market_ev_pct": 25.2
-      },
-      {
         "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 117,
-        "no_vig_prob": 46.1,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.1,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 15.5 Pts",
-        "side": "O",
-        "line": 15.5,
-        "proj": 16.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 100,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.5,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 23.5 PRA",
-        "side": "O",
-        "line": 23.5,
-        "proj": 24.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": 13.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 22.5 PRA",
-        "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -220,
-        "no_vig_odds": -184,
-        "no_vig_prob": 64.8,
-        "market_ev_pct": -14.9
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 173"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4594268",
@@ -6305,7 +4082,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5061585",
@@ -6348,7 +4125,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3032976",
@@ -6359,91 +4136,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 7.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 7.5,
-      "proj": 8.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 106,
-      "no_vig_odds": 118,
-      "no_vig_prob": 46.0,
-      "market_ev_pct": 20.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 7.5 Reb",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 106,
-        "no_vig_odds": 118,
-        "no_vig_prob": 46.0,
-        "market_ev_pct": 20.5
-      },
-      {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
+        "stat": "PTS",
+        "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 15.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 8.5 Pts",
-        "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 7.5 Pts",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": -111,
-        "no_vig_prob": 52.6,
-        "market_ev_pct": 10.7
-      },
-      {
-        "stat": "AST",
-        "market": "O 0.5 Ast",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -225,
-        "no_vig_odds": -187,
-        "no_vig_prob": 65.2,
-        "market_ev_pct": -15.5
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 118"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4592492",
@@ -6454,78 +4179,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 1.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 130,
-      "no_vig_odds": 146,
-      "no_vig_prob": 40.6,
-      "market_ev_pct": 34.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 130,
-        "no_vig_odds": 146,
-        "no_vig_prob": 40.6,
-        "market_ev_pct": 34.5
-      },
-      {
         "stat": "PTS",
-        "market": "O 9.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -115,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -130,
-        "no_vig_odds": -126,
-        "no_vig_prob": 55.7,
-        "market_ev_pct": 3.5
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 146"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4433247",
@@ -6536,117 +4222,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 2.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "Bovada",
-      "best_odds": 150,
-      "no_vig_odds": 140,
-      "no_vig_prob": 41.6,
-      "market_ev_pct": 46.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 150,
-        "no_vig_odds": 140,
-        "no_vig_prob": 41.6,
-        "market_ev_pct": 46.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 130,
-        "no_vig_odds": 129,
-        "no_vig_prob": 43.7,
-        "market_ev_pct": 34.5
-      },
-      {
         "stat": "PTS",
-        "market": "O 12.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 103,
-        "no_vig_prob": 49.3,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
-        "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 15.9
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.5,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "Bovada",
-      "No-Vig 140"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3136196",
@@ -6658,64 +4266,38 @@
     "avg_min": 30.0,
     "best_prop": {
       "stat": "PTS",
-      "market": "O 8.5 Pts",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 8.5,
-      "proj": 9.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 115,
-      "no_vig_odds": 127,
-      "no_vig_prob": 44.1,
-      "market_ev_pct": 25.8
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
         "stat": "PTS",
-        "market": "O 8.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 115,
-        "no_vig_odds": 127,
-        "no_vig_prob": 44.1,
-        "market_ev_pct": 25.8
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.6,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": 11.7
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 127"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4431671",
@@ -6726,91 +4308,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "AST",
-      "market": "O 2.5 Ast",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 115,
-      "no_vig_odds": 131,
-      "no_vig_prob": 43.3,
-      "market_ev_pct": 25.8
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 115,
-        "no_vig_odds": 131,
-        "no_vig_prob": 43.3,
-        "market_ev_pct": 25.8
-      },
-      {
         "stat": "PTS",
-        "market": "O 18.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
         "best_odds": -110,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -110,
-        "no_vig_odds": -103,
-        "no_vig_prob": 50.7,
-        "market_ev_pct": 11.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 24.5 PRA",
-        "side": "O",
-        "line": 24.5,
-        "proj": 25.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -130,
-        "no_vig_odds": -113,
-        "no_vig_prob": 53.1,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -166,
-        "no_vig_odds": -151,
-        "no_vig_prob": 60.1,
-        "market_ev_pct": -6.3
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 131"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4592979",
@@ -6853,7 +4383,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432847",
@@ -6864,130 +4394,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 4.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 4.5,
-      "proj": 5.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 135,
-      "no_vig_odds": 150,
-      "no_vig_prob": 40.1,
-      "market_ev_pct": 37.5
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 135,
-        "no_vig_odds": 150,
-        "no_vig_prob": 40.1,
-        "market_ev_pct": 37.5
-      },
-      {
-        "stat": "PRA",
-        "market": "O 14.5 PRA",
-        "side": "O",
-        "line": 14.5,
-        "proj": 15.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": 18.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 4.5 Ast",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -110,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 11.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
+        "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
         "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PTS",
-        "market": "O 6.5 Pts",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -128,
-        "no_vig_odds": -113,
-        "no_vig_prob": 53.0,
-        "market_ev_pct": 4.2
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -140,
-        "no_vig_odds": -126,
-        "no_vig_prob": 55.8,
-        "market_ev_pct": 0.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -160,
-        "no_vig_odds": -138,
-        "no_vig_prob": 57.9,
-        "market_ev_pct": -4.9
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 150"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4895758",
@@ -7030,7 +4469,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5157587",
@@ -7073,7 +4512,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "6580",
@@ -7116,7 +4555,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4845363",
@@ -7159,7 +4598,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5106258",
@@ -7202,7 +4641,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "2991139",
@@ -7213,78 +4652,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 3.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 116,
-      "no_vig_odds": 127,
-      "no_vig_prob": 44.0,
-      "market_ev_pct": 26.4
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 116,
-        "no_vig_odds": 127,
-        "no_vig_prob": 44.0,
-        "market_ev_pct": 26.4
-      },
-      {
         "stat": "PTS",
-        "market": "O 4.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 106,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.4,
-        "market_ev_pct": 20.5
-      },
-      {
-        "stat": "PRA",
-        "market": "O 9.5 PRA",
-        "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -128,
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
         "no_vig_odds": -110,
-        "no_vig_prob": 52.4,
-        "market_ev_pct": 4.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -135,
-        "no_vig_odds": -117,
-        "no_vig_prob": 53.9,
-        "market_ev_pct": 1.8
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "FanDuel",
-      "No-Vig 127"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4396907",
@@ -7295,117 +4695,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 114,
-      "no_vig_odds": 124,
-      "no_vig_prob": 44.7,
-      "market_ev_pct": 25.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 114,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.7,
-        "market_ev_pct": 25.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 1.5 Reb",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 110,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.7,
-        "market_ev_pct": 22.8
-      },
       {
         "stat": "PTS",
         "market": "O 16.5 Pts",
         "side": "O",
         "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 117,
-        "no_vig_prob": 46.1,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 17.5 Pts",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -105,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.5,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 23.5 PRA",
-        "side": "O",
-        "line": 23.5,
-        "proj": 24.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 21.5 PRA",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 10.7
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -120,
-        "no_vig_prob": 54.6,
-        "market_ev_pct": 3.5
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 124"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4066648",
@@ -7416,117 +4738,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 5.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 5.5,
-      "proj": 6.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 125,
-      "no_vig_odds": 140,
-      "no_vig_prob": 41.7,
-      "market_ev_pct": 31.6
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 125,
-        "no_vig_odds": 140,
-        "no_vig_prob": 41.7,
-        "market_ev_pct": 31.6
-      },
-      {
         "stat": "PTS",
-        "market": "O 11.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 115,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 25.8
-      },
-      {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
-        "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": 8.1
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -107,
-        "no_vig_prob": 51.6,
-        "market_ev_pct": 8.1
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -154,
-        "no_vig_odds": -132,
-        "no_vig_prob": 57.0,
-        "market_ev_pct": -3.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -210,
-        "no_vig_odds": -179,
-        "no_vig_prob": 64.2,
-        "market_ev_pct": -13.6
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetMGM",
-      "No-Vig 140"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3913176",
@@ -7569,7 +4813,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4432170",
@@ -7612,7 +4856,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3936099",
@@ -7623,104 +4867,39 @@
     "game_total": 226.5,
     "avg_min": 30.0,
     "best_prop": {
-      "stat": "REB",
-      "market": "O 2.5 Reb",
+      "stat": "PTS",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 2.5,
-      "proj": 3.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 124,
-      "no_vig_odds": 120,
-      "no_vig_prob": 45.5,
-      "market_ev_pct": 31.0
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 124,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.5,
-        "market_ev_pct": 31.0
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.7,
-        "market_ev_pct": 10.7
-      },
-      {
         "stat": "PTS",
-        "market": "O 7.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -109,
-        "no_vig_prob": 52.2,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 6.5 Pts",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -107,
-        "no_vig_prob": 51.7,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 1.5 Reb",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -162,
-        "no_vig_odds": -139,
-        "no_vig_prob": 58.1,
-        "market_ev_pct": -5.4
-      },
-      {
-        "stat": "AST",
-        "market": "O 0.5 Ast",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -225,
-        "no_vig_odds": -183,
-        "no_vig_prob": 64.7,
-        "market_ev_pct": -15.5
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig 120"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "3448",
@@ -7732,90 +4911,38 @@
     "avg_min": 30.0,
     "best_prop": {
       "stat": "PTS",
-      "market": "O 11.5 Pts",
+      "market": "O 16.5 Pts",
       "side": "O",
-      "line": 11.5,
-      "proj": 12.9,
-      "prob": 58.5,
-      "best_book": "Bovada",
-      "best_odds": -105,
-      "no_vig_odds": 103,
-      "no_vig_prob": 49.4,
-      "market_ev_pct": 14.2
+      "line": 16.5,
+      "proj": 18.2,
+      "prob": 57.5,
+      "best_book": "Consensus (-110)",
+      "best_odds": -110,
+      "no_vig_odds": -110,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 9.8
     },
     "all_props": [
       {
         "stat": "PTS",
-        "market": "O 11.5 Pts",
+        "market": "O 16.5 Pts",
         "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -105,
-        "no_vig_odds": 103,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PRA",
-        "market": "O 20.5 PRA",
-        "side": "O",
-        "line": 20.5,
-        "proj": 21.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.5,
-        "market_ev_pct": 13.7
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -180,
-        "no_vig_odds": -162,
-        "no_vig_prob": 61.8,
-        "market_ev_pct": -9.0
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -195,
-        "no_vig_odds": -165,
-        "no_vig_prob": 62.3,
-        "market_ev_pct": -11.5
+        "line": 16.5,
+        "proj": 18.2,
+        "prob": 57.5,
+        "best_book": "Consensus (-110)",
+        "best_odds": -110,
+        "no_vig_odds": -110,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 9.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "Bovada",
-      "No-Vig 103"
+      "Consensus (-110)",
+      "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5105832",
@@ -7858,7 +4985,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5075626",
@@ -7901,7 +5028,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4396818",
@@ -7944,7 +5071,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "5108024",
@@ -7987,7 +5114,7 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   },
   {
     "id": "4398390",
@@ -8030,883 +5157,6 @@
       "Consensus (-110)",
       "No-Vig -110"
     ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4702352",
-    "player": "Kobe Sanders",
-    "team": "LAC",
-    "opponent": "SA",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "PTS",
-      "market": "O 3.5 Pts",
-      "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 105,
-      "no_vig_odds": 118,
-      "no_vig_prob": 45.9,
-      "market_ev_pct": 19.9
-    },
-    "all_props": [
-      {
-        "stat": "PTS",
-        "market": "O 3.5 Pts",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 105,
-        "no_vig_odds": 118,
-        "no_vig_prob": 45.9,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 2.5 Pts",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -135,
-        "no_vig_odds": -118,
-        "no_vig_prob": 54.1,
-        "market_ev_pct": 1.8
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "DraftKings",
-      "No-Vig 118"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "5254165",
-    "player": "Keaton Wagler",
-    "team": "LAC",
-    "opponent": "SA",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "PRA",
-      "market": "O 17.5 PRA",
-      "side": "O",
-      "line": 17.5,
-      "proj": 18.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": -105,
-      "no_vig_odds": 108,
-      "no_vig_prob": 48.0,
-      "market_ev_pct": 14.2
-    },
-    "all_props": [
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 14.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 11.5 Pts",
-        "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 16.5 PRA",
-        "side": "O",
-        "line": 16.5,
-        "proj": 17.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -125,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -136,
-        "no_vig_odds": -121,
-        "no_vig_prob": 54.8,
-        "market_ev_pct": 1.5
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "DraftKings",
-      "No-Vig 108"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4845367",
-    "player": "Stephon Castle",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
-      "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 188,
-      "no_vig_odds": 182,
-      "no_vig_prob": 35.5,
-      "market_ev_pct": 68.5
-    },
-    "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 188,
-        "no_vig_odds": 182,
-        "no_vig_prob": 35.5,
-        "market_ev_pct": 68.5
-      },
-      {
-        "stat": "REB",
-        "market": "O 6.5 Reb",
-        "side": "O",
-        "line": 6.5,
-        "proj": 7.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 130,
-        "no_vig_odds": 141,
-        "no_vig_prob": 41.5,
-        "market_ev_pct": 34.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 8.5 Ast",
-        "side": "O",
-        "line": 8.5,
-        "proj": 9.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 122,
-        "no_vig_odds": 137,
-        "no_vig_prob": 42.1,
-        "market_ev_pct": 29.9
-      },
-      {
-        "stat": "AST",
-        "market": "O 7.5 Ast",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 110,
-        "no_vig_odds": 107,
-        "no_vig_prob": 48.4,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "PTS",
-        "market": "O 21.5 Pts",
-        "side": "O",
-        "line": 21.5,
-        "proj": 22.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 105,
-        "no_vig_odds": 117,
-        "no_vig_prob": 46.1,
-        "market_ev_pct": 19.9
-      },
-      {
-        "stat": "PRA",
-        "market": "O 35.5 PRA",
-        "side": "O",
-        "line": 35.5,
-        "proj": 36.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 9.8
-      },
-      {
-        "stat": "PTS",
-        "market": "O 22.5 Pts",
-        "side": "O",
-        "line": 22.5,
-        "proj": 23.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 36.5 PRA",
-        "side": "O",
-        "line": 36.5,
-        "proj": 37.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -175,
-        "no_vig_odds": -146,
-        "no_vig_prob": 59.4,
-        "market_ev_pct": -8.1
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -235,
-        "no_vig_odds": -193,
-        "no_vig_prob": 65.9,
-        "market_ev_pct": -16.6
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "FanDuel",
-      "No-Vig 182"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4592479",
-    "player": "Julian Champagnie",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "REB",
-      "market": "O 5.5 Reb",
-      "side": "O",
-      "line": 5.5,
-      "proj": 6.9,
-      "prob": 58.5,
-      "best_book": "BetMGM",
-      "best_odds": 130,
-      "no_vig_odds": 146,
-      "no_vig_prob": 40.6,
-      "market_ev_pct": 34.5
-    },
-    "all_props": [
-      {
-        "stat": "REB",
-        "market": "O 5.5 Reb",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": 130,
-        "no_vig_odds": 146,
-        "no_vig_prob": 40.6,
-        "market_ev_pct": 34.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 120,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.7,
-        "market_ev_pct": 28.7
-      },
-      {
-        "stat": "PRA",
-        "market": "O 17.5 PRA",
-        "side": "O",
-        "line": 17.5,
-        "proj": 18.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": 18.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -103,
-        "no_vig_prob": 50.7,
-        "market_ev_pct": 9.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -130,
-        "no_vig_odds": -115,
-        "no_vig_prob": 53.5,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "AST",
-        "market": "O 1.5 Ast",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -150,
-        "no_vig_odds": -130,
-        "no_vig_prob": 56.5,
-        "market_ev_pct": -2.5
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "BetMGM",
-      "No-Vig 146"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4066259",
-    "player": "De'Aaron Fox",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "REB",
-      "market": "O 3.5 Reb",
-      "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 142,
-      "no_vig_odds": 142,
-      "no_vig_prob": 41.4,
-      "market_ev_pct": 41.6
-    },
-    "all_props": [
-      {
-        "stat": "REB",
-        "market": "O 3.5 Reb",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 142,
-        "no_vig_odds": 142,
-        "no_vig_prob": 41.4,
-        "market_ev_pct": 41.6
-      },
-      {
-        "stat": "AST",
-        "market": "O 5.5 Ast",
-        "side": "O",
-        "line": 5.5,
-        "proj": 6.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "PRA",
-        "market": "O 19.5 PRA",
-        "side": "O",
-        "line": 19.5,
-        "proj": 20.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 9.5 Pts",
-        "side": "O",
-        "line": 9.5,
-        "proj": 10.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.9,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "PTS",
-        "market": "O 10.5 Pts",
-        "side": "O",
-        "line": 10.5,
-        "proj": 11.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -130,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.8,
-        "market_ev_pct": 3.5
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -135,
-        "no_vig_odds": -117,
-        "no_vig_prob": 53.9,
-        "market_ev_pct": 1.8
-      },
-      {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
-        "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -146,
-        "no_vig_odds": -125,
-        "no_vig_prob": 55.5,
-        "market_ev_pct": -1.4
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "FanDuel",
-      "No-Vig 142"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4395723",
-    "player": "Keldon Johnson",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "3PM",
-      "market": "O 0.5 3PM",
-      "side": "O",
-      "line": 0.5,
-      "proj": 1.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 140,
-      "no_vig_odds": 154,
-      "no_vig_prob": 39.3,
-      "market_ev_pct": 40.4
-    },
-    "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 140,
-        "no_vig_odds": 154,
-        "no_vig_prob": 39.3,
-        "market_ev_pct": 40.4
-      },
-      {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 5.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 124,
-        "no_vig_odds": 117,
-        "no_vig_prob": 46.0,
-        "market_ev_pct": 31.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 12.5 Pts",
-        "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 113,
-        "no_vig_prob": 46.9,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 18.5 PRA",
-        "side": "O",
-        "line": 18.5,
-        "proj": 19.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 5.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 11.5 Pts",
-        "side": "O",
-        "line": 11.5,
-        "proj": 12.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -138,
-        "no_vig_odds": -118,
-        "no_vig_prob": 54.2,
-        "market_ev_pct": 0.9
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "DraftKings",
-      "No-Vig 154"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "4395630",
-    "player": "Devin Vassell",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "3PM",
-      "market": "O 1.5 3PM",
-      "side": "O",
-      "line": 1.5,
-      "proj": 2.9,
-      "prob": 58.5,
-      "best_book": "DraftKings",
-      "best_odds": 170,
-      "no_vig_odds": 177,
-      "no_vig_prob": 36.1,
-      "market_ev_pct": 58.0
-    },
-    "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 170,
-        "no_vig_odds": 177,
-        "no_vig_prob": 36.1,
-        "market_ev_pct": 58.0
-      },
-      {
-        "stat": "REB",
-        "market": "O 2.5 Reb",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 126,
-        "no_vig_odds": 131,
-        "no_vig_prob": 43.3,
-        "market_ev_pct": 32.2
-      },
-      {
-        "stat": "AST",
-        "market": "O 3.5 Ast",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.9,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 13.5 PRA",
-        "side": "O",
-        "line": 13.5,
-        "proj": 14.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 10.7
-      },
-      {
-        "stat": "PTS",
-        "market": "O 7.5 Pts",
-        "side": "O",
-        "line": 7.5,
-        "proj": 8.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": 9.8
-      },
-      {
-        "stat": "3PM",
-        "market": "O 0.5 3PM",
-        "side": "O",
-        "line": 0.5,
-        "proj": 1.9,
-        "prob": 58.5,
-        "best_book": "BetMGM",
-        "best_odds": -235,
-        "no_vig_odds": -193,
-        "no_vig_prob": 65.9,
-        "market_ev_pct": -16.6
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "DraftKings",
-      "No-Vig 177"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
-  },
-  {
-    "id": "5104157",
-    "player": "Victor Wembanyama",
-    "team": "SA",
-    "opponent": "LAC",
-    "game_id": "401910022",
-    "game_total": 226.5,
-    "avg_min": 30.0,
-    "best_prop": {
-      "stat": "3PM",
-      "market": "O 3.5 3PM",
-      "side": "O",
-      "line": 3.5,
-      "proj": 4.9,
-      "prob": 58.5,
-      "best_book": "FanDuel",
-      "best_odds": 174,
-      "no_vig_odds": 180,
-      "no_vig_prob": 35.7,
-      "market_ev_pct": 60.3
-    },
-    "all_props": [
-      {
-        "stat": "3PM",
-        "market": "O 3.5 3PM",
-        "side": "O",
-        "line": 3.5,
-        "proj": 4.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": 174,
-        "no_vig_odds": 180,
-        "no_vig_prob": 35.7,
-        "market_ev_pct": 60.3
-      },
-      {
-        "stat": "PTS",
-        "market": "O 30.5 Pts",
-        "side": "O",
-        "line": 30.5,
-        "proj": 31.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": 110,
-        "no_vig_odds": 124,
-        "no_vig_prob": 44.7,
-        "market_ev_pct": 22.8
-      },
-      {
-        "stat": "REB",
-        "market": "O 12.5 Reb",
-        "side": "O",
-        "line": 12.5,
-        "proj": 13.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": -107,
-        "no_vig_prob": 51.7,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PTS",
-        "market": "O 28.5 Pts",
-        "side": "O",
-        "line": 28.5,
-        "proj": 29.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": 100,
-        "no_vig_odds": 113,
-        "no_vig_prob": 46.9,
-        "market_ev_pct": 17.0
-      },
-      {
-        "stat": "PRA",
-        "market": "O 43.5 PRA",
-        "side": "O",
-        "line": 43.5,
-        "proj": 44.9,
-        "prob": 58.5,
-        "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "AST",
-        "market": "O 2.5 Ast",
-        "side": "O",
-        "line": 2.5,
-        "proj": 3.9,
-        "prob": 58.5,
-        "best_book": "Bovada",
-        "best_odds": -120,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": 7.3
-      },
-      {
-        "stat": "PRA",
-        "market": "O 44.5 PRA",
-        "side": "O",
-        "line": 44.5,
-        "proj": 45.9,
-        "prob": 58.5,
-        "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": 2.8
-      }
-    ],
-    "alt_props": [],
-    "tags": [
-      "FanDuel",
-      "No-Vig 180"
-    ],
-    "generated_at": "Nov 20 01:49 UTC"
+    "generated_at": "Nov 20 03:42 UTC"
   }
 ]
