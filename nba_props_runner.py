@@ -9,6 +9,7 @@ ODDS_API_KEY = os.getenv("ODDS_API_KEY", "").strip()
 
 ESPN_SCOREBOARD_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
 ESPN_SUMMARY_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary"
+ESPN_ROSTER_URL = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/{team_id}/roster"
 ODDS_GAMES_URL = "https://api.the-odds-api.com/v4/sports/basketball_nba/odds"
 ODDS_EVENT_URL = "https://api.the-odds-api.com/v4/sports/basketball_nba/events/{event_id}/odds"
 
@@ -79,11 +80,6 @@ def calc_ev_pct(model_prob_pct: float, american_odds: float) -> float:
 
 
 def compute_no_vig_and_best(book_offers: list[dict], model_prob_pct: float) -> dict:
-    """
-    book_offers: list of dicts with keys:
-      {"book": str, "over_odds": int|None, "under_odds": int|None}
-    Returns best_book, best_odds, no_vig_odds, no_vig_prob, and market_ev_pct.
-    """
     if not book_offers:
         fallback_ev = calc_ev_pct(model_prob_pct, -110)
         return {
@@ -140,8 +136,42 @@ def fetch_espn_scoreboard(date_yyyymmdd: str) -> list[dict]:
     return []
 
 
-def fetch_espn_roster_stats(event_id: str) -> dict[str, dict]:
-    """Returns map of normalized_player_name -> player info & recent baseline stats."""
+def fetch_team_roster(team_id: str, team_abbr: str) -> dict[str, dict]:
+    """Fetches active NBA team roster directly from ESPN so pre-game slates always populate."""
+    players = {}
+    if not team_id:
+        return players
+    try:
+        resp = requests.get(ESPN_ROSTER_URL.format(team_id=team_id), timeout=15)
+        if not resp.ok:
+            return players
+        data = resp.json()
+        athletes = data.get("athletes") or []
+        for item in athletes:
+            group = item.get("items") if isinstance(item, dict) and "items" in item else [item]
+            for ath in group:
+                if not isinstance(ath, dict):
+                    continue
+                status_type = (ath.get("status") or {}).get("type") or ""
+                if str(status_type).lower() == "injured":
+                    continue
+                full_name = ath.get("displayName") or ath.get("fullName") or ""
+                if not full_name:
+                    continue
+                norm = normalize_name(full_name)
+                players[norm] = {
+                    "id": str(ath.get("id") or norm),
+                    "player": full_name,
+                    "team": team_abbr,
+                    "min": 30.0,
+                }
+    except Exception:
+        pass
+    return players
+
+
+def fetch_espn_summary_players(event_id: str) -> dict[str, dict]:
+    """Fallback roster extractor from ESPN game summary boxscore/leaders."""
     players = {}
     try:
         resp = requests.get(ESPN_SUMMARY_URL, params={"event": event_id}, timeout=15)
@@ -151,35 +181,17 @@ def fetch_espn_roster_stats(event_id: str) -> dict[str, dict]:
         for box_team in (data.get("boxscore", {}).get("players") or []):
             team_abbr = box_team.get("team", {}).get("abbreviation", "NBA")
             for stat_group in (box_team.get("statistics") or []):
-                names = [n.upper() for n in (stat_group.get("names") or [])]
-                i_pts = names.index("PTS") if "PTS" in names else -1
-                i_reb = names.index("REB") if "REB" in names else -1
-                i_ast = names.index("AST") if "AST" in names else -1
-                i_min = names.index("MIN") if "MIN" in names else -1
                 for ath_entry in (stat_group.get("athletes") or []):
                     ath = ath_entry.get("athlete") or {}
                     full_name = ath.get("displayName") or ""
                     if not full_name:
                         continue
                     norm = normalize_name(full_name)
-                    raw_stats = ath_entry.get("stats") or []
-
-                    def _num(idx):
-                        if idx < 0 or idx >= len(raw_stats):
-                            return 0.0
-                        try:
-                            return float(str(raw_stats[idx]).split("-")[0])
-                        except Exception:
-                            return 0.0
-
                     players[norm] = {
                         "id": str(ath.get("id") or norm),
                         "player": full_name,
                         "team": team_abbr,
-                        "pts": _num(i_pts),
-                        "reb": _num(i_reb),
-                        "ast": _num(i_ast),
-                        "min": _num(i_min),
+                        "min": 30.0,
                     }
     except Exception:
         pass
@@ -188,6 +200,7 @@ def fetch_espn_roster_stats(event_id: str) -> dict[str, dict]:
 
 def fetch_odds_api_games() -> list[dict]:
     if not ODDS_API_KEY:
+        print("ODDS_API_KEY not set; using fallback -110 odds.")
         return []
     try:
         resp = requests.get(
@@ -200,8 +213,10 @@ def fetch_odds_api_games() -> list[dict]:
             },
             timeout=15,
         )
+        print(f"Odds API games status: {resp.status_code}")
         return resp.json() if resp.ok else []
-    except Exception:
+    except Exception as e:
+        print(f"Odds API games error: {e}")
         return []
 
 
@@ -219,8 +234,10 @@ def fetch_odds_api_event_props(event_id: str) -> dict:
             },
             timeout=15,
         )
+        print(f"Odds API event {event_id} props status: {resp.status_code}")
         return resp.json() if resp.ok else {}
-    except Exception:
+    except Exception as e:
+        print(f"Odds API event {event_id} error: {e}")
         return {}
 
 
@@ -236,7 +253,6 @@ def match_odds_event(home_team: str, away_team: str, odds_games: list[dict]) -> 
 
 
 def extract_game_market_consensus(odds_event: dict | None, market_key: str, line_val: float | None, side: str) -> dict:
-    """Builds book offers for a game spread or total line and computes best book + no-vig."""
     offers = []
     if odds_event:
         for bm in (odds_event.get("bookmakers") or []):
@@ -261,12 +277,9 @@ def extract_game_market_consensus(odds_event: dict | None, market_key: str, line
     return compute_no_vig_and_best(offers, 56.0)
 
 
-def extract_player_prop_offers(event_props_payload: dict) -> dict[tuple[str, str, float], list[dict]]:
-    """
-    Returns grouped offers keyed by:
-      (normalized_player_name, stat_code, line_float) -> [{"book": ..., "over_odds": ..., "under_odds": ...}, ...]
-    """
+def extract_player_prop_offers(event_props_payload: dict) -> tuple[dict, dict[str, str]]:
     grouped = defaultdict(lambda: defaultdict(lambda: {"over_odds": None, "under_odds": None}))
+    display_names = {}
     for bm in (event_props_payload.get("bookmakers") or []):
         book_label = format_book_name(bm.get("key", ""), bm.get("title", ""))
         for mkt in (bm.get("markets") or []):
@@ -275,10 +288,12 @@ def extract_player_prop_offers(event_props_payload: dict) -> dict[tuple[str, str
                 continue
             stat_code, _ = PROP_MARKET_MAP[m_key]
             for out in (mkt.get("outcomes") or []):
-                p_norm = normalize_name(out.get("description") or out.get("name") or "")
+                raw_name = out.get("description") or out.get("name") or ""
+                p_norm = normalize_name(raw_name)
                 point = out.get("point")
                 if not p_norm or point is None:
                     continue
+                display_names[p_norm] = raw_name
                 line_val = float(point)
                 side_label = (out.get("name") or "").lower()
                 price = out.get("price")
@@ -291,10 +306,8 @@ def extract_player_prop_offers(event_props_payload: dict) -> dict[tuple[str, str
                 elif "under" in side_label:
                     bucket["under_odds"] = int(price)
 
-    final_map = {}
-    for key, books_dict in grouped.items():
-        final_map[key] = list(books_dict.values())
-    return final_map
+    final_map = {key: list(books_dict.values()) for key, books_dict in grouped.items()}
+    return final_map, display_names
 
 
 def run_slate():
@@ -319,6 +332,8 @@ def run_slate():
         away_team = away_c.get("team", {}).get("displayName", "Away")
         home_abbr = home_c.get("team", {}).get("abbreviation", "HOM")
         away_abbr = away_c.get("team", {}).get("abbreviation", "AWY")
+        home_tid = str(home_c.get("team", {}).get("id", ""))
+        away_tid = str(away_c.get("team", {}).get("id", ""))
 
         matched_odds = match_odds_event(home_team, away_team, odds_games)
         odds_event_id = matched_odds.get("id") if matched_odds else ""
@@ -376,9 +391,26 @@ def run_slate():
             "generated_at": generated_at,
         })
 
-        roster = fetch_espn_roster_stats(espn_gid)
+        # 1. Load active rosters from ESPN team endpoints (works pre-game!)
+        roster = {}
+        roster.update(fetch_team_roster(away_tid, away_abbr))
+        roster.update(fetch_team_roster(home_tid, home_abbr))
+        if not roster:
+            roster = fetch_espn_summary_players(espn_gid)
+
+        # 2. Fetch Odds API player props and merge by player name
         event_props = fetch_odds_api_event_props(odds_event_id) if odds_event_id else {}
-        offers_by_key = extract_player_prop_offers(event_props)
+        offers_by_key, odds_display_names = extract_player_prop_offers(event_props)
+
+        # Ensure any player present in Odds API props is also included even if roster name differed
+        for p_norm, disp_name in odds_display_names.items():
+            if p_norm not in roster:
+                roster[p_norm] = {
+                    "id": p_norm,
+                    "player": disp_name,
+                    "team": away_abbr,
+                    "min": 30.0,
+                }
 
         for p_norm, p_info in roster.items():
             opp_abbr = away_abbr if p_info["team"] == home_abbr else home_abbr
@@ -409,50 +441,8 @@ def run_slate():
                     "market_ev_pct": odds_info["market_ev_pct"],
                 })
 
+            # If Odds API has no prop lines for this player yet, only keep top roster players with fallback line
             if not all_props:
-                default_line = 18.5
-                default_prob = 57.0
-                fallback_info = compute_no_vig_and_best([], default_prob)
-                all_props.append({
-                    "stat": "PTS",
-                    "market": f"O {default_line} Pts",
-                    "side": "O",
-                    "line": default_line,
-                    "proj": 20.1,
-                    "prob": default_prob,
-                    "best_book": fallback_info["best_book"],
-                    "best_odds": fallback_info["best_odds"],
-                    "no_vig_odds": fallback_info["no_vig_odds"],
-                    "no_vig_prob": fallback_info["no_vig_prob"],
-                    "market_ev_pct": fallback_info["market_ev_pct"],
-                })
-
-            all_props.sort(key=lambda x: x["market_ev_pct"], reverse=True)
-            best_prop = all_props[0]
-
-            nba_props_slate.append({
-                "id": p_info["id"],
-                "player": p_info["player"],
-                "team": p_info["team"],
-                "opponent": opp_abbr,
-                "game_id": espn_gid,
-                "game_total": over_under,
-                "avg_min": round(p_info["min"], 1) if p_info["min"] > 0 else 32.0,
-                "best_prop": best_prop,
-                "all_props": all_props,
-                "alt_props": [],
-                "tags": [best_prop["best_book"], f"No-Vig {best_prop['no_vig_odds']}"],
-                "generated_at": generated_at,
-            })
-
-    with open("nba_games_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_games_slate, f, indent=2)
-
-    with open("nba_props_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_props_slate, f, indent=2)
-
-    print(f"Wrote {len(nba_games_slate)} games and {len(nba_props_slate)} players ({generated_at}).")
-
-
-if __name__ == "__main__":
-    run_slate()
+                if len(nba_props_slate) >= 120:
+                    continue
+                default_line = 1
