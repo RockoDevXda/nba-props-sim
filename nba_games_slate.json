@@ -35,7 +35,7 @@
     "total_no_vig_prob": 50.2,
     "total_market_ev_pct": 3.7,
     "game_total": 226.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910030",
@@ -73,7 +73,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": 1.0,
     "game_total": 231.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910031",
@@ -111,7 +111,7 @@
     "total_no_vig_prob": 50.2,
     "total_market_ev_pct": 14.7,
     "game_total": 221.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910032",
@@ -149,7 +149,7 @@
     "total_no_vig_prob": 49.9,
     "total_market_ev_pct": 26.3,
     "game_total": 237.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910033",
@@ -179,7 +179,7 @@
     "best_book": "LowVig.ag",
     "best_odds": -101,
     "no_vig_odds": 102,
-    "no_vig_prob": 49.5,
+    "no_vig_prob": 49.4,
     "market_ev_pct": 5.1,
     "total_best_book": "Matchbook",
     "total_best_odds": -106,
@@ -187,7 +187,7 @@
     "total_no_vig_prob": 50.1,
     "total_market_ev_pct": 4.4,
     "game_total": 225.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910034",
@@ -221,11 +221,11 @@
     "market_ev_pct": 10.2,
     "total_best_book": "LowVig.ag",
     "total_best_odds": -103,
-    "total_no_vig_odds": -100,
+    "total_no_vig_odds": 100,
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": 11.7,
     "game_total": 217.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910035",
@@ -252,18 +252,18 @@
     "total_cover_pct": 76.3,
     "favored_team": "BOS",
     "favored_prob": 58.9,
-    "best_book": "Coolbet",
-    "best_odds": -105,
-    "no_vig_odds": -103,
-    "no_vig_prob": 50.7,
-    "market_ev_pct": 41.7,
+    "best_book": "DraftKings",
+    "best_odds": -104,
+    "no_vig_odds": -102,
+    "no_vig_prob": 50.5,
+    "market_ev_pct": 42.4,
     "total_best_book": "FanDuel",
     "total_best_odds": -105,
     "total_no_vig_odds": -100,
-    "total_no_vig_prob": 50.0,
+    "total_no_vig_prob": 50.1,
     "total_market_ev_pct": 49.0,
     "game_total": 212.5,
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "401910023",

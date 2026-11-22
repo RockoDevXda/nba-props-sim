@@ -70,7 +70,7 @@
         "best_book": "DraftKings",
         "best_odds": -112,
         "no_vig_odds": 100,
-        "no_vig_prob": 49.9,
+        "no_vig_prob": 50.0,
         "market_ev_pct": 2.0
       },
       {
@@ -85,8 +85,8 @@
         "dots": "1101011001",
         "best_book": "FanDuel",
         "best_odds": 100,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
+        "no_vig_odds": 109,
+        "no_vig_prob": 47.9,
         "market_ev_pct": -3.4
       },
       {
@@ -101,8 +101,8 @@
         "dots": "0010100110",
         "best_book": "BetRivers",
         "best_odds": -120,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
+        "no_vig_odds": -109,
+        "no_vig_prob": 52.1,
         "market_ev_pct": -5.2
       },
       {
@@ -116,10 +116,10 @@
         "hit_str": "5/10",
         "dots": "1000101011",
         "best_book": "BetOnline.ag",
-        "best_odds": -111,
+        "best_odds": -110,
         "no_vig_odds": -100,
-        "no_vig_prob": 50.1,
-        "market_ev_pct": -12.4
+        "no_vig_prob": 50.0,
+        "market_ev_pct": -12.0
       },
       {
         "stat": "3PM",
@@ -159,7 +159,7 @@
       "FanDuel",
       "No-Vig +201"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4432166",
@@ -213,11 +213,11 @@
         "hits": 7,
         "hit_str": "7/10",
         "dots": "1110110110",
-        "best_book": "BetOnline.ag",
-        "best_odds": -120,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": 15.7
+        "best_book": "FanDuel",
+        "best_odds": -122,
+        "no_vig_odds": -109,
+        "no_vig_prob": 52.1,
+        "market_ev_pct": 14.8
       },
       {
         "stat": "PTS",
@@ -231,9 +231,25 @@
         "dots": "1010001110",
         "best_book": "BetOnline.ag",
         "best_odds": -103,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
+        "no_vig_odds": 109,
+        "no_vig_prob": 47.9,
         "market_ev_pct": 5.8
+      },
+      {
+        "stat": "PTS",
+        "market": "O 25.5 Pts",
+        "side": "O",
+        "line": 25.5,
+        "proj": 27.5,
+        "prob": 57.4,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "1011001110",
+        "best_book": "DraftKings",
+        "best_odds": -124,
+        "no_vig_odds": -110,
+        "no_vig_prob": 52.3,
+        "market_ev_pct": 3.7
       },
       {
         "stat": "3PM",
@@ -245,11 +261,11 @@
         "hits": 5,
         "hit_str": "5/10",
         "dots": "1010001101",
-        "best_book": "BetOnline.ag",
-        "best_odds": -172,
-        "no_vig_odds": -153,
-        "no_vig_prob": 60.4,
-        "market_ev_pct": 1.2
+        "best_book": "DraftKings",
+        "best_odds": -181,
+        "no_vig_odds": -155,
+        "no_vig_prob": 60.8,
+        "market_ev_pct": -0.6
       },
       {
         "stat": "PRA",
@@ -277,11 +293,11 @@
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0101110011",
-        "best_book": "FanDuel",
-        "best_odds": -210,
-        "no_vig_odds": -172,
-        "no_vig_prob": 63.2,
-        "market_ev_pct": -5.5
+        "best_book": "BetOnline.ag",
+        "best_odds": -208,
+        "no_vig_odds": -173,
+        "no_vig_prob": 63.4,
+        "market_ev_pct": -5.2
       },
       {
         "stat": "PRA",
@@ -298,6 +314,22 @@
         "no_vig_odds": -106,
         "no_vig_prob": 51.5,
         "market_ev_pct": -5.5
+      },
+      {
+        "stat": "3PM",
+        "market": "O 2.5 3PM",
+        "side": "O",
+        "line": 2.5,
+        "proj": 2.0,
+        "prob": 36.0,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "1010001100",
+        "best_book": "BetOnline.ag",
+        "best_odds": 158,
+        "no_vig_odds": 173,
+        "no_vig_prob": 36.6,
+        "market_ev_pct": -7.1
       },
       {
         "stat": "PRA",
@@ -333,22 +365,6 @@
       },
       {
         "stat": "3PM",
-        "market": "O 2.5 3PM",
-        "side": "O",
-        "line": 2.5,
-        "proj": 2.0,
-        "prob": 36.0,
-        "hits": 4,
-        "hit_str": "4/10",
-        "dots": "1010001100",
-        "best_book": "FanDuel",
-        "best_odds": 154,
-        "no_vig_odds": 172,
-        "no_vig_prob": 36.8,
-        "market_ev_pct": -8.6
-      },
-      {
-        "stat": "3PM",
         "market": "U 1.5 3PM",
         "side": "U",
         "line": 1.5,
@@ -359,9 +375,25 @@
         "dots": "0101110010",
         "best_book": "BetRivers",
         "best_odds": 140,
-        "no_vig_odds": 153,
-        "no_vig_prob": 39.6,
+        "no_vig_odds": 155,
+        "no_vig_prob": 39.2,
         "market_ev_pct": -13.6
+      },
+      {
+        "stat": "PTS",
+        "market": "U 25.5 Pts",
+        "side": "U",
+        "line": 25.5,
+        "proj": 27.5,
+        "prob": 42.6,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "0100110001",
+        "best_book": "DraftKings",
+        "best_odds": -102,
+        "no_vig_odds": 110,
+        "no_vig_prob": 47.7,
+        "market_ev_pct": -15.6
       },
       {
         "stat": "PTS",
@@ -373,11 +405,11 @@
         "hits": 5,
         "hit_str": "5/10",
         "dots": "0101110001",
-        "best_book": "DraftKings",
-        "best_odds": -123,
-        "no_vig_odds": -108,
-        "no_vig_prob": 52.0,
-        "market_ev_pct": -16.1
+        "best_book": "BetRivers",
+        "best_odds": -124,
+        "no_vig_odds": -109,
+        "no_vig_prob": 52.1,
+        "market_ev_pct": -16.4
       },
       {
         "stat": "AST",
@@ -391,8 +423,8 @@
         "dots": "0001001001",
         "best_book": "BetRivers",
         "best_odds": 102,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.0,
+        "no_vig_odds": 109,
+        "no_vig_prob": 47.9,
         "market_ev_pct": -25.5
       },
       {
@@ -417,7 +449,7 @@
       "DraftKings",
       "No-Vig -120"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4066372",
@@ -554,7 +586,7 @@
         "best_book": "FanDuel",
         "best_odds": -160,
         "no_vig_odds": -147,
-        "no_vig_prob": 59.5,
+        "no_vig_prob": 59.6,
         "market_ev_pct": -0.6
       },
       {
@@ -570,7 +602,7 @@
         "best_book": "DraftKings",
         "best_odds": 147,
         "no_vig_odds": 147,
-        "no_vig_prob": 40.5,
+        "no_vig_prob": 40.4,
         "market_ev_pct": -4.2
       },
       {
@@ -675,7 +707,7 @@
       "FanDuel",
       "No-Vig +139"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5107199",
@@ -696,11 +728,11 @@
       "hits": 4,
       "hit_str": "4/10",
       "dots": "0001010110",
-      "best_book": "BetRivers",
-      "best_odds": 140,
-      "no_vig_odds": 159,
-      "no_vig_prob": 38.7,
-      "market_ev_pct": 20.0
+      "best_book": "BetOnline.ag",
+      "best_odds": 152,
+      "no_vig_odds": 163,
+      "no_vig_prob": 38.0,
+      "market_ev_pct": 26.0
     },
     "all_props": [
       {
@@ -713,11 +745,11 @@
         "hits": 4,
         "hit_str": "4/10",
         "dots": "0001010110",
-        "best_book": "BetRivers",
-        "best_odds": 140,
-        "no_vig_odds": 159,
-        "no_vig_prob": 38.7,
-        "market_ev_pct": 20.0
+        "best_book": "BetOnline.ag",
+        "best_odds": 152,
+        "no_vig_odds": 163,
+        "no_vig_prob": 38.0,
+        "market_ev_pct": 26.0
       },
       {
         "stat": "REB",
@@ -731,8 +763,8 @@
         "dots": "1110001011",
         "best_book": "BetRivers",
         "best_odds": -167,
-        "no_vig_odds": -143,
-        "no_vig_prob": 58.8,
+        "no_vig_odds": -146,
+        "no_vig_prob": 59.3,
         "market_ev_pct": 7.8
       },
       {
@@ -763,41 +795,9 @@
         "dots": "1110001000",
         "best_book": "DraftKings",
         "best_odds": 122,
-        "no_vig_odds": 135,
-        "no_vig_prob": 42.6,
+        "no_vig_odds": 137,
+        "no_vig_prob": 42.2,
         "market_ev_pct": 6.6
-      },
-      {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
-        "side": "O",
-        "line": 1.5,
-        "proj": 2.5,
-        "prob": 67.5,
-        "hits": 7,
-        "hit_str": "7/10",
-        "dots": "1001110111",
-        "best_book": "DraftKings",
-        "best_odds": -194,
-        "no_vig_odds": -167,
-        "no_vig_prob": 62.5,
-        "market_ev_pct": 2.3
-      },
-      {
-        "stat": "AST",
-        "market": "U 4.5 Ast",
-        "side": "U",
-        "line": 4.5,
-        "proj": 4.8,
-        "prob": 45.7,
-        "hits": 4,
-        "hit_str": "4/10",
-        "dots": "0011010001",
-        "best_book": "BetOnline.ag",
-        "best_odds": 119,
-        "no_vig_odds": 127,
-        "no_vig_prob": 44.1,
-        "market_ev_pct": 0.1
       },
       {
         "stat": "AST",
@@ -814,6 +814,38 @@
         "no_vig_odds": -128,
         "no_vig_prob": 56.2,
         "market_ev_pct": -0.2
+      },
+      {
+        "stat": "AST",
+        "market": "U 4.5 Ast",
+        "side": "U",
+        "line": 4.5,
+        "proj": 4.8,
+        "prob": 45.7,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "0011010001",
+        "best_book": "FanDuel",
+        "best_odds": 118,
+        "no_vig_odds": 127,
+        "no_vig_prob": 44.1,
+        "market_ev_pct": -0.4
+      },
+      {
+        "stat": "3PM",
+        "market": "O 1.5 3PM",
+        "side": "O",
+        "line": 1.5,
+        "proj": 2.5,
+        "prob": 67.5,
+        "hits": 7,
+        "hit_str": "7/10",
+        "dots": "1001110111",
+        "best_book": "FanDuel",
+        "best_odds": -210,
+        "no_vig_odds": -172,
+        "no_vig_prob": 63.2,
+        "market_ev_pct": -0.4
       },
       {
         "stat": "PTS",
@@ -889,11 +921,11 @@
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0001110111",
-        "best_book": "BetOnline.ag",
-        "best_odds": -154,
-        "no_vig_odds": -135,
-        "no_vig_prob": 57.4,
-        "market_ev_pct": -14.2
+        "best_book": "DraftKings",
+        "best_odds": -161,
+        "no_vig_odds": -137,
+        "no_vig_prob": 57.8,
+        "market_ev_pct": -15.7
       },
       {
         "stat": "PRA",
@@ -923,25 +955,9 @@
         "dots": "0110001000",
         "best_book": "FanDuel",
         "best_odds": 154,
-        "no_vig_odds": 167,
-        "no_vig_prob": 37.5,
+        "no_vig_odds": 172,
+        "no_vig_prob": 36.8,
         "market_ev_pct": -17.4
-      },
-      {
-        "stat": "3PM",
-        "market": "U 2.5 3PM",
-        "side": "U",
-        "line": 2.5,
-        "proj": 2.5,
-        "prob": 50.0,
-        "hits": 6,
-        "hit_str": "6/10",
-        "dots": "1110101001",
-        "best_book": "BetRivers",
-        "best_odds": -195,
-        "no_vig_odds": -159,
-        "no_vig_prob": 61.3,
-        "market_ev_pct": -24.4
       },
       {
         "stat": "REB",
@@ -953,19 +969,35 @@
         "hits": 4,
         "hit_str": "4/10",
         "dots": "0001110100",
-        "best_book": "FanDuel",
-        "best_odds": 130,
-        "no_vig_odds": 143,
-        "no_vig_prob": 41.2,
-        "market_ev_pct": -25.0
+        "best_book": "BetOnline.ag",
+        "best_odds": 136,
+        "no_vig_odds": 146,
+        "no_vig_prob": 40.7,
+        "market_ev_pct": -23.1
+      },
+      {
+        "stat": "3PM",
+        "market": "U 2.5 3PM",
+        "side": "U",
+        "line": 2.5,
+        "proj": 2.5,
+        "prob": 50.0,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "1110101001",
+        "best_book": "DraftKings",
+        "best_odds": -194,
+        "no_vig_odds": -163,
+        "no_vig_prob": 62.0,
+        "market_ev_pct": -24.2
       }
     ],
     "alt_props": [],
     "tags": [
-      "BetRivers",
-      "No-Vig +159"
+      "BetOnline.ag",
+      "No-Vig +163"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4395702",
@@ -1019,11 +1051,11 @@
         "hits": 5,
         "hit_str": "5/9",
         "dots": "110110100",
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": -1.6
+        "best_book": "DraftKings",
+        "best_odds": -107,
+        "no_vig_odds": 101,
+        "no_vig_prob": 49.8,
+        "market_ev_pct": -1.1
       },
       {
         "stat": "PTS",
@@ -1037,8 +1069,8 @@
         "dots": "001001011",
         "best_book": "BetRivers",
         "best_odds": -103,
-        "no_vig_odds": 100,
-        "no_vig_prob": 50.0,
+        "no_vig_odds": -101,
+        "no_vig_prob": 50.2,
         "market_ev_pct": -3.6
       },
       {
@@ -1063,7 +1095,7 @@
       "BetRivers",
       "No-Vig +119"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278562",
@@ -1117,11 +1149,11 @@
         "hits": 5,
         "hit_str": "5/10",
         "dots": "0110010101",
-        "best_book": "DraftKings",
-        "best_odds": 136,
-        "no_vig_odds": 152,
-        "no_vig_prob": 39.7,
-        "market_ev_pct": 12.1
+        "best_book": "BetOnline.ag",
+        "best_odds": 146,
+        "no_vig_odds": 157,
+        "no_vig_prob": 39.0,
+        "market_ev_pct": 16.8
       },
       {
         "stat": "REB",
@@ -1135,8 +1167,8 @@
         "dots": "0001111000",
         "best_book": "FanDuel",
         "best_odds": 116,
-        "no_vig_odds": 126,
-        "no_vig_prob": 44.2,
+        "no_vig_odds": 127,
+        "no_vig_prob": 44.0,
         "market_ev_pct": 11.7
       },
       {
@@ -1151,8 +1183,8 @@
         "dots": "0110110101",
         "best_book": "BetRivers",
         "best_odds": -177,
-        "no_vig_odds": -152,
-        "no_vig_prob": 60.3,
+        "no_vig_odds": -151,
+        "no_vig_prob": 60.2,
         "market_ev_pct": 11.6
       },
       {
@@ -1247,8 +1279,8 @@
         "dots": "1110000111",
         "best_book": "DraftKings",
         "best_odds": -142,
-        "no_vig_odds": -126,
-        "no_vig_prob": 55.8,
+        "no_vig_odds": -127,
+        "no_vig_prob": 56.0,
         "market_ev_pct": -17.7
       },
       {
@@ -1263,8 +1295,8 @@
         "dots": "1001101010",
         "best_book": "DraftKings",
         "best_odds": -180,
-        "no_vig_odds": -152,
-        "no_vig_prob": 60.3,
+        "no_vig_odds": -157,
+        "no_vig_prob": 61.0,
         "market_ev_pct": -18.3
       },
       {
@@ -1295,8 +1327,8 @@
         "dots": "1001001010",
         "best_book": "FanDuel",
         "best_odds": 140,
-        "no_vig_odds": 152,
-        "no_vig_prob": 39.7,
+        "no_vig_odds": 151,
+        "no_vig_prob": 39.8,
         "market_ev_pct": -31.1
       },
       {
@@ -1321,7 +1353,7 @@
       "BetRivers",
       "No-Vig -115"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4684742",
@@ -1378,7 +1410,7 @@
         "best_book": "FanDuel",
         "best_odds": -114,
         "no_vig_odds": -110,
-        "no_vig_prob": 52.3,
+        "no_vig_prob": 52.4,
         "market_ev_pct": 21.1
       },
       {
@@ -1506,7 +1538,7 @@
         "best_book": "DraftKings",
         "best_odds": 107,
         "no_vig_odds": 110,
-        "no_vig_prob": 47.7,
+        "no_vig_prob": 47.6,
         "market_ev_pct": -26.5
       },
       {
@@ -1547,7 +1579,7 @@
       "FanDuel",
       "No-Vig +115"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278039",
@@ -1601,11 +1633,11 @@
         "hits": 4,
         "hit_str": "4/10",
         "dots": "0111010000",
-        "best_book": "BetOnline.ag",
-        "best_odds": 134,
-        "no_vig_odds": 144,
-        "no_vig_prob": 40.9,
-        "market_ev_pct": 9.7
+        "best_book": "FanDuel",
+        "best_odds": 128,
+        "no_vig_odds": 141,
+        "no_vig_prob": 41.4,
+        "market_ev_pct": 6.9
       },
       {
         "stat": "AST",
@@ -1619,8 +1651,8 @@
         "dots": "0100011111",
         "best_book": "DraftKings",
         "best_odds": -148,
-        "no_vig_odds": -135,
-        "no_vig_prob": 57.4,
+        "no_vig_odds": -134,
+        "no_vig_prob": 57.3,
         "market_ev_pct": 5.7
       },
       {
@@ -1634,10 +1666,10 @@
         "hit_str": "3/10",
         "dots": "0111000000",
         "best_book": "DraftKings",
-        "best_odds": -110,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.5,
-        "market_ev_pct": 3.9
+        "best_odds": -115,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.4,
+        "market_ev_pct": 1.7
       },
       {
         "stat": "PRA",
@@ -1649,11 +1681,11 @@
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0111010110",
-        "best_book": "DraftKings",
-        "best_odds": -109,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.7,
-        "market_ev_pct": 2.4
+        "best_book": "BetOnline.ag",
+        "best_odds": -111,
+        "no_vig_odds": 100,
+        "no_vig_prob": 49.9,
+        "market_ev_pct": 1.5
       },
       {
         "stat": "PTS",
@@ -1665,11 +1697,11 @@
         "hits": 3,
         "hit_str": "3/10",
         "dots": "0111000000",
-        "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.9,
-        "market_ev_pct": -2.8
+        "best_book": "BetOnline.ag",
+        "best_odds": 103,
+        "no_vig_odds": 111,
+        "no_vig_prob": 47.4,
+        "market_ev_pct": -2.4
       },
       {
         "stat": "PTS",
@@ -1683,8 +1715,8 @@
         "dots": "1000111111",
         "best_book": "BetRivers",
         "best_odds": -118,
-        "no_vig_odds": -109,
-        "no_vig_prob": 52.1,
+        "no_vig_odds": -111,
+        "no_vig_prob": 52.6,
         "market_ev_pct": -4.1
       },
       {
@@ -1731,8 +1763,8 @@
         "dots": "1000101001",
         "best_book": "FanDuel",
         "best_odds": -112,
-        "no_vig_odds": -101,
-        "no_vig_prob": 50.3,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.1,
         "market_ev_pct": -11.8
       },
       {
@@ -1745,11 +1777,11 @@
         "hits": 7,
         "hit_str": "7/10",
         "dots": "1000111111",
-        "best_book": "BetOnline.ag",
-        "best_odds": -115,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": -14.7
+        "best_book": "DraftKings",
+        "best_odds": -111,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.6,
+        "market_ev_pct": -13.3
       },
       {
         "stat": "3PM",
@@ -1762,10 +1794,10 @@
         "hit_str": "6/10",
         "dots": "1000101111",
         "best_book": "DraftKings",
-        "best_odds": -166,
-        "no_vig_odds": -144,
-        "no_vig_prob": 59.1,
-        "market_ev_pct": -14.9
+        "best_odds": -159,
+        "no_vig_odds": -141,
+        "no_vig_prob": 58.6,
+        "market_ev_pct": -13.5
       },
       {
         "stat": "AST",
@@ -1779,8 +1811,8 @@
         "dots": "1011100000",
         "best_book": "FanDuel",
         "best_odds": 128,
-        "no_vig_odds": 135,
-        "no_vig_prob": 42.6,
+        "no_vig_odds": 134,
+        "no_vig_prob": 42.7,
         "market_ev_pct": -15.9
       },
       {
@@ -1805,7 +1837,7 @@
       "BetRivers",
       "No-Vig +106"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4869342",
@@ -1817,38 +1849,22 @@
     "avg_min": 32.4,
     "has_under": true,
     "best_prop": {
-      "stat": "PTS",
-      "market": "U 11.5 Pts",
-      "side": "U",
-      "line": 11.5,
-      "proj": 9.0,
-      "prob": 87.2,
-      "hits": 9,
-      "hit_str": "9/10",
-      "dots": "1110111111",
-      "best_book": "DraftKings",
-      "best_odds": -123,
-      "no_vig_odds": -109,
-      "no_vig_prob": 52.1,
-      "market_ev_pct": 58.1
+      "stat": "REB",
+      "market": "O 7.5 Reb",
+      "side": "O",
+      "line": 7.5,
+      "proj": 9.1,
+      "prob": 69.7,
+      "hits": 8,
+      "hit_str": "8/10",
+      "dots": "0111101111",
+      "best_book": "FanDuel",
+      "best_odds": 122,
+      "no_vig_odds": 130,
+      "no_vig_prob": 43.4,
+      "market_ev_pct": 54.7
     },
     "all_props": [
-      {
-        "stat": "PTS",
-        "market": "U 11.5 Pts",
-        "side": "U",
-        "line": 11.5,
-        "proj": 9.0,
-        "prob": 87.2,
-        "hits": 9,
-        "hit_str": "9/10",
-        "dots": "1110111111",
-        "best_book": "DraftKings",
-        "best_odds": -123,
-        "no_vig_odds": -109,
-        "no_vig_prob": 52.1,
-        "market_ev_pct": 58.1
-      },
       {
         "stat": "REB",
         "market": "O 7.5 Reb",
@@ -1862,7 +1878,7 @@
         "best_book": "FanDuel",
         "best_odds": 122,
         "no_vig_odds": 130,
-        "no_vig_prob": 43.5,
+        "no_vig_prob": 43.4,
         "market_ev_pct": 54.7
       },
       {
@@ -1877,8 +1893,8 @@
         "dots": "1110111110",
         "best_book": "BetOnline.ag",
         "best_odds": -101,
-        "no_vig_odds": 105,
-        "no_vig_prob": 48.8,
+        "no_vig_odds": 104,
+        "no_vig_prob": 48.9,
         "market_ev_pct": 49.7
       },
       {
@@ -1908,10 +1924,10 @@
         "hit_str": "5/10",
         "dots": "0011110001",
         "best_book": "DraftKings",
-        "best_odds": -126,
-        "no_vig_odds": -117,
-        "no_vig_prob": 54.0,
-        "market_ev_pct": 13.2
+        "best_odds": -134,
+        "no_vig_odds": -120,
+        "no_vig_prob": 54.6,
+        "market_ev_pct": 10.2
       },
       {
         "stat": "PRA",
@@ -1939,11 +1955,11 @@
         "hits": 4,
         "hit_str": "4/10",
         "dots": "0011100001",
-        "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 105,
-        "no_vig_prob": 48.8,
-        "market_ev_pct": -1.5
+        "best_book": "DraftKings",
+        "best_odds": -104,
+        "no_vig_odds": 107,
+        "no_vig_prob": 48.2,
+        "market_ev_pct": -0.5
       },
       {
         "stat": "PRA",
@@ -1955,11 +1971,11 @@
         "hits": 6,
         "hit_str": "6/10",
         "dots": "1100011110",
-        "best_book": "DraftKings",
-        "best_odds": -116,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
-        "market_ev_pct": -8.2
+        "best_book": "BetOnline.ag",
+        "best_odds": -120,
+        "no_vig_odds": -107,
+        "no_vig_prob": 51.8,
+        "market_ev_pct": -9.6
       },
       {
         "stat": "3PM",
@@ -2005,8 +2021,8 @@
         "dots": "1100001110",
         "best_book": "FanDuel",
         "best_odds": 110,
-        "no_vig_odds": 117,
-        "no_vig_prob": 46.0,
+        "no_vig_odds": 120,
+        "no_vig_prob": 45.4,
         "market_ev_pct": -22.5
       },
       {
@@ -2022,7 +2038,7 @@
         "best_book": "DraftKings",
         "best_odds": -145,
         "no_vig_odds": -130,
-        "no_vig_prob": 56.5,
+        "no_vig_prob": 56.6,
         "market_ev_pct": -48.8
       },
       {
@@ -2037,33 +2053,17 @@
         "dots": "0001000001",
         "best_book": "BetRivers",
         "best_odds": -108,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.2,
+        "no_vig_odds": -104,
+        "no_vig_prob": 51.1,
         "market_ev_pct": -52.2
-      },
-      {
-        "stat": "PTS",
-        "market": "O 11.5 Pts",
-        "side": "O",
-        "line": 11.5,
-        "proj": 9.0,
-        "prob": 12.8,
-        "hits": 1,
-        "hit_str": "1/10",
-        "dots": "0001000000",
-        "best_book": "DraftKings",
-        "best_odds": -103,
-        "no_vig_odds": 109,
-        "no_vig_prob": 47.9,
-        "market_ev_pct": -74.8
       }
     ],
     "alt_props": [],
     "tags": [
-      "DraftKings",
-      "No-Vig -109"
+      "FanDuel",
+      "No-Vig +130"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4701230",
@@ -2119,25 +2119,9 @@
         "dots": "1111010110",
         "best_book": "BetRivers",
         "best_odds": -124,
-        "no_vig_odds": -110,
-        "no_vig_prob": 52.4,
+        "no_vig_odds": -112,
+        "no_vig_prob": 52.7,
         "market_ev_pct": 16.3
-      },
-      {
-        "stat": "PTS",
-        "market": "U 20.5 Pts",
-        "side": "U",
-        "line": 20.5,
-        "proj": 19.1,
-        "prob": 58.5,
-        "hits": 6,
-        "hit_str": "6/10",
-        "dots": "0111010110",
-        "best_book": "BetOnline.ag",
-        "best_odds": -105,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": 14.2
       },
       {
         "stat": "PRA",
@@ -2150,10 +2134,10 @@
         "hit_str": "6/10",
         "dots": "1111010100",
         "best_book": "DraftKings",
-        "best_odds": -117,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": 12.2
+        "best_odds": -113,
+        "no_vig_odds": 101,
+        "no_vig_prob": 49.7,
+        "market_ev_pct": 14.0
       },
       {
         "stat": "REB",
@@ -2167,25 +2151,25 @@
         "dots": "1111110001",
         "best_book": "DraftKings",
         "best_odds": -137,
-        "no_vig_odds": -118,
-        "no_vig_prob": 54.1,
+        "no_vig_odds": -120,
+        "no_vig_prob": 54.6,
         "market_ev_pct": 12.1
       },
       {
         "stat": "PTS",
-        "market": "U 19.5 Pts",
+        "market": "U 20.5 Pts",
         "side": "U",
-        "line": 19.5,
+        "line": 20.5,
         "proj": 19.1,
-        "prob": 52.5,
+        "prob": 58.5,
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0111010110",
         "best_book": "DraftKings",
-        "best_odds": -102,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": 4.0
+        "best_odds": -124,
+        "no_vig_odds": -109,
+        "no_vig_prob": 52.2,
+        "market_ev_pct": 5.7
       },
       {
         "stat": "3PM",
@@ -2198,10 +2182,10 @@
         "hit_str": "7/10",
         "dots": "1001111110",
         "best_book": "DraftKings",
-        "best_odds": -197,
+        "best_odds": -190,
         "no_vig_odds": -174,
         "no_vig_prob": 63.5,
-        "market_ev_pct": 1.8
+        "market_ev_pct": 3.0
       },
       {
         "stat": "AST",
@@ -2213,27 +2197,11 @@
         "hits": 6,
         "hit_str": "6/10",
         "dots": "1001110101",
-        "best_book": "DraftKings",
-        "best_odds": 105,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": -3.0
-      },
-      {
-        "stat": "REB",
-        "market": "U 8.5 Reb",
-        "side": "U",
-        "line": 8.5,
-        "proj": 8.7,
-        "prob": 46.2,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "0011110001",
         "best_book": "BetOnline.ag",
-        "best_odds": 107,
+        "best_odds": 106,
         "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": -4.4
+        "no_vig_prob": 46.3,
+        "market_ev_pct": -2.6
       },
       {
         "stat": "REB",
@@ -2247,9 +2215,25 @@
         "dots": "1100001110",
         "best_book": "BetRivers",
         "best_odds": -130,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.8,
+        "no_vig_odds": -115,
+        "no_vig_prob": 53.4,
         "market_ev_pct": -4.8
+      },
+      {
+        "stat": "REB",
+        "market": "U 8.5 Reb",
+        "side": "U",
+        "line": 8.5,
+        "proj": 8.7,
+        "prob": 46.2,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "0011110001",
+        "best_book": "FanDuel",
+        "best_odds": 104,
+        "no_vig_odds": 115,
+        "no_vig_prob": 46.6,
+        "market_ev_pct": -5.8
       },
       {
         "stat": "AST",
@@ -2264,7 +2248,7 @@
         "best_book": "FanDuel",
         "best_odds": -132,
         "no_vig_odds": -116,
-        "no_vig_prob": 53.8,
+        "no_vig_prob": 53.7,
         "market_ev_pct": -7.4
       },
       {
@@ -2277,27 +2261,11 @@
         "hits": 3,
         "hit_str": "3/10",
         "dots": "0110000001",
-        "best_book": "FanDuel",
-        "best_odds": 168,
+        "best_book": "BetOnline.ag",
+        "best_odds": 171,
         "no_vig_odds": 174,
         "no_vig_prob": 36.5,
-        "market_ev_pct": -12.9
-      },
-      {
-        "stat": "PTS",
-        "market": "O 19.5 Pts",
-        "side": "O",
-        "line": 19.5,
-        "proj": 19.1,
-        "prob": 47.5,
-        "hits": 4,
-        "hit_str": "4/10",
-        "dots": "1000101001",
-        "best_book": "DraftKings",
-        "best_odds": -125,
-        "no_vig_odds": -110,
-        "no_vig_prob": 52.4,
-        "market_ev_pct": -14.5
+        "market_ev_pct": -11.9
       },
       {
         "stat": "PTS",
@@ -2309,11 +2277,11 @@
         "hits": 4,
         "hit_str": "4/10",
         "dots": "1000101001",
-        "best_book": "BetOnline.ag",
-        "best_odds": -123,
-        "no_vig_odds": -108,
-        "no_vig_prob": 51.9,
-        "market_ev_pct": -24.8
+        "best_book": "DraftKings",
+        "best_odds": -103,
+        "no_vig_odds": 109,
+        "no_vig_prob": 47.8,
+        "market_ev_pct": -18.2
       },
       {
         "stat": "PRA",
@@ -2326,10 +2294,10 @@
         "hit_str": "4/10",
         "dots": "0000101011",
         "best_book": "DraftKings",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.5,
-        "market_ev_pct": -25.2
+        "best_odds": -116,
+        "no_vig_odds": -101,
+        "no_vig_prob": 50.3,
+        "market_ev_pct": -26.4
       },
       {
         "stat": "REB",
@@ -2341,11 +2309,11 @@
         "hits": 3,
         "hit_str": "3/10",
         "dots": "0000001110",
-        "best_book": "DraftKings",
-        "best_odds": 104,
-        "no_vig_odds": 118,
-        "no_vig_prob": 45.9,
-        "market_ev_pct": -28.2
+        "best_book": "BetOnline.ag",
+        "best_odds": 109,
+        "no_vig_odds": 120,
+        "no_vig_prob": 45.4,
+        "market_ev_pct": -26.4
       },
       {
         "stat": "PTS",
@@ -2357,11 +2325,11 @@
         "hits": 3,
         "hit_str": "3/10",
         "dots": "0000101001",
-        "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": -28.8
+        "best_book": "BetOnline.ag",
+        "best_odds": 102,
+        "no_vig_odds": 112,
+        "no_vig_prob": 47.3,
+        "market_ev_pct": -28.1
       },
       {
         "stat": "PRA",
@@ -2385,7 +2353,7 @@
       "FanDuel",
       "No-Vig -102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4431680",
@@ -2408,8 +2376,8 @@
       "dots": "0111010110",
       "best_book": "BetRivers",
       "best_odds": -110,
-      "no_vig_odds": 102,
-      "no_vig_prob": 49.5,
+      "no_vig_odds": 101,
+      "no_vig_prob": 49.7,
       "market_ev_pct": 30.4
     },
     "all_props": [
@@ -2425,25 +2393,25 @@
         "dots": "0111010110",
         "best_book": "BetRivers",
         "best_odds": -110,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.5,
+        "no_vig_odds": 101,
+        "no_vig_prob": 49.7,
         "market_ev_pct": 30.4
       },
       {
-        "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "stat": "3PM",
+        "market": "O 1.5 3PM",
         "side": "O",
-        "line": 14.5,
-        "proj": 16.4,
-        "prob": 63.1,
-        "hits": 7,
-        "hit_str": "7/10",
-        "dots": "0001111111",
-        "best_book": "DraftKings",
-        "best_odds": -101,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.7,
-        "market_ev_pct": 25.6
+        "line": 1.5,
+        "proj": 2.2,
+        "prob": 72.0,
+        "hits": 9,
+        "hit_str": "9/10",
+        "dots": "0111111111",
+        "best_book": "BetOnline.ag",
+        "best_odds": -130,
+        "no_vig_odds": -122,
+        "no_vig_prob": 55.1,
+        "market_ev_pct": 27.4
       },
       {
         "stat": "REB",
@@ -2458,24 +2426,24 @@
         "best_book": "BetRivers",
         "best_odds": -114,
         "no_vig_odds": -104,
-        "no_vig_prob": 51.1,
+        "no_vig_prob": 51.0,
         "market_ev_pct": 24.3
       },
       {
-        "stat": "3PM",
-        "market": "O 1.5 3PM",
+        "stat": "PTS",
+        "market": "O 14.5 Pts",
         "side": "O",
-        "line": 1.5,
-        "proj": 2.2,
-        "prob": 72.0,
-        "hits": 9,
-        "hit_str": "9/10",
-        "dots": "0111111111",
-        "best_book": "FanDuel",
-        "best_odds": -144,
-        "no_vig_odds": -130,
-        "no_vig_prob": 56.6,
-        "market_ev_pct": 22.0
+        "line": 14.5,
+        "proj": 16.4,
+        "prob": 63.1,
+        "hits": 7,
+        "hit_str": "7/10",
+        "dots": "0001111111",
+        "best_book": "DraftKings",
+        "best_odds": -105,
+        "no_vig_odds": -101,
+        "no_vig_prob": 50.3,
+        "market_ev_pct": 23.2
       },
       {
         "stat": "PRA",
@@ -2569,8 +2537,8 @@
         "dots": "1110000000",
         "best_book": "FanDuel",
         "best_odds": -102,
-        "no_vig_odds": -101,
-        "no_vig_prob": 50.3,
+        "no_vig_odds": 101,
+        "no_vig_prob": 49.7,
         "market_ev_pct": -26.9
       },
       {
@@ -2602,7 +2570,7 @@
         "best_book": "DraftKings",
         "best_odds": 100,
         "no_vig_odds": 104,
-        "no_vig_prob": 48.9,
+        "no_vig_prob": 49.0,
         "market_ev_pct": -32.4
       },
       {
@@ -2616,10 +2584,10 @@
         "hit_str": "1/10",
         "dots": "1000000000",
         "best_book": "DraftKings",
-        "best_odds": 127,
-        "no_vig_odds": 130,
-        "no_vig_prob": 43.4,
-        "market_ev_pct": -36.4
+        "best_odds": 118,
+        "no_vig_odds": 122,
+        "no_vig_prob": 44.9,
+        "market_ev_pct": -39.0
       },
       {
         "stat": "PRA",
@@ -2632,18 +2600,18 @@
         "hit_str": "4/10",
         "dots": "1000101001",
         "best_book": "DraftKings",
-        "best_odds": -114,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.5,
-        "market_ev_pct": -40.5
+        "best_odds": -112,
+        "no_vig_odds": -101,
+        "no_vig_prob": 50.3,
+        "market_ev_pct": -40.0
       }
     ],
     "alt_props": [],
     "tags": [
       "BetRivers",
-      "No-Vig +102"
+      "No-Vig +101"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4397183",
@@ -2730,10 +2698,10 @@
         "hit_str": "6/10",
         "dots": "1100010111",
         "best_book": "DraftKings",
-        "best_odds": -115,
-        "no_vig_odds": -115,
-        "no_vig_prob": 53.5,
-        "market_ev_pct": 15.5
+        "best_odds": -118,
+        "no_vig_odds": -116,
+        "no_vig_prob": 53.6,
+        "market_ev_pct": 14.2
       },
       {
         "stat": "PTS",
@@ -2747,8 +2715,8 @@
         "dots": "1100001100",
         "best_book": "FanDuel",
         "best_odds": -102,
-        "no_vig_odds": 101,
-        "no_vig_prob": 49.8,
+        "no_vig_odds": 103,
+        "no_vig_prob": 49.2,
         "market_ev_pct": -1.0
       },
       {
@@ -2763,25 +2731,9 @@
         "dots": "1100001110",
         "best_book": "FanDuel",
         "best_odds": -108,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.4,
-        "market_ev_pct": -2.4
-      },
-      {
-        "stat": "PTS",
-        "market": "O 13.5 Pts",
-        "side": "O",
-        "line": 13.5,
-        "proj": 13.5,
-        "prob": 50.0,
-        "hits": 6,
-        "hit_str": "6/10",
-        "dots": "0011110011",
-        "best_book": "DraftKings",
-        "best_odds": -106,
         "no_vig_odds": -101,
         "no_vig_prob": 50.2,
-        "market_ev_pct": -2.8
+        "market_ev_pct": -2.4
       },
       {
         "stat": "PRA",
@@ -2793,11 +2745,27 @@
         "hits": 5,
         "hit_str": "5/10",
         "dots": "0011110001",
-        "best_book": "DraftKings",
+        "best_book": "BetRivers",
         "best_odds": -108,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.6,
+        "no_vig_odds": 101,
+        "no_vig_prob": 49.8,
         "market_ev_pct": -5.1
+      },
+      {
+        "stat": "PTS",
+        "market": "O 13.5 Pts",
+        "side": "O",
+        "line": 13.5,
+        "proj": 13.5,
+        "prob": 50.0,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "0011110011",
+        "best_book": "BetRivers",
+        "best_odds": -113,
+        "no_vig_odds": -103,
+        "no_vig_prob": 50.8,
+        "market_ev_pct": -5.8
       },
       {
         "stat": "REB",
@@ -2811,8 +2779,8 @@
         "dots": "0011101000",
         "best_book": "BetRivers",
         "best_odds": 110,
-        "no_vig_odds": 115,
-        "no_vig_prob": 46.5,
+        "no_vig_odds": 116,
+        "no_vig_prob": 46.4,
         "market_ev_pct": -19.8
       },
       {
@@ -2869,7 +2837,7 @@
       "BetOnline.ag",
       "No-Vig +147"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "kingston flemings",
@@ -2892,8 +2860,8 @@
       "dots": "",
       "best_book": "FanDuel",
       "best_odds": 100,
-      "no_vig_odds": 105,
-      "no_vig_prob": 48.9,
+      "no_vig_odds": 106,
+      "no_vig_prob": 48.6,
       "market_ev_pct": 20.8
     },
     "all_props": [
@@ -2909,8 +2877,8 @@
         "dots": "",
         "best_book": "FanDuel",
         "best_odds": 100,
-        "no_vig_odds": 105,
-        "no_vig_prob": 48.9,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
         "market_ev_pct": 20.8
       },
       {
@@ -2925,8 +2893,8 @@
         "dots": "",
         "best_book": "FanDuel",
         "best_odds": -112,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
+        "no_vig_odds": -113,
+        "no_vig_prob": 53.2,
         "market_ev_pct": 19.4
       },
       {
@@ -3052,10 +3020,10 @@
         "hit_str": "",
         "dots": "",
         "best_book": "DraftKings",
-        "best_odds": 110,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": -22.5
+        "best_odds": 115,
+        "no_vig_odds": 113,
+        "no_vig_prob": 46.8,
+        "market_ev_pct": -20.7
       },
       {
         "stat": "PTS",
@@ -3069,8 +3037,8 @@
         "dots": "",
         "best_book": "DraftKings",
         "best_odds": -105,
-        "no_vig_odds": -105,
-        "no_vig_prob": 51.1,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
         "market_ev_pct": -22.7
       },
       {
@@ -3093,9 +3061,9 @@
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +105"
+      "No-Vig +106"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278073",
@@ -3289,7 +3257,7 @@
       "FanDuel",
       "No-Vig +106"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4222252",
@@ -3311,10 +3279,10 @@
       "hit_str": "6/10",
       "dots": "0011111010",
       "best_book": "FanDuel",
-      "best_odds": -122,
-      "no_vig_odds": -106,
-      "no_vig_prob": 51.4,
-      "market_ev_pct": 14.8
+      "best_odds": -118,
+      "no_vig_odds": -102,
+      "no_vig_prob": 50.6,
+      "market_ev_pct": 16.6
     },
     "all_props": [
       {
@@ -3328,10 +3296,10 @@
         "hit_str": "6/10",
         "dots": "0011111010",
         "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.4,
-        "market_ev_pct": 14.8
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.6,
+        "market_ev_pct": 16.6
       },
       {
         "stat": "REB",
@@ -3414,22 +3382,6 @@
         "market_ev_pct": -26.0
       },
       {
-        "stat": "AST",
-        "market": "U 4.5 Ast",
-        "side": "U",
-        "line": 4.5,
-        "proj": 5.0,
-        "prob": 36.9,
-        "hits": 4,
-        "hit_str": "4/10",
-        "dots": "1100000101",
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": -28.9
-      },
-      {
         "stat": "REB",
         "market": "U 10.5 Reb",
         "side": "U",
@@ -3444,14 +3396,30 @@
         "no_vig_odds": 112,
         "no_vig_prob": 47.2,
         "market_ev_pct": -29.7
+      },
+      {
+        "stat": "AST",
+        "market": "U 4.5 Ast",
+        "side": "U",
+        "line": 4.5,
+        "proj": 5.0,
+        "prob": 36.9,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "1100000101",
+        "best_book": "FanDuel",
+        "best_odds": -112,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.4,
+        "market_ev_pct": -30.2
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig -106"
+      "No-Vig -102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5174983",
@@ -3538,10 +3506,10 @@
         "hit_str": "3/10",
         "dots": "0001000110",
         "best_book": "FanDuel",
-        "best_odds": 114,
-        "no_vig_odds": 129,
-        "no_vig_prob": 43.7,
-        "market_ev_pct": -4.1
+        "best_odds": 112,
+        "no_vig_odds": 127,
+        "no_vig_prob": 44.1,
+        "market_ev_pct": -5.0
       },
       {
         "stat": "AST",
@@ -3554,10 +3522,10 @@
         "hit_str": "7/10",
         "dots": "1110111001",
         "best_book": "FanDuel",
-        "best_odds": -152,
-        "no_vig_odds": -129,
-        "no_vig_prob": 56.3,
-        "market_ev_pct": -8.5
+        "best_odds": -148,
+        "no_vig_odds": -127,
+        "no_vig_prob": 55.9,
+        "market_ev_pct": -7.5
       },
       {
         "stat": "PTS",
@@ -3613,7 +3581,7 @@
       "FanDuel",
       "No-Vig +120"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4683778",
@@ -3668,10 +3636,10 @@
         "hit_str": "8/10",
         "dots": "1111001111",
         "best_book": "FanDuel",
-        "best_odds": -160,
-        "no_vig_odds": -135,
-        "no_vig_prob": 57.5,
-        "market_ev_pct": 33.2
+        "best_odds": -158,
+        "no_vig_odds": -134,
+        "no_vig_prob": 57.2,
+        "market_ev_pct": 33.9
       },
       {
         "stat": "PTS",
@@ -3796,10 +3764,10 @@
         "hit_str": "2/10",
         "dots": "0000110000",
         "best_book": "FanDuel",
-        "best_odds": 120,
-        "no_vig_odds": 135,
-        "no_vig_prob": 42.5,
-        "market_ev_pct": -60.4
+        "best_odds": 118,
+        "no_vig_odds": 134,
+        "no_vig_prob": 42.8,
+        "market_ev_pct": -60.8
       }
     ],
     "alt_props": [],
@@ -3807,7 +3775,7 @@
       "FanDuel",
       "No-Vig +104"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4900671",
@@ -4001,7 +3969,7 @@
       "FanDuel",
       "No-Vig -106"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4066261",
@@ -4023,10 +3991,10 @@
       "hit_str": "5/10",
       "dots": "1001001011",
       "best_book": "FanDuel",
-      "best_odds": -125,
-      "no_vig_odds": -108,
-      "no_vig_prob": 51.9,
-      "market_ev_pct": 17.0
+      "best_odds": -122,
+      "no_vig_odds": -107,
+      "no_vig_prob": 51.6,
+      "market_ev_pct": 18.3
     },
     "all_props": [
       {
@@ -4040,10 +4008,10 @@
         "hit_str": "5/10",
         "dots": "1001001011",
         "best_book": "FanDuel",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 51.9,
-        "market_ev_pct": 17.0
+        "best_odds": -122,
+        "no_vig_odds": -107,
+        "no_vig_prob": 51.6,
+        "market_ev_pct": 18.3
       },
       {
         "stat": "REB",
@@ -4056,10 +4024,10 @@
         "hit_str": "7/10",
         "dots": "1100110111",
         "best_book": "FanDuel",
-        "best_odds": -152,
-        "no_vig_odds": -129,
-        "no_vig_prob": 56.3,
-        "market_ev_pct": 13.1
+        "best_odds": -148,
+        "no_vig_odds": -127,
+        "no_vig_prob": 55.9,
+        "market_ev_pct": 14.3
       },
       {
         "stat": "3PM",
@@ -4088,10 +4056,10 @@
         "hit_str": "4/10",
         "dots": "1010001001",
         "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 5.4
+        "best_odds": -102,
+        "no_vig_odds": 112,
+        "no_vig_prob": 47.2,
+        "market_ev_pct": 4.4
       },
       {
         "stat": "PRA",
@@ -4104,10 +4072,10 @@
         "hit_str": "7/10",
         "dots": "0101110111",
         "best_book": "FanDuel",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 51.9,
-        "market_ev_pct": -1.9
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": -0.8
       },
       {
         "stat": "PRA",
@@ -4120,10 +4088,10 @@
         "hit_str": "3/10",
         "dots": "1010001000",
         "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": -11.6
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": -12.4
       },
       {
         "stat": "PTS",
@@ -4136,26 +4104,10 @@
         "hit_str": "6/10",
         "dots": "0101110110",
         "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": -16.9
-      },
-      {
-        "stat": "REB",
-        "market": "O 9.5 Reb",
-        "side": "O",
-        "line": 9.5,
-        "proj": 7.8,
-        "prob": 31.8,
-        "hits": 3,
-        "hit_str": "3/10",
-        "dots": "0011001000",
-        "best_book": "FanDuel",
-        "best_odds": 114,
-        "no_vig_odds": 129,
-        "no_vig_prob": 43.7,
-        "market_ev_pct": -31.9
+        "best_odds": -130,
+        "no_vig_odds": -112,
+        "no_vig_prob": 52.8,
+        "market_ev_pct": -16.3
       },
       {
         "stat": "AST",
@@ -4169,9 +4121,25 @@
         "dots": "0110110100",
         "best_book": "FanDuel",
         "best_odds": -106,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
+        "no_vig_odds": 107,
+        "no_vig_prob": 48.4,
         "market_ev_pct": -32.0
+      },
+      {
+        "stat": "REB",
+        "market": "O 9.5 Reb",
+        "side": "O",
+        "line": 9.5,
+        "proj": 7.8,
+        "prob": 31.8,
+        "hits": 3,
+        "hit_str": "3/10",
+        "dots": "0011001000",
+        "best_book": "FanDuel",
+        "best_odds": 112,
+        "no_vig_odds": 127,
+        "no_vig_prob": 44.1,
+        "market_ev_pct": -32.6
       },
       {
         "stat": "3PM",
@@ -4193,9 +4161,9 @@
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig -108"
+      "No-Vig -107"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "3032977",
@@ -4250,10 +4218,10 @@
         "hit_str": "6/10",
         "dots": "1100111100",
         "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": 10.4
+        "best_odds": -112,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.4,
+        "market_ev_pct": 8.5
       },
       {
         "stat": "PRA",
@@ -4266,10 +4234,10 @@
         "hit_str": "6/10",
         "dots": "1110001101",
         "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 8.5
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 7.6
       },
       {
         "stat": "AST",
@@ -4346,10 +4314,10 @@
         "hit_str": "4/10",
         "dots": "0001110010",
         "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": -21.1
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": -19.8
       },
       {
         "stat": "PTS",
@@ -4362,10 +4330,10 @@
         "hit_str": "4/10",
         "dots": "0011000011",
         "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.4,
-        "market_ev_pct": -22.3
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.6,
+        "market_ev_pct": -21.1
       },
       {
         "stat": "REB",
@@ -4389,7 +4357,7 @@
       "FanDuel",
       "No-Vig -114"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4601025",
@@ -4444,10 +4412,10 @@
         "hit_str": "7/10",
         "dots": "1111001110",
         "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 19.8
+        "best_odds": -110,
+        "no_vig_odds": 104,
+        "no_vig_prob": 49.0,
+        "market_ev_pct": 20.8
       },
       {
         "stat": "PRA",
@@ -4460,10 +4428,10 @@
         "hit_str": "4/10",
         "dots": "1011000010",
         "best_book": "FanDuel",
-        "best_odds": -106,
-        "no_vig_odds": 108,
-        "no_vig_prob": 48.1,
-        "market_ev_pct": 4.0
+        "best_odds": -102,
+        "no_vig_odds": 112,
+        "no_vig_prob": 47.2,
+        "market_ev_pct": 6.0
       },
       {
         "stat": "AST",
@@ -4476,10 +4444,10 @@
         "hit_str": "5/10",
         "dots": "1110011000",
         "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 3.4
+        "best_odds": -104,
+        "no_vig_odds": 110,
+        "no_vig_prob": 47.6,
+        "market_ev_pct": 2.4
       },
       {
         "stat": "REB",
@@ -4524,10 +4492,10 @@
         "hit_str": "5/10",
         "dots": "0001100111",
         "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": -15.4
+        "best_odds": -128,
+        "no_vig_odds": -110,
+        "no_vig_prob": 52.4,
+        "market_ev_pct": -14.9
       },
       {
         "stat": "PRA",
@@ -4540,10 +4508,10 @@
         "hit_str": "6/10",
         "dots": "0100111101",
         "best_book": "FanDuel",
-        "best_odds": -125,
-        "no_vig_odds": -108,
-        "no_vig_prob": 51.9,
-        "market_ev_pct": -16.3
+        "best_odds": -130,
+        "no_vig_odds": -112,
+        "no_vig_prob": 52.8,
+        "market_ev_pct": -17.7
       },
       {
         "stat": "PTS",
@@ -4556,10 +4524,10 @@
         "hit_str": "3/10",
         "dots": "0000110001",
         "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": -32.2
+        "best_odds": -120,
+        "no_vig_odds": -104,
+        "no_vig_prob": 51.0,
+        "market_ev_pct": -32.7
       },
       {
         "stat": "3PM",
@@ -4583,7 +4551,7 @@
       "FanDuel",
       "No-Vig -176"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278053",
@@ -4605,10 +4573,10 @@
       "hit_str": "9/10",
       "dots": "1101111111",
       "best_book": "FanDuel",
-      "best_odds": -112,
+      "best_odds": -114,
       "no_vig_odds": 102,
-      "no_vig_prob": 49.4,
-      "market_ev_pct": 46.7
+      "no_vig_prob": 49.6,
+      "market_ev_pct": 45.5
     },
     "all_props": [
       {
@@ -4622,10 +4590,10 @@
         "hit_str": "9/10",
         "dots": "1101111111",
         "best_book": "FanDuel",
-        "best_odds": -112,
+        "best_odds": -114,
         "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 46.7
+        "no_vig_prob": 49.6,
+        "market_ev_pct": 45.5
       },
       {
         "stat": "PRA",
@@ -4670,10 +4638,10 @@
         "hit_str": "6/10",
         "dots": "1010101110",
         "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": 15.2
+        "best_odds": -132,
+        "no_vig_odds": -114,
+        "no_vig_prob": 53.2,
+        "market_ev_pct": 14.4
       },
       {
         "stat": "REB",
@@ -4718,10 +4686,10 @@
         "hit_str": "4/10",
         "dots": "0101010001",
         "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": -30.9
+        "best_odds": 100,
+        "no_vig_odds": 114,
+        "no_vig_prob": 46.8,
+        "market_ev_pct": -30.2
       },
       {
         "stat": "3PM",
@@ -4768,7 +4736,7 @@
         "best_book": "FanDuel",
         "best_odds": -118,
         "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
+        "no_vig_prob": 50.4,
         "market_ev_pct": -58.4
       }
     ],
@@ -4777,7 +4745,7 @@
       "FanDuel",
       "No-Vig +102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "6475",
@@ -4799,10 +4767,10 @@
       "hit_str": "8/10",
       "dots": "1101111110",
       "best_book": "FanDuel",
-      "best_odds": -162,
-      "no_vig_odds": -137,
-      "no_vig_prob": 57.9,
-      "market_ev_pct": 32.3
+      "best_odds": -132,
+      "no_vig_odds": -114,
+      "no_vig_prob": 53.2,
+      "market_ev_pct": 43.8
     },
     "all_props": [
       {
@@ -4816,10 +4784,10 @@
         "hit_str": "8/10",
         "dots": "1101111110",
         "best_book": "FanDuel",
-        "best_odds": -162,
-        "no_vig_odds": -137,
-        "no_vig_prob": 57.9,
-        "market_ev_pct": 32.3
+        "best_odds": -132,
+        "no_vig_odds": -114,
+        "no_vig_prob": 53.2,
+        "market_ev_pct": 43.8
       },
       {
         "stat": "REB",
@@ -4832,10 +4800,26 @@
         "hit_str": "9/10",
         "dots": "1110111111",
         "best_book": "FanDuel",
-        "best_odds": -166,
-        "no_vig_odds": -140,
-        "no_vig_prob": 58.3,
-        "market_ev_pct": 29.3
+        "best_odds": -192,
+        "no_vig_odds": -159,
+        "no_vig_prob": 61.4,
+        "market_ev_pct": 22.7
+      },
+      {
+        "stat": "PTS",
+        "market": "O 14.5 Pts",
+        "side": "O",
+        "line": 14.5,
+        "proj": 17.8,
+        "prob": 65.3,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "0111010110",
+        "best_book": "FanDuel",
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": 18.8
       },
       {
         "stat": "3PM",
@@ -4854,52 +4838,36 @@
         "market_ev_pct": 17.5
       },
       {
-        "stat": "PTS",
-        "market": "O 14.5 Pts",
+        "stat": "PRA",
+        "market": "O 18.5 PRA",
         "side": "O",
-        "line": 14.5,
-        "proj": 17.8,
-        "prob": 65.3,
+        "line": 18.5,
+        "proj": 21.5,
+        "prob": 62.0,
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0111010110",
         "best_book": "FanDuel",
-        "best_odds": -136,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.8,
-        "market_ev_pct": 13.3
+        "best_odds": -128,
+        "no_vig_odds": -110,
+        "no_vig_prob": 52.4,
+        "market_ev_pct": 10.4
       },
       {
         "stat": "PRA",
-        "market": "O 19.5 PRA",
-        "side": "O",
-        "line": 19.5,
-        "proj": 21.5,
-        "prob": 58.1,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "0111010100",
-        "best_book": "FanDuel",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 6.5
-      },
-      {
-        "stat": "PRA",
-        "market": "U 19.5 PRA",
+        "market": "U 18.5 PRA",
         "side": "U",
-        "line": 19.5,
+        "line": 18.5,
         "proj": 21.5,
-        "prob": 41.9,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "1000101011",
+        "prob": 38.0,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "1000101001",
         "best_book": "FanDuel",
-        "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": -20.0
+        "best_odds": -104,
+        "no_vig_odds": 110,
+        "no_vig_prob": 47.6,
+        "market_ev_pct": -25.5
       },
       {
         "stat": "PTS",
@@ -4912,10 +4880,10 @@
         "hit_str": "4/10",
         "dots": "1000101001",
         "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": -29.9
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": -33.2
       },
       {
         "stat": "3PM",
@@ -4944,10 +4912,10 @@
         "hit_str": "1/10",
         "dots": "0001000000",
         "best_book": "FanDuel",
-        "best_odds": 124,
-        "no_vig_odds": 140,
-        "no_vig_prob": 41.7,
-        "market_ev_pct": -56.8
+        "best_odds": 142,
+        "no_vig_odds": 159,
+        "no_vig_prob": 38.6,
+        "market_ev_pct": -53.3
       },
       {
         "stat": "AST",
@@ -4960,18 +4928,18 @@
         "hit_str": "2/10",
         "dots": "0010000001",
         "best_book": "FanDuel",
-        "best_odds": 122,
-        "no_vig_odds": 137,
-        "no_vig_prob": 42.1,
-        "market_ev_pct": -59.6
+        "best_odds": 100,
+        "no_vig_odds": 114,
+        "no_vig_prob": 46.8,
+        "market_ev_pct": -63.6
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig -137"
+      "No-Vig -114"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4066320",
@@ -5165,7 +5133,7 @@
       "FanDuel",
       "No-Vig +114"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4712849",
@@ -5359,7 +5327,7 @@
       "FanDuel",
       "No-Vig -118"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4277847",
@@ -5489,7 +5457,7 @@
       "FanDuel",
       "No-Vig +125"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4702382",
@@ -5619,7 +5587,7 @@
       "FanDuel",
       "No-Vig +142"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4432165",
@@ -5813,7 +5781,7 @@
       "FanDuel",
       "No-Vig +110"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4566434",
@@ -6007,7 +5975,7 @@
       "FanDuel",
       "No-Vig +106"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5104155",
@@ -6105,7 +6073,7 @@
       "FanDuel",
       "No-Vig -102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "6583",
@@ -6267,7 +6235,7 @@
       "FanDuel",
       "No-Vig +108"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5142718",
@@ -6461,7 +6429,7 @@
       "FanDuel",
       "No-Vig +161"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5174563",
@@ -6655,7 +6623,7 @@
       "FanDuel",
       "No-Vig -163"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5160992",
@@ -6785,7 +6753,7 @@
       "FanDuel",
       "No-Vig +183"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4277905",
@@ -6979,7 +6947,7 @@
       "FanDuel",
       "No-Vig -100"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5041939",
@@ -7001,10 +6969,10 @@
       "hit_str": "7/10",
       "dots": "1110011101",
       "best_book": "FanDuel",
-      "best_odds": -112,
-      "no_vig_odds": 102,
-      "no_vig_prob": 49.4,
-      "market_ev_pct": 9.4
+      "best_odds": -114,
+      "no_vig_odds": -100,
+      "no_vig_prob": 50.0,
+      "market_ev_pct": 8.5
     },
     "all_props": [
       {
@@ -7018,26 +6986,10 @@
         "hit_str": "7/10",
         "dots": "1110011101",
         "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": 9.4
-      },
-      {
-        "stat": "PRA",
-        "market": "U 38.5 PRA",
-        "side": "U",
-        "line": 38.5,
-        "proj": 36.0,
-        "prob": 58.8,
-        "hits": 7,
-        "hit_str": "7/10",
-        "dots": "1110011101",
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.4,
-        "market_ev_pct": 7.0
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 8.5
       },
       {
         "stat": "3PM",
@@ -7050,10 +7002,26 @@
         "hit_str": "5/10",
         "dots": "0001100111",
         "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": 5.2
+        "best_odds": 104,
+        "no_vig_odds": 118,
+        "no_vig_prob": 45.8,
+        "market_ev_pct": 8.3
+      },
+      {
+        "stat": "PRA",
+        "market": "U 37.5 PRA",
+        "side": "U",
+        "line": 37.5,
+        "proj": 36.0,
+        "prob": 55.3,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "1100011101",
+        "best_book": "FanDuel",
+        "best_odds": -106,
+        "no_vig_odds": 108,
+        "no_vig_prob": 48.1,
+        "market_ev_pct": 7.5
       },
       {
         "stat": "AST",
@@ -7066,10 +7034,10 @@
         "hit_str": "4/10",
         "dots": "0011000011",
         "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 0.0
+        "best_odds": -102,
+        "no_vig_odds": 112,
+        "no_vig_prob": 47.2,
+        "market_ev_pct": -1.0
       },
       {
         "stat": "REB",
@@ -7082,10 +7050,10 @@
         "hit_str": "5/10",
         "dots": "0110111000",
         "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.4,
-        "market_ev_pct": -0.6
+        "best_odds": -125,
+        "no_vig_odds": -108,
+        "no_vig_prob": 51.9,
+        "market_ev_pct": -1.7
       },
       {
         "stat": "AST",
@@ -7098,10 +7066,10 @@
         "hit_str": "6/10",
         "dots": "1100111100",
         "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": -12.1
+        "best_odds": -130,
+        "no_vig_odds": -112,
+        "no_vig_prob": 52.8,
+        "market_ev_pct": -11.5
       },
       {
         "stat": "REB",
@@ -7114,10 +7082,10 @@
         "hit_str": "5/10",
         "dots": "1001000111",
         "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": -12.6
+        "best_odds": -106,
+        "no_vig_odds": 108,
+        "no_vig_prob": 48.1,
+        "market_ev_pct": -11.8
       },
       {
         "stat": "3PM",
@@ -7130,26 +7098,26 @@
         "hit_str": "5/10",
         "dots": "1110011000",
         "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": -17.0
+        "best_odds": -138,
+        "no_vig_odds": -118,
+        "no_vig_prob": 54.2,
+        "market_ev_pct": -19.1
       },
       {
         "stat": "PRA",
-        "market": "O 38.5 PRA",
+        "market": "O 37.5 PRA",
         "side": "O",
-        "line": 38.5,
+        "line": 37.5,
         "proj": 36.0,
-        "prob": 41.2,
-        "hits": 3,
-        "hit_str": "3/10",
-        "dots": "0001100010",
+        "prob": 44.7,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "0011100010",
         "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": -20.7
+        "best_odds": -125,
+        "no_vig_odds": -108,
+        "no_vig_prob": 51.9,
+        "market_ev_pct": -19.5
       },
       {
         "stat": "PTS",
@@ -7162,18 +7130,18 @@
         "hit_str": "3/10",
         "dots": "0001100010",
         "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": -22.0
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": -20.8
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +102"
+      "No-Vig -100"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278049",
@@ -7219,35 +7187,35 @@
       },
       {
         "stat": "PTS",
-        "market": "U 8.5 Pts",
+        "market": "U 9.5 Pts",
         "side": "U",
-        "line": 8.5,
+        "line": 9.5,
         "proj": 8.7,
-        "prob": 48.7,
+        "prob": 55.2,
         "hits": 6,
         "hit_str": "6/10",
         "dots": "0110110110",
         "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": -3.6
+        "best_odds": -128,
+        "no_vig_odds": -110,
+        "no_vig_prob": 52.4,
+        "market_ev_pct": -1.7
       },
       {
         "stat": "PTS",
-        "market": "O 8.5 Pts",
+        "market": "O 9.5 Pts",
         "side": "O",
-        "line": 8.5,
+        "line": 9.5,
         "proj": 8.7,
-        "prob": 51.3,
+        "prob": 44.8,
         "hits": 4,
         "hit_str": "4/10",
         "dots": "1001001001",
         "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": -9.2
+        "best_odds": -104,
+        "no_vig_odds": 110,
+        "no_vig_prob": 47.6,
+        "market_ev_pct": -12.1
       },
       {
         "stat": "REB",
@@ -7271,7 +7239,7 @@
       "FanDuel",
       "No-Vig -104"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "6442",
@@ -7293,10 +7261,10 @@
       "hit_str": "4/10",
       "dots": "0110010100",
       "best_book": "FanDuel",
-      "best_odds": 124,
-      "no_vig_odds": 140,
-      "no_vig_prob": 41.7,
-      "market_ev_pct": 12.0
+      "best_odds": 130,
+      "no_vig_odds": 146,
+      "no_vig_prob": 40.6,
+      "market_ev_pct": 15.0
     },
     "all_props": [
       {
@@ -7310,10 +7278,10 @@
         "hit_str": "4/10",
         "dots": "0110010100",
         "best_book": "FanDuel",
-        "best_odds": 124,
-        "no_vig_odds": 140,
-        "no_vig_prob": 41.7,
-        "market_ev_pct": 12.0
+        "best_odds": 130,
+        "no_vig_odds": 146,
+        "no_vig_prob": 40.6,
+        "market_ev_pct": 15.0
       },
       {
         "stat": "AST",
@@ -7342,26 +7310,10 @@
         "hit_str": "5/10",
         "dots": "1001111000",
         "best_book": "FanDuel",
-        "best_odds": 126,
-        "no_vig_odds": 142,
-        "no_vig_prob": 41.4,
-        "market_ev_pct": -2.6
-      },
-      {
-        "stat": "PTS",
-        "market": "O 23.5 Pts",
-        "side": "O",
-        "line": 23.5,
-        "proj": 23.5,
-        "prob": 50.0,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "0110010101",
-        "best_book": "FanDuel",
-        "best_odds": -108,
-        "no_vig_odds": 106,
-        "no_vig_prob": 48.6,
-        "market_ev_pct": -3.7
+        "best_odds": 124,
+        "no_vig_odds": 140,
+        "no_vig_prob": 41.7,
+        "market_ev_pct": -3.5
       },
       {
         "stat": "PRA",
@@ -7380,6 +7332,38 @@
         "market_ev_pct": -5.0
       },
       {
+        "stat": "PTS",
+        "market": "O 23.5 Pts",
+        "side": "O",
+        "line": 23.5,
+        "proj": 23.5,
+        "prob": 50.0,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "0110010101",
+        "best_book": "FanDuel",
+        "best_odds": -112,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.4,
+        "market_ev_pct": -5.4
+      },
+      {
+        "stat": "PTS",
+        "market": "U 23.5 Pts",
+        "side": "U",
+        "line": 23.5,
+        "proj": 23.5,
+        "prob": 50.0,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "1001101010",
+        "best_book": "FanDuel",
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.6,
+        "market_ev_pct": -7.6
+      },
+      {
         "stat": "PRA",
         "market": "O 32.5 PRA",
         "side": "O",
@@ -7396,22 +7380,6 @@
         "market_ev_pct": -8.0
       },
       {
-        "stat": "PTS",
-        "market": "U 23.5 Pts",
-        "side": "U",
-        "line": 23.5,
-        "proj": 23.5,
-        "prob": 50.0,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "1001101010",
-        "best_book": "FanDuel",
-        "best_odds": -122,
-        "no_vig_odds": -106,
-        "no_vig_prob": 51.4,
-        "market_ev_pct": -9.0
-      },
-      {
         "stat": "REB",
         "market": "O 3.5 Reb",
         "side": "O",
@@ -7422,10 +7390,10 @@
         "hit_str": "5/10",
         "dots": "0110000111",
         "best_book": "FanDuel",
-        "best_odds": -168,
-        "no_vig_odds": -142,
-        "no_vig_prob": 58.6,
-        "market_ev_pct": -9.2
+        "best_odds": -166,
+        "no_vig_odds": -140,
+        "no_vig_prob": 58.3,
+        "market_ev_pct": -8.8
       },
       {
         "stat": "AST",
@@ -7454,18 +7422,18 @@
         "hit_str": "6/10",
         "dots": "1001101011",
         "best_book": "FanDuel",
-        "best_odds": -166,
-        "no_vig_odds": -140,
-        "no_vig_prob": 58.3,
-        "market_ev_pct": -19.9
+        "best_odds": -174,
+        "no_vig_odds": -146,
+        "no_vig_prob": 59.4,
+        "market_ev_pct": -21.3
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +140"
+      "No-Vig +146"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "3138160",
@@ -7487,10 +7455,10 @@
       "hit_str": "6/10",
       "dots": "0000111111",
       "best_book": "FanDuel",
-      "best_odds": 136,
-      "no_vig_odds": 152,
-      "no_vig_prob": 39.6,
-      "market_ev_pct": 32.9
+      "best_odds": 132,
+      "no_vig_odds": 149,
+      "no_vig_prob": 40.2,
+      "market_ev_pct": 30.6
     },
     "all_props": [
       {
@@ -7504,10 +7472,10 @@
         "hit_str": "6/10",
         "dots": "0000111111",
         "best_book": "FanDuel",
-        "best_odds": 136,
-        "no_vig_odds": 152,
-        "no_vig_prob": 39.6,
-        "market_ev_pct": 32.9
+        "best_odds": 132,
+        "no_vig_odds": 149,
+        "no_vig_prob": 40.2,
+        "market_ev_pct": 30.6
       },
       {
         "stat": "PTS",
@@ -7520,10 +7488,10 @@
         "hit_str": "6/10",
         "dots": "1111100001",
         "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 8.6
+        "best_odds": -102,
+        "no_vig_odds": 112,
+        "no_vig_prob": 47.2,
+        "market_ev_pct": 7.5
       },
       {
         "stat": "REB",
@@ -7600,10 +7568,10 @@
         "hit_str": "4/10",
         "dots": "0000011110",
         "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": -19.7
+        "best_odds": -130,
+        "no_vig_odds": -112,
+        "no_vig_prob": 52.8,
+        "market_ev_pct": -19.1
       },
       {
         "stat": "AST",
@@ -7616,18 +7584,18 @@
         "hit_str": "4/10",
         "dots": "1111000000",
         "best_book": "FanDuel",
-        "best_odds": -182,
-        "no_vig_odds": -152,
-        "no_vig_prob": 60.4,
-        "market_ev_pct": -32.3
+        "best_odds": -178,
+        "no_vig_odds": -149,
+        "no_vig_prob": 59.8,
+        "market_ev_pct": -31.7
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +152"
+      "No-Vig +149"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4873138",
@@ -7649,10 +7617,10 @@
       "hit_str": "6/10",
       "dots": "1110001101",
       "best_book": "FanDuel",
-      "best_odds": 128,
-      "no_vig_odds": 144,
-      "no_vig_prob": 41.0,
-      "market_ev_pct": 14.0
+      "best_odds": 126,
+      "no_vig_odds": 143,
+      "no_vig_prob": 41.2,
+      "market_ev_pct": 13.0
     },
     "all_props": [
       {
@@ -7666,10 +7634,10 @@
         "hit_str": "6/10",
         "dots": "1110001101",
         "best_book": "FanDuel",
-        "best_odds": 128,
-        "no_vig_odds": 144,
-        "no_vig_prob": 41.0,
-        "market_ev_pct": 14.0
+        "best_odds": 126,
+        "no_vig_odds": 143,
+        "no_vig_prob": 41.2,
+        "market_ev_pct": 13.0
       },
       {
         "stat": "AST",
@@ -7682,10 +7650,10 @@
         "hit_str": "6/10",
         "dots": "0011101110",
         "best_book": "FanDuel",
-        "best_odds": -174,
-        "no_vig_odds": -146,
-        "no_vig_prob": 59.4,
-        "market_ev_pct": 4.9
+        "best_odds": -172,
+        "no_vig_odds": -144,
+        "no_vig_prob": 59.0,
+        "market_ev_pct": 5.3
       },
       {
         "stat": "REB",
@@ -7699,9 +7667,25 @@
         "dots": "0101101011",
         "best_book": "FanDuel",
         "best_odds": 116,
-        "no_vig_odds": 130,
-        "no_vig_prob": 43.4,
+        "no_vig_odds": 131,
+        "no_vig_prob": 43.3,
         "market_ev_pct": 4.5
+      },
+      {
+        "stat": "PTS",
+        "market": "U 14.5 Pts",
+        "side": "U",
+        "line": 14.5,
+        "proj": 13.4,
+        "prob": 56.5,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "0110001101",
+        "best_book": "FanDuel",
+        "best_odds": -125,
+        "no_vig_odds": -108,
+        "no_vig_prob": 51.9,
+        "market_ev_pct": 1.7
       },
       {
         "stat": "PRA",
@@ -7720,22 +7704,6 @@
         "market_ev_pct": 0.7
       },
       {
-        "stat": "PTS",
-        "market": "U 14.5 Pts",
-        "side": "U",
-        "line": 14.5,
-        "proj": 13.4,
-        "prob": 56.5,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "0110001101",
-        "best_book": "FanDuel",
-        "best_odds": -130,
-        "no_vig_odds": -112,
-        "no_vig_prob": 52.8,
-        "market_ev_pct": -0.0
-      },
-      {
         "stat": "PRA",
         "market": "O 21.5 PRA",
         "side": "O",
@@ -7752,22 +7720,6 @@
         "market_ev_pct": -13.5
       },
       {
-        "stat": "PTS",
-        "market": "O 14.5 Pts",
-        "side": "O",
-        "line": 14.5,
-        "proj": 13.4,
-        "prob": 43.5,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "1001110010",
-        "best_book": "FanDuel",
-        "best_odds": -102,
-        "no_vig_odds": 112,
-        "no_vig_prob": 47.2,
-        "market_ev_pct": -13.9
-      },
-      {
         "stat": "REB",
         "market": "U 5.5 Reb",
         "side": "U",
@@ -7778,10 +7730,26 @@
         "hit_str": "4/10",
         "dots": "1010010100",
         "best_book": "FanDuel",
-        "best_odds": -152,
-        "no_vig_odds": -130,
-        "no_vig_prob": 56.6,
-        "market_ev_pct": -14.5
+        "best_odds": -154,
+        "no_vig_odds": -131,
+        "no_vig_prob": 56.7,
+        "market_ev_pct": -14.9
+      },
+      {
+        "stat": "PTS",
+        "market": "O 14.5 Pts",
+        "side": "O",
+        "line": 14.5,
+        "proj": 13.4,
+        "prob": 43.5,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "1001110010",
+        "best_book": "FanDuel",
+        "best_odds": -106,
+        "no_vig_odds": 108,
+        "no_vig_prob": 48.1,
+        "market_ev_pct": -15.5
       },
       {
         "stat": "3PM",
@@ -7795,8 +7763,8 @@
         "dots": "0001110010",
         "best_book": "FanDuel",
         "best_odds": -172,
-        "no_vig_odds": -144,
-        "no_vig_prob": 59.0,
+        "no_vig_odds": -143,
+        "no_vig_prob": 58.8,
         "market_ev_pct": -20.9
       },
       {
@@ -7810,18 +7778,18 @@
         "hit_str": "4/10",
         "dots": "1100010001",
         "best_book": "FanDuel",
-        "best_odds": 130,
-        "no_vig_odds": 146,
-        "no_vig_prob": 40.6,
-        "market_ev_pct": -23.2
+        "best_odds": 128,
+        "no_vig_odds": 144,
+        "no_vig_prob": 41.0,
+        "market_ev_pct": -23.8
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +144"
+      "No-Vig +143"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4433627",
@@ -7843,10 +7811,10 @@
       "hit_str": "6/10",
       "dots": "1011101001",
       "best_book": "FanDuel",
-      "best_odds": -114,
-      "no_vig_odds": -100,
-      "no_vig_prob": 50.0,
-      "market_ev_pct": 15.4
+      "best_odds": -118,
+      "no_vig_odds": -102,
+      "no_vig_prob": 50.6,
+      "market_ev_pct": 13.6
     },
     "all_props": [
       {
@@ -7860,10 +7828,10 @@
         "hit_str": "6/10",
         "dots": "1011101001",
         "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 15.4
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.6,
+        "market_ev_pct": 13.6
       },
       {
         "stat": "PTS",
@@ -7876,10 +7844,10 @@
         "hit_str": "6/10",
         "dots": "1011101001",
         "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": 13.6
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.6,
+        "market_ev_pct": 11.8
       },
       {
         "stat": "REB",
@@ -7892,10 +7860,10 @@
         "hit_str": "6/10",
         "dots": "1011111000",
         "best_book": "FanDuel",
-        "best_odds": -120,
-        "no_vig_odds": -104,
-        "no_vig_prob": 51.0,
-        "market_ev_pct": 8.2
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": 10.8
       },
       {
         "stat": "3PM",
@@ -7908,10 +7876,10 @@
         "hit_str": "7/10",
         "dots": "1111101001",
         "best_book": "FanDuel",
-        "best_odds": -140,
-        "no_vig_odds": -120,
-        "no_vig_prob": 54.6,
-        "market_ev_pct": 4.4
+        "best_odds": -138,
+        "no_vig_odds": -118,
+        "no_vig_prob": 54.2,
+        "market_ev_pct": 5.0
       },
       {
         "stat": "AST",
@@ -7924,10 +7892,10 @@
         "hit_str": "4/10",
         "dots": "1000110001",
         "best_book": "FanDuel",
-        "best_odds": 100,
-        "no_vig_odds": 114,
-        "no_vig_prob": 46.8,
-        "market_ev_pct": 0.0
+        "best_odds": 104,
+        "no_vig_odds": 118,
+        "no_vig_prob": 45.8,
+        "market_ev_pct": 2.0
       },
       {
         "stat": "AST",
@@ -7940,10 +7908,10 @@
         "hit_str": "6/10",
         "dots": "0111001110",
         "best_book": "FanDuel",
-        "best_odds": -132,
-        "no_vig_odds": -114,
-        "no_vig_prob": 53.2,
-        "market_ev_pct": -12.1
+        "best_odds": -138,
+        "no_vig_odds": -118,
+        "no_vig_prob": 54.2,
+        "market_ev_pct": -13.8
       },
       {
         "stat": "3PM",
@@ -7956,10 +7924,10 @@
         "hit_str": "3/10",
         "dots": "0000010110",
         "best_book": "FanDuel",
-        "best_odds": 106,
-        "no_vig_odds": 120,
-        "no_vig_prob": 45.4,
-        "market_ev_pct": -19.5
+        "best_odds": 104,
+        "no_vig_odds": 118,
+        "no_vig_prob": 45.8,
+        "market_ev_pct": -20.2
       },
       {
         "stat": "REB",
@@ -7972,10 +7940,10 @@
         "hit_str": "4/10",
         "dots": "0100000111",
         "best_book": "FanDuel",
-        "best_odds": -110,
-        "no_vig_odds": 104,
-        "no_vig_prob": 49.0,
-        "market_ev_pct": -21.7
+        "best_odds": -114,
+        "no_vig_odds": -100,
+        "no_vig_prob": 50.0,
+        "market_ev_pct": -23.0
       },
       {
         "stat": "PTS",
@@ -7988,10 +7956,10 @@
         "hit_str": "4/10",
         "dots": "0100010110",
         "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": -25.9
+        "best_odds": -112,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.4,
+        "market_ev_pct": -25.2
       },
       {
         "stat": "PRA",
@@ -8004,18 +7972,116 @@
         "hit_str": "4/10",
         "dots": "0100010110",
         "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": -27.7
+        "best_odds": -112,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.4,
+        "market_ev_pct": -27.1
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig -100"
+      "No-Vig -102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
+  },
+  {
+    "id": "4397077",
+    "player": "Jaxson Hayes",
+    "team": "UTAH",
+    "opponent": "DAL",
+    "game_id": "401910033",
+    "game_total": 225.5,
+    "avg_min": 23.3,
+    "has_under": true,
+    "best_prop": {
+      "stat": "REB",
+      "market": "O 6.5 Reb",
+      "side": "O",
+      "line": 6.5,
+      "proj": 6.7,
+      "prob": 52.6,
+      "hits": 5,
+      "hit_str": "5/10",
+      "dots": "1010001011",
+      "best_book": "FanDuel",
+      "best_odds": -108,
+      "no_vig_odds": 106,
+      "no_vig_prob": 48.6,
+      "market_ev_pct": 1.3
+    },
+    "all_props": [
+      {
+        "stat": "REB",
+        "market": "O 6.5 Reb",
+        "side": "O",
+        "line": 6.5,
+        "proj": 6.7,
+        "prob": 52.6,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "1010001011",
+        "best_book": "FanDuel",
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": 1.3
+      },
+      {
+        "stat": "PTS",
+        "market": "O 9.5 Pts",
+        "side": "O",
+        "line": 9.5,
+        "proj": 9.7,
+        "prob": 51.5,
+        "hits": 4,
+        "hit_str": "4/10",
+        "dots": "0000101101",
+        "best_book": "FanDuel",
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": -6.3
+      },
+      {
+        "stat": "PTS",
+        "market": "U 9.5 Pts",
+        "side": "U",
+        "line": 9.5,
+        "proj": 9.7,
+        "prob": 48.5,
+        "hits": 6,
+        "hit_str": "6/10",
+        "dots": "1111010010",
+        "best_book": "FanDuel",
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": -6.6
+      },
+      {
+        "stat": "REB",
+        "market": "U 6.5 Reb",
+        "side": "U",
+        "line": 6.5,
+        "proj": 6.7,
+        "prob": 47.4,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "0101110100",
+        "best_book": "FanDuel",
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": -13.7
+      }
+    ],
+    "alt_props": [],
+    "tags": [
+      "FanDuel",
+      "No-Vig +106"
+    ],
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5041955",
@@ -8037,10 +8103,10 @@
       "hit_str": "4/10",
       "dots": "1100100001",
       "best_book": "FanDuel",
-      "best_odds": 110,
-      "no_vig_odds": 125,
-      "no_vig_prob": 44.5,
-      "market_ev_pct": 0.8
+      "best_odds": 108,
+      "no_vig_odds": 123,
+      "no_vig_prob": 44.9,
+      "market_ev_pct": -0.2
     },
     "all_props": [
       {
@@ -8054,10 +8120,10 @@
         "hit_str": "4/10",
         "dots": "1100100001",
         "best_book": "FanDuel",
-        "best_odds": 110,
-        "no_vig_odds": 125,
-        "no_vig_prob": 44.5,
-        "market_ev_pct": 0.8
+        "best_odds": 108,
+        "no_vig_odds": 123,
+        "no_vig_prob": 44.9,
+        "market_ev_pct": -0.2
       },
       {
         "stat": "PRA",
@@ -8070,10 +8136,10 @@
         "hit_str": "5/10",
         "dots": "1100001110",
         "best_book": "FanDuel",
-        "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
-        "market_ev_pct": -1.8
+        "best_odds": -118,
+        "no_vig_odds": -102,
+        "no_vig_prob": 50.4,
+        "market_ev_pct": -3.4
       },
       {
         "stat": "3PM",
@@ -8086,26 +8152,26 @@
         "hit_str": "5/10",
         "dots": "1000100111",
         "best_book": "FanDuel",
-        "best_odds": -136,
-        "no_vig_odds": -116,
-        "no_vig_prob": 53.8,
-        "market_ev_pct": -4.6
+        "best_odds": -140,
+        "no_vig_odds": -120,
+        "no_vig_prob": 54.6,
+        "market_ev_pct": -5.7
       },
       {
         "stat": "REB",
-        "market": "U 4.5 Reb",
-        "side": "U",
+        "market": "O 4.5 Reb",
+        "side": "O",
         "line": 4.5,
         "proj": 4.6,
-        "prob": 48.5,
+        "prob": 51.5,
         "hits": 5,
         "hit_str": "5/10",
-        "dots": "1101100010",
+        "dots": "0010011101",
         "best_book": "FanDuel",
-        "best_odds": -104,
-        "no_vig_odds": 110,
-        "no_vig_prob": 47.6,
-        "market_ev_pct": -4.9
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": -6.3
       },
       {
         "stat": "PTS",
@@ -8124,6 +8190,22 @@
         "market_ev_pct": -6.4
       },
       {
+        "stat": "REB",
+        "market": "U 4.5 Reb",
+        "side": "U",
+        "line": 4.5,
+        "proj": 4.6,
+        "prob": 48.5,
+        "hits": 5,
+        "hit_str": "5/10",
+        "dots": "1101100010",
+        "best_book": "FanDuel",
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": -6.6
+      },
+      {
         "stat": "PTS",
         "market": "U 18.5 Pts",
         "side": "U",
@@ -8140,22 +8222,6 @@
         "market_ev_pct": -6.7
       },
       {
-        "stat": "REB",
-        "market": "O 4.5 Reb",
-        "side": "O",
-        "line": 4.5,
-        "proj": 4.6,
-        "prob": 51.5,
-        "hits": 5,
-        "hit_str": "5/10",
-        "dots": "0010011101",
-        "best_book": "FanDuel",
-        "best_odds": -128,
-        "no_vig_odds": -110,
-        "no_vig_prob": 52.4,
-        "market_ev_pct": -8.3
-      },
-      {
         "stat": "3PM",
         "market": "O 2.5 3PM",
         "side": "O",
@@ -8166,10 +8232,10 @@
         "hit_str": "5/10",
         "dots": "0111011000",
         "best_book": "FanDuel",
-        "best_odds": 102,
-        "no_vig_odds": 116,
-        "no_vig_prob": 46.2,
-        "market_ev_pct": -9.1
+        "best_odds": 106,
+        "no_vig_odds": 120,
+        "no_vig_prob": 45.4,
+        "market_ev_pct": -7.3
       },
       {
         "stat": "PRA",
@@ -8183,8 +8249,8 @@
         "dots": "0011110001",
         "best_book": "FanDuel",
         "best_odds": -114,
-        "no_vig_odds": -100,
-        "no_vig_prob": 50.0,
+        "no_vig_odds": 102,
+        "no_vig_prob": 49.6,
         "market_ev_pct": -10.5
       },
       {
@@ -8198,18 +8264,18 @@
         "hit_str": "6/10",
         "dots": "0011011110",
         "best_book": "FanDuel",
-        "best_odds": -146,
-        "no_vig_odds": -125,
-        "no_vig_prob": 55.5,
-        "market_ev_pct": -12.4
+        "best_odds": -144,
+        "no_vig_odds": -123,
+        "no_vig_prob": 55.1,
+        "market_ev_pct": -11.9
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +125"
+      "No-Vig +123"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "pj washington",
@@ -8231,10 +8297,10 @@
       "hit_str": "",
       "dots": "",
       "best_book": "FanDuel",
-      "best_odds": 114,
-      "no_vig_odds": 129,
-      "no_vig_prob": 43.7,
-      "market_ev_pct": 35.0
+      "best_odds": 116,
+      "no_vig_odds": 131,
+      "no_vig_prob": 43.3,
+      "market_ev_pct": 36.3
     },
     "all_props": [
       {
@@ -8248,10 +8314,10 @@
         "hit_str": "",
         "dots": "",
         "best_book": "FanDuel",
-        "best_odds": 114,
-        "no_vig_odds": 129,
-        "no_vig_prob": 43.7,
-        "market_ev_pct": 35.0
+        "best_odds": 116,
+        "no_vig_odds": 131,
+        "no_vig_prob": 43.3,
+        "market_ev_pct": 36.3
       },
       {
         "stat": "3PM",
@@ -8280,10 +8346,10 @@
         "hit_str": "",
         "dots": "",
         "best_book": "FanDuel",
-        "best_odds": -118,
-        "no_vig_odds": -102,
-        "no_vig_prob": 50.6,
-        "market_ev_pct": 5.5
+        "best_odds": -122,
+        "no_vig_odds": -106,
+        "no_vig_prob": 51.4,
+        "market_ev_pct": 3.9
       },
       {
         "stat": "PTS",
@@ -8296,10 +8362,10 @@
         "hit_str": "",
         "dots": "",
         "best_book": "FanDuel",
-        "best_odds": -112,
-        "no_vig_odds": 102,
-        "no_vig_prob": 49.4,
-        "market_ev_pct": -18.8
+        "best_odds": -108,
+        "no_vig_odds": 106,
+        "no_vig_prob": 48.6,
+        "market_ev_pct": -17.4
       },
       {
         "stat": "3PM",
@@ -8328,18 +8394,18 @@
         "hit_str": "",
         "dots": "",
         "best_book": "FanDuel",
-        "best_odds": -152,
-        "no_vig_odds": -129,
-        "no_vig_prob": 56.3,
-        "market_ev_pct": -38.8
+        "best_odds": -154,
+        "no_vig_odds": -131,
+        "no_vig_prob": 56.7,
+        "market_ev_pct": -39.1
       }
     ],
     "alt_props": [],
     "tags": [
       "FanDuel",
-      "No-Vig +129"
+      "No-Vig +131"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4395712",
@@ -8533,7 +8599,7 @@
       "FanDuel",
       "No-Vig -123"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4396909",
@@ -8727,7 +8793,7 @@
       "FanDuel",
       "No-Vig +172"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "3133603",
@@ -8857,7 +8923,7 @@
       "FanDuel",
       "No-Vig +134"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "3149673",
@@ -9051,7 +9117,7 @@
       "FanDuel",
       "No-Vig +163"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4278355",
@@ -9181,7 +9247,7 @@
       "FanDuel",
       "No-Vig +102"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "4017837",
@@ -9343,7 +9409,7 @@
       "FanDuel",
       "No-Vig -104"
     ],
-    "generated_at": "Nov 22, 12:23 AM ET"
+    "generated_at": "Nov 22, 12:34 AM ET"
   },
   {
     "id": "5164559",
