@@ -726,4 +726,57 @@ def run_slate():
                 for side_code, side_offers in (("O", over_offers), ("U", under_offers)):
                     if not side_offers:
                         continue
-                    prob_pct = calc_side_prob_pct(mu, line
+                    prob_pct = calc_side_prob_pct(mu, line_val, side_code, sd)
+                    odds_info = compute_no_vig_and_best(side_offers, prob_pct)
+                    dots, hit_str, hits_cnt = build_streak_info(vals, line_val, side_code)
+                    all_props.append({
+                        "stat": stat_code,
+                        "market": f"{side_code} {line_val} {short_lbl}",
+                        "side": side_code,
+                        "line": line_val,
+                        "proj": mu,
+                        "prob": prob_pct,
+                        "hits": hits_cnt,
+                        "hit_str": hit_str,
+                        "dots": dots,
+                        "best_book": odds_info["best_book"],
+                        "best_odds": odds_info["best_odds"],
+                        "no_vig_odds": odds_info["no_vig_odds"],
+                        "no_vig_prob": odds_info["no_vig_prob"],
+                        "market_ev_pct": odds_info["market_ev_pct"],
+                    })
+
+            if not all_props:
+                continue
+
+            all_props.sort(key=lambda x: x["market_ev_pct"], reverse=True)
+            best_prop = all_props[0]
+            has_under = any(x["side"] == "U" for x in all_props)
+
+            nba_props_slate.append({
+                "id": p_info["id"],
+                "player": p_info["player"],
+                "team": p_info["team"],
+                "opponent": opp_abbr,
+                "game_id": espn_gid,
+                "game_total": over_under,
+                "avg_min": glog["avg_min"] if glog["avg_min"] > 0 else 28.0,
+                "has_under": has_under,
+                "best_prop": best_prop,
+                "all_props": all_props,
+                "alt_props": [],
+                "tags": [best_prop["best_book"], f"No-Vig {fmt_american(best_prop['no_vig_odds'])}"],
+                "generated_at": generated_at,
+            })
+
+    with open("nba_games_slate.json", "w", encoding="utf-8") as f:
+        json.dump(nba_games_slate, f, indent=2)
+
+    with open("nba_props_slate.json", "w", encoding="utf-8") as f:
+        json.dump(nba_props_slate, f, indent=2)
+
+    print(f"Wrote {len(nba_games_slate)} games and {len(nba_props_slate)} active prop players ({generated_at}).")
+
+
+if __name__ == "__main__":
+    run_slate()
