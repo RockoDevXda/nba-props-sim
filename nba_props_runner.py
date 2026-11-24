@@ -39,7 +39,8 @@ BOOK_TITLE_ALIASES = {
 
 
 def normalize_name(name: str) -> str:
-    s = re.sub(r"[^a-z0-9\s]", "", (name or "").lower())
+    s = (name or "").lower().replace(".", "").replace("'", "").replace("-", " ")
+    s = re.sub(r"[^a-z0-9\s]", "", s)
     s = re.sub(r"\b(jr|sr|ii|iii|iv|v)\b", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -418,8 +419,8 @@ def fetch_odds_api_event_props(event_id: str) -> dict:
 def match_odds_event(home_team: str, away_team: str, odds_games: list[dict]) -> dict | None:
     h_norm = normalize_name(home_team)
     a_norm = normalize_name(away_team)
-    h_words = [w for w in h_norm.split() if len(w) >= 4]
-    a_words = [w for w in a_norm.split() if len(w) >= 4]
+    h_words = [w for w in h_norm.split() if len(w) >= 3]
+    a_words = [w for w in a_norm.split() if len(w) >= 3]
     for ev in odds_games:
         oh = normalize_name(ev.get("home_team", ""))
         oa = normalize_name(ev.get("away_team", ""))
@@ -542,11 +543,9 @@ def run_slate():
 
     nba_games_slate = []
     nba_props_slate = []
-    active_game_ids = set()
 
     for ev in events:
         espn_gid = str(ev.get("id", ""))
-        active_game_ids.add(espn_gid)
         status_obj = (ev.get("status") or {}).get("type") or {}
         game_state = status_obj.get("state", "pre")
         tipoff_lbl = status_obj.get("shortDetail", "Today")
@@ -686,21 +685,22 @@ def run_slate():
         roster = {}
         roster.update(fetch_team_roster(away_tid, away_abbr))
         roster.update(fetch_team_roster(home_tid, home_abbr))
-        for p_norm, disp_name in odds_display_names.items():
-            if p_norm not in roster:
-                roster[p_norm] = {"id": p_norm, "player": disp_name, "team": away_abbr}
 
-        for p_norm, p_info in roster.items():
-            player_market_entries = [
-                (stat_code, line_val, book_dict)
-                for (offer_p_norm, stat_code, line_val), book_dict in grouped_props.items()
-                if offer_p_norm == p_norm
-            ]
-            if not player_market_entries:
-                continue
+        props_by_player = defaultdict(list)
+        for (offer_p_norm, stat_code, line_val), book_dict in grouped_props.items():
+            props_by_player[offer_p_norm].append((stat_code, line_val, book_dict))
 
-            glog = fetch_player_last10_logs(p_info["id"])
-            if glog["games"] > 0 and glog["avg_min"] < 15.0:
+        for p_norm, player_market_entries in props_by_player.items():
+            p_info = roster.get(p_norm) or {
+                "id": p_norm,
+                "player": odds_display_names.get(p_norm) or p_norm.title(),
+                "team": away_abbr,
+            }
+
+            glog = fetch_player_last10_logs(p_info["id"]) if str(p_info["id"]).isdigit() else {
+                "games": 0, "avg_min": 0.0, "stats": {}
+            }
+            if glog["games"] >= 3 and glog["avg_min"] > 0 and glog["avg_min"] < 10.0:
                 continue
 
             opp_abbr = away_abbr if p_info["team"] == home_abbr else home_abbr
