@@ -158,33 +158,19 @@ def fetch_espn_scoreboard(date_yyyymmdd: str) -> list[dict]:
 def fetch_slate_events(us_now: datetime.datetime) -> list[dict]:
     today_str = us_now.strftime("%Y%m%d")
     tomorrow_str = (us_now + datetime.timedelta(days=1)).strftime("%Y%m%d")
-    yesterday_str = (us_now - datetime.timedelta(days=1)).strftime("%Y%m%d")
 
     today_evs = fetch_espn_scoreboard(today_str)
     print(f"ESPN scoreboard {today_str}: {len(today_evs)} events")
 
-    all_final_today = bool(today_evs) and all(
-        (ev.get("status") or {}).get("type", {}).get("state") == "post"
+    any_started_today = bool(today_evs) and any(
+        (ev.get("status") or {}).get("type", {}).get("state") in ("in", "post")
         for ev in today_evs
     )
 
     seen_ids = set()
     merged = []
 
-    if not today_evs:
-        for d in (tomorrow_str, yesterday_str):
-            evs = fetch_espn_scoreboard(d)
-            print(f"ESPN scoreboard {d}: {len(evs)} events")
-            for ev in evs:
-                eid = str(ev.get("id", ""))
-                if eid and eid not in seen_ids:
-                    seen_ids.add(eid)
-                    merged.append(ev)
-            if merged:
-                break
-        return merged
-
-    if all_final_today:
+    if not today_evs or any_started_today:
         tomorrow_evs = fetch_espn_scoreboard(tomorrow_str)
         print(f"ESPN scoreboard {tomorrow_str}: {len(tomorrow_evs)} events")
         for ev in tomorrow_evs:
@@ -740,63 +726,4 @@ def run_slate():
                 for side_code, side_offers in (("O", over_offers), ("U", under_offers)):
                     if not side_offers:
                         continue
-                    prob_pct = calc_side_prob_pct(mu, line_val, side_code, sd)
-                    odds_info = compute_no_vig_and_best(side_offers, prob_pct)
-                    dots, hit_str, hits_cnt = build_streak_info(vals, line_val, side_code)
-                    all_props.append({
-                        "stat": stat_code,
-                        "market": f"{side_code} {line_val} {short_lbl}",
-                        "side": side_code,
-                        "line": line_val,
-                        "proj": mu,
-                        "prob": prob_pct,
-                        "hits": hits_cnt,
-                        "hit_str": hit_str,
-                        "dots": dots,
-                        "best_book": odds_info["best_book"],
-                        "best_odds": odds_info["best_odds"],
-                        "no_vig_odds": odds_info["no_vig_odds"],
-                        "no_vig_prob": odds_info["no_vig_prob"],
-                        "market_ev_pct": odds_info["market_ev_pct"],
-                    })
-
-            if not all_props:
-                continue
-
-            all_props.sort(key=lambda x: x["market_ev_pct"], reverse=True)
-            best_prop = all_props[0]
-            has_under = any(x["side"] == "U" for x in all_props)
-
-            nba_props_slate.append({
-                "id": p_info["id"],
-                "player": p_info["player"],
-                "team": p_info["team"],
-                "opponent": opp_abbr,
-                "game_id": espn_gid,
-                "game_total": over_under,
-                "avg_min": glog["avg_min"] if glog["avg_min"] > 0 else 28.0,
-                "has_under": has_under,
-                "best_prop": best_prop,
-                "all_props": all_props,
-                "alt_props": [],
-                "tags": [best_prop["best_book"], f"No-Vig {fmt_american(best_prop['no_vig_odds'])}"],
-                "generated_at": generated_at,
-            })
-
-    for gid, prev_g in prev_games_by_id.items():
-        if gid not in active_game_ids and (prev_g.get("has_line") or prev_g.get("has_total")):
-            nba_games_slate.append(prev_g)
-            if prev_props_by_gid.get(gid):
-                nba_props_slate.extend(prev_props_by_gid[gid])
-
-    with open("nba_games_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_games_slate, f, indent=2)
-
-    with open("nba_props_slate.json", "w", encoding="utf-8") as f:
-        json.dump(nba_props_slate, f, indent=2)
-
-    print(f"Wrote {len(nba_games_slate)} games and {len(nba_props_slate)} active prop players ({generated_at}).")
-
-
-if __name__ == "__main__":
-    run_slate()
+                    prob_pct = calc_side_prob_pct(mu, line
