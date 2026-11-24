@@ -35,7 +35,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401909315",
@@ -73,7 +73,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401909316",
@@ -111,7 +111,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910036",
@@ -121,14 +121,14 @@
     "home_abbr": "CHA",
     "away_short": "MEM",
     "home_short": "CHA",
-    "tipoff": "10:04 - 3rd",
+    "tipoff": "Final",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
     "over_under": 0.0,
-    "away_proj": 114.0,
-    "home_proj": 107.2,
-    "total_proj": 221.2,
+    "away_proj": 114.1,
+    "home_proj": 107.5,
+    "total_proj": 221.6,
     "exp_pace": 94.8,
     "edge_pts": 0.0,
     "total_edge_pts": 0.0,
@@ -137,7 +137,7 @@
     "spread_cover_pct": 50.0,
     "total_cover_pct": 50.0,
     "favored_team": "MEM",
-    "favored_prob": 72.3,
+    "favored_prob": 71.7,
     "best_book": "Consensus (-110)",
     "best_odds": -110,
     "no_vig_odds": -110,
@@ -149,7 +149,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910037",
@@ -159,15 +159,15 @@
     "home_abbr": "PHI",
     "away_short": "POR",
     "home_short": "PHI",
-    "tipoff": "10:39 - 3rd",
+    "tipoff": "Final",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
     "over_under": 0.0,
-    "away_proj": 112.8,
-    "home_proj": 114.4,
-    "total_proj": 227.2,
-    "exp_pace": 95.8,
+    "away_proj": 113.6,
+    "home_proj": 114.3,
+    "total_proj": 227.9,
+    "exp_pace": 96.0,
     "edge_pts": 0.0,
     "total_edge_pts": 0.0,
     "spread_pick": "PHI PK",
@@ -175,7 +175,7 @@
     "spread_cover_pct": 50.0,
     "total_cover_pct": 50.0,
     "favored_team": "PHI",
-    "favored_prob": 55.5,
+    "favored_prob": 52.4,
     "best_book": "Consensus (-110)",
     "best_odds": -110,
     "no_vig_odds": -110,
@@ -187,7 +187,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910038",
@@ -197,7 +197,7 @@
     "home_abbr": "IND",
     "away_short": "OKC",
     "home_short": "IND",
-    "tipoff": "4:24 - 2nd",
+    "tipoff": "Final",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -225,7 +225,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910039",
@@ -235,7 +235,7 @@
     "home_abbr": "TOR",
     "away_short": "MIL",
     "home_short": "TOR",
-    "tipoff": "4:47 - 2nd",
+    "tipoff": "1:58 - 4th",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -263,7 +263,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910040",
@@ -273,7 +273,7 @@
     "home_abbr": "MIN",
     "away_short": "BKN",
     "home_short": "MIN",
-    "tipoff": "4:12 - 2nd",
+    "tipoff": "1:02 - 4th",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -301,7 +301,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910041",
@@ -311,7 +311,7 @@
     "home_abbr": "CHI",
     "away_short": "CLE",
     "home_short": "CHI",
-    "tipoff": "4:19 - 1st",
+    "tipoff": "10:35 - 4th",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -339,7 +339,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910042",
@@ -349,7 +349,7 @@
     "home_abbr": "NO",
     "away_short": "PHX",
     "home_short": "NO",
-    "tipoff": "4:04 - 1st",
+    "tipoff": "0.0 - 4th",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -377,7 +377,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910043",
@@ -387,7 +387,7 @@
     "home_abbr": "HOU",
     "away_short": "LAC",
     "home_short": "HOU",
-    "tipoff": "11/23 - 8:30 PM EST",
+    "tipoff": "6:54 - 3rd",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -415,7 +415,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910044",
@@ -453,7 +453,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   },
   {
     "id": "401910045",
@@ -491,6 +491,6 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 23, 08:27 PM ET"
+    "generated_at": "Nov 23, 09:58 PM ET"
   }
 ]
