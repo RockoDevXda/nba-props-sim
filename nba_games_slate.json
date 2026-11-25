@@ -35,7 +35,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909318",
@@ -73,7 +73,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909319",
@@ -111,7 +111,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909320",
@@ -149,7 +149,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909321",
@@ -187,7 +187,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909322",
@@ -225,7 +225,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909323",
@@ -263,7 +263,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909324",
@@ -301,7 +301,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   },
   {
     "id": "401909325",
@@ -339,120 +339,6 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
-  },
-  {
-    "id": "401909314",
-    "away_team": "Detroit Pistons",
-    "home_team": "Orlando Magic",
-    "away_abbr": "DET",
-    "home_abbr": "ORL",
-    "away_short": "DET",
-    "home_short": "ORL",
-    "tipoff": "5:34 - 2nd",
-    "has_line": false,
-    "has_total": false,
-    "market_line": "PK",
-    "over_under": 0.0,
-    "away_proj": 111.7,
-    "home_proj": 110.2,
-    "total_proj": 221.9,
-    "exp_pace": 94.9,
-    "edge_pts": 0.0,
-    "total_edge_pts": 0.0,
-    "spread_pick": "ORL PK",
-    "total_pick": "No Total",
-    "spread_cover_pct": 50.0,
-    "total_cover_pct": 50.0,
-    "favored_team": "DET",
-    "favored_prob": 55.2,
-    "best_book": "Consensus (-110)",
-    "best_odds": -110,
-    "no_vig_odds": -110,
-    "no_vig_prob": 50.0,
-    "market_ev_pct": -4.5,
-    "total_best_book": "Consensus (-110)",
-    "total_best_odds": -110,
-    "total_no_vig_odds": -110,
-    "total_no_vig_prob": 50.0,
-    "total_market_ev_pct": -4.5,
-    "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
-  },
-  {
-    "id": "401909315",
-    "away_team": "Boston Celtics",
-    "home_team": "Washington Wizards",
-    "away_abbr": "BOS",
-    "home_abbr": "WSH",
-    "away_short": "BOS",
-    "home_short": "WSH",
-    "tipoff": "11/24 - 8:00 PM EST",
-    "has_line": false,
-    "has_total": false,
-    "market_line": "PK",
-    "over_under": 0.0,
-    "away_proj": 111.8,
-    "home_proj": 107.7,
-    "total_proj": 219.5,
-    "exp_pace": 94.5,
-    "edge_pts": 0.0,
-    "total_edge_pts": 0.0,
-    "spread_pick": "WSH PK",
-    "total_pick": "No Total",
-    "spread_cover_pct": 50.0,
-    "total_cover_pct": 50.0,
-    "favored_team": "BOS",
-    "favored_prob": 63.9,
-    "best_book": "Consensus (-110)",
-    "best_odds": -110,
-    "no_vig_odds": -110,
-    "no_vig_prob": 50.0,
-    "market_ev_pct": -4.5,
-    "total_best_book": "Consensus (-110)",
-    "total_best_odds": -110,
-    "total_no_vig_odds": -110,
-    "total_no_vig_prob": 50.0,
-    "total_market_ev_pct": -4.5,
-    "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
-  },
-  {
-    "id": "401909316",
-    "away_team": "Dallas Mavericks",
-    "home_team": "Denver Nuggets",
-    "away_abbr": "DAL",
-    "home_abbr": "DEN",
-    "away_short": "DAL",
-    "home_short": "DEN",
-    "tipoff": "11/24 - 10:00 PM EST",
-    "has_line": false,
-    "has_total": false,
-    "market_line": "PK",
-    "over_under": 0.0,
-    "away_proj": 112.3,
-    "home_proj": 116.2,
-    "total_proj": 228.5,
-    "exp_pace": 96.1,
-    "edge_pts": 0.0,
-    "total_edge_pts": 0.0,
-    "spread_pick": "DEN PK",
-    "total_pick": "No Total",
-    "spread_cover_pct": 50.0,
-    "total_cover_pct": 50.0,
-    "favored_team": "DEN",
-    "favored_prob": 63.3,
-    "best_book": "Consensus (-110)",
-    "best_odds": -110,
-    "no_vig_odds": -110,
-    "no_vig_prob": 50.0,
-    "market_ev_pct": -4.5,
-    "total_best_book": "Consensus (-110)",
-    "total_best_odds": -110,
-    "total_no_vig_odds": -110,
-    "total_no_vig_prob": 50.0,
-    "total_market_ev_pct": -4.5,
-    "game_total": 0.0,
-    "generated_at": "Nov 24, 07:56 PM ET"
+    "generated_at": "Nov 25, 12:30 PM ET"
   }
 ]
