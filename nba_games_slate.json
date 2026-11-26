@@ -7,7 +7,7 @@
     "home_abbr": "PHI",
     "away_short": "MIA",
     "home_short": "PHI",
-    "tipoff": "11/25 - 5:00 PM EST",
+    "tipoff": "Final",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -35,7 +35,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909318",
@@ -45,7 +45,7 @@
     "home_abbr": "CHA",
     "away_short": "CHI",
     "home_short": "CHA",
-    "tipoff": "11/25 - 7:00 PM EST",
+    "tipoff": "End of 1st",
     "has_line": false,
     "has_total": false,
     "market_line": "PK",
@@ -73,7 +73,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909319",
@@ -111,7 +111,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909320",
@@ -149,7 +149,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909321",
@@ -187,7 +187,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909322",
@@ -225,7 +225,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909323",
@@ -263,7 +263,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909324",
@@ -301,7 +301,7 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   },
   {
     "id": "401909325",
@@ -339,6 +339,6 @@
     "total_no_vig_prob": 50.0,
     "total_market_ev_pct": -4.5,
     "game_total": 0.0,
-    "generated_at": "Nov 25, 12:30 PM ET"
+    "generated_at": "Nov 25, 07:33 PM ET"
   }
 ]
